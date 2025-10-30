@@ -94,6 +94,7 @@ l'intérieur du jeu, où chacune des intéractions qu'ils effectueront auront un
 Images inspirantes
 Représentations visuelles de l'ambiance recherchée, que ce soit à travers des photographies, des illustrations, ou des œuvres existantes.
 
+
 Palette de couleurs
 Choix de couleurs qui influenceront l’éclairage, les médias projetés, ou l’interface visuelle.
 
