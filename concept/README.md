@@ -32,15 +32,29 @@ Qu'est-ce que fait l'interacteur?
 un résumé du parcours de l'interacteur du début à la fin de son expérience - qu'est-ce qu'il fait, qu'est-ce qu'il manipule, etc
 -->
 
+L'intéracteur arrive devant l'installation; quatres chaises avec chacun des boutons différents disposés sur les côtés. Il s'asseoit sur une des chaises, d'autres personnes sur les autres chaises.
+Les intéracteurs appuient sur le bouton qui clignote (afin de lancer la mission), Le jeu commence. Ils utilisent les boutons pour réussir le jeu, une fois le jeu terminé, ils se relèvent et partent.
+
 ### L'espace
 
 <!-- 
 description de l'espace réel et virtuel du projet et comment l'espace réel est transposé, transorté ou prolongé dans le virtuel et inversement 
 -->
 
+Des chaises sont disposés devant le mur où est projeté l'écran du jeu. Ces chaises disposent de boutons qui permettent de jouer au jeu. Ces boutons contrôlent différentes fonctions de la fusée,
+par exemple: Le réacteur gauche, droit, principal, etc. Des sons accompagnent les joueurs tout au long de l'aventure ainsi que de la musique, tous dans des casques d'écoute ou des speakers sur 
+les chaises.
+
 ### La progression
 
 <!--  sur le temps et la progression -->
+
+L'expérience en temps réel dure approximativement 5 à 10 minutes, en ressenti ça sera environ 2-5 min. La progression sera comme suit:
+
+- Les joueurs doivent se coordonner pour faire décoller la fusée sans problèmes
+- Les joueurs doivent quitter l'orbite
+- Les joueurs doivent naviguer dans l'espace et éviter les débris spaciaux
+- Les joueurs doivent se coordonner pour faire atterir la fusée
 
 ### L'aspect collectif
 
@@ -53,6 +67,9 @@ Un collectif désigne l'ensemble de personnes ou d'entités qui s'unissent de ma
  Ce groupe, souvent considéré comme une entité à vocation communautaire, fonctionne sous le pilotage de ses membres et repose sur une volonté partagée de développer des solidarités.
 -->
 
+Le jeu est jouable par un maximum de 4 joueurs, ce qui en soit n'est pas beaucoup, cependant, le jeu est également possible à 1, 2 ou 3 joueurs. Lorsque le jeu est joué à moins de joueurs, les contrôles de 
+la fusée sont répartis entre moins d'intéracteurs, ce qui intensifie l'expérience et la rend plus compliquée. Plus il y a de joueurs, plus il sera simple de faire naviguer la fusée.
+
 ### L'aspect social
 
 <!-- 
@@ -63,6 +80,9 @@ Le terme « social » désigne ce qui concerne la vie en société, c’est-à-d
  En sciences sociales, le social englobe l’étude des phénomènes collectifs, des interactions humaines, des normes sociales et des dynamiques de pouvoir au sein de la société.
  L’adjectif peut aussi qualifier des animaux ou des plantes vivant en communauté selon des règles strictes, comme les insectes sociaux (fourmis, abeilles) ou certaines espèces végétales formant des colonies denses.
 -->
+
+Les intéracteurs devront inévitablement communiquer entre eux afin de parvenir à faire décoller/Naviguer/atterir la fusée, forcant les joueurs à intéragir entre eux de façon orale et "physique" à 
+l'intérieur du jeu, où chacune des intéractions qu'ils effectueront auront un impact énorme sur le résultat final et les prochaines intéractions.
 
 ## Inspirations
 
@@ -90,7 +110,10 @@ Inspirations relatives à la scénarisation de la lumière et du son, qui seront
 
 ### Inspirations interactives
 
-<!-- Inclure des liens et une ligne sur pourquoi -->
+<!-- Inclure des liens et une ligne sur pourquoi --> 
+
+https://www.seaofthieves.com/ = Un jeu intéractif où les joueurs coopèrent afin de diriger un bateau pirate à travers les mers.
+https://keeptalkinggame.com/ = Un jeu où la communication est la clé. Les joueurs communiquent afin de désamorcer une bombe avant son explosion.
 
 
 ## Scénarimage
