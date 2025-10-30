@@ -97,8 +97,8 @@ l'intérieur du jeu, où chacune des intéractions qu'ils effectueront auront un
 Représentations visuelles de l'ambiance recherchée, que ce soit à travers des photographies, des illustrations, ou des œuvres existantes.
 | Visuel 1 | Visuel 2 | Visuel 3 |
 |-----------|-----------|-----------|
-| ![](../medias/images/visuel_retro-futuristique_01.jpg) | ![](../medias/images/visuel_retro-futuristique_02.jpg) | ![](../medias/images/visuel_retro-futuristique_03.jpg) |
-| [Source: Reddit](https://www.reddit.com/r/scifi/comments/10xqbmg/space_trip_retrofuturistic_artwork_done_by_me/) | [Source: 99designs](https://99designs.fr/profiles/1193222) | [Source: Exemple](https://exemple.com) |
+| ![](../medias/images/visuel_retro-futuristique_01.jpg) | ![](../medias/images/visuel_retro-futuristique_02.jpg) | ![](../medias/images/visuel_retro-futuristique_03.png) |
+| [Source: Reddit](https://www.reddit.com/r/scifi/comments/10xqbmg/space_trip_retrofuturistic_artwork_done_by_me/) | [Source: 99designs](https://99designs.fr/profiles/1193222) | [Source: moddb](https://www.moddb.com/games/space-shooter-90/images/w1#imagebox) |
 
 
 
