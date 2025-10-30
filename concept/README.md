@@ -45,6 +45,8 @@ Des chaises sont disposés devant le mur où est projeté l'écran du jeu. Ces c
 par exemple: Le réacteur gauche, droit, principal, etc. Des sons accompagnent les joueurs tout au long de l'aventure ainsi que de la musique, tous dans des casques d'écoute ou des speakers sur 
 les chaises.
 
+![](../medias/images/maquette_mission_decollage_scene_01.png)
+
 ### La progression
 
 <!--  sur le temps et la progression -->
@@ -91,26 +93,43 @@ l'intérieur du jeu, où chacune des intéractions qu'ils effectueront auront un
 <!-- Inclure le moodboard avec référenes pour chacune des sources-->
 
 
-Images inspirantes
+### Images inspirantes
 Représentations visuelles de l'ambiance recherchée, que ce soit à travers des photographies, des illustrations, ou des œuvres existantes.
 | Visuel 1 | Visuel 2 | Visuel 3 |
 |-----------|-----------|-----------|
-| ![Retro-futuristique](../medias/images/visuel_retro-futuristique_01) | ![Retro-futuristique](../medias/images/visuel_retro-futuristique_02) | ![Retro-futuristique](../medias/images/visuel_retro-futuristique_03) |
+| ![Retro-futuristique](../medias/images/visuel_retro-futuristique_01.jpg) | ![Retro-futuristique](../medias/images/visuel_retro-futuristique_02.jpg) | ![Retro-futuristique](../medias/images/visuel_retro-futuristique_03.jpg) |
 | [Source: Reddit](https://www.reddit.com/r/scifi/comments/10xqbmg/space_trip_retrofuturistic_artwork_done_by_me/) | [Source: 99designs](https://99designs.fr/profiles/1193222) | [Source: Exemple](https://exemple.com) |
 
 
 
-Palette de couleurs
+### Palette de couleurs
 Choix de couleurs qui influenceront l’éclairage, les médias projetés, ou l’interface visuelle.
 
-Références multimédia
+### Références multimédia
+
 Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la tonalité souhaitée pour l'installation.
 
-Textures et matériaux
-Échantillons ou représentations de matériaux tangibles qui seront utilisés dans l'installation (écrans, surfaces tactiles, objets physiques interactifs).
+- [Space Team](https://www.youtube.com/watch?v=y3fsvKnIVJg)
+- [Keep Talking Until You Explode](https://www.youtube.com/watch?v=1-MM1UTtjyU)
+- [Sea of Thieves](https://www.youtube.com/watch?v=r5JIBaasuE8)
+- [Interstellar Official Soundtrack – Cornfield Chase (Hans Zimmer)](https://www.youtube.com/watch?v=JuSsvM8B4Jc&list=RDJuSsvM8B4Jc&start_radio=1)
+- [2001: A Space Odyssey – Theme Song](https://www.youtube.com/watch?v=QwxYiVXYyVs&list=RDQwxYiVXYyVs&start_radio=1)
 
-Ambiance sonore et lumineuse
-Inspirations relatives à la scénarisation de la lumière et du son, qui seront des éléments interactifs clés dans l’expérience utilisateur.
+---
+
+### Textures et matériaux
+
+### Échantillons ou représentations de matériaux tangibles qui seront utilisés dans l'installation (écrans, surfaces tactiles, objets physiques interactifs).
+
+- Chaises avec accoudoirs  
+- Projecteur projetant au mur  
+- Sliders  
+- Boutons  
+- Rotatifs
+
+
+### Ambiance sonore et lumineuse
+### Inspirations relatives à la scénarisation de la lumière et du son, qui seront des éléments interactifs clés dans l’expérience utilisateur.
 
 
 
