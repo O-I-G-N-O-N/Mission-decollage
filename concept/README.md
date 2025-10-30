@@ -97,7 +97,7 @@ l'intérieur du jeu, où chacune des intéractions qu'ils effectueront auront un
 Représentations visuelles de l'ambiance recherchée, que ce soit à travers des photographies, des illustrations, ou des œuvres existantes.
 | Visuel 1 | Visuel 2 | Visuel 3 |
 |-----------|-----------|-----------|
-| ![Retro-futuristique](../medias/images/visuel_retro-futuristique_01.jpg) | ![Retro-futuristique](../medias/images/visuel_retro-futuristique_02.jpg) | ![Retro-futuristique](../medias/images/visuel_retro-futuristique_03.jpg) |
+| ![](../medias/images/visuel_retro-futuristique_01.jpg) | ![](../medias/images/visuel_retro-futuristique_02.jpg) | ![](../medias/images/visuel_retro-futuristique_03.jpg) |
 | [Source: Reddit](https://www.reddit.com/r/scifi/comments/10xqbmg/space_trip_retrofuturistic_artwork_done_by_me/) | [Source: 99designs](https://99designs.fr/profiles/1193222) | [Source: Exemple](https://exemple.com) |
 
 
@@ -109,11 +109,11 @@ Choix de couleurs qui influenceront l’éclairage, les médias projetés, ou l�
 
 Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la tonalité souhaitée pour l'installation.
 
-- [Space Team](https://www.youtube.com/watch?v=y3fsvKnIVJg)
-- [Keep Talking Until You Explode](https://www.youtube.com/watch?v=1-MM1UTtjyU)
-- [Sea of Thieves](https://www.youtube.com/watch?v=r5JIBaasuE8)
-- [Interstellar Official Soundtrack – Cornfield Chase (Hans Zimmer)](https://www.youtube.com/watch?v=JuSsvM8B4Jc&list=RDJuSsvM8B4Jc&start_radio=1)
-- [2001: A Space Odyssey – Theme Song](https://www.youtube.com/watch?v=QwxYiVXYyVs&list=RDQwxYiVXYyVs&start_radio=1)
+- Jeu : [Space Team](https://www.youtube.com/watch?v=y3fsvKnIVJg)
+- Jeu : [Keep Talking Until You Explode](https://www.youtube.com/watch?v=1-MM1UTtjyU)
+- Musique : [Sea of Thieves](https://www.youtube.com/watch?v=r5JIBaasuE8)
+- Musique : [Interstellar Official Soundtrack – Cornfield Chase (Hans Zimmer)](https://www.youtube.com/watch?v=JuSsvM8B4Jc&list=RDJuSsvM8B4Jc&start_radio=1)
+- Musique : [2001: A Space Odyssey – Theme Song](https://www.youtube.com/watch?v=QwxYiVXYyVs&list=RDQwxYiVXYyVs&start_radio=1)
 
 ---
 
