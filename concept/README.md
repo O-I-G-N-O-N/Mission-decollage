@@ -90,9 +90,14 @@ l'intérieur du jeu, où chacune des intéractions qu'ils effectueront auront un
 
 <!-- Inclure le moodboard avec référenes pour chacune des sources-->
 
-<!--
+
 Images inspirantes
 Représentations visuelles de l'ambiance recherchée, que ce soit à travers des photographies, des illustrations, ou des œuvres existantes.
+| Visuel 1 | Visuel 2 | Visuel 3 |
+|-----------|-----------|-----------|
+| ![Retro-futuristique](../medias/images/visuel_retro-futuristique_01) | ![Retro-futuristique](../medias/images/visuel_retro-futuristique_02) | ![Retro-futuristique](../medias/images/visuel_retro-futuristique_03) |
+| [Source: Reddit](https://www.reddit.com/r/scifi/comments/10xqbmg/space_trip_retrofuturistic_artwork_done_by_me/) | [Source: 99designs](https://99designs.fr/profiles/1193222) | [Source: Exemple](https://exemple.com) |
+
 
 
 Palette de couleurs
@@ -106,7 +111,7 @@ Textures et matériaux
 
 Ambiance sonore et lumineuse
 Inspirations relatives à la scénarisation de la lumière et du son, qui seront des éléments interactifs clés dans l’expérience utilisateur.
--->
+
 
 
 ### Inspirations interactives
