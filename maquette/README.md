@@ -15,9 +15,9 @@
 | Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
 
 |---------------|-----------------------------|---------------|---------------|------------------|
-| **Lancement** | Affichage de la scène jeu ;  Suite aux instructions affichés dans le terminal (l'écran), les joueurs sont invités à appuyer sur leurs propulseurs afin de décoller de la terre  | clignottement sur l'écran, clignottement sur le texte d'action "Décollez !" | Une boucle sonore d'une alarme  | La fusée décolle et le ciel transitionne doucement vers celui de l'espace |
+| **Appuyer** | Affichage de la scène jeu ;  Suite aux instructions affichés dans le terminal (l'écran), les joueurs sont invités à appuyer sur leurs propulseurs afin de décoller de la terre  | clignottement sur l'écran, clignottement sur le texte d'action "Décollez !" | Une boucle sonore d'une alarme  | La fusée décolle et le ciel transitionne doucement vers celui de l'espace |
 
-| **Coordoner** | Les joueurs doivent se coordoner pour décoller la fusée verticalement vers le ciel, les joueurs se coordonent seuls afin de garder la fusée dans un bon momentum | le ciel défile, les propulseurs dégagent du feu | Son des réacteurs et de la fusée qui transcende le ciel | Interaction entre les joueurs |
+| **Appuyer** | Les joueurs doivent se coordoner/appuyer sur le bouton pour décoller la fusée verticalement vers le ciel, les joueurs se coordonent seuls afin de garder la fusée dans un bon momentum | le ciel défile, les propulseurs dégagent du feu | Son des réacteurs et de la fusée qui transcende le ciel | Interaction entre les joueurs |
 
  ### scene 3
 
