@@ -1,6 +1,6 @@
 # Justin Montpetit
 
-![]( https://placehold.co/600x400?text=membre+v)
+![](./Justin_Montpetit.png)
 
 
  <!--

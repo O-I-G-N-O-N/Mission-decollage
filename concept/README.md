@@ -81,8 +81,9 @@ Un collectif désigne l'ensemble de personnes ou d'entités qui s'unissent de ma
  Ce groupe, souvent considéré comme une entité à vocation communautaire, fonctionne sous le pilotage de ses membres et repose sur une volonté partagée de développer des solidarités.
 -->
 
-Le jeu est jouable par un maximum de 4 joueurs, ce qui en soit n'est pas beaucoup, cependant, le jeu est également possible à 1, 2 ou 3 joueurs. Lorsque le jeu est joué à moins de joueurs, les contrôles de
-la fusée sont répartis entre moins d'intéracteurs, ce qui intensifie l'expérience et la rend plus compliquée. Plus il y a de joueurs, plus il sera simple de faire naviguer la fusée.
+Dans Mission décollage, les joueurs sont des astronautes qui font la première mission sur Mars. Leur but est d'atterir sur la dite planète sein et sauf afin de marquer l'histoire et potentiellement découvrir la vie sur Mars.
+Les joueurs font partie de la mission O.I.G.N.O.N "Opération Internationale en Géosciences, Navigation et Observation du Nouveau-monde" qui a comme objectif d'explorer les confins spatiaux et ses mystères. Tout les joueurs sont à 
+bord la fusée, qui s'apprête à décoller en direction de Mars. Ensemble, ils devront coopérer efficacement pour réussir leur aventure héroique !
 
 ### L'aspect social
 
@@ -94,7 +95,8 @@ Le terme « social » désigne ce qui concerne la vie en société, c’est-à-d
  En sciences sociales, le social englobe l’étude des phénomènes collectifs, des interactions humaines, des normes sociales et des dynamiques de pouvoir au sein de la société.
  L’adjectif peut aussi qualifier des animaux ou des plantes vivant en communauté selon des règles strictes, comme les insectes sociaux (fourmis, abeilles) ou certaines espèces végétales formant des colonies denses.
 -->
-
+Le jeu est jouable par un maximum de 4 joueurs, ce qui en soit n'est pas beaucoup, cependant, le jeu est également possible à 1, 2 ou 3 joueurs. Lorsque le jeu est joué à moins de joueurs, les contrôles de
+la fusée sont répartis entre moins d'intéracteurs, ce qui intensifie l'expérience et la rend plus compliquée. Plus il y a de joueurs, plus il sera simple de faire naviguer la fusée.
 Les intéracteurs devront inévitablement communiquer entre eux afin de parvenir à faire décoller/Naviguer/atterir la fusée, forcant les joueurs à intéragir entre eux de façon orale et "physique" à
 l'intérieur du jeu, où chacune des intéractions qu'ils effectueront auront un impact énorme sur le résultat final et les prochaines intéractions.
 
