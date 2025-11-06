@@ -132,7 +132,7 @@ Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la 
 
 ### Textures et matériaux
 
-### Échantillons ou représentations de matériaux tangibles qui seront utilisés dans l'installation (écrans, surfaces tactiles, objets physiques interactifs).
+Échantillons ou représentations de matériaux tangibles qui seront utilisés dans l'installation (écrans, surfaces tactiles, objets physiques interactifs).
 
 - Chaises avec accoudoirs
 - Projecteur projetant au mur
@@ -145,9 +145,9 @@ Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la 
 
 
 
-### Ambiance sonore et lumineuse
+Ambiance sonore et lumineuse
 
-### Inspirations relatives à la scénarisation de la lumière et du son, qui seront des éléments interactifs clés dans l’expérience utilisateur.
+Inspirations relatives à la scénarisation de la lumière et du son, qui seront des éléments interactifs clés dans l’expérience utilisateur.
 
 ### Inspirations interactives
 
