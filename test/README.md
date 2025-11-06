@@ -81,9 +81,8 @@ Un collectif désigne l'ensemble de personnes ou d'entités qui s'unissent de ma
  Ce groupe, souvent considéré comme une entité à vocation communautaire, fonctionne sous le pilotage de ses membres et repose sur une volonté partagée de développer des solidarités.
 -->
 
-Dans Mission décollage, les joueurs sont des astronautes qui font la première mission sur Mars. Leur but est d'atterir sur la dite planète sein et sauf afin de marquer l'histoire et potentiellement découvrir la vie sur Mars.
-Les joueurs font partie de la mission O.I.G.N.O.N "Opération Internationale en Géosciences, Navigation et Observation du Nouveau-monde" qui a comme objectif d'explorer les confins spatiaux et ses mystères. Tout les joueurs sont à 
-bord la fusée, qui s'apprête à décoller en direction de Mars. Ensemble, ils devront coopérer efficacement pour réussir leur aventure héroique !
+Le jeu est jouable par un maximum de 4 joueurs, ce qui en soit n'est pas beaucoup, cependant, le jeu est également possible à 1, 2 ou 3 joueurs. Lorsque le jeu est joué à moins de joueurs, les contrôles de
+la fusée sont répartis entre moins d'intéracteurs, ce qui intensifie l'expérience et la rend plus compliquée. Plus il y a de joueurs, plus il sera simple de faire naviguer la fusée.
 
 ### L'aspect social
 
@@ -95,8 +94,7 @@ Le terme « social » désigne ce qui concerne la vie en société, c’est-à-d
  En sciences sociales, le social englobe l’étude des phénomènes collectifs, des interactions humaines, des normes sociales et des dynamiques de pouvoir au sein de la société.
  L’adjectif peut aussi qualifier des animaux ou des plantes vivant en communauté selon des règles strictes, comme les insectes sociaux (fourmis, abeilles) ou certaines espèces végétales formant des colonies denses.
 -->
-Le jeu est jouable par un maximum de 4 joueurs, ce qui en soit n'est pas beaucoup, cependant, le jeu est également possible à 1, 2 ou 3 joueurs. Lorsque le jeu est joué à moins de joueurs, les contrôles de
-la fusée sont répartis entre moins d'intéracteurs, ce qui intensifie l'expérience et la rend plus compliquée. Plus il y a de joueurs, plus il sera simple de faire naviguer la fusée.
+
 Les intéracteurs devront inévitablement communiquer entre eux afin de parvenir à faire décoller/Naviguer/atterir la fusée, forcant les joueurs à intéragir entre eux de façon orale et "physique" à
 l'intérieur du jeu, où chacune des intéractions qu'ils effectueront auront un impact énorme sur le résultat final et les prochaines intéractions.
 
@@ -120,11 +118,11 @@ Choix de couleurs qui influenceront l’éclairage, les médias projetés, ou l�
 
 ![](../medias/images/palette_de_couleur.jpg)
 
-### Références multimédia
+### Références multimédia aaaaa
 
 Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la tonalité souhaitée pour l'installation.
 
-
+[Son demonstrative.mp3](demonstrative.mp3)
 
 
 - Jeu : [Space Team](https://www.youtube.com/watch?v=y3fsvKnIVJg)
@@ -132,8 +130,6 @@ Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la 
 - Jeu : [Sea of Thieves](https://www.youtube.com/watch?v=r5JIBaasuE8)
 - Musique : [Interstellar Official Soundtrack – Cornfield Chase (Hans Zimmer)](https://www.youtube.com/watch?v=JuSsvM8B4Jc&list=RDJuSsvM8B4Jc&start_radio=1)
 - Musique : [2001: A Space Odyssey – Theme Song](https://www.youtube.com/watch?v=QwxYiVXYyVs&list=RDQwxYiVXYyVs&start_radio=1)
-
-
 
 ---
 
@@ -155,85 +151,6 @@ Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la 
 Ambiance sonore et lumineuse
 
 Inspirations relatives à la scénarisation de la lumière et du son, qui seront des éléments interactifs clés dans l’expérience utilisateur.
-
-
-
-🚀 Boost Initial  
-[Son demonstrative.mp3](boost.mp3)  
-> Accélération puissante au démarrage.
-
-🚀 Boost Secondaire  
-[boost.mp3](boost.mp3)  
-> Impulsion rapide, effet de propulsion.
-
-🚀 Boost Final  
-[boost2.mp3](boost2.mp3)  
-> Dernier souffle avant le décollage.
-
-🔨 Clank Brut  
-[clank.mp3](clank.mp3)  
-> Choc métallique sec.
-
-🔨 Clank Écho  
-[clank2.mp3](clank2.mp3)  
-> Résonance prolongée après impact.
-
-🔨 Clank Sourd  
-[clank3.mp3](clank3.mp3)  
-> Bruit étouffé, lourd.
-
-🔨 Clank Tranchant  
-[clank4.mp3](clank4.mp3)  
-> Impact vif et métallique.
-
-🔨 Clank Final  
-[clank5.mp3](clank5.mp3)  
-> Dernier bruit avant silence.
-
-🔨 Clank Répétitif  
-[clank6.mp3](clank6.mp3)  
-> Série de chocs rapprochés.
-
-💥 Crash Brutal  
-[crash.mp3](crash.mp3)  
-> Collision violente, désordre.
-
-⚠️ Alerte Danger  
-[danger.mp3](danger.mp3)  
-> Signal d’urgence imminent.
-
-🌀 Dash Rapide  
-[dash.mp3](dash.mp3)  
-> Déplacement éclair.
-
-🌀 Dash Fantôme  
-[dash2.mp3](dash2.mp3)  
-> Passage furtif, presque inaudible.
-
-💣 Explosion  
-[explosion.mp3](explosion.mp3)  
-> Détonation puissante.
-
-📡 Interférence  
-[interfernce.mp3](interference.mp3)  
-> Intéférence électroniques.
-
-🔫 Lazer  
-[lazer.mp3](lazer.mp3)  
-> Tir énergétique concentré.
-
-☄️ Météorite  
-[meteor.mp3](meteor.mp3)  
-> Impact cosmique.
-
-✨ Résurrection  
-[resurection.mp3](resurection.mp3)  
-> Retour à la vie après l'explosion du vaisseau.
-
-➕ Soin  
-[soin.mp3](soin.mp3)  
-> Guérison instantanée.
-
 
 ### Inspirations interactives
 
