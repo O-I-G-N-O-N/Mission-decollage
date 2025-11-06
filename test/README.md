@@ -118,11 +118,11 @@ Choix de couleurs qui influenceront l’éclairage, les médias projetés, ou l�
 
 ![](../medias/images/palette_de_couleur.jpg)
 
-### Références multimédia
+### Références multimédia aaaaa
 
 Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la tonalité souhaitée pour l'installation.
 
-
+[Son demonstrative.mp3](demonstrative.mp3)
 
 
 - Jeu : [Space Team](https://www.youtube.com/watch?v=y3fsvKnIVJg)
@@ -130,8 +130,6 @@ Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la 
 - Jeu : [Sea of Thieves](https://www.youtube.com/watch?v=r5JIBaasuE8)
 - Musique : [Interstellar Official Soundtrack – Cornfield Chase (Hans Zimmer)](https://www.youtube.com/watch?v=JuSsvM8B4Jc&list=RDJuSsvM8B4Jc&start_radio=1)
 - Musique : [2001: A Space Odyssey – Theme Song](https://www.youtube.com/watch?v=QwxYiVXYyVs&list=RDQwxYiVXYyVs&start_radio=1)
-
-
 
 ---
 
@@ -153,85 +151,6 @@ Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la 
 Ambiance sonore et lumineuse
 
 Inspirations relatives à la scénarisation de la lumière et du son, qui seront des éléments interactifs clés dans l’expérience utilisateur.
-
-
-
-🚀 Boost Initial  
-[Son demonstrative.mp3](boost.mp3)  
-> Accélération puissante au démarrage.
-
-🚀 Boost Secondaire  
-[boost.mp3](boost.mp3)  
-> Impulsion rapide, effet de propulsion.
-
-🚀 Boost Final  
-[boost2.mp3](boost2.mp3)  
-> Dernier souffle avant le décollage.
-
-🔨 Clank Brut  
-[clank.mp3](clank.mp3)  
-> Choc métallique sec.
-
-🔨 Clank Écho  
-[clank2.mp3](clank2.mp3)  
-> Résonance prolongée après impact.
-
-🔨 Clank Sourd  
-[clank3.mp3](clank3.mp3)  
-> Bruit étouffé, lourd.
-
-🔨 Clank Tranchant  
-[clank4.mp3](clank4.mp3)  
-> Impact vif et métallique.
-
-🔨 Clank Final  
-[clank5.mp3](clank5.mp3)  
-> Dernier bruit avant silence.
-
-🔨 Clank Répétitif  
-[clank6.mp3](clank6.mp3)  
-> Série de chocs rapprochés.
-
-💥 Crash Brutal  
-[crash.mp3](crash.mp3)  
-> Collision violente, désordre.
-
-⚠️ Alerte Danger  
-[danger.mp3](danger.mp3)  
-> Signal d’urgence imminent.
-
-🌀 Dash Rapide  
-[dash.mp3](dash.mp3)  
-> Déplacement éclair.
-
-🌀 Dash Fantôme  
-[dash2.mp3](dash2.mp3)  
-> Passage furtif, presque inaudible.
-
-💣 Explosion  
-[explosion.mp3](explosion.mp3)  
-> Détonation puissante.
-
-📡 Interférence  
-[interfernce.mp3](interference.mp3)  
-> Intéférence électroniques.
-
-🔫 Lazer  
-[lazer.mp3](lazer.mp3)  
-> Tir énergétique concentré.
-
-☄️ Météorite  
-[meteor.mp3](meteor.mp3)  
-> Impact cosmique.
-
-✨ Résurrection  
-[resurection.mp3](resurection.mp3)  
-> Retour à la vie après l'explosion du vaisseau.
-
-➕ Soin  
-[soin.mp3](soin.mp3)  
-> Guérison instantanée.
-
 
 ### Inspirations interactives
 
