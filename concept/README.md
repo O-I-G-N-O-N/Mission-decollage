@@ -116,6 +116,8 @@ Représentations visuelles de l'ambiance recherchée, que ce soit à travers des
 
 Choix de couleurs qui influenceront l’éclairage, les médias projetés, ou l’interface visuelle.
 
+![](../medias/images/palette_de_couleur.jpg)
+
 ### Références multimédia
 
 Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la tonalité souhaitée pour l'installation.
@@ -134,9 +136,14 @@ Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la 
 
 - Chaises avec accoudoirs
 - Projecteur projetant au mur
-- Sliders
 - Boutons
-- Rotatifs
+
+| Chaise | Projecteur | Bouton poussoir |
+|-----------|-----------|-----------|
+| ![](../medias/images/chaise_accoudoirs.jpg) | ![](../medias/images/projecteur_epson.jpg) | ![](../medias/images/bouton_poussoir_rouge.jpg) |
+| [Source: Calcuttan](https://www.calcuttan.in/products/abp-chair) | [Source: Epson](https://epson.ca/Pour-le-travail/Projecteurs/Projecteurs-pour-salle-de-classe-/Projecteur-PowerLite-990U-WUXGA-3LCD/p/V11H867020) | [Source: Made-in-China](https://gwiecelectric.en.made-in-china.com/product/JGWUFoljankf/China-Manufacture-22mm-Xb2-Series-Engine-Start-Stop-Latching-Push-Button-Rotary-Switch.html) |
+
+
 
 ### Ambiance sonore et lumineuse
 
