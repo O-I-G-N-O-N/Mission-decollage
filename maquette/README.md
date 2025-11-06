@@ -1,43 +1,79 @@
 # Maquette (faisabilité)
 
-<!--
-https://tim-montmorency.com/582523-gestion/#/contenus/3_planification/
+## Scénarisation
 
-# Maquette
+### scene 1
+| Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
 
-## Importance de la maquette dans les projets multimédias
-Une maquette permet de déterminer si un projet est réalisable sur les plans technique, économique et opérationnel. Elle aide à identifier les obstacles potentiels et à planifier les ressources nécessaires. Dans le contexte des technologies interactives, où les innovations sont rapides et les attentes des utilisateur·rice·s élevées, cette démarche devient encore plus critique.
+|---------------|-----------------------------|---------------|---------------|------------------|
+| **installer** | Les intéracteurs s'installent sur les chaises et met les écouteurs | La scène sélection de menu est affiché(pas sure) | La musique de la scène menu | Aucun ou entrer dans l'ambience(I guess) |
 
-## Étapes clés de la maquette
+| **Appuyer** | Un des intéracteurs appuie sur l'un des boutons pour choisir de commencer le jeu ou de voir les instructions | Transition de scène | Un son qui signale la confirmation de séléction | Les intéracteurs passe à la scène instruction du jeu ou la scene jeu  |
 
-### 1. Ascpect technique
-- **Analyse des exigences techniques** : Définir les spécifications techniques du projet, y compris les logiciels, le matériel, les interfaces utilisateur et les protocoles de communication.  
-- **Compatibilité du système** : Vérifier si les nouvelles technologies interactives sont compatibles avec les systèmes existants.  
-- **Tests** : Effectuer des tests pour valider les fonctionnalités et l'interactivité.  
+### scene 2
 
-### 2. Ascpect économique
-- **Estimation des coûts** : Calculer les coûts associés à l'acquisition de matériel, de logiciels, au développement et à la maintenance.  
-- **Analyse du retour sur investissement (ROI)** : Évaluer les bénéfices potentiels par rapport aux coûts engagés.  
-- **Options de financement** : Explorer les subventions, les partenariats ou les modèles économiques alternatifs.  
+| Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
 
-### 3. LES RÈGLES ET LE SYSTÈME 
+|---------------|-----------------------------|---------------|---------------|------------------|
+| **Lancement** | Affichage de la scène jeu ;  Suite aux instructions affichés dans le terminal (l'écran), les joueurs sont invités à appuyer sur leurs propulseurs afin de décoller de la terre  | clignottement sur l'écran, clignottement sur le texte d'action "Décollez !" | Une boucle sonore d'une alarme  | La fusée décolle et le ciel transitionne doucement vers celui de l'espace |
 
-```mermaid
-graph LR
-    Règles --> Système
-    Système --> Expérience
-```
+| **Coordoner** | Les joueurs doivent se coordoner pour décoller la fusée verticalement vers le ciel, les joueurs se coordonent seuls afin de garder la fusée dans un bon momentum | le ciel défile, les propulseurs dégagent du feu | Son des réacteurs et de la fusée qui transcende le ciel | Interaction entre les joueurs |
 
-1. **Les règles sont les briques de base.**  
-2. **Le système applique les règles.**  
-3. **L’expérience est la perspective du joueur.**  
+ ### scene 3
 
-### 4. Asect temporelle
-- **Planification du projet** : Établir un calendrier réaliste en tenant compte des délais de développement, de test et de déploiement.  
-- **Gestion des risques** : Identifier les risques potentiels qui pourraient retarder le projet et prévoir des plans d'urgence.  
+| Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
 
-### 5. Aspect légal et éthique
-- **Conformité réglementaire** : S'assurer que le projet respecte les lois en vigueur, notamment en matière de propriété intellectuelle et de protection des données.  
-- **Accessibilité** : Garantir que l'installation interactive est accessible à tous les utilisateur·rice·s, y compris les personnes en situation de handicap.  
+|---------------|-----------------------------|---------------|---------------|
 
--->
+| **Piloter** | Les joueurs parviennent à décoller, ils doivent désormais piloter la fusée en direction de l'espace | effet visuel : vue 3e personne de la fusée, feu, nuages qui défilents | bruits de vent, de propulsion (réacteur) | Chaque action des joueurs a une influcence sur la direction de la fusée |
+
+| **esquiver** | Lorsque des obstacles sont sur le chemin | des avions, oiseaux ou autres apparaîtront dans l'écran. | bruit de moteur d'avion ou d'oiseaux | Les joueurs coopèrent afin d'éviter de foncer dans les obstacles. |
+
+ ### scene 4
+
+| Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
+
+|---------------|-----------------------------|---------------|---------------|
+
+| **Piloter** | Les joueurs atteignent l'espace | effet visuel : vue 3e personne de la fusée, fond noir étoilé | coupure des vents, bruits de propulsion (réacteur) | Chaque action des joueurs a une influcence sur la direction de la fusée |
+
+| **esquiver** | Lorsque des obstacles sont sur le chemin | des astéroïdes, débris spaciaux, satellites apparaissent sur le chemin. | Message de communication donne un avertissement | Les joueurs coopèrent afin d'éviter de foncer dans les obstacles. |
+
+### scene 5
+
+| Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
+
+|---------------|-----------------------------|---------------|---------------|
+
+| **Décrocher** | Les joueurs décrochent la capsule du reste de la fusée | effet visuel : vue 3e personne de la capsule, fond noir étoilé, surface de Mars | bruits d'entrée atmosphérique, de décrochage de fusée (méchanique) & de propulseurs | Chaque action des joueurs a une influcence sur la direction de la capsule |
+
+| **Pivoter** | après le décrochage | vue de la capsule en 3ème personne | Message de la tour de communication indique la manoeuvre à effectuer | Les joueurs coopèrent afin de réussir à faire pivoter la capsule pour préparer l'atterissage. |
+
+### scene 6
+
+| Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
+
+|---------------|-----------------------------|---------------|---------------|
+
+| **Appuyer** | Les joueurs doivent apuuyer le bouton pour bien atterir sur la planète destination | vue 3e personne de la capsule, vue de Mars | bruits de débris frappant la coque & de propulseurs | Chaque action des joueurs a une influcence sur la direction de la capsule. |
+
+### scene 7
+
+| Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
+
+|---------------|-----------------------------|---------------|---------------|
+
+
+| **Quitter** | Les joueurs sortent de leur siege | Retour au menu | bruits du menu  | **Passage à la scène 1** |
+
+
+
+## Équipements
+
+## Logiciels
+
+## Synoptique
+
+## Plan d’implantation
+
+## Budget
