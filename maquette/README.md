@@ -3,23 +3,24 @@
 ## Scénarisation
 
 ### scene 1
+
 | Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
 
 |---------------|-----------------------------|---------------|---------------|------------------|
 | **installer** | Les intéracteurs s'installent sur les chaises et met les écouteurs | La scène sélection de menu est affiché(pas sure) | La musique de la scène menu | Aucun ou entrer dans l'ambience(I guess) |
 
-| **Appuyer** | Un des intéracteurs appuie sur l'un des boutons pour choisir de commencer le jeu ou de voir les instructions | Transition de scène | Un son qui signale la confirmation de séléction | Les intéracteurs passe à la scène instruction du jeu ou la scene jeu  |
+| **Appuyer** | Un des intéracteurs appuie sur l'un des boutons pour choisir de commencer le jeu ou de voir les instructions | Transition de scène | Un son qui signale la confirmation de séléction | Les intéracteurs passe à la scène instruction du jeu ou la scene jeu |
 
 ### scene 2
 
 | Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
 
 |---------------|-----------------------------|---------------|---------------|------------------|
-| **Appuyer** | Affichage de la scène jeu ;  Suite aux instructions affichés dans le terminal (l'écran), les joueurs sont invités à appuyer sur leurs propulseurs afin de décoller de la terre  | clignottement sur l'écran, clignottement sur le texte d'action "Décollez !" | Une boucle sonore d'une alarme  | La fusée décolle et le ciel transitionne doucement vers celui de l'espace |
+| **Appuyer** | Affichage de la scène jeu ; Suite aux instructions affichés dans le terminal (l'écran), les joueurs sont invités à appuyer sur leurs propulseurs afin de décoller de la terre | clignottement sur l'écran, clignottement sur le texte d'action "Décollez !" | Une boucle sonore d'une alarme | La fusée décolle et le ciel transitionne doucement vers celui de l'espace |
 
 | **Appuyer** | Les joueurs doivent se coordoner/appuyer sur le bouton pour décoller la fusée verticalement vers le ciel, les joueurs se coordonent seuls afin de garder la fusée dans un bon momentum | le ciel défile, les propulseurs dégagent du feu | Son des réacteurs et de la fusée qui transcende le ciel | Interaction entre les joueurs |
 
- ### scene 3
+### scene 3
 
 | Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
 
@@ -29,7 +30,7 @@
 
 | **esquiver** | Lorsque des obstacles sont sur le chemin | des avions, oiseaux ou autres apparaîtront dans l'écran. | bruit de moteur d'avion ou d'oiseaux | Les joueurs coopèrent afin d'éviter de foncer dans les obstacles. |
 
- ### scene 4
+### scene 4
 
 | Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
 
@@ -63,16 +64,26 @@
 
 |---------------|-----------------------------|---------------|---------------|
 
-
-| **Quitter** | Les joueurs sortent de leur siege | Retour au menu | bruits du menu  | **Passage à la scène 1** |
-
-
+| **Quitter** | Les joueurs sortent de leur siege | Retour au menu | bruits du menu | **Passage à la scène 1** |
 
 ## Équipements
 
+- Carte son
+- Projecteur
+- 4 chaises
+- 4 écouteurs
+- ordinateur
+- 4 controlleurs arduino
+
 ## Logiciels
 
+- Unity
+
+- Pure Data
+
 ## Synoptique
+
+![](../medias/images/synoptique.png)
 
 ## Plan d’implantation
 
