@@ -2,69 +2,68 @@
 
 ## Scénarisation
 
-### scene 1
+---
+
+## Scene 1
 
 | Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
+|--------------|----------------------------|---------------|---------------|------------------|
+| **Installer** | Les interacteurs s’installent sur les chaises et mettent les écouteurs | La scène sélection de menu est affichée (pas sûr) | Musique de la scène menu | Aucun ou immersion dans l’ambiance |
+| **Appuyer** | Un des interacteurs appuie sur un bouton pour commencer le jeu ou voir les instructions | Transition de scène | Son de confirmation | Passage vers la scène instructions ou jeu |
 
-|---------------|-----------------------------|---------------|---------------|------------------|
-| **installer** | Les intéracteurs s'installent sur les chaises et met les écouteurs | La scène sélection de menu est affiché(pas sure) | La musique de la scène menu | Aucun ou entrer dans l'ambience(I guess) |
+---
 
-| **Appuyer** | Un des intéracteurs appuie sur l'un des boutons pour choisir de commencer le jeu ou de voir les instructions | Transition de scène | Un son qui signale la confirmation de séléction | Les intéracteurs passe à la scène instruction du jeu ou la scene jeu |
-
-### scene 2
-
-| Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
-
-|---------------|-----------------------------|---------------|---------------|------------------|
-| **Appuyer** | Affichage de la scène jeu ; Suite aux instructions affichés dans le terminal (l'écran), les joueurs sont invités à appuyer sur leurs propulseurs afin de décoller de la terre | clignottement sur l'écran, clignottement sur le texte d'action "Décollez !" | Une boucle sonore d'une alarme | La fusée décolle et le ciel transitionne doucement vers celui de l'espace |
-
-| **Appuyer** | Les joueurs doivent se coordoner/appuyer sur le bouton pour décoller la fusée verticalement vers le ciel, les joueurs se coordonent seuls afin de garder la fusée dans un bon momentum | le ciel défile, les propulseurs dégagent du feu | Son des réacteurs et de la fusée qui transcende le ciel | Interaction entre les joueurs |
-
-### scene 3
+## Scene 2
 
 | Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
+|--------------|----------------------------|---------------|---------------|------------------|
+| **Appuyer** | Après l’affichage de la scène jeu ; les joueurs doivent appuyer sur leurs propulseurs pour décoller | Clignotement du texte “Décollez !” | Boucle sonore d’alarme | La fusée décolle et transition vers le ciel |
+| **Appuyer** | Les joueurs doivent se coordonner pour faire monter la fusée | Défilement du ciel, flammes des propulseurs | Sons des réacteurs et de la fusée | Coordination entre joueurs |
 
-|---------------|-----------------------------|---------------|---------------|
+---
 
-| **Piloter** | Les joueurs parviennent à décoller, ils doivent désormais piloter la fusée en direction de l'espace | effet visuel : vue 3e personne de la fusée, feu, nuages qui défilents | bruits de vent, de propulsion (réacteur) | Chaque action des joueurs a une influcence sur la direction de la fusée |
-
-| **esquiver** | Lorsque des obstacles sont sur le chemin | des avions, oiseaux ou autres apparaîtront dans l'écran. | bruit de moteur d'avion ou d'oiseaux | Les joueurs coopèrent afin d'éviter de foncer dans les obstacles. |
-
-### scene 4
-
-| Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
-
-|---------------|-----------------------------|---------------|---------------|
-
-| **Piloter** | Les joueurs atteignent l'espace | effet visuel : vue 3e personne de la fusée, fond noir étoilé | coupure des vents, bruits de propulsion (réacteur) | Chaque action des joueurs a une influcence sur la direction de la fusée |
-
-| **esquiver** | Lorsque des obstacles sont sur le chemin | des astéroïdes, débris spaciaux, satellites apparaissent sur le chemin. | Message de communication donne un avertissement | Les joueurs coopèrent afin d'éviter de foncer dans les obstacles. |
-
-### scene 5
+## Scene 3
 
 | Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
+|--------------|----------------------------|---------------|---------------|------------------|
+| **Piloter** | Les joueurs ont décollé et doivent se diriger vers l’espace | Vue 3ᵉ personne, feu, nuages qui défilent | Bruits de vent et propulsion | Les actions influencent la direction |
+| **Esquiver** | Obstacles présents sur le trajet | Apparition d’avions, oiseaux, etc. | Bruit de moteur ou d’oiseaux | Coopération pour éviter les obstacles |
 
-|---------------|-----------------------------|---------------|---------------|
+---
 
-| **Décrocher** | Les joueurs décrochent la capsule du reste de la fusée | effet visuel : vue 3e personne de la capsule, fond noir étoilé, surface de Mars | bruits d'entrée atmosphérique, de décrochage de fusée (méchanique) & de propulseurs | Chaque action des joueurs a une influcence sur la direction de la capsule |
-
-| **Pivoter** | après le décrochage | vue de la capsule en 3ème personne | Message de la tour de communication indique la manoeuvre à effectuer | Les joueurs coopèrent afin de réussir à faire pivoter la capsule pour préparer l'atterissage. |
-
-### scene 6
-
-| Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
-
-|---------------|-----------------------------|---------------|---------------|
-
-| **Appuyer** | Les joueurs doivent apuuyer le bouton pour bien atterir sur la planète destination | vue 3e personne de la capsule, vue de Mars | bruits de débris frappant la coque & de propulseurs | Chaque action des joueurs a une influcence sur la direction de la capsule. |
-
-### scene 7
+## Scene 4
 
 | Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
+|--------------|----------------------------|---------------|---------------|------------------|
+| **Piloter** | Les joueurs atteignent l’espace | Vue 3ᵉ personne, fond étoilé | Coupure du vent, propulsion | Actions influencent la direction |
+| **Esquiver** | Obstacles spatiaux sur le chemin | Astéroïdes, débris, satellites | Message d’avertissement | Coopération pour les éviter |
 
-|---------------|-----------------------------|---------------|---------------|
+---
 
-| **Quitter** | Les joueurs sortent de leur siege | Retour au menu | bruits du menu | **Passage à la scène 1** |
+## Scene 5
+
+| Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
+|--------------|----------------------------|---------------|---------------|------------------|
+| **Décrocher** | Les joueurs décrochent la capsule | Vue 3ᵉ personne de la capsule, fond étoilé, Mars visible | Entrée atmosphérique, mécaniques, propulseurs | Actions influencent la direction |
+| **Pivoter** | Après décrochage | Vue 3ᵉ personne de la capsule | Message de communication sur la manœuvre | Coopération pour pivoter correctement |
+
+---
+
+## Scene 6
+
+| Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
+|--------------|----------------------------|---------------|---------------|------------------|
+| **Appuyer** | Les joueurs doivent appuyer pour atterrir | Vue 3ᵉ personne, surface de Mars | Débris frappant la coque, propulseurs | Actions influencent l’atterrissage |
+
+---
+
+## Scene 7
+
+| Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
+|--------------|----------------------------|---------------|---------------|------------------|
+| **Quitter** | Les joueurs quittent leurs sièges | Retour au menu | Sons du menu | Retour à la scène 1 |
+
+---
 
 ## Équipements
 
@@ -72,20 +71,31 @@
 - Projecteur
 - 4 chaises
 - 4 écouteurs
-- ordinateur
-- 4 controlleurs arduino
+- Ordinateur
+- 4 contrôleurs Arduino
+
+---
 
 ## Logiciels
 
 - Unity
-
 - Pure Data
+- VS code
+- Maya/Blender
+
+---
 
 ## Synoptique
 
-![](../medias/images/synoptique.png)
+![synoptique](../medias/images/synoptique.png)
+
+---
 
 ## Plan d’implantation
+
+*(à compléter)*
+
+---
 
 ## Budget
 
