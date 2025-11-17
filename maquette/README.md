@@ -61,7 +61,7 @@
 
 | Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
 |--------------|----------------------------|---------------|---------------|------------------|
-| **Quitter** | Les joueurs quittent leurs sièges | Retour au menu | Sons du menu | Retour à la scène 1 |
+| **Quitter** | Les joueurs quittent leurs sièges | Retour au menu. Affichage du menu | Sons du menu | Retour à la scène 1 |
 
 ---
 
@@ -93,7 +93,7 @@
 
 ## Plan d’implantation
 
-*(à compléter)*
+![implantation](../medias/images/implantation.png)
 
 ---
 
