@@ -1,6 +1,6 @@
 * [Accueil](/)
 * [Équipe](/equipe/)
 * [Concept](/concept/)
-* [Maquette](/maquettess/)
+* [Maquette](/maquette/)
 * Démo (à venir)
 * Réalisation (à venir)
