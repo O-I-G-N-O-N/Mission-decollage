@@ -1,7 +1,7 @@
 # Mission Décollage
 
 <!-- Bannderole / Bande-annonce -->
-![]( https://placehold.co/600x400?text=banderole-bande-annonce)
+![]( https://avatars.githubusercontent.com/u/241143417?s=400&u=8a6f4bab23d01053ca1bd3de9a49869d540c1875&v=4)
 
 ## Description
 
