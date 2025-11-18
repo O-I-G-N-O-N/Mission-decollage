@@ -9,59 +9,35 @@
 | Verbe action  | Condition de déclenchement                                                              | Effet visuel                                      | Effet sonore             | Effet interactif                          |
 | ------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------- | ------------------------ | ----------------------------------------- |
 | **Installer** | Les interacteurs s’installent sur les chaises et mettent les écouteurs                  | La scène sélection de menu est affichée (pas sûr) | Musique de la scène menu | Aucun ou immersion dans l’ambiance        |
-| **Appuyer**   | Un des interacteurs appuie sur un bouton pour commencer le jeu ou voir les instructions | Transition de scène                               | Son de confirmation      | Passage vers la scène instructions ou jeu |
+| **Appuyer**   | Les interacteurs appuient sur un bouton pour commencer le jeu et recevoir les instructions | Transition de scène                               | Son de confirmation      | Passage vers la scène instructions ou jeu |
 
 ---
 
 ## Scene 2
 
-| Verbe action | Condition de déclenchement                                                                          | Effet visuel                                | Effet sonore                      | Effet interactif                            |
-| ------------ | --------------------------------------------------------------------------------------------------- | ------------------------------------------- | --------------------------------- | ------------------------------------------- |
-| **Appuyer**  | Après l’affichage de la scène jeu ; les joueurs doivent appuyer sur leurs propulseurs pour décoller | Clignotement du texte “Décollez !”          | Boucle sonore d’alarme            | La fusée décolle et transition vers le ciel |
-| **Appuyer**  | Les joueurs doivent se coordonner pour faire monter la fusée                                        | Défilement du ciel, flammes des propulseurs | Sons des réacteurs et de la fusée | Coordination entre joueurs                  |
+| Verbe action | Condition de déclenchement                        | Effet visuel                                                                 | Effet sonore                                                                                         | Effet interactif                                                |
+|--------------|---------------------------------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| **Observer** | Les joueurs ont démarré le jeu                    | Un tutoriel est affiché à l’écran, indiquant les étapes pour utiliser la fusée | Sons d’environnement terrestres, voix de tutoriel, petite musique d’ambiance                         | Les joueurs sont invités à tester leur pouvoir sur la fusée     |
+| **Écouter**  | Les joueurs ont démarré le jeu                    | Un tutoriel est affiché à l’écran indiquant les étapes à suivre              | Sons du tutoriel pour reconnaître les différentes alertes, sons d’environnement, petite musique       | Les joueurs doivent écouter et distinguer les sons d’alerte     |
+
 
 ---
 
 ## Scene 3
 
-| Verbe action           | Condition de déclenchement                                  | Effet visuel                              | Effet sonore                 | Effet interactif                      |
-| ---------------------- | ----------------------------------------------------------- | ----------------------------------------- | ---------------------------- | ------------------------------------- |
-| **Appuyer et pivoter** | Les joueurs ont décollé et doivent se diriger vers l’espace | Vue 3ᵉ personne, feu, nuages qui défilent | Bruits de vent et propulsion | Les actions influencent la direction  |
-| **Appuyer et pivoter** | Obstacles présents sur le trajet                            | Apparition d’avions, oiseaux, etc.        | Bruit de moteur ou d’oiseaux | Coopération pour éviter les obstacles |
+| Verbe action  | Condition de déclenchement | Effet visuel                                                | Effet sonore                                                                 | Effet interactif                                                                   |
+|---------------|----------------------------|-------------------------------------------------------------|-------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| **Manipuler** | Les joueurs ont décollé    | Vue 3ᵉ personne de la fusée                                 | Réacteurs, fusée, débris terrestres, communications tour de contrôle         | Manipuler bouton et angle pour diriger la fusée vers sa destination                |
+| **Écouter**   | Les joueurs ont décollé    | Vue 3ᵉ personne de la fusée                                 | Réacteurs, fusée, débris terrestres, communications tour de contrôle         | Écouter les alertes pour détecter un éventuel problème avec la fusée               |
+
 
 ---
 
 ## Scene 4
 
-| Verbe action           | Condition de déclenchement       | Effet visuel                   | Effet sonore                | Effet interactif                 |
-| ---------------------- | -------------------------------- | ------------------------------ | --------------------------- | -------------------------------- |
-| **Appuyer et pivoter** | Les joueurs atteignent l’espace  | Vue 3ᵉ personne, fond étoilé   | Coupure du vent, propulsion | Actions influencent la direction |
-| **Appuyer et pivoter** | Obstacles spatiaux sur le chemin | Astéroïdes, débris, satellites | Message d’avertissement     | Coopération pour les éviter      |
-
----
-
-## Scene 5
-
-| Verbe action           | Condition de déclenchement        | Effet visuel                                             | Effet sonore                                  | Effet interactif                      |
-| ---------------------- | --------------------------------- | -------------------------------------------------------- | --------------------------------------------- | ------------------------------------- |
-| **Appuyer**            | Les joueurs décrochent la capsule | Vue 3ᵉ personne de la capsule, fond étoilé, Mars visible | Entrée atmosphérique, mécaniques, propulseurs | Actions influencent la direction      |
-| **Appuyer et pivoter** | Après décrochage                  | Vue 3ᵉ personne de la capsule                            | Message de communication sur la manœuvre      | Coopération pour pivoter correctement |
-
----
-
-## Scene 6
-
-| Verbe action | Condition de déclenchement                | Effet visuel                     | Effet sonore                          | Effet interactif                   |
-| ------------ | ----------------------------------------- | -------------------------------- | ------------------------------------- | ---------------------------------- |
-| **Appuyer**  | Les joueurs doivent appuyer pour atterrir | Vue 3ᵉ personne, surface de Mars | Débris frappant la coque, propulseurs | Actions influencent l’atterrissage |
-
----
-
-## Scene 7
-
-| Verbe action | Condition de déclenchement        | Effet visuel                      | Effet sonore | Effet interactif    |
-| ------------ | --------------------------------- | --------------------------------- | ------------ | ------------------- |
-| **Quitter**  | Les joueurs quittent leurs sièges | Retour au menu. Affichage du menu | Sons du menu | Retour à la scène 1 |
+| Verbe action | Condition de déclenchement            | Effet visuel                                                                 | Effet sonore                              | Effet interactif                                     |
+|--------------|---------------------------------------|------------------------------------------------------------------------------|--------------------------------------------|------------------------------------------------------|
+| **Se lever** | Les joueurs ont réussi ou échoué le jeu | Vue 3ᵉ personne de la fusée atterrissant à destination ou détruite (game over) | Sons de festivité ou de découragement      | Aucune, sauf appuyer pour rejouer                   |
 
 ---
 
