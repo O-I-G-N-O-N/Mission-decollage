@@ -99,13 +99,14 @@
 
 ## Budget
 
-| Composant                                                   | Prix réel      | Prix attendu       | Liens                                                                                                                                                    |
-| ----------------------------------------------------------- | -------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ordinateur - x1                                             | 500 $          | 0$ (emprunt école) |                                                                                                                                                          |
-| Chaise avec accoudoir - x1                                  | 20-60$ l'unité | 20-60$ l'unité     |                                                                                                                                                          |
-| Carte de son Behringer - x1                                 | 109$ CAD       | 0$ (emprunt école) | [Lien](https://www.long-mcquade.com/193012/Pro-Audio-Recording/Audio-Interfaces-DAW-Controllers/Behringer/U-Phoria-UMC202HD-2X2-USB-Audio-Interface.htm) |
-| Casque hd 280 pro - x4                                      |                | 0$ (emprunt école) |                                                                                                                                                          |
-| Epson PowerLite 535W Projector - x1                         | 929$ USD       | 0$ (emprunt école) | [Lien](https://www.projectorcentral.com/Epson-PowerLite_535W.htm)                                                                                        |
-| [EOL] I/O Hub 1 to 6 Expansion Unit (MEGA328)               | 39.8$ USD      | 0$ (emprunt école) | [Lien](https://shop.m5stack.com/products/pb-hub?variant=17116939354202)                                                                                  |
-| Contrôleur Arduino M5Stack ATOM Lite ESP32 - x4             | 30 $           | 0$ (emprunt école) | [Lien](https://shop.m5stack.com/products/atom-lite-esp32-development-kit)                                                                                |
-| M5Stack I/O Hub 1 to 6 Expansion Unit (STM32F0) U040-B - x4 | 31.8$          | 0$ (emprunt école) | [Lien](https://docs.m5stack.com/en/unit/pbhub_1.1)                                                                                                       |
+Voici ton tableau corrigé sans les liens :
+
+| Composant | Prix réel (unité) | Prix réel total (CAD) | Prix attendu | Prix attendu réel (CAD) |
+|-----------|-------------------|-----------------------|--------------|-------------------------|
+| Ordinateur - x1 | 500 CAD | **500 CAD** | 0 CAD (emprunt école) | **0 CAD** |
+| Chaise avec accoudoir - x1 | 20–60 CAD | **20–60 CAD** | 20–60 CAD | **20–60 CAD** |
+| Haut parleur |  | | 0 CAD (emprunt école) | **0 CAD** |
+| Epson PowerLite 535W Projector - x1 | 929 USD ≈ 1272 CAD | **1272 CAD** | 0 CAD (emprunt école) | **0 CAD** |
+| [PBHUB] I/O Hub 1 to 6 Expansion Unit (MEGA328) - x1 | 9.95 USD ≈ 13.6 CAD | **13.6 CAD** | 0 CAD (emprunt école) | **0 CAD** |
+| Contrôleur Arduino M5Stack ATOM Lite ESP32 - x4 | 7.50 USD ≈ 10.3 CAD unité | **41.2 CAD** | 0 CAD (emprunt école) | **0 CAD** |
+| Angle - x4 | 3.85 USD ≈ 5.3 CAD unité | **21.2 CAD** | 0 CAD (emprunt école) | **0 CAD** |
