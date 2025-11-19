@@ -41,17 +41,6 @@
 
 ---
 
-## Équipements
-
-- Carte son
-- Projecteur
-- 4 chaises
-- 4 écouteurs
-- Ordinateur
-- 4 contrôleurs Arduino
-
----
-
 ## Logiciels
 
 - Unity
