@@ -87,9 +87,9 @@ la fusée sont répartis entre moins d'intéracteurs, ce qui intensifie l'expér
 Les intéracteurs devront inévitablement communiquer entre eux afin de parvenir à faire décoller/Naviguer/atterir la fusée, forcant les joueurs à intéragir entre eux de façon orale et "physique" à
 l'intérieur du jeu, où chacune des intéractions qu'ils effectueront auront un impact énorme sur le résultat final et les prochaines intéractions.
 
-## Inspirations
+# Inspirations
 
-### Inspirations visuelles et sonores
+## Inspirations visuelles et sonores
 
 <!-- Inclure le moodboard avec référenes pour chacune des sources-->
 
@@ -132,7 +132,7 @@ Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la 
 | ![](../medias/images/chaise_accoudoirs.jpg)                      | ![](../medias/images/projecteur_epson.jpg)                                                                                                        | ![](../medias/images/bouton_poussoir_rouge.jpg)                                                                                                                                      |
 | [Source: Calcuttan](https://www.calcuttan.in/products/abp-chair) | [Source: Epson](https://epson.ca/Pour-le-travail/Projecteurs/Projecteurs-pour-salle-de-classe-/Projecteur-PowerLite-990U-WUXGA-3LCD/p/V11H867020) | [Source: Made-in-China](https://gwiecelectric.en.made-in-china.com/product/JGWUFoljankf/China-Manufacture-22mm-Xb2-Series-Engine-Start-Stop-Latching-Push-Button-Rotary-Switch.html) |
 
-Ambiance sonore et lumineuse
+### Ambiance sonore et lumineuse
 
 Inspirations relatives à la scénarisation de la lumière et du son, qui seront des éléments interactifs clés dans l’expérience utilisateur.
 
