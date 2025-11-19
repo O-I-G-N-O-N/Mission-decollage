@@ -32,8 +32,8 @@ Qu'est-ce que fait l'interacteur?
 un résumé du parcours de l'interacteur du début à la fin de son expérience - qu'est-ce qu'il fait, qu'est-ce qu'il manipule, etc
 -->
 
-L'intéracteur arrive devant l'installation; quatres chaises avec chacun des boutons différents disposés sur les côtés. Il s'asseoit sur une des chaises, d'autres personnes sur les autres chaises.
-Les intéracteurs appuient sur le bouton qui clignote (afin de lancer la mission), Le jeu commence. Ils utilisent les boutons pour réussir le jeu, une fois le jeu terminé, ils se relèvent et partent.
+L’interacteur arrive devant l’installation : quatre chaises, chacune équipée de boutons différents disposés sur les côtés. Il s’assoit sur l’une d’elles, tandis que d’autres personnes prennent place sur les autres chaises.
+Les interacteurs appuient sur le bouton qui clignote afin de rejoindre la mission, un chef doit être déterminé, lorsqu'un joueur appuie sur son bouton, il prend la place du chef, si les autres joueurs sont d'accord avec ce chef, ils doivent pivoter leur "angle sensor" pour confirmer, sinon, ils peuvent appuyer sur leur bouton pour se proposer comme chef. Une fois le chef choisi, le jeu commence. Ils utilisent alors leur bouton et leur "angle sensor" pour réussir le jeu. Une fois la partie terminée, ils se lèvent et s’en vont.
 
 ### L'espace
 
@@ -41,18 +41,17 @@ Les intéracteurs appuient sur le bouton qui clignote (afin de lancer la mission
 description de l'espace réel et virtuel du projet et comment l'espace réel est transposé, transorté ou prolongé dans le virtuel et inversement
 -->
 
-Des chaises sont disposés devant le mur où est projeté l'écran du jeu. Ces chaises disposent de boutons qui permettent de jouer au jeu. Ces boutons contrôlent différentes fonctions de la fusée,
-par exemple: Le réacteur gauche, droit, principal, etc. Des sons accompagnent les joueurs tout au long de l'aventure ainsi que de la musique, tous dans des casques d'écoute ou des speakers sur
-les chaises.
+Des chaises sont disposées devant le mur où est projeté l’écran du jeu. Elles sont équipées d'un bouton et d'un "angle" permettant d’interagir avec la partie. Ces boutons/angles contrôlent différentes fonctions de la fusée, par exemple le réacteur gauche, le réacteur droit ou le réacteur principal. chacune de ces parties n'est contrôlée que par un des joueurs.
+Des effets sonores et de la musique accompagnent les joueurs tout au long de l’aventure, diffusés soit dans des casques d’écoute, soit par des haut-parleurs intégrés aux chaises.
 
 ### La progression
 
 <!--  sur le temps et la progression -->
 
-L'expérience en temps réel dure approximativement 5 à 10 minutes, en ressenti ça sera environ 2-5 min. La progression sera comme suit:
+L'expérience en temps réel dure approximativement 5 à 10 minutes, en ressenti environ 2-5 min. La progression sera comme suit:
 
-- Les joueurs doivent se coordonner pour faire décoller la fusée sans problèmes
-- Les joueurs doivent quitter l'orbite
+- Les joueurs doivent se coordonner pour faire décoller la fusée sans s'écraser
+- Les joueurs doivent quitter l'orbite de la planète Terre et esquiver les obstacles terrestres
 - Les joueurs doivent naviguer dans l'espace et éviter les débris spaciaux
 - Les joueurs doivent se coordonner pour faire atterir la fusée
 
@@ -67,9 +66,10 @@ Un collectif désigne l'ensemble de personnes ou d'entités qui s'unissent de ma
  Ce groupe, souvent considéré comme une entité à vocation communautaire, fonctionne sous le pilotage de ses membres et repose sur une volonté partagée de développer des solidarités.
 -->
 
-Dans Mission décollage, les joueurs sont des astronautes qui font la première mission sur Mars. Leur but est d'atterir sur la dite planète sein et sauf afin de marquer l'histoire et potentiellement découvrir la vie sur Mars.
+Dans Mission décollage, les joueurs sont des astronautes qui effectuent la première mission sur Mars. Leur but est d'atterir sur la dite planète sein et sauf afin de marquer l'histoire et potentiellement découvrir la vie sur Mars.
 Les joueurs font partie de la mission O.I.G.N.O.N "Opération Internationale en Géosciences, Navigation et Observation du Nouveau-monde" qui a comme objectif d'explorer les confins spatiaux et ses mystères. Tout les joueurs sont à
-bord la fusée, qui s'apprête à décoller en direction de Mars. Ensemble, ils devront coopérer efficacement pour réussir leur aventure héroique !
+bord la fusée, qui s'apprête à décoller en direction de Mars. Ensemble, ils devront coopérer efficacement pour réussir leur aventure héroique ! Mais attention, ce ne sera pas
+sans dangers, les joueurs devront faire des décisions déchirantes afin de réussir leur objectif.
 
 ### L'aspect social
 

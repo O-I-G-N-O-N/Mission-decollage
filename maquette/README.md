@@ -71,6 +71,8 @@
 
 ![implantation](../medias/images/implantation.png)
 
+![implantation](../medias/images/planStudio.png)
+
 ---
 
 ## Liste
