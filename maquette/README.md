@@ -73,6 +73,17 @@
 
 ---
 
+## Liste
+
+- Ordinateur – x1  
+- Chaise avec accoudoir – x4  
+- Haut-parleur  
+- Epson PowerLite 1980OWU Projector – x1  
+- [PBHUB] I/O Hub 1 to 6 Expansion Unit (MEGA328) – x1  
+- Contrôleur Arduino M5Stack ATOM Lite ESP32 – x4  
+- Encodeur – x4  
+
+
 ## Budget
 
 Voici ton tableau corrigé sans les liens :
@@ -80,7 +91,7 @@ Voici ton tableau corrigé sans les liens :
 | Composant | Prix réel (unité) | Prix réel total (CAD) | Prix attendu | Prix attendu réel (CAD) |
 |-----------|-------------------|-----------------------|--------------|-------------------------|
 | Ordinateur - x1 | 500 CAD | **500 CAD** | 0 CAD (emprunt école) | **0 CAD** |
-| Chaise avec accoudoir - x1 | 20–60 CAD | **20–60 CAD** | 20–60 CAD | **20–60 CAD** |
+| Chaise avec accoudoir - x4 | 20–60 CAD | **60-240 CAD** | 60-240 CAD | **60-240 CAD** |
 | Haut parleur |  | | 0 CAD (emprunt école) | **0 CAD** |
 | Epson PowerLite 1980OWU Projector - x1 | 1,844 USD ≈ 2,580.74 CAD | **2,580.74 CAD** | 0 CAD (emprunt école) | **0 CAD** |
 | [PBHUB] I/O Hub 1 to 6 Expansion Unit (MEGA328) - x1 | 9.95 USD ≈ 13.6 CAD | **13.6 CAD** | 0 CAD (emprunt école) | **0 CAD** |
