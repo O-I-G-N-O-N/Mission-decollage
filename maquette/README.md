@@ -82,7 +82,7 @@ Voici ton tableau corrigé sans les liens :
 | Ordinateur - x1 | 500 CAD | **500 CAD** | 0 CAD (emprunt école) | **0 CAD** |
 | Chaise avec accoudoir - x1 | 20–60 CAD | **20–60 CAD** | 20–60 CAD | **20–60 CAD** |
 | Haut parleur |  | | 0 CAD (emprunt école) | **0 CAD** |
-| Epson PowerLite 535W Projector - x1 | 929 USD ≈ 1272 CAD | **1272 CAD** | 0 CAD (emprunt école) | **0 CAD** |
+| Epson PowerLite 1980OWU Projector - x1 | 1,844 USD ≈ 2,580.74 CAD | **2,580.74 CAD** | 0 CAD (emprunt école) | **0 CAD** |
 | [PBHUB] I/O Hub 1 to 6 Expansion Unit (MEGA328) - x1 | 9.95 USD ≈ 13.6 CAD | **13.6 CAD** | 0 CAD (emprunt école) | **0 CAD** |
 | Contrôleur Arduino M5Stack ATOM Lite ESP32 - x4 | 7.50 USD ≈ 10.3 CAD unité | **41.2 CAD** | 0 CAD (emprunt école) | **0 CAD** |
-| Angle - x4 | 3.85 USD ≈ 5.3 CAD unité | **21.2 CAD** | 0 CAD (emprunt école) | **0 CAD** |
+| Encodeur - x4 | $7.95 USD ≈ 10 CAD unité | **40 CAD** | 0 CAD (emprunt école) | **0 CAD** |
