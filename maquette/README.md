@@ -127,7 +127,7 @@
 | Composant | Prix réel (unité) | Prix réel total | Prix attendu | Liens |
 |-----------|-------------------|-----------------|--------------|-------|
 | Ordinateur – x1 | 500 CAD | **500 CAD** | 0 CAD (emprunt école) | |
-| Chaise avec accoudoir – x1 | 20–60 CAD | **20–60 CAD** | 20–60 CAD | |
+| Chaise avec accoudoir – x1 | 20–60 CAD | **20–60 CAD** | 80–240 CAD | |
 | Casque HD 280 Pro – x4 | — | — | 0 CAD (emprunt école) | |
 | Carte de son Behringer – x1 | 109 CAD | **109 CAD** | 0 CAD (emprunt école) | [Lien](https://www.long-mcquade.com/193012/Pro-Audio-Recording/Audio-Interfaces-DAW-Controllers/Behringer/U-Phoria-UMC202HD-2X2-USB-Audio-Interface.htm) |
 | Epson PowerLite 1980WU Projector – x1 | 1,844 USD ≈ 2,580.74 CAD | **2,580.74 CAD** | 0 CAD (emprunt école) | [Lien](https://epson.ca/For-Work/Projectors/Meeting-Room/PowerLite-1980WU-WUXGA-3LCD-Projector/p/V11H620020) |
