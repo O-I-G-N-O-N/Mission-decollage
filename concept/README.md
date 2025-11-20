@@ -5,12 +5,7 @@
 <!-- Inclure la vidéo du PowerPoint intial -->
 
 <!-- Méthode 1 -->
-<iframe width="560" height="315"
-  src="https://www.youtube.com/watch?v=zihf_Y3LZUM"
-  title="YouTube video"
-  frameborder="0"
-  allowfullscreen>
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zihf_Y3LZUM?si=Jb-KXUsQ10JkwI6d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!-- Méthode 2, plug legit -->
 <!--
