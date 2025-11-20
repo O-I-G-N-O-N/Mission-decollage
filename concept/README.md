@@ -106,33 +106,35 @@ Choix de couleurs qui influenceront l’éclairage, les médias projetés, ou l�
 
 Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la tonalité souhaitée pour l'installation.
 
-Vidéo : [Dust (court-métrage)](https://www.youtube.com/watch?v=t8LD0iUYv80)  
- <br><img src="../medias/images/dust.jpg" style="width: 400px">  
- <br>Court-métrage qui fait référence à une exploration spatiale futuriste.
+- Vidéo : [Dust (court-métrage)](https://www.youtube.com/watch?v=t8LD0iUYv80)  
+  ![Dust](../medias/images/dust.jpg)  
+  Court-métrage qui fait référence à une exploration spatiale futuriste.
 
 ---
 
-Vidéo : [ATLAS (animation)](https://www.youtube.com/watch?v=-h34GHq_m7I&t=93s)  
- <br><img src="../medias/images/atlas.jpg" style="width: 400px">  
- <br>Court-métrage qui représente différents aspects de l’environnement spatial et de son ambiance.
+- Vidéo : [ATLAS (animation)](https://www.youtube.com/watch?v=-h34GHq_m7I&t=93s)  
+  ![ATLAS](../medias/images/atlas.jpg)  
+  Court-métrage qui représente différents aspects de l’environnement spatial et de son ambiance.
 
 ---
 
-Musique de jeu : [Mass Effect Theme](https://www.youtube.com/watch?v=TGReRiUSJ4Q&list=PL-qJR84og1cDsmpSYFR4NVLjU799STtBx&index=1)  
- <br><img src="../medias/images/masseffect.png" style="width: 400px">  
- <br>Pour l’ambiance de science-fiction et de mystère liée à l’espace et à sa grandeur.
+- Musique de jeu : [Mass Effect Theme](https://www.youtube.com/watch?v=TGReRiUSJ4Q&list=PL-qJR84og1cDsmpSYFR4NVLjU799STtBx&index=1)  
+  ![Mass Effect Theme](../medias/images/masseffect.png)  
+  Pour l’ambiance de science-fiction et de mystère liée à l’espace et à sa grandeur.
 
 ---
 
-Musique : [2001: A Space Odyssey – Theme Song](https://www.youtube.com/watch?v=QwxYiVXYyVs&list=RDQwxYiVXYyVs&start_radio=1)  
- <br><img src="../medias/images/spaceodissey.jpg" style="width: 400px">  
- <br>Apporte une tonalité solennelle et grandiose à l’exploration spatiale.
+- Musique : [2001: A Space Odyssey – Theme Song](https://www.youtube.com/watch?v=QwxYiVXYyVs&list=RDQwxYiVXYyVs&start_radio=1)  
+  ![2001: A Space Odyssey](../medias/images/spaceodissey.jpg)  
+  Apporte une tonalité solennelle et grandiose à l’exploration spatiale.
 
 ---
 
-Musique : [Interstellar Official Soundtrack – Cornfield Chase (Hans Zimmer)](https://www.youtube.com/watch?v=JuSsvM8B4Jc&list=RDJuSsvM8B4Jc&start_radio=1)  
- <br><img src="../medias/images/interstellar.jpg" style="width: 300px">  
- <br>Musique inspirante et émotive qui pourrait bien représenter l’accomplissement de l’exploration spatiale.
+- Musique : [Interstellar Official Soundtrack – Cornfield Chase (Hans Zimmer)](https://www.youtube.com/watch?v=JuSsvM8B4Jc&list=RDJuSsvM8B4Jc&start_radio=1)  
+  ![Interstellar – Cornfield Chase](../medias/images/interstellar.jpg)  
+  Musique inspirante et émotive qui pourrait bien représenter l’accomplissement de l’exploration spatiale.
+
+Si les images sont dans docs/medias/images/, le chemin ../medias/images/... est bon pour une page
 
 ---
 
