@@ -62,6 +62,14 @@
 
 ![implantation](../medias/images/planStudio.png)
 
+![implantation](../medias/images/rendu_1.jpg)
+
+
+![implantation](../medias/images/rendu_2.jpg)
+
+
+![implantation](../medias/images/rendu_3.jpg)
+
 ---
 
 ## Liste
