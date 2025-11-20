@@ -106,9 +106,12 @@ Choix de couleurs qui influenceront l’éclairage, les médias projetés, ou l�
 
 Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la tonalité souhaitée pour l'installation.
 
-- film :
-- Musique : [Interstellar Official Soundtrack – Cornfield Chase (Hans Zimmer)](https://www.youtube.com/watch?v=JuSsvM8B4Jc&list=RDJuSsvM8B4Jc&start_radio=1)
+- video: [ Atlas (animation) ](https://www.youtube.com/watch?v=-h34GHq_m7I&t=93s)
+  <br>Court métrage qui représente les aspects de l'environnement spatiale.
+- Musique de jeu: [ Mass Effect Theme ](https://www.youtube.com/watch?v=TGReRiUSJ4Q&list=PL-qJR84og1cDsmpSYFR4NVLjU799STtBx&index=1)
+  <br>Pour l'ambience de science-fiction et de mystère concernant l'espace et sa grandeur.
 - Musique : [2001: A Space Odyssey – Theme Song](https://www.youtube.com/watch?v=QwxYiVXYyVs&list=RDQwxYiVXYyVs&start_radio=1)
+  <br>Ça apporte une tonalité de grandeur par rapport à l'aspect de l'exploration spatiale.
 
 ---
 
