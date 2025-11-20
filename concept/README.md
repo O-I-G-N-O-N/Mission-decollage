@@ -106,9 +106,7 @@ Choix de couleurs qui influenceront l’éclairage, les médias projetés, ou l�
 
 Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la tonalité souhaitée pour l'installation.
 
-- Jeu : [Space Team](https://www.youtube.com/watch?v=y3fsvKnIVJg)
-- Jeu : [Keep Talking Until You Explode](https://www.youtube.com/watch?v=1-MM1UTtjyU)
-- Jeu : [Sea of Thieves](https://www.youtube.com/watch?v=r5JIBaasuE8)
+- film :
 - Musique : [Interstellar Official Soundtrack – Cornfield Chase (Hans Zimmer)](https://www.youtube.com/watch?v=JuSsvM8B4Jc&list=RDJuSsvM8B4Jc&start_radio=1)
 - Musique : [2001: A Space Odyssey – Theme Song](https://www.youtube.com/watch?v=QwxYiVXYyVs&list=RDQwxYiVXYyVs&start_radio=1)
 
@@ -230,8 +228,17 @@ Inspirations relatives à la scénarisation de la lumière et du son, qui seront
 
 <!-- Inclure des liens et une ligne sur pourquoi -->
 
-https://www.seaofthieves.com/ = Un jeu intéractif où les joueurs coopèrent afin de diriger un bateau pirate à travers les mers.
-https://keeptalkinggame.com/ = Un jeu où la communication est la clé. Les joueurs communiquent afin de désamorcer une bombe avant son explosion.
+- [Keep Talking and Nobody Explodes](https://keeptalkinggame.com/)  
+  <br>![](../medias/images/keeptalking.jpg)  
+  Un jeu où la communication est la clé. Les joueurs communiquent afin de désamorcer une bombe avant son explosion.
+
+- [Sea of Thieves](https://www.seaofthieves.com/)
+  <br>![](../medias/images/seaofthieves.jpg)  
+  Un jeu intéractif où les joueurs coopèrent afin de diriger un bateau pirate à travers les mers.
+
+  - [Space Team](https://spaceteam.ca/)
+    <br>![](../medias/images/spaceteam.jpg)
+    Le jeu oblige les joueurs à se coordonner afin de survivre et de passer au niveau suivant.
 
 ### Scénarimage
 
