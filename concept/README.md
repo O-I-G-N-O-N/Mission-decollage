@@ -134,8 +134,6 @@ Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la 
   ![Interstellar – Cornfield Chase](../medias/images/interstellar.jpg)  
   Musique inspirante et émotive qui pourrait bien représenter l’accomplissement de l’exploration spatiale.
 
-Si les images sont dans docs/medias/images/, le chemin ../medias/images/... est bon pour une page
-
 ---
 
 ### Textures et matériaux
