@@ -83,11 +83,13 @@
 - **Contrôleur Arduino M5Stack ATOM Lite ESP32** – x1  
   Utilité : Recevoir et transmettre la base du code aux autres logiciels (PureData, Unity)
 
-- **[PBHUB] I/O Hub 1 to 6 Expansion Unit (MEGA328)** – x1  
+- **[PBHUB] I/O Hub 1 to 6 Expansion Unit (MEGA328)** – x4  
   Utilité : Étendre le nombre de composants à utiliser
+  Justification du nombre : Un par station pour avoir une proximité avec les autres composants et nous laisser une marge pour les composants futurs
 
-- **Grove hub** – x2  
+- **Grove hub** – x4  
   Utilité : Étendre le nombre de composants à utiliser
+  Justification du nombre : Un par station pour avoir une proximité avec l'encodeur
 
 - **Encodeur** – x4  
   Utilité : Reçoit les rotations du joueur et les transmet au contrôleur
@@ -111,4 +113,4 @@
 | Contrôleur Arduino M5Stack ATOM Lite ESP32 – x1 | 30 USD ≈ 41 CAD | **41 CAD** | 0 CAD (emprunt école) | [Lien](https://shop.m5stack.com/products/atom-lite-esp32-development-kit) |
 | M5Stack I/O Hub 1 to 6 Expansion Unit (STM32F0) U040-B – x4 | 7.95 USD ≈ 10 CAD | **40 CAD** | 0 CAD (emprunt école) | [Lien](https://docs.m5stack.com/en/unit/pbhub_1.1) |
 | Encodeur – x4 | 7.95 USD ≈ 10 CAD | **40 CAD** | 0 CAD (emprunt école) | [Lien](https://shop.m5stack.com/products/encoder-unit) |
-| M5Stack GROVE – x2 | 5$ CAD | **10 CAD** | 0 CAD (emprunt école) | [Lien](https://ca.robotshop.com/products/m5stack-grove-port-1-to-3-hub-unit) |
+| M5Stack GROVE – x4 | 5$ CAD | **20 CAD** | 0 CAD (emprunt école) | [Lien](https://ca.robotshop.com/products/m5stack-grove-port-1-to-3-hub-unit) |
