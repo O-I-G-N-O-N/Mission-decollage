@@ -87,9 +87,9 @@ la fusée sont répartis entre moins d'intéracteurs, ce qui intensifie l'expér
 Les intéracteurs devront inévitablement communiquer entre eux afin de parvenir à faire décoller/Naviguer/atterir la fusée, forcant les joueurs à intéragir entre eux de façon orale et "physique" à
 l'intérieur du jeu, où chacune des intéractions qu'ils effectueront auront un impact énorme sur le résultat final et les prochaines intéractions.
 
-# Inspirations
+## Inspirations
 
-## Inspirations visuelles et sonores
+### Inspirations visuelles et sonores
 
 <!-- Inclure le moodboard avec référenes pour chacune des sources-->
 
@@ -238,7 +238,7 @@ Inspirations relatives à la scénarisation de la lumière et du son, qui seront
 https://www.seaofthieves.com/ = Un jeu intéractif où les joueurs coopèrent afin de diriger un bateau pirate à travers les mers.
 https://keeptalkinggame.com/ = Un jeu où la communication est la clé. Les joueurs communiquent afin de désamorcer une bombe avant son explosion.
 
-## Scénarimage
+### Scénarimage
 
 ![](../medias/images/maquette_mission_decollage_scene_01.png)
 
