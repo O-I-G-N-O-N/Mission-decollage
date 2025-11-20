@@ -6,7 +6,7 @@
 
 <!-- Méthode 1 -->
 <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/ABWCq8j8qys"
+  src="https://www.youtube.com/watch?v=zihf_Y3LZUM"
   title="YouTube video"
   frameborder="0"
   allowfullscreen>
