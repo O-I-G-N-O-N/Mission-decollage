@@ -39,10 +39,31 @@
 
 ## Logiciels
 
-- Unity
-- Pure Data
-- VS code
-- Maya/Blender
+- **Unity**  
+  Création du projet, des menus et du jeu  
+  Gestion des scènes  
+  Réception et traitement de l’OSC avec l’extension *extOSC* disponible sur l’Asset Store
+
+- **Pure Data**  
+  Utilisation de *pdchoco* & *comport*  
+  Gestion de l’OSC et traitement et transfert des données reçus du contrôleur arduino sur Unity
+
+- **Visual Studio Code & PlatformIO**  
+  Développement et programmation sur le contrôleur arduino
+
+- **Maya / Blender**  
+  Création des assets 3D et de leurs animations nécessaires au jeu
+
+- **Photoshop & Illustrator**  
+  Création des assets 2D  
+  Design des interfaces et éléments graphiques
+
+- **Reaper**  
+ Conception sonore & modification des sons de notre banque de son
+
+- **Langages de programmation**  
+  **C#** (Unity)  
+  **C++** (Arduino)
 
 ---
 
