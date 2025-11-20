@@ -107,11 +107,24 @@ Choix de couleurs qui influenceront l’éclairage, les médias projetés, ou l�
 Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la tonalité souhaitée pour l'installation.
 
 - video: [ Atlas (animation) ](https://www.youtube.com/watch?v=-h34GHq_m7I&t=93s)
-  <br>Court métrage qui représente les aspects de l'environnement spatiale.
+  <img src="../medias/images/atlas.jpg" style="width: 400px">
+  <<br>Court-métrage qui représente différents aspects de l’environnement spatial et de son ambiance.
+
+- video: [ Dust (court-métrage) ](https://www.youtube.com/watch?v=t8LD0iUYv80)
+  <img src="../medias/images/dust.jpg" style="width: 400px">
+  <br>Court-métrage qui fait référence à une exploration spatiale futuriste.
+
 - Musique de jeu: [ Mass Effect Theme ](https://www.youtube.com/watch?v=TGReRiUSJ4Q&list=PL-qJR84og1cDsmpSYFR4NVLjU799STtBx&index=1)
-  <br>Pour l'ambience de science-fiction et de mystère concernant l'espace et sa grandeur.
+  <img src="../medias/images/masseffect.png" style="width: 400px">
+  <br>Pour l’ambiance de science-fiction et de mystère liée à l’espace et à sa grandeur.
+
 - Musique : [2001: A Space Odyssey – Theme Song](https://www.youtube.com/watch?v=QwxYiVXYyVs&list=RDQwxYiVXYyVs&start_radio=1)
-  <br>Ça apporte une tonalité de grandeur par rapport à l'aspect de l'exploration spatiale.
+  <img src="../medias/images/spaceodissey.jpg" style="width: 400px">
+  <br>Apporte une tonalité solennelle et grandiose à l’exploration spatiale.
+
+- Musique : [Interstellar Official Soundtrack – Cornfield Chase (Hans Zimmer)](https://www.youtube.com/watch?v=JuSsvM8B4Jc&list=RDJuSsvM8B4Jc&start_radio=1)  
+  <img src="../medias/images/interstellar.jpg" style="width: 400px">
+  <br>Musique inspirante et émotive qui pourrait bien représenter l'acccomplisement de l'exploration spatiale.
 
 ---
 
