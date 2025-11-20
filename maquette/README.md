@@ -68,24 +68,47 @@
 
 ## Liste
 
-- Ordinateur – x1
-- Chaise avec accoudoir – x4
-- Casques audio x4
-- Epson PowerLite 1980OWU Projector – x1
-- Contrôleur Arduino M5Stack ATOM Lite ESP32 – x4
-- [PBHUB] I/O Hub 1 to 6 Expansion Unit (MEGA328) – x1
-- Encodeur – x4
-- Carte son behringer - x1
+- **Ordinateur** – x1  
+  Utilité : Lancer le jeu, uploader le code sur les arduinos, lancer PureData
+
+- **Chaise avec accoudoir** – x4  
+  Utilité : Permettre aux joueurs de s'installer, les contrôleurs Arduinos seront installés sur les accoudoirs
+
+- **Casques audio** – x4  
+  Utilité : Permettre aux joueurs d'entendre les musiques et sons du jeu
+
+- **Epson PowerLite 1980OWU Projector** – x1  
+  Utilité : Projeter au mur le jeu
+
+- **Contrôleur Arduino M5Stack ATOM Lite ESP32** – x1  
+  Utilité : Recevoir et transmettre la base du code aux autres logiciels (PureData, Unity)
+
+- **[PBHUB] I/O Hub 1 to 6 Expansion Unit (MEGA328)** – x1  
+  Utilité : Étendre le nombre de composants à utiliser
+
+- **Grove hub** – x2  
+  Utilité : Étendre le nombre de composants à utiliser
+
+- **Encodeur** – x4  
+  Utilité : Reçoit les rotations du joueur et les transmet au contrôleur
+
+- **Key Unit** – x4  
+  Utilité : Reçoit les pressions du joueur et les transmet au contrôleur
+
+- **Carte son Behringer** – x1  
+  Utilité : Recevoir l'audio du jeu et le transmettre à 4 casques simultanément
+
 
 ## Budget
 
-| Composant                                                   | Prix réel (unité)        | Prix réel total  | Prix attendu          | Liens                                                                                                                                                    |
-| ----------------------------------------------------------- | ------------------------ | ---------------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ordinateur - x1                                             | 500 CAD                  | **500 CAD**      | 0 CAD (emprunt école) |                                                                                                                                                          |
-| Chaise avec accoudoir - x1                                  | 20–60 CAD                | **20–60 CAD**    | 20–60 CAD             |                                                                                                                                                          |
-| Casque HD 280 Pro - x4                                      | —                        | —                | 0 CAD (emprunt école) |                                                                                                                                                          |
-| Carte de son Behringer - x1                                 | 109 CAD                  | **109 CAD**      | 0 CAD (emprunt école) | [Lien](https://www.long-mcquade.com/193012/Pro-Audio-Recording/Audio-Interfaces-DAW-Controllers/Behringer/U-Phoria-UMC202HD-2X2-USB-Audio-Interface.htm) |
-| Epson PowerLite 1980WU Projector - x1                       | 1,844 USD ≈ 2,580.74 CAD | **2,580.74 CAD** | 0 CAD (emprunt école) | [Lien](https://epson.ca/For-Work/Projectors/Meeting-Room/PowerLite-1980WU-WUXGA-3LCD-Projector/p/V11H620020)                                             |
-| Contrôleur Arduino M5Stack ATOM Lite ESP32 - x4             | 30 USD ≈ 41 CAD unité    | **164 CAD**      | 0 CAD (emprunt école) | [Lien](https://shop.m5stack.com/products/atom-lite-esp32-development-kit)                                                                                |
-| M5Stack I/O Hub 1 to 6 Expansion Unit (STM32F0) U040-B - x4 | 7.95 USD ≈ 10$ CAD       | **40 CAD**       | 0 CAD (emprunt école) | [Lien](https://docs.m5stack.com/en/unit/pbhub_1.1)                                                                                                       |
-| Encodeur - x4                                               | 7.95 USD ≈ 10 CAD unité  | **40 CAD**       | 0 CAD (emprunt école) | [Lien](https://shop.m5stack.com/products/encoder-unit)                                                                                                   |
+| Composant | Prix réel (unité) | Prix réel total | Prix attendu | Liens |
+|-----------|-------------------|-----------------|--------------|-------|
+| Ordinateur – x1 | 500 CAD | **500 CAD** | 0 CAD (emprunt école) | |
+| Chaise avec accoudoir – x1 | 20–60 CAD | **20–60 CAD** | 20–60 CAD | |
+| Casque HD 280 Pro – x4 | — | — | 0 CAD (emprunt école) | |
+| Carte de son Behringer – x1 | 109 CAD | **109 CAD** | 0 CAD (emprunt école) | [Lien](https://www.long-mcquade.com/193012/Pro-Audio-Recording/Audio-Interfaces-DAW-Controllers/Behringer/U-Phoria-UMC202HD-2X2-USB-Audio-Interface.htm) |
+| Epson PowerLite 1980WU Projector – x1 | 1,844 USD ≈ 2,580.74 CAD | **2,580.74 CAD** | 0 CAD (emprunt école) | [Lien](https://epson.ca/For-Work/Projectors/Meeting-Room/PowerLite-1980WU-WUXGA-3LCD-Projector/p/V11H620020) |
+| Contrôleur Arduino M5Stack ATOM Lite ESP32 – x1 | 30 USD ≈ 41 CAD | **41 CAD** | 0 CAD (emprunt école) | [Lien](https://shop.m5stack.com/products/atom-lite-esp32-development-kit) |
+| M5Stack I/O Hub 1 to 6 Expansion Unit (STM32F0) U040-B – x4 | 7.95 USD ≈ 10 CAD | **40 CAD** | 0 CAD (emprunt école) | [Lien](https://docs.m5stack.com/en/unit/pbhub_1.1) |
+| Encodeur – x4 | 7.95 USD ≈ 10 CAD | **40 CAD** | 0 CAD (emprunt école) | [Lien](https://shop.m5stack.com/products/encoder-unit) |
+| M5Stack GROVE – x2 | 5$ CAD | **10 CAD** | 0 CAD (emprunt école) | [Lien](https://ca.robotshop.com/products/m5stack-grove-port-1-to-3-hub-unit) |
