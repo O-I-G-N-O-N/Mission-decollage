@@ -7,7 +7,8 @@
 | Verbe action  | Condition de déclenchement                                                                 | Effet visuel                                      | Effet sonore             | Effet interactif                          |
 | ------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------- | ------------------------ | ----------------------------------------- |
 | **Installer** | Les interacteurs s’installent sur les chaises et mettent les écouteurs                     | La scène sélection de menu est affichée (pas sûr) | Musique de la scène menu | Aucun ou immersion dans l’ambiance        |
-| **Appuyer**   | Les interacteurs appuient sur un bouton pour commencer le jeu et recevoir les instructions | Transition de scène                               | Son de confirmation      | Passage vers la scène instructions ou jeu |
+| **Discuter** | Les interacteurs communiquent sur ce qu'ils percoivent, ce qu'ils vont faire, sur quoi appuyer                     | La scène sélection de menu est affichée | Musique de la scène menu | Création d'une stratégie d'équipe ou une entente à l'égard du jeu        |
+| **Appuyer**   | Les interacteurs appuient sur le bouton pour commencer le jeu et recevoir les instructions | Transition de scène                               | Son de confirmation      | Passage vers la scène instructions ou jeu |
 
 ---
 
@@ -17,6 +18,8 @@
 | ------------ | ------------------------------ | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | **Observer** | Les joueurs ont démarré le jeu | Un tutoriel est affiché à l’écran, indiquant les étapes pour utiliser la fusée | Sons d’environnement terrestres, voix de tutoriel, petite musique d’ambiance                    | Les joueurs sont invités à tester leur pouvoir sur la fusée |
 | **Écouter**  | Les joueurs ont démarré le jeu | Un tutoriel est affiché à l’écran indiquant les étapes à suivre                | Sons du tutoriel pour reconnaître les différentes alertes, sons d’environnement, petite musique | Les joueurs doivent écouter et distinguer les sons d’alerte |
+| **Appuyer** | Les joueurs essaient les boutons afin de voir leur fonctionnement    | Vue 3ᵉ personne de la fusée | bruits terrestres et de réacteurs si interactions avec les boutons/sliders | Permet aux intéracteur de se familiariser avec les commandes  |
+| **Glisser** | Les joueurs essaient les sliders afin de voir leur fonctionnement    | Vue 3ᵉ personne de la fusée | bruits terrestres et de réacteurs si interactions avec les boutons/sliders | Permet aux intéracteur de se familiariser avec les réacteurs  |
 
 ---
 
@@ -24,8 +27,9 @@
 
 | Verbe action  | Condition de déclenchement | Effet visuel                | Effet sonore                                                         | Effet interactif                                                     |
 | ------------- | -------------------------- | --------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| **Manipuler** | Les joueurs ont décollé    | Vue 3ᵉ personne de la fusée | Réacteurs, fusée, débris terrestres, communications tour de contrôle | Manipuler bouton et angle pour diriger la fusée vers sa destination  |
+| **Glisser** | Les joueurs ont décollé    | Vue 3ᵉ personne de la fusée | Réacteurs, fusée, débris terrestres, communications tour de contrôle | Manipuler le slider pour contrôler la puissance des réacteurs de la fusée afin de la mener vers sa destination  |
 | **Écouter**   | Les joueurs ont décollé    | Vue 3ᵉ personne de la fusée | Réacteurs, fusée, débris terrestres, communications tour de contrôle | Écouter les alertes pour détecter un éventuel problème avec la fusée |
+| **appuyer** | Les joueurs ont décollé    | Vue 3ᵉ personne de la fusée | Réacteurs, fusée, débris terrestres, communications tour de contrôle | appuyer sur les boutons au bon moment afin de garder une bonne communication avec la tour de contrôle  |
 
 ---
 
