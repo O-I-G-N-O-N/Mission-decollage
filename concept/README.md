@@ -82,6 +82,8 @@ la fusée sont répartis entre moins d'intéracteurs, ce qui intensifie l'expér
 Les intéracteurs devront inévitablement communiquer entre eux afin de parvenir à faire décoller/Naviguer/atterir la fusée, forcant les joueurs à intéragir entre eux de façon orale et "physique" à
 l'intérieur du jeu, où chacune des intéractions qu'ils effectueront auront un impact énorme sur le résultat final et les prochaines intéractions.
 
+Le jeu est jouable par un maximum de 4 joueurs, les joeurs se pl
+
 ### L'espace virtuel
 
 Le jeu commence dans un monde en trois dimension de la planète terre, la vue est en troisième personne (top down) sur une fusée, qui s'apprête à décoller. Tout au long de l'aventure, la vue restera la même, les joueurs feront décoller la fusée jusque dans l'espace, puis se rendront jusqu'à l'atmosphère de Mars, avant de la faire atterir sur la dite planète.
@@ -110,15 +112,15 @@ Choix de couleurs qui influenceront l’éclairage, les médias projetés, ou l�
 
 Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la tonalité souhaitée pour l'installation.
 
-- Vidéo : [Dust (court-métrage)](https://www.youtube.com/watch?v=t8LD0iUYv80)  
-  ![Dust](../medias/images/dust.jpg)  
-  Court-métrage sur l'exploration spatiale que nous utilisons comme référence pour le design futuriste du vaisseau.
+- Jeu : [Galaga Legions](https://www.youtube.com/watch?v=g1nYvdUFbdA&t=284s)  
+  ![Galaga Legions](../medias/images/galaga-legions.jpg)  
+  Jeu topdown en 3d qui nous inspire pour l'aesthetique visuelle du vaiseau.
 
 ---
 
-- Vidéo : [ATLAS (animation)](https://www.youtube.com/watch?v=-h34GHq_m7I&t=93s)  
-  ![ATLAS](../medias/images/atlas.jpg)  
-  Court-métrage qui nous inspire pour l'aspect esthétique de l'environnement du jeu.
+- Jeu : [ΔV: Rings of Saturn](https://www.youtube.com/watch?v=qoykm2x2WDk)  
+  ![Delta-V](../medias/images/delta-v.jpg)  
+  Jeu topdown en 3d qui nous inspire pour l'aesthetique visuelle de l'environnement .
 
 ---
 
