@@ -110,15 +110,15 @@ Choix de couleurs qui influenceront l’éclairage, les médias projetés, ou l�
 
 Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la tonalité souhaitée pour l'installation.
 
-- Vidéo : [Dust (court-métrage)](https://www.youtube.com/watch?v=t8LD0iUYv80)  
-  ![Dust](../medias/images/dust.jpg)  
-  Court-métrage sur l'exploration spatiale que nous utilisons comme référence pour le design futuriste du vaisseau.
+- Jeu : [Galaga Legions](https://www.youtube.com/watch?v=g1nYvdUFbdA&t=284s)  
+  ![Galaga Legions](../medias/images/galaga-legions.jpg)  
+  Jeu topdown en 3d qui nous inspire pour l'aesthetique visuelle du vaiseau.
 
 ---
 
-- Vidéo : [ATLAS (animation)](https://www.youtube.com/watch?v=-h34GHq_m7I&t=93s)  
-  ![ATLAS](../medias/images/atlas.jpg)  
-  Court-métrage qui nous inspire pour l'aspect esthétique de l'environnement du jeu.
+- Jeu : [ΔV: Rings of Saturn](https://www.youtube.com/watch?v=qoykm2x2WDk)  
+  ![Delta-V](../medias/images/delta-v.jpg)  
+  Jeu topdown en 3d qui nous inspire pour l'aesthetique visuelle de l'environnement .
 
 ---
 
