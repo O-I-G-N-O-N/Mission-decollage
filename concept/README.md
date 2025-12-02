@@ -61,10 +61,11 @@ Un collectif désigne l'ensemble de personnes ou d'entités qui s'unissent de ma
  Ce groupe, souvent considéré comme une entité à vocation communautaire, fonctionne sous le pilotage de ses membres et repose sur une volonté partagée de développer des solidarités.
 -->
 
-Dans Mission décollage, les joueurs sont des astronautes qui effectuent la première mission sur Mars. Leur but est d'atterir sur la dite planète sein et sauf afin de marquer l'histoire et potentiellement découvrir la vie sur Mars.
-Les joueurs font partie de la mission O.I.G.N.O.N "Opération Internationale en Géosciences, Navigation et Observation du Nouveau-monde" qui a comme objectif d'explorer les confins spatiaux et ses mystères. Tout les joueurs sont à
-bord la fusée, qui s'apprête à décoller en direction de Mars. Ensemble, ils devront coopérer efficacement pour réussir leur aventure héroique ! Mais attention, ce ne sera pas
-sans dangers, les joueurs devront faire des décisions déchirantes afin de réussir leur objectif.
+Dans Mission Décollage, les joueurs incarnent des astronautes chargés d’accomplir la toute première mission habitée vers Mars. Leur objectif est d’atterrir sur la planète sains et saufs, afin de marquer l’histoire et, peut-être, de découvrir des traces de vie.
+
+Ils font partie de la mission O.I.G.N.O.N — Opération Internationale en Géosciences, Navigation et Observation du Nouveau-Monde — dont la vocation est d’explorer les confins spatiaux et leurs mystères. Tous les joueurs se trouvent à bord de la fusée qui s’apprête à décoller en direction de Mars.
+
+Ensemble, ils devront planifier, coordonner leurs actions et prendre des décisions de manière efficace pour mener à bien cette aventure héroïque ! Mais attention : les dangers seront nombreux, et les joueurs devront parfois faire des choix difficiles pour atteindre leur objectif.
 
 ### L'aspect social
 
