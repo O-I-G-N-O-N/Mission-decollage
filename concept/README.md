@@ -102,7 +102,7 @@ Représentations visuelles de l'ambiance recherchée, que ce soit à travers des
 
 Choix de couleurs qui influenceront l’éclairage, les médias projetés, ou l’interface visuelle.
 
-![](../medias/images/palette_de_couleur.jpg)
+![](../medias/images/palette_de_couleur.png)
 
 ### Références multimédia
 
