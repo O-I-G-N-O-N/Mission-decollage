@@ -77,12 +77,7 @@ Le terme « social » désigne ce qui concerne la vie en société, c’est-à-d
  L’adjectif peut aussi qualifier des animaux ou des plantes vivant en communauté selon des règles strictes, comme les insectes sociaux (fourmis, abeilles) ou certaines espèces végétales formant des colonies denses.
 -->
 
-Le jeu est jouable par un maximum de 4 joueurs, ce qui en soit n'est pas beaucoup, cependant, le jeu est également possible à 1, 2 ou 3 joueurs. Lorsque le jeu est joué à moins de joueurs, les contrôles de
-la fusée sont répartis entre moins d'intéracteurs, ce qui intensifie l'expérience et la rend plus compliquée. Plus il y a de joueurs, plus il sera simple de faire naviguer la fusée.
-Les intéracteurs devront inévitablement communiquer entre eux afin de parvenir à faire décoller/Naviguer/atterir la fusée, forcant les joueurs à intéragir entre eux de façon orale et "physique" à
-l'intérieur du jeu, où chacune des intéractions qu'ils effectueront auront un impact énorme sur le résultat final et les prochaines intéractions.
-
-Le jeu est jouable par un maximum de 4 joueurs, les joeurs se pl
+Les joueurs seront assis autour d'une table, et chacun devra gérer les tâches qui lui sont attribuées en temps réel. Cette disposition favorise directement les interactions humaines : la communication devient essentielle pour réussir. Les joueurs devront échanger verbalement, s’encourager, signaler les erreurs et se répartir les tâches efficacement. Ainsi, la réussite du jeu dépend entièrement de leurs interactions sociales et de leur capacité à collaborer entre eux.
 
 ### L'espace virtuel
 
