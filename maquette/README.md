@@ -118,7 +118,7 @@
 - **Key Unit** – x4  
   Utilité : Reçoit les pressions du joueur et les transmet au contrôleur
 
-- **Carte son Behringer** – x1  
+- **Carte son Behringer UMC202HD** – x1  
   Utilité : Recevoir l'audio du jeu et le transmettre à 4 casques simultanément
 
 - **Cable Ethernet** – x3  
