@@ -124,17 +124,35 @@ Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la 
   ![Mass Effect Theme](../medias/images/masseffect.png)  
   Pour l’ambiance de science-fiction et de mystère liée à l’espace et à sa grandeur.
 
+<!--
+- Musique de jeu : [EVE Online - Theme Of The Universe](https://www.youtube.com/watch?v=OAUNRgCo7ps)
+  ![EVE Online - Theme Of The Universe](../medias/images/eve.png)
+  Cette musique nous inspire pour le thème qui jouera dans la scène de jeu. Elle crée une atmosphère de mystère et de grandeur, en lien avec l’exploration spatiale.
+  -->
+
 ---
 
 - Musique : [2001: A Space Odyssey – Theme Song](https://www.youtube.com/watch?v=QwxYiVXYyVs&list=RDQwxYiVXYyVs&start_radio=1)  
   ![2001: A Space Odyssey](../medias/images/spaceodissey.jpg)  
   Apporte une tonalité solennelle et grandiose à l’exploration spatiale.
 
+<!--
+- Musique de jeu : [Kerbal Space Program Theme](https://www.youtube.com/watch?v=-idB7XK2xI8)
+  ![Kerbal Theme](../medias/images/kerbal.jpg)
+  Cette musique nous inspire pour le thème et l’ambiance du menu principal. Elle donne une atmosphère ambitieuse et épique.
+  -->
+
 ---
 
 - Musique : [Interstellar Official Soundtrack – Cornfield Chase (Hans Zimmer)](https://www.youtube.com/watch?v=JuSsvM8B4Jc&list=RDJuSsvM8B4Jc&start_radio=1)  
   ![Interstellar – Cornfield Chase](../medias/images/interstellar.jpg)  
   Musique inspirante et émotive qui pourrait bien représenter l’accomplissement de l’exploration spatiale.
+
+<!--
+- Musique de jeu : [XCOM 2 OST - Mission Failure](https://www.youtube.com/watch?v=pPU_lbpLNuE)
+  ![XCOM 2 OST - Mission Failure](../medias/images/xcom2.jpg)
+  Cette musique nous inspire pour le thème de partie perdue : elle crée une ambiance déceptive et dramatique, qui reflète bien le fait que les joueurs n’ont pas réussi leur mission.
+  -->
 
 ---
 
