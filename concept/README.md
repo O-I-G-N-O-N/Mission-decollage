@@ -82,6 +82,10 @@ la fusée sont répartis entre moins d'intéracteurs, ce qui intensifie l'expér
 Les intéracteurs devront inévitablement communiquer entre eux afin de parvenir à faire décoller/Naviguer/atterir la fusée, forcant les joueurs à intéragir entre eux de façon orale et "physique" à
 l'intérieur du jeu, où chacune des intéractions qu'ils effectueront auront un impact énorme sur le résultat final et les prochaines intéractions.
 
+### L'espace virtuel
+
+Le jeu commence dans un monde en trois dimension de la planète terre, la vue est en troisième personne (top down) sur une fusée, qui s'apprête à décoller. Tout au long de l'aventure, la vue restera la même, les joueurs feront décoller la fusée jusque dans l'espace, puis se rendront jusqu'à l'atmosphère de Mars, avant de la faire atterir sur la dite planète.
+
 ## Inspirations
 
 ### Inspirations visuelles et sonores
