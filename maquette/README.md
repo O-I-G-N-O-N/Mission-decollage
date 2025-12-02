@@ -42,10 +42,10 @@
 - **Unity**  
   Création du projet, des menus et du jeu  
   Gestion des scènes  
-  Réception et traitement de l’OSC avec l’extension *extOSC* disponible sur l’Asset Store
+  Réception et traitement de l’OSC avec l’extension _extOSC_ disponible sur l’Asset Store
 
 - **Pure Data**  
-  Utilisation de *pdchoco* & *comport*  
+  Utilisation de _pdchoco_ & _comport_  
   Gestion de l’OSC et traitement et transfert des données reçus du contrôleur arduino sur Unity
 
 - **Visual Studio Code & PlatformIO**  
@@ -59,7 +59,7 @@
   Design des interfaces et éléments graphiques
 
 - **Reaper**  
- Conception sonore & modification des sons de notre banque de son
+  Conception sonore & modification des sons de notre banque de son
 
 - **Langages de programmation**  
   **C#** (Unity)  
@@ -121,17 +121,20 @@
 - **Carte son Behringer** – x1  
   Utilité : Recevoir l'audio du jeu et le transmettre à 4 casques simultanément
 
+- **Cable Ethernet** – x3  
+   Utilité : Deux câbles Ethernet sont utilisés pour connecter le projecteur et l’ordinateur à la salle Matrice, et un autre câble Ethernet relie le transmitter au receiver afin d’afficher le contenu du PC sur le projecteur.
 
 ## Budget
 
-| Composant | Prix réel (unité) | Prix réel total | Prix attendu | Liens |
-|-----------|-------------------|-----------------|--------------|-------|
-| Ordinateur – x1 | 500 CAD | **500 CAD** | 0 CAD (emprunt école) | |
-| Chaise avec accoudoir – x1 | 20–60 CAD | **20–60 CAD** | 80–240 CAD | |
-| Casque HD 280 Pro – x4 | — | — | 0 CAD (emprunt école) | |
-| Carte de son Behringer – x1 | 109 CAD | **109 CAD** | 0 CAD (emprunt école) | [Lien](https://www.long-mcquade.com/193012/Pro-Audio-Recording/Audio-Interfaces-DAW-Controllers/Behringer/U-Phoria-UMC202HD-2X2-USB-Audio-Interface.htm) |
-| Epson PowerLite 1980WU Projector – x1 | 1,844 USD ≈ 2,580.74 CAD | **2,580.74 CAD** | 0 CAD (emprunt école) | [Lien](https://epson.ca/For-Work/Projectors/Meeting-Room/PowerLite-1980WU-WUXGA-3LCD-Projector/p/V11H620020) |
-| Contrôleur Arduino M5Stack ATOM Lite ESP32 – x1 | 30 USD ≈ 41 CAD | **41 CAD** | 0 CAD (emprunt école) | [Lien](https://shop.m5stack.com/products/atom-lite-esp32-development-kit) |
-| M5Stack I/O Hub 1 to 6 Expansion Unit (STM32F0) U040-B – x4 | 7.95 USD ≈ 10 CAD | **40 CAD** | 0 CAD (emprunt école) | [Lien](https://docs.m5stack.com/en/unit/pbhub_1.1) |
-| Encodeur – x4 | 7.95 USD ≈ 10 CAD | **40 CAD** | 0 CAD (emprunt école) | [Lien](https://shop.m5stack.com/products/encoder-unit) |
-| M5Stack GROVE – x4 | 5$ CAD | **20 CAD** | 0 CAD (emprunt école) | [Lien](https://ca.robotshop.com/products/m5stack-grove-port-1-to-3-hub-unit) |
+| Composant                                                   | Prix réel (unité)        | Prix réel total  | Prix attendu          | Liens                                                                                                                                                    |
+| ----------------------------------------------------------- | ------------------------ | ---------------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ordinateur – x1                                             | 500 CAD                  | **500 CAD**      | 0 CAD (emprunt école) |                                                                                                                                                          |
+| Chaise avec accoudoir – x1                                  | 20–60 CAD                | **20–60 CAD**    | 80–240 CAD            |                                                                                                                                                          |
+| Casque HD 280 Pro – x4                                      | —                        | —                | 0 CAD (emprunt école) |                                                                                                                                                          |
+| Carte de son Behringer – x1                                 | 109 CAD                  | **109 CAD**      | 0 CAD (emprunt école) | [Lien](https://www.long-mcquade.com/193012/Pro-Audio-Recording/Audio-Interfaces-DAW-Controllers/Behringer/U-Phoria-UMC202HD-2X2-USB-Audio-Interface.htm) |
+| Epson PowerLite 1980WU Projector – x1                       | 1,844 USD ≈ 2,580.74 CAD | **2,580.74 CAD** | 0 CAD (emprunt école) | [Lien](https://epson.ca/For-Work/Projectors/Meeting-Room/PowerLite-1980WU-WUXGA-3LCD-Projector/p/V11H620020)                                             |
+| Contrôleur Arduino M5Stack ATOM Lite ESP32 – x1             | 30 USD ≈ 41 CAD          | **41 CAD**       | 0 CAD (emprunt école) | [Lien](https://shop.m5stack.com/products/atom-lite-esp32-development-kit)                                                                                |
+| M5Stack I/O Hub 1 to 6 Expansion Unit (STM32F0) U040-B – x4 | 7.95 USD ≈ 10 CAD        | **40 CAD**       | 0 CAD (emprunt école) | [Lien](https://docs.m5stack.com/en/unit/pbhub_1.1)                                                                                                       |
+| Encodeur – x4                                               | 7.95 USD ≈ 10 CAD        | **40 CAD**       | 0 CAD (emprunt école) | [Lien](https://shop.m5stack.com/products/encoder-unit)                                                                                                   |
+| M5Stack GROVE – x4                                          | 5$ CAD                   | **20 CAD**       | 0 CAD (emprunt école) | [Lien](https://ca.robotshop.com/products/m5stack-grove-port-1-to-3-hub-unit)                                                                             |
+| Cable Ethernet - x3                                         | 19.99$ CAD               | **68.97 CAD**    | 0 CAD (emprunt école) | [Lien](https://www.bestbuy.ca/en-ca/product/best-buy-essentials-7-63m-25ft-cat6-ethernet-cable-be-pec6st25-c/15101526?region_id=124418)                  |
