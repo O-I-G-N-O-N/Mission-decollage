@@ -45,7 +45,8 @@ Des effets sonores et de la musique accompagnent les joueurs tout au long de l�
 
 L'expérience en temps réel dure approximativement 5 à 10 minutes, en ressenti environ 2-5 min. La progression sera comme suit:
 
-- Les joueurs doivent se coordonner pour faire décoller la fusée sans s'écraser
+- Les joueurs ont 30 secondes pour comprendre leur rôle, le fonctionnement des contrôles et leur fonctionnement du jeu dans un tutoriel après avoir commencer le jeu
+- La partie du jeu commence et les joueurs doivent se coordonner pour faire décoller la fusée sans s'écraser
 - Les joueurs doivent quitter l'orbite de la planète Terre et esquiver les obstacles terrestres
 - Les joueurs doivent naviguer dans l'espace et éviter les débris spaciaux
 - Les joueurs doivent se coordonner pour faire atterir la fusée

@@ -17,9 +17,13 @@
 | Verbe action | Condition de déclenchement     | Effet visuel                                                                   | Effet sonore                                                                                    | Effet interactif                                            |
 | ------------ | ------------------------------ | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | **Observer** | Les joueurs ont démarré le jeu | Un tutoriel est affiché à l’écran, indiquant les étapes pour utiliser la fusée | Sons d’environnement terrestres, voix de tutoriel, petite musique d’ambiance                    | Les joueurs sont invités à tester leur pouvoir sur la fusée |
+| **Tester** | Les joueurs doivent suivre des étapes | Vue 3ᵉ personne de la fusée | Son du tutoriel pour capter l'attention des joueurs | Permet aux interacteurs de se familiariser avec les commandes, les règles du jeu et de distinguer le contrôle des différentes parties de la fusée 
+| **Distinguer** | Les joueurs doivent suivre des étapes | Vue 3ᵉ personne de la fusée | Son du tutoriel pour capter l'attention des joueurs | Permet à chaque intéracteur de distinguer leur contrôle des différentes parties de la fusée   
 | **Écouter**  | Les joueurs ont démarré le jeu | Un tutoriel est affiché à l’écran indiquant les étapes à suivre                | Sons du tutoriel pour reconnaître les différentes alertes, sons d’environnement, petite musique | Les joueurs doivent écouter et distinguer les sons d’alerte |
 | **Appuyer** | Les joueurs essaient les boutons afin de voir leur fonctionnement    | Vue 3ᵉ personne de la fusée | bruits terrestres et de réacteurs si interactions avec les boutons/sliders | Permet aux intéracteur de se familiariser avec les commandes  |
 | **Glisser** | Les joueurs essaient les sliders afin de voir leur fonctionnement    | Vue 3ᵉ personne de la fusée | bruits terrestres et de réacteurs si interactions avec les boutons/sliders | Permet aux intéracteur de se familiariser avec les réacteurs  |
+
+|
 
 ---
 
@@ -73,8 +77,11 @@
 
 ## Synoptique
 
-![synoptique](../medias/images/synoptique.png)
+![synoptique](../medias/images/synoptique.jpeg)
 
+- Contrôle connecté à un controleur Arduino
+- Audio connecté à la carte de son Behringer UMC202HD avec des longs cables XLR
+- La vidéo est transmise depuis un ordinateur connecté par un câble HDMI à un émetteur. Cet émetteur HDMI est relié à un récepteur HDMI au moyen d’un câble Ethernet. Le récepteur est ensuite connecté au projecteur à l’aide d’un câble HDMI.
 ---
 
 ## Plan d’implantation
