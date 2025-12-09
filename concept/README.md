@@ -170,104 +170,41 @@ Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la 
 | ![](../medias/images/chaise_accoudoirs.jpg)                      | ![](../medias/images/projecteur_epson.jpg)                                                                                                        | ![](../medias/images/bouton_poussoir_rouge.jpg)                                                                                                                                      |
 | [Source: Calcuttan](https://www.calcuttan.in/products/abp-chair) | [Source: Epson](https://epson.ca/Pour-le-travail/Projecteurs/Projecteurs-pour-salle-de-classe-/Projecteur-PowerLite-990U-WUXGA-3LCD/p/V11H867020) | [Source: Made-in-China](https://gwiecelectric.en.made-in-china.com/product/JGWUFoljankf/China-Manufacture-22mm-Xb2-Series-Engine-Start-Stop-Latching-Push-Button-Rotary-Switch.html) |
 
+Voici une reformulation plus sobre et structurée, sans émoticônes, avec une mise en forme claire et un ton plus humain :  
+
+---
+
 ### Ambiance sonore
 
-Inspirations relatives à la scénarisation du son, qui seront des éléments interactifs clés dans l’expérience utilisateur.
 
-🚀 Boost Initial  
-[Son demonstrative.mp3](boost.mp3)
+**Boost initial**  
+[Son demonstrative.mp3](boost.mp3)  
+Utilisé lors du lancement de la fusée ou du glissement du slider.
 
-> Accélération puissante au démarrage.
+**Boost final**  
+[boost2.mp3](boost2.mp3)  
+Se déclenche lorsque l’un des réacteurs additionnels est activé.
 
-🚀 Boost Secondaire  
-[boost.mp3](boost.mp3)
+**Clank de base**  
+[clank.mp3](clank.mp3)  
+Produit lorsque la fusée entre en collision avec un objet.
 
-> Impulsion rapide, effet de propulsion.
+**Crash brutal**  
+[crash.mp3](crash.mp3)  
+Correspond à l’explosion de la fusée.
 
-🚀 Boost Final  
-[boost2.mp3](boost2.mp3)
+**Alerte danger**  
+[danger.mp3](danger.mp3)  
+Signal sonore indiquant que la fusée est sur le point d’exploser.
 
-> Dernier souffle avant le décollage.
+**Dash rapide**  
+[dash.mp3](dash.mp3)  
+Pourrait être utilisé lorsque la fusée esquive un obstacle en faisant un dash.
 
-🔨 Clank Brut  
-[clank.mp3](clank.mp3)
+**Parasites électroniques**  
+[interference.mp3](interference.mp3)  
+Se déclenche lorsque la fusée est endommagée et dure quelques secondes.
 
-> Choc métallique sec.
-
-🔨 Clank Écho  
-[clank2.mp3](clank2.mp3)
-
-> Résonance prolongée après impact.
-
-🔨 Clank Sourd  
-[clank3.mp3](clank3.mp3)
-
-> Bruit étouffé, lourd.
-
-🔨 Clank Tranchant  
-[clank4.mp3](clank4.mp3)
-
-> Impact vif et métallique.
-
-🔨 Clank Final  
-[clank5.mp3](clank5.mp3)
-
-> Dernier bruit avant silence.
-
-🔨 Clank Répétitif  
-[clank6.mp3](clank6.mp3)
-
-> Série de chocs rapprochés.
-
-💥 Crash Brutal  
-[crash.mp3](crash.mp3)
-
-> Collision violente, désordre.
-
-⚠️ Alerte Danger  
-[danger.mp3](danger.mp3)
-
-> Signal d’urgence imminent.
-
-🌀 Dash Rapide  
-[dash.mp3](dash.mp3)
-
-> Déplacement éclair.
-
-🌀 Dash Fantôme  
-[dash2.mp3](dash2.mp3)
-
-> Passage furtif, presque inaudible.
-
-💣 Explosion  
-[explosion.mp3](explosion.mp3)
-
-> Détonation puissante.
-
-📡 Interférence  
-[interfernce.mp3](interference.mp3)
-
-> Intéférence électroniques.
-
-🔫 Lazer  
-[lazer.mp3](lazer.mp3)
-
-> Tir énergétique concentré.
-
-☄️ Météorite  
-[meteor.mp3](meteor.mp3)
-
-> Impact cosmique.
-
-✨ Résurrection  
-[resurection.mp3](resurection.mp3)
-
-> Retour à la vie après l'explosion du vaisseau.
-
-➕ Soin  
-[soin.mp3](soin.mp3)
-
-> Guérison instantanée.
 
 ### Inspirations interactives
 
