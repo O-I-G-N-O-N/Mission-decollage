@@ -225,19 +225,21 @@ Se déclenche lorsque la fusée est endommagée et dure quelques secondes.
 
 ### Scénarimage
 
-![](../medias/images/maquette_mission_decollage_scene_01.png)
+![](../medias/images/Scenario-1.jpg)
 
-![](../medias/images/maquette_mission_decollage_scene_02.png)
+![](../medias/images/Scenario-2.jpg)
 
-![](../medias/images/maquette_mission_decollage_scene_03.png)
+![](../medias/images/Scenario-3.jpg)
 
-![](../medias/images/maquette_mission_decollage_scene_04.png)
+![](../medias/images/Scenario-4.jpg)
 
-![](../medias/images/maquette_mission_decollage_scene_05.png)
+![](../medias/images/Scenario-5.jpg)
 
-![](../medias/images/maquette_mission_decollage_scene_06.png)
+![](../medias/images/Scenario-6.jpg)...
 
-![](../medias/images/maquette_mission_decollage_scene_07.png)
+![](../medias/images/Scenario-7.jpg)
+
+![](../medias/images/Scenario-8.jpg)
 
 <!-- Pour chaque étape/scène : une image avec du texte descriptif et une explication de la transition -->
 
