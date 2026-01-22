@@ -5,12 +5,6 @@
 - **Ordinateur** – x1  
   Utilité : Lancer le jeu, uploader le code sur les arduinos, lancer PureData
 
-- **Chaise avec accoudoir** – x4  
-  Utilité : Permettre aux joueurs de s'installer, les contrôleurs Arduinos seront installés sur les accoudoirs
-
-- **Casques audio** – x4  
-  Utilité : Permettre aux joueurs d'entendre les musiques et sons du jeu
-
 - **Epson PowerLite 1980OWU Projector** – x1  
   Utilité : Projeter au mur le jeu
 
@@ -25,26 +19,38 @@
   Utilité : Étendre le nombre de composants à utiliser
   Justification du nombre : Un par station pour avoir une proximité avec l'encodeur
 
-- **Encodeur** – x4  
-  Utilité : Reçoit les rotations du joueur et les transmet au contrôleur
+- **Encodeur** – x1  
+  Utilité : Reçoit les rotations du joueur et les transmet au contrôleur. Contrôle les fumées de côtés de la fusée.
 
-- **Key Unit** – x4  
-  Utilité : Reçoit les pressions du joueur et les transmet au contrôleur
+- **BOUTON POUSSOIR (MOMENTARY)** – x6  
+  Utilité : Reçoit les pressions du joueur et les transmet au contrôleur. Permet de remplir des objectifs / régler des problèmes
 
-- **Carte son Behringer UMC202HD** – x1  
+- **CARTE SON BEHRINGER UMC202HD** – x1  
   Utilité : Recevoir l'audio du jeu et le transmettre à 4 casques simultanément
 
-- **Cable Ethernet** – x3  
+- **CABLE ETHERNET** – x3  
    Utilité : Deux câbles Ethernet sont utilisés pour connecter le projecteur et l’ordinateur à la salle Matrice, et un autre câble Ethernet relie le transmitter au receiver afin d’afficher le contenu du PC sur le projecteur.
 
-- **Câble USB type B → USB type A** - x1
+- **CÂBLE USB TYPE B → USB TYPE A** - x1
   Utilité : Connecter l’ordinateur à la carte son Behringer UMC202HD pour envoyer le signal audio
 
-- **Câbles Jack TRS** - x1
+- **CÂBLES JACK TRS** - x1
   Utilité : Relier la carte son Behringer UMC202HD aux casques audio
 
 - **LEDSTRIP** - x1
   Utilité : Faire de belles lumières LED et indiquer au joueur le niveau du fader
+
+- **TOGGLE SWICH (SAFETY)** - x3
+  Utilité: Améliorer l'expérience en ajoutant différentes composantes, autre que des boutons. Servent à activer/désactiver les réacteurs
+
+- **ROTARY SWITCH** - x3
+  Utilité: Améliorer l'expérience en ajoutant différentes composantes, autre que des boutons. Servent à activer le lancement de la fusée / remplir des objectifs / régler des problèmes
+
+- **FADERS** - x3
+  Utilité: Reçoit la position du fader attribué par le joueur. Permet de contrôler la puissance des réacteurs.
+
+- **UNIT 3.96** - x6
+  Utilité: Permet de gérer les LED sur les boutons.
 
   ---
 ## Logiciels

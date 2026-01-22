@@ -27,8 +27,8 @@ Qu'est-ce que fait l'interacteur?
 un résumé du parcours de l'interacteur du début à la fin de son expérience - qu'est-ce qu'il fait, qu'est-ce qu'il manipule, etc
 -->
 
-L’interacteur arrive devant l’installation : Une grande table équipée de boutons, sliders, rotatifs différents disposés avec quatre chaises. Il s’assoit sur l’une d’elles, tandis que d’autres personnes prennent place sur les autres chaises.
-Les interacteurs appuient sur le bouton qui clignote afin de rejoindre la mission, un chef doit être déterminé, lorsqu'un joueur appuie sur son bouton, il prend la place du chef, si les autres joueurs sont d'accord avec ce chef, ils doivent pivoter leur "angle sensor" pour confirmer, sinon, ils peuvent appuyer sur leur bouton pour se proposer comme chef. Une fois le chef choisi, le jeu commence. Ils utilisent alors leur bouton et leur "angle sensor" pour réussir le jeu. Une fois la partie terminée, ils se lèvent et s’en vont.
+Les interacteurs arrivent devant l’installation : Un large panneau de contrôle équipée de boutons, sliders, rotatifs différents. Ces derniers se placent devant l'installation et sont invités 
+à appuyer sur un bouton afin de rejoindre la mission. 
 
 ### L'espace
 
@@ -36,8 +36,8 @@ Les interacteurs appuient sur le bouton qui clignote afin de rejoindre la missio
 description de l'espace réel et virtuel du projet et comment l'espace réel est transposé, transorté ou prolongé dans le virtuel et inversement
 -->
 
-Des chaises sont disposées devant le mur où est projeté l’écran du jeu. Sur le tableau de contrôle (la table), un bouton et un "grove" sont présents permettant d’interagir avec la partie. Ces boutons/angles contrôlent différentes fonctions de la fusée, par exemple le réacteur gauche, le réacteur droit ou le réacteur principal. chacune de ces parties n'est contrôlée que par un des joueurs.
-Des effets sonores et de la musique accompagnent les joueurs tout au long de l’aventure, diffusés soit dans des casques d’écoute, soit par des haut-parleurs intégrés aux chaises.
+Le jeu est projeté sur un mur, et sur le tableau de contrôle (la table), un bouton et un "grove" sont présents permettant d’interagir avec la partie. Ces boutons/angles contrôlent différentes fonctions de la fusée, par exemple le réacteur gauche, le réacteur droit ou le réacteur principal. chacune de ces parties n'est contrôlée que par un des joueurs.
+Des effets sonores et de la musique accompagnent les joueurs tout au long de l’aventure, diffusés via des haut-parleurs.
 
 ### La progression
 
@@ -79,7 +79,7 @@ Le terme « social » désigne ce qui concerne la vie en société, c’est-à-d
  L’adjectif peut aussi qualifier des animaux ou des plantes vivant en communauté selon des règles strictes, comme les insectes sociaux (fourmis, abeilles) ou certaines espèces végétales formant des colonies denses.
 -->
 
-Les joueurs seront assis autour d'une table, et chacun devra gérer les tâches qui lui sont attribuées en temps réel. Cette disposition favorise directement les interactions humaines : la communication devient essentielle pour réussir. Les joueurs devront échanger verbalement, s’encourager, signaler les erreurs et se répartir les tâches efficacement. Ainsi, la réussite du jeu dépend entièrement de leurs interactions sociales et de leur capacité à collaborer entre eux.
+Les joueurs seront debout devant le tableau de bord, et chacun devra gérer les tâches en temps réel. Cette disposition favorise directement les interactions humaines : la communication devient essentielle pour réussir. Les joueurs devront échanger verbalement, s’encourager, signaler les erreurs et se répartir les tâches efficacement. Ainsi, la réussite du jeu dépend entièrement de leurs interactions sociales et de leur capacité à collaborer entre eux.
 
 ### L'espace virtuel
 
@@ -239,7 +239,7 @@ Se déclenche lorsque la fusée est endommagée et dure quelques secondes.
 
 ![scénarimage-7](../medias/images/Scenario-7.jpg)
 
-![scénarimage-8](../medias/images/Scenario-8.jpg)
+![scénarimage](../medias/images/Scenario-8.jpg)
 
 <!-- Pour chaque étape/scène : une image avec du texte descriptif et une explication de la transition -->
 
