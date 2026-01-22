@@ -197,9 +197,10 @@ Correspond à l’explosion de la fusée.
 [danger.mp3](danger.mp3)  
 Signal sonore indiquant que la fusée est sur le point d’exploser.
 
-**Dash rapide**  
+<!--**Dash rapide**  
 [dash.mp3](dash.mp3)  
 Pourrait être utilisé lorsque la fusée esquive un obstacle en faisant un dash.
+-->
 
 **Parasites électroniques**  
 [interference.mp3](interference.mp3)  
