@@ -19,66 +19,42 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 1
 
-<!--
-- Tâche
-- Tâche
--->
+
+- S'assurer que le schéma de composants et que le budget soit faites.
+- S'assurer de la compatibilité de chacun des composants.
+- Apporter des modifications à la page .io concernant ces éléments.
+
+- S'organiser avec le comité en communication pour trouver un nom qui reflète tous les projets
 
 ### Semaine 2
 
-<!--
-- Tâche
-- Tâche
--->
+- À partir de la démo de la session précédente, continuer le développement afin d'avoir un produit à présenter aux portes ouvertes.
 
 ### Semaine 3
 
-<!--
-- Tâche
-- Tâche
--->
+- Commencer la création des différents éléments de UI liés au projet.
+- Commencer la création de l'ui sur Unity
 
 ### Semaine 4
 
-<!--
-- Tâche
-- Tâche
--->
+- Avec les pièces reçus, et à partir de la démo, reconfigurer le code afin de pouvoir jouer avec les nouveaux composants
+
 
 ### Semaine 5
 
-<!--
-- Tâche
-- Tâche
--->
+- Continuer la création des différents éléments de UI et poursuivre la création de l'ui sur unity pour un produit plus avancé.
 
 ### Semaine 6
 
-<!--
-- Tâche
-- Tâche
--->
 
 ### Semaine 6.5
 
-<!--
-- Tâche
-- Tâche
--->
 
 ### Semaine 7
 
-<!--
-- Tâche
-- Tâche
--->
 
 ### Semaine 8
 
-<!--
-- Tâche
-- Tâche
--->
 
 ## Journal de bord
 
