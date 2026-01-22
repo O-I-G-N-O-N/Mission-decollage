@@ -19,66 +19,50 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 1
 
-<!--
-- Tâche
-- Tâche
--->
+- Corriger le site web et ajout des nouvelles sections.
+- Préparation au projet final.
 
 ### Semaine 2
 
-<!--
-- Tâche
-- Tâche
--->
+- Commencer / compléter les séquences d'urgences (jeu).
+- Compléter la section du détâchement / atterissage de la navette sur mars (jeu).
 
 ### Semaine 3
 
-<!--
-- Tâche
-- Tâche
--->
+- Compléter les séquences d'urgences si elles ne l'est pas (jeu).
+- Compléter la section du détâchement si elle ne l'est pas (jeu).
+- Commencer / compléter les évènements aléatoires (jeu).
 
 ### Semaine 4
 
-<!--
-- Tâche
-- Tâche
--->
+- Compléter les événements aléatoires si ils ne le sont pas.
+- Commencer à préparer les matériaux nécessaires pour la construction du panneau de contrôle.
 
 ### Semaine 5
 
-<!--
-- Tâche
-- Tâche
--->
+- Commencer à construire le panneau de bord.
+- Optimiser les UI (jeu).
 
 ### Semaine 6
 
-<!--
-- Tâche
-- Tâche
--->
+- Corriger les problèmes / bugs possible dans l'expérience.
+- Assembler les pièces du tableau de bord.
+- Test de l'expériences avec les composantes du tableau de bord.
 
 ### Semaine 6.5
 
-<!--
-- Tâche
-- Tâche
--->
+- Assembler les pièces du tableau de bord + peinturer le tableau de bord.
+- Corriger les problèmes / bugs possible dans l'expérience.
+- Ajouter les dialogues dans l'expérience.
 
 ### Semaine 7
 
-<!--
-- Tâche
-- Tâche
--->
+- Corrections de problèmes / bugs possibles dans l'expérience.
+- Perçage de trous dans le tableau de bord et insertion des composantes.
 
 ### Semaine 8
 
-<!--
-- Tâche
-- Tâche
--->
+- Vernissage et dernières retouches nécessaires à l'exposition
 
 ## Journal de bord
 
