@@ -52,6 +52,8 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ### Semaine 6
 
 - Présentation du produit
+- Participation à la création de la bande annonce
+- Participation à la création du dossier de presse
 
 
 ### Semaine 6.5
