@@ -37,28 +37,28 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 - Compléter les événements aléatoires si ils ne le sont pas.
 - Commencer à préparer les matériaux nécessaires pour la construction du panneau de contrôle.
+- Commencer à construire le panneau de bord.
 
 ### Semaine 5
 
-- Commencer à construire le panneau de bord.
+- Assembler les pièces du tableau de bord.
+- Perçage de trous dans le tableau de bord et insertion des composantes.
+- Assembler les pièces du tableau de bord + peinturer le tableau de bord.
 - Optimiser les UI (jeu).
 
 ### Semaine 6
 
 - Corriger les problèmes / bugs possible dans l'expérience.
-- Assembler les pièces du tableau de bord.
 - Test de l'expériences avec les composantes du tableau de bord.
 
 ### Semaine 6.5
 
-- Assembler les pièces du tableau de bord + peinturer le tableau de bord.
 - Corriger les problèmes / bugs possible dans l'expérience.
 - Ajouter les dialogues dans l'expérience.
 
 ### Semaine 7
 
 - Corrections de problèmes / bugs possibles dans l'expérience.
-- Perçage de trous dans le tableau de bord et insertion des composantes.
 
 ### Semaine 8
 
