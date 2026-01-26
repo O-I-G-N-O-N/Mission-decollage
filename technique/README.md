@@ -11,7 +11,7 @@
 - **Contrôleur Arduino M5Stack ATOM Lite ESP32** – x1  
   Utilité : Recevoir et transmettre la base du code aux autres logiciels (PureData, Unity)
 
-- *[PBHUB] I/O Hub 1 to 6 Expansion Unit (MEGA328)** – x4  
+- **[PBHUB] I/O Hub 1 to 6 Expansion Unit (MEGA328)** – x4  
   Utilité : Étendre le nombre de composants à utiliser
   Justification du nombre : Un par station pour avoir une proximité avec les autres composants et nous laisser une marge pour les composants futurs
 
@@ -24,7 +24,7 @@
 - **CABLE ETHERNET** – x3  
    Utilité : Deux câbles Ethernet sont utilisés pour connecter le projecteur et l’ordinateur à la salle Matrice, et un autre câble Ethernet relie le transmitter au receiver afin d’afficher le contenu du PC sur le projecteur.
 
-- **TOGGLE SWICH (SAFETY)** - x3
+- **TOGGLE SWITCH (SAFETY)** - x3
   Utilité: Améliorer l'expérience en ajoutant différentes composantes, autre que des boutons. Servent à activer/désactiver les réacteurs
 
 - **ROTARY SWITCH** - x3
@@ -93,17 +93,42 @@
 Plans d'implantation 2D et 3D
 -->
 
+
 ## Budget
 
-| Produit           | Quantité | Extra | Prix réel        |
-|-------------------|----------|-------|------------------|
-| [M5Stack Atom](https://shop.m5stack.com/products/atom-lite-esp32-development-kit)  | x2       | 0     | 0 (emprunt)      |
-| [Pbhub](https://docs.m5stack.com/en/unit/pbhub_1.1)         | x2       | 0     | 0 (emprunt)      |
-| [3.96](https://docs.m5stack.com/en/unit/396port)          | x11      | 0     | 0 (emprunt)      |
-| [Bouton](https://www.aliexpress.com/item/1005005628118782.html?spm=a2g0o.productlist.main.18.4a3d388634NrbU&aem_p4p_detail=20260121135432670561894485250000384086&algo_pvid=4600c93b-a553-41a2-8eec-76b69ecde3fe&algo_exp_id=4600c93b-a553-41a2-8eec-76b69ecde3fe-15&pdp_ext_f=%7B%22order%22%3A%221081%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21CAD%213.03%211.61%21%21%212.14%211.14%21%402101c59117690324729232757e58d1%2112000033804112921%21sea%21CA%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A4fbbddb2%3Bm03_new_user%3A-29895%3BpisId%3A5000000197831921&curPageLogUid=uNJA9qUuVpPy&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005005628118782%7C_p_origin_prod%3A&search_p4p_id=20260121135432670561894485250000384086_4)        | x6       | +3    | 14.49 $ CAD ~    |
-| [Fader](https://www.aliexpress.com/item/1005007393023800.html)         | x3       | +3    | 9.66 $ CAD ~     |
-| [Rotari Switch](https://www.aliexpress.com/item/1005008518194722.html?spm=a2g0o.productlist.main.28.4a0f6162LyhXpU&aem_p4p_detail=20260121123146193860413551400000323070&algo_pvid=3e9a1355-6508-454f-9fec-d82b8a898d8c&algo_exp_id=3e9a1355-6508-454f-9fec-d82b8a898d8c-27&pdp_ext_f=%7B%22order%22%3A%22343%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21CAD%212.87%212.59%21%21%212.03%211.83%21%402101d9ef17690275059556466ee322%2112000045526129764%21sea%21CA%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A4fbbddb2%3Bm03_new_user%3A-29895&curPageLogUid=BP2lQwJsMEQu&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008518194722%7C_p_origin_prod%3A&search_p4p_id=20260121123146193860413551400000323070_7) | x3       | +3    | 15.54 $ CAD ~    |
-| [Switch](https://www.aliexpress.com/item/1005004068738380.html?spm=a2g0o.productlist.main.23.4a0f6162LyhXpU&algo_pvid=3e9a1355-6508-454f-9fec-d82b8a898d8c&algo_exp_id=3e9a1355-6508-454f-9fec-d82b8a898d8c-22&pdp_ext_f=%7B%22order%22%3A%2234%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21CAD%211.04%211.04%21%21%215.12%215.12%21%402101d9ef17690275059556466ee322%2112000027933069880%21sea%21CA%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A4fbbddb2%3Bm03_new_user%3A-29895&curPageLogUid=x6FJzV2QFUwG&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005004068738380%7C_p_origin_prod%3A#nav-specification)        | x3       | +3    | 6.24 $ CAD ~     |
-| [Encodeur](https://www.aliexpress.com/item/1005009727108504.html?spm=a2g0o.productlist.main.50.1b22c3ec0A2mN5&algo_pvid=0de8ed4f-6a0d-4596-a3ff-a3f9c5d02e9d&algo_exp_id=0de8ed4f-6a0d-4596-a3ff-a3f9c5d02e9d-49&pdp_ext_f=%7B%22order%22%3A%2299%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21CAD%218.73%211.61%21%21%2142.95%217.90%21%402101ee6617691166885166032edbf1%2112000049962984185%21sea%21CA%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A7ce0c33c%3Bm03_new_user%3A-29895%3BpisId%3A5000000197831921&curPageLogUid=mXQ1uvbyUIcx&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009727108504%7C_p_origin_prod%3A)      | x1       | +2    | 4.83 $ CAD ~     |
+#### AliExpress
+| Produit | Quantité | Extra | Prix réel |
+|--------|----------|-------|-----------|
+| [M5Stack Atom](https://shop.m5stack.com/products/atom-lite-esp32-development-kit) | x2 | 0 | 0 (emprunt) |
+| [PBHub](https://docs.m5stack.com/en/unit/pbhub_1.1) | x2 | 0 | 0 (emprunt) |
+| [Unit 3.96](https://docs.m5stack.com/en/unit/396port) | x11 | 0 | 0 (emprunt) |
+| [Bouton](https://www.aliexpress.com/item/1005005628118782.html) | x6 | +3 | 14.49 $ CAD ~ |
+| [Fader](https://www.aliexpress.com/item/1005007393023800.html) | x3 | +3 | 9.66 $ CAD ~ |
+| [Rotary Switch](https://www.aliexpress.com/item/1005008518194722.html) | x3 | +3 | 15.54 $ CAD ~ |
+| [Toggle Switch](https://www.aliexpress.com/item/1005004068738380.html) | x3 | +3 | 6.24 $ CAD ~ |
+| [Encodeur](https://www.aliexpress.com/item/1005009727108504.html) | x1 | +2 | 4.83 $ CAD ~ |
+| [Bois](https://www.homedepot.ca/product/alexandria-moulding-3-4-inch-x-2-ft-x-4-ft-spruce-handy-panel/1000148919) | x10 | 0 | 310.27 $ CAD ~ |
+| [Adhesive](https://www.homedepot.ca/product/lepage-pl-premium-polyurethane-construction-adhesive-interior-exterior-waterproof-295-ml/1000403473) | x1 | 0 | 9.18 $ CAD ~ |
+| [Primer](https://www.homedepot.ca/product/zinsser-bulls-eye-1-2-3-interior-exterior-water-base-primer-for-all-surfaces-in-tintable-white-946-ml/1000123370) | x1 | 0 | 21.01 $ CAD ~ |
+| [Peinture](https://www.homedepot.ca/product/rust-oleum-universal-interior-exterior-metallic-paint-primer-spray-paint-in-flat-soft-iron-312g/1000655367) | x1 | 0 | 29.87 $ CAD ~ |
+| [Vis](https://www.homedepot.ca/product/paulin--6-x-1-inch-flat-head-phillips-drive-fine-thread-drywall-screws-100pcs/1000140793) | x1 | 0 | 5.28 $ CAD ~ |
+| **TOTAL** |  |  | **426.37 $ CAD ~** |
 
+#### Abra Electronics
+| Produit | Quantité | Prix réel |
+|--------|----------|-----------|
+| [M5Stack Atom](https://shop.m5stack.com/products/atom-lite-esp32-development-kit) | x2 | 0 (emprunt) |
+| [PBHub](https://docs.m5stack.com/en/unit/pbhub_1.1) | x2 | 0 (emprunt) |
+| [Unit 3.96](https://docs.m5stack.com/en/unit/396port) | x11 | 0 (emprunt) |
+| [Bouton](https://abra-electronics.com/electromechanical/switches/pushbutton-switches-led/latching/pbs-led-2206wh-l.html) | x6 | 60.65 $ CAD ~ |
+| [Fader](https://abra-electronics.com/passive-components/potentiometers/slide-potentiometer-pc-mount/com-11620-linear-taper-slide-potentiometer-10k-small-pcb-mount.html) | x3 | 9.28 $ CAD ~ |
+| [Rotary Switch](https://addison-electronique.com/fr/interrupteur-rotatif-illumine-1-position-45-n-o-nf-rouge.html) | x3 | 48.27 $ CAD ~ |
+| [Toggle Switch](https://abra-electronics.com/electromechanical/switches/toggle-switches/com-11314-toggle-switch-and-cover-illuminated-white-clone.html) | x3 | 16.91 $ CAD ~ |
+| [Encodeur](https://abra-electronics.com/electromechanical/encoders/377-rotary-encoder-with-knob-377.html) | x1 | 9.38 $ CAD ~ |
+| [Bois](https://www.homedepot.ca/product/alexandria-moulding-3-4-inch-x-2-ft-x-4-ft-spruce-handy-panel/1000148919) | x10 | 310.27 $ CAD ~ |
+| [Adhesive](https://www.homedepot.ca/product/lepage-pl-premium-polyurethane-construction-adhesive-interior-exterior-waterproof-295-ml/1000403473) | x1 | 9.18 $ CAD ~ |
+| [Primer](https://www.homedepot.ca/product/zinsser-bulls-eye-1-2-3-interior-exterior-water-base-primer-for-all-surfaces-in-tintable-white-946-ml/1000123370) | x1 | 21.01 $ CAD ~ |
+| [Peinture](https://www.homedepot.ca/product/rust-oleum-universal-interior-exterior-metallic-paint-primer-spray-paint-in-flat-soft-iron-312g/1000655367) | x1 | 29.87 $ CAD ~ |
+| [Vis](https://www.homedepot.ca/product/paulin--6-x-1-inch-flat-head-phillips-drive-fine-thread-drywall-screws-100pcs/1000140793) | x1 | 5.28 $ CAD ~ |
+| **TOTAL** |  | **520.10 $ CAD ~** |
 
