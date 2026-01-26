@@ -19,39 +19,39 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 1
 - Corriger les schémas synoptiques et scénarimages existants en fonction des changements apportés au concept du projet.
-- Réviser la logique de la boucle interactive en lien avec l’expérience sonore et visuelle.
-- Audit sonore : identifier ce qui existe déjà, ce qui manque, et ce qui doit être amélioré.
+- Audit sonore : identifier ce qui existe déjà, ce qui manque et ce qui doit être amélioré.
 
 ---
 
 ### Semaine 2
-- Définir l’architecture sonore à partir de ce qui est déjà établi (ambiances, sons interactifs, feedback et transitions).
 - Planifier l’intégration des sons manquants en fonction des événements du jeu.
+- Créer les sons manquants nécessaires au prototype de la porte ouverte.
 
 ---
 
 ### Semaine 3
-- Corriger l'ambiance existante.
-- Tester la synchronisation entre éléments sonores et actions visuelles.
+- Corriger l’ambiance sonore existante.
+- Corriger les effets sonores existants.
+- Créer la musique du prototype.
 
 ---
 
 ### Semaine 4
-- Produire ou améliorer les sons interactifs principaux.
-- Intégrer les sons dans le jeu sur unity.
+- Intégrer les sons dans Unity.
+- Faire le montage de la bande-annonce.
 
 ---
 
 ### Semaine 5
-- Ajuster la spatialisation et le mix sonore selon les retours d’équipe.
-- Ajouter des variations sonores pour enrichir l’expérience utilisateur.
-- Corriger les problèmes de répétition ou de saturation sonore.
+- Tester les effets sonores et l’ambiance.
+- Intégration complète des effets sonores dans le jeu.
+- Finaliser l’interface du tableau de bord.
 
 ---
 
 ### Semaine 6
-- Finaliser les ambiances et sons pour la maquette 2.
 - Vérifier la cohérence sonore lors de la présentation publique.
+- Ajuster les sons en fonction des retours (si nécessaire).
 
 ---
 
@@ -68,7 +68,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ---
 
 ### Semaine 8
-- Documenter la conception sonore et la boucle interactive.
+- Documenter la conception sonore.
 - Préparer les extraits audio pour la documentation vidéo finale.
 
 ## Journal de bord
