@@ -28,7 +28,7 @@ un résumé du parcours de l'interacteur du début à la fin de son expérience 
 -->
 
 Les interacteurs arrivent devant l’installation : Un large panneau de contrôle équipée de boutons, sliders, rotatifs différents. Ces derniers se placent devant l'installation et sont invités 
-à appuyer sur un bouton afin de rejoindre la mission. 
+à appuyer sur un bouton afin de démarrer la mission. 
 
 ### L'espace
 
@@ -36,19 +36,19 @@ Les interacteurs arrivent devant l’installation : Un large panneau de contrôl
 description de l'espace réel et virtuel du projet et comment l'espace réel est transposé, transorté ou prolongé dans le virtuel et inversement
 -->
 
-Le jeu est projeté sur un mur, et sur le tableau de contrôle (la table), un bouton et un "grove" sont présents permettant d’interagir avec la partie. Ces boutons/angles contrôlent différentes fonctions de la fusée, par exemple le réacteur gauche, le réacteur droit ou le réacteur principal. chacune de ces parties n'est contrôlée que par un des joueurs.
+Le jeu est projeté sur un mur, et sur le tableau de contrôle, des bouton et un encoder sont présents permettant d’interagir avec la partie. Ces boutons/angles contrôlent différentes fonctions de la fusée, par exemple le réacteur gauche, le réacteur droit ou le réacteur principal. chacune de ces parties n'est contrôlée que par un des sliders.
 Des effets sonores et de la musique accompagnent les joueurs tout au long de l’aventure, diffusés via des haut-parleurs.
 
 ### La progression
 
 <!--  sur le temps et la progression -->
 
-L'expérience en temps réel dure approximativement 5 à 10 minutes, en ressenti environ 2-5 min. La progression sera comme suit:
+L'expérience en temps réel dure approximativement 5 à 7 minutes, en ressenti environ 2-5 min. La progression sera comme suit:
 
 - Les joueurs ont 30 secondes pour comprendre leur rôle, le fonctionnement des contrôles et leur fonctionnement du jeu dans un tutoriel après avoir commencer le jeu
 - La partie du jeu commence et les joueurs doivent se coordonner pour faire décoller la fusée sans s'écraser
 - Les joueurs doivent quitter l'orbite de la planète Terre et esquiver les obstacles terrestres
-- Les joueurs doivent naviguer dans l'espace et éviter les débris spaciaux
+- Les joueurs doivent naviguer dans l'espace et éviter les débris spaciaux / régler les problèmes urgents en lien avec la fusée
 - Les joueurs doivent se coordonner pour faire atterir la fusée
 
 ### L'aspect collectif
@@ -83,7 +83,7 @@ Les joueurs seront debout devant le tableau de bord, et chacun devra gérer les 
 
 ### L'espace virtuel
 
-Le jeu commence dans un monde en trois dimension de la planète terre, la vue est en troisième personne (top down) sur une fusée, qui s'apprête à décoller. Lors du décollage et de l'atterissage, la vue sera en top down, lors de la phase dans l'espace, la vue sera à la première personne (vue du cockpit). Les joueurs feront décoller la fusée jusque dans l'espace, puis se rendront jusqu'à l'atmosphère de Mars, avant de la faire atterir sur la dite planète.
+Le jeu commence dans un monde en trois dimensions de la planète terre, la vue est en troisième personne (top down) sur une fusée, qui s'apprête à décoller. Lors du décollage et de l'atterissage, la vue sera en top down, lors de la phase dans l'espace, la vue sera à la première personne (vue du cockpit). Les joueurs feront décoller la fusée jusque dans l'espace, puis se rendront jusqu'à l'atmosphère de Mars, avant de la faire atterir sur la dite planète.
 
 ## Inspirations
 

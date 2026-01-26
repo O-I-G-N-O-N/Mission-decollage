@@ -25,16 +25,17 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ### Semaine 2
 
 - Commencer / compléter les séquences d'urgences (jeu).
-- Compléter la section du détâchement / atterissage de la navette sur mars (jeu).
+- Intégration partielle des audios
 
 ### Semaine 3
 
 - Compléter les séquences d'urgences si elles ne l'est pas (jeu).
-- Compléter la section du détâchement si elle ne l'est pas (jeu).
 - Commencer / compléter les évènements aléatoires (jeu).
+- Compléter la section du détâchement / atterissage de la navette sur mars (jeu).
 
 ### Semaine 4
 
+- Compléter la section du détâchement si elle ne l'est pas (jeu).
 - Compléter les événements aléatoires si ils ne le sont pas.
 - Commencer à préparer les matériaux nécessaires pour la construction du panneau de contrôle.
 - Commencer à construire le panneau de bord.
@@ -42,8 +43,8 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ### Semaine 5
 
 - Assembler les pièces du tableau de bord.
-- Perçage de trous dans le tableau de bord et insertion des composantes.
-- Assembler les pièces du tableau de bord + peinturer le tableau de bord.
+- Perçage de trous dans le tableau de bord.
+- Ajout de la trappe dans le tableau de bord.
 - Optimiser les UI (jeu).
 
 ### Semaine 6
@@ -54,7 +55,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ### Semaine 6.5
 
 - Corriger les problèmes / bugs possible dans l'expérience.
-- Ajouter les dialogues dans l'expérience.
+- Ajouter des dialogues dans l'expérience. (si nécessaire)
 
 ### Semaine 7
 
