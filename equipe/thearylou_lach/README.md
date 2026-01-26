@@ -19,9 +19,8 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 1
 
-- Mettre à jour le site Web
-- Modification de la conception
-- Recherche des composantes necessaires
+- Mettre à jour le site Web.
+- Recherche des composantes nécessaires.
 
 ### Semaine 2
 

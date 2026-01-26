@@ -83,11 +83,9 @@
 
 ![implantation](../medias/images/planStudio.png)
 
-![implantation](../medias/images/rendu_1.jpg)
+![implantation](../medias/images/concept_vue_01.jpg)
 
-![implantation](../medias/images/rendu_2.jpg)
-
-![implantation](../medias/images/rendu_3.jpg)
+![implantation](../medias/images/concept_vue_02.jpg)
 
 ---
 

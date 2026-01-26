@@ -62,7 +62,7 @@ Un collectif désigne l'ensemble de personnes ou d'entités qui s'unissent de ma
  Ce groupe, souvent considéré comme une entité à vocation communautaire, fonctionne sous le pilotage de ses membres et repose sur une volonté partagée de développer des solidarités.
 -->
 
-Dans Mission Décollage, les joueurs incarnent des astronautes chargés d’accomplir la toute première mission habitée vers Mars. Leur objectif est d’atterrir sur la planète sains et saufs, afin de marquer l’histoire et, peut-être, de découvrir des traces de vie.
+Dans Mission Décollage, les joueurs incarnent des astronautes chargés d’accomplir la toute première mission de d'exploration vers Mars. Leur objectif est d’atterrir sur la planète sains et saufs, afin de marquer l’histoire et, peut-être, de découvrir des traces de vie.
 
 Ils font partie de la mission O.I.G.N.O.N — Opération Internationale en Géosciences, Navigation et Observation du Nouveau-Monde — dont la vocation est d’explorer les confins spatiaux et leurs mystères. Tous les joueurs se trouvent à bord de la fusée qui s’apprête à décoller en direction de Mars.
 
@@ -83,7 +83,7 @@ Les joueurs seront debout devant le tableau de bord, et chacun devra gérer les 
 
 ### L'espace virtuel
 
-Le jeu commence dans un monde en trois dimension de la planète terre, la vue est en troisième personne (top down) sur une fusée, qui s'apprête à décoller. Tout au long de l'aventure, la vue restera la même, les joueurs feront décoller la fusée jusque dans l'espace, puis se rendront jusqu'à l'atmosphère de Mars, avant de la faire atterir sur la dite planète.
+Le jeu commence dans un monde en trois dimension de la planète terre, la vue est en troisième personne (top down) sur une fusée, qui s'apprête à décoller. Lors du décollage et de l'atterissage, la vue sera en top down, lors de la phase dans l'espace, la vue sera à la première personne (vue du cockpit). Les joueurs feront décoller la fusée jusque dans l'espace, puis se rendront jusqu'à l'atmosphère de Mars, avant de la faire atterir sur la dite planète.
 
 ## Inspirations
 
