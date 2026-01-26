@@ -19,66 +19,47 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 1
 
-<!--
-- Tâche
-- Tâche
--->
+- Mettre à jour le site Web
+- Modification de la conception
+- Recherche des composantes necessaires
 
 ### Semaine 2
 
-<!--
-- Tâche
-- Tâche
--->
+- Déterminer les éléments 3D nécessaires à la progression.
+- Produire modèles 3D définitifs.
+
 
 ### Semaine 3
 
-<!--
-- Tâche
-- Tâche
--->
+- Adapter modèles pour maquette 1.
+- Créer animations simples.
 
 ### Semaine 4
-
-<!--
-- Tâche
-- Tâche
--->
+- Planifier animations environnementales.
+- Intégrer animations principales.
 
 ### Semaine 5
 
-<!--
-- Tâche
-- Tâche
--->
+- Appliquer matériaux/ textures optimisées.
+- Ajouter effets visuels atmosphériques.
 
 ### Semaine 6
 
-<!--
-- Tâche
-- Tâche
--->
+- Optimiser modèles et animations pour maquette 2.
 
 ### Semaine 6.5
 
-<!--
-- Tâche
-- Tâche
--->
+- Ajuster détails secondaires.
+- Harmoniser avec interface et retours sonores.
 
 ### Semaine 7
 
-<!--
-- Tâche
-- Tâche
--->
+- Tests de stabilité visuelle.
 
 ### Semaine 8
 
-<!--
-- Tâche
-- Tâche
--->
+- Documenter modélisation + animation.
+- Fournir rendus/captures.
 
 ## Journal de bord
 
