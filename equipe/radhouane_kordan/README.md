@@ -70,6 +70,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ### Semaine 8
 - Documenter la conception sonore.
 - Préparer les extraits audio pour la documentation vidéo finale.
+- Faire le montage de la documentation finale.
 
 ## Journal de bord
 
