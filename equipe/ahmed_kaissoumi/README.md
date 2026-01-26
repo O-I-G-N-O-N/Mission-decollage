@@ -28,12 +28,15 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 2
 
-- À partir de la démo de la session précédente, continuer le développement afin d'avoir un produit à présenter aux portes ouvertes.
+- À partir de la démo de la session précédente, continuer le développement afin d'avoir une démo produite à présenter aux portes ouvertes.
+- Configuration des boutons / arduinos pour son utilisation en temps que contrôles dans le jeu
+- Commencer la création partielle d'éléments UI et possiblement commencer leur intégration dans le contexte de notre démo
 
 ### Semaine 3
 
-- Commencer la création des différents éléments de UI liés au projet.
-- Commencer la création de l'ui sur Unity
+- Présentation de la démo aux portes ouvertes
+- Continuer la création des différents éléments de UI liés au projet.
+- Commencer ou continuer le placement l'ui sur Unity
 
 ### Semaine 4
 
@@ -42,19 +45,28 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 5
 
+- Création de l'installation (orienté boutons/placement arduino et ordinateur)
 - Continuer la création des différents éléments de UI et poursuivre la création de l'ui sur unity pour un produit plus avancé.
+- Ajout d'ui dynamique basique (scores, vitesses ect)
 
 ### Semaine 6
+
+- Présentation du produit
+- Participation à la création de la bande annonce
+- Participation à la création du dossier de presse
 
 
 ### Semaine 6.5
 
+- Ajustement en lien avec les retours suite à la présentation
 
 ### Semaine 7
 
+- Ajustement en lien avec les retours suite à la présentation
 
 ### Semaine 8
 
+- Présentation du produit fini
 
 ## Journal de bord
 
@@ -75,6 +87,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 ### Semaine 2
 
 #### Lundi
+
+- Planification en groupe sur les derniers ajustements concernant la direction dans laquelle on s'enlignera (design, gameplay, installation..)
 
 #### Mardi
 
