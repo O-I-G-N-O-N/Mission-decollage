@@ -34,6 +34,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 3
 
+- Présentation de la démo aux portes ouvertes
 - Continuer la création des différents éléments de UI liés au projet.
 - Commencer ou continuer le placement l'ui sur Unity
 
