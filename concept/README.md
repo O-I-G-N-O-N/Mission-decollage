@@ -161,7 +161,6 @@ Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la 
 
 Échantillons ou représentations de matériaux tangibles qui seront utilisés dans l'installation (écrans, surfaces tactiles, objets physiques interactifs).
 
-- Chaises avec accoudoirs
 - Projecteur projetant au mur
 - Boutons
 

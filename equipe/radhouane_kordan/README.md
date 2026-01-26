@@ -18,67 +18,58 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 -->
 
 ### Semaine 1
+- Corriger les schémas synoptiques et scénarimages existants en fonction des changements apportés au concept du projet.
+- Réviser la logique de la boucle interactive en lien avec l’expérience sonore et visuelle.
+- Audit sonore : identifier ce qui existe déjà, ce qui manque, et ce qui doit être amélioré.
 
-<!--
-- Tâche
-- Tâche
--->
+---
 
 ### Semaine 2
+- Définir l’architecture sonore à partir de ce qui est déjà établi (ambiances, sons interactifs, feedback et transitions).
+- Planifier l’intégration des sons manquants en fonction des événements du jeu.
 
-<!--
-- Tâche
-- Tâche
--->
+---
 
 ### Semaine 3
+- Corriger l'ambiance existante.
+- Tester la synchronisation entre éléments sonores et actions visuelles.
 
-<!--
-- Tâche
-- Tâche
--->
+---
 
 ### Semaine 4
+- Produire ou améliorer les sons interactifs principaux.
+- Intégrer les sons dans le jeu sur unity.
 
-<!--
-- Tâche
-- Tâche
--->
+---
 
 ### Semaine 5
+- Ajuster la spatialisation et le mix sonore selon les retours d’équipe.
+- Ajouter des variations sonores pour enrichir l’expérience utilisateur.
+- Corriger les problèmes de répétition ou de saturation sonore.
 
-<!--
-- Tâche
-- Tâche
--->
+---
 
 ### Semaine 6
+- Finaliser les ambiances et sons pour la maquette 2.
+- Vérifier la cohérence sonore lors de la présentation publique.
 
-<!--
-- Tâche
-- Tâche
--->
+---
 
 ### Semaine 6.5
+- Optimiser les fichiers audio pour la diffusion et la performance (format, taille, compression).
+- Corriger les problèmes de synchronisation audio.
 
-<!--
-- Tâche
-- Tâche
--->
+---
 
 ### Semaine 7
+- Tester la stabilité sonore dans des conditions d’utilisation prolongées.
+- Ajuster le mix final en fonction des tests.
 
-<!--
-- Tâche
-- Tâche
--->
+---
 
 ### Semaine 8
-
-<!--
-- Tâche
-- Tâche
--->
+- Documenter la conception sonore et la boucle interactive.
+- Préparer les extraits audio pour la documentation vidéo finale.
 
 ## Journal de bord
 

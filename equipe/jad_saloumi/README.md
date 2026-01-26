@@ -19,66 +19,45 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 1
 
-<!--
-- Tâche
-- Tâche
--->
+- Mettre à jour le site web (équipe, scénario, technique, dossier de presse, exposition).
 
 ### Semaine 2
 
-<!--
-- Tâche
-- Tâche
--->
+- Emprunter le matériel pour enregistrer des sons.
+- Enregistrer des sons pour la conception des effets sonores.
 
 ### Semaine 3
 
-<!--
-- Tâche
-- Tâche
--->
+- Intégrer les sons interactifs dans la maquette 1.
+- Tester la réactivité sonore aux entrées utilisateur.
 
 ### Semaine 4
 
-<!--
-- Tâche
-- Tâche
--->
+- Créer des éléments 3D secondaires servant de support visuel aux interactions sonores.
+- Ajuster proportions et placements.
 
 ### Semaine 5
 
-<!--
-- Tâche
-- Tâche
--->
+- Synchroniser sons interactifs et animations simples.
+- Ajuster le rythme sonore pour la lisibilité.
 
 ### Semaine 6
 
-<!--
-- Tâche
-- Tâche
--->
+- Finaliser sons interactifs pour maquette 2.
+- Tester cohérence audio-visuelle.
 
 ### Semaine 6.5
 
-<!--
-- Tâche
-- Tâche
--->
+- Optimiser fichiers audio + modèles 3D secondaires.
 
 ### Semaine 7
 
-<!--
-- Tâche
-- Tâche
--->
+- Participer aux tests qualité (focus interactions sonores).
 
 ### Semaine 8
 
-<!--
-- Tâche
-- Tâche
--->
+- Documenter les choix audio et leur rôle dans l’interactivité.
+- Vernissage
 
 ## Journal de bord
 
