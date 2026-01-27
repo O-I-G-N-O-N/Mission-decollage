@@ -30,7 +30,7 @@
 - **BOUTON POUSSOIR (MOMENTARY)** – x6  
   Utilité : Reçoit les pressions du joueur et les transmet au contrôleur. Permet de remplir des objectifs / régler des problèmes
 
-- **CABLE ETHERNET** – x3  
+- **CÂBLE ETHERNET** – x3  
    Utilité : Deux câbles Ethernet sont utilisés pour connecter le projecteur et l’ordinateur à la salle Matrice, et un autre câble Ethernet relie le transmitter au receiver afin d’afficher le contenu du PC sur le projecteur.
 
 - **TOGGLE SWITCH (SAFETY)** - x3
@@ -90,8 +90,6 @@
 ## Plans
 
 ![implantation](../medias/images/implantation.png)
-
-![implantation](../medias/images/planStudio.png)
 
 ![implantation](../medias/images/concept_vue_01.jpg)
 
