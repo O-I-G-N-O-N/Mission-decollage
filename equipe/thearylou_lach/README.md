@@ -25,22 +25,23 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ### Semaine 2
 
 - Déterminer les éléments 3D nécessaires à la progression.
-- Produire modèles 3D définitifs.
-
+- Produire modèle de la fusée
+- Produire modèle du cockpit
 
 ### Semaine 3
 
-- Adapter modèles pour maquette 1.
-- Créer animations simples.
+- Adapter modèles pour maquette 1
+- Produire modèles environnement de l'espace : météorite et capsule d'atterissage de fusée
+- Créer une animation simple pour la météorite.
 
 ### Semaine 4
-- Planifier animations environnementales.
-- Intégrer animations principales.
+- Produire des textures pour toutes les modèles.
+- Produire des effets spéciaux pour la fusé et le cockpit.
 
 ### Semaine 5
 
 - Appliquer matériaux/ textures optimisées.
-- Ajouter effets visuels atmosphériques.
+- Ajouter effets visuels atmosphériques de l'espace.
 
 ### Semaine 6
 
