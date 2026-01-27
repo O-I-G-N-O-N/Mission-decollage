@@ -25,7 +25,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 - Emprunter le matériel pour enregistrer des sons.
 - Enregistrer des sons pour la création des effets sonores manquants.
-- Modéliser l'environnement sur terre.
+- Modéliser l'oiseau (texture).
 
 ### Semaine 3
 
