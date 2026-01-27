@@ -35,7 +35,6 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 - Ajuster les interactions sonores à partir des tests effectués (latence, déclenchement, intensité).
 - Définir les repères visuels nécessaires aux interactions sonores (zones d’activation, feedback visuel).
-- Créer des éléments 3D simples liés aux interactions sonores.
 - Tester la cohérence de base entre les sons et les éléments visuels (sans synchronisation finale).
 
 ### Semaine 5
