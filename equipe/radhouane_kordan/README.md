@@ -26,7 +26,6 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ### Semaine 2
 - Planifier l’intégration des sons manquants en fonction des événements du jeu.
 - Créer les sons manquants nécessaires au prototype de la porte ouverte.
-- Intégrer les sons et effectuer des tests pour la porte ouverte.
 - Définir l'esthétique audio.
 
 ---
@@ -38,15 +37,12 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ---
 
 ### Semaine 4
-- Intégrer les sons dans Unity.
 - Faire le montage de la bande-annonce.
 
 ---
 
 ### Semaine 5
-- Tester les effets sonores et l’ambiance.
-- Intégration complète des effets sonores dans le jeu.
-- Finaliser l’interface du tableau de bord.
+- Peinturer l’interface du tableau de bord.
 
 ---
 
@@ -63,7 +59,6 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ---
 
 ### Semaine 7
-- Tester la stabilité sonore dans des conditions d’utilisation prolongées.
 - Ajuster les sons en fonction des tests.
 
 ---
