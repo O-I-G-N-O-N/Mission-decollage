@@ -27,6 +27,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 - Planifier l’intégration des sons manquants en fonction des événements du jeu.
 - Créer les sons manquants nécessaires au prototype de la porte ouverte.
 - Intégrer les sons et effectuer des tests pour la porte ouverte.
+- Définir l'esthétique audio.
 
 ---
 
@@ -94,7 +95,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Faire une liste d’inventaire des sons que nous possédons, de ceux à corriger et de ceux qui manquent.
 - Valider auprès des autres membres de l’équipe les sons manquants
 #### Mardi
-
+- Définir l'esthétique audio et de le faire valider.*
 #### Mercredi
 
 #### Jeudi
