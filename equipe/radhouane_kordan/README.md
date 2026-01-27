@@ -70,7 +70,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 8
 - Présenter le projet finale.
-- Documenter pour la documentation finale.
+- Documenter la conception sonore pour la documentation finale.
 - Faire le montage de la documentation finale.
 
 ## Journal de bord
