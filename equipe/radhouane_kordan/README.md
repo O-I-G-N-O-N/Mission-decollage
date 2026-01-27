@@ -33,7 +33,6 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ### Semaine 3
 - Corriger l’ambiance sonore existante.
 - Corriger les effets sonores existants.
-- Créer la musique du jeu.
 
 ---
 
