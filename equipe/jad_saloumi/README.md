@@ -24,7 +24,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ### Semaine 2
 
 - Emprunter le matériel pour enregistrer des sons.
-- Enregistrer des sons pour la conception des effets sonores.
+- Enregistrer des sons pour la création des effets sonores manquants.
 
 ### Semaine 3
 
