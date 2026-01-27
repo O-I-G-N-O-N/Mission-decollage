@@ -24,8 +24,8 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ---
 
 ### Semaine 2
-- Planifier l’intégration des sons manquants en fonction des événements du jeu.
-- Créer les sons manquants nécessaires au prototype de la porte ouverte.
+- Créer les effets sonores manquant.
+- Créer l'ambience manquant. (ambience quand le vaisseau est encore sur terre.) 
 - Définir l'esthétique audio.
 
 ---
@@ -33,39 +33,43 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ### Semaine 3
 - Corriger l’ambiance sonore existante.
 - Corriger les effets sonores existants.
+- Créer des variations de sons pour éviter la répition de l'usage du même son.
 
 ---
 
 ### Semaine 4
 - Faire le montage de la bande-annonce.
+- Nettoyer et affiner les sons (coupe, fondus, normalisation).
 
 ---
 
 ### Semaine 5
+- Remise de la bande-annonce
+- Assurer que tout les effets-sonores et ambiences sont prêt à être intégrer dans le jeu pour la présentation de la maquette 2.
 - Peinturer l’interface du tableau de bord.
+- S’assurer que les sons et ambiances sont bien organisés et clairement identifiés.
 
 ---
 
 ### Semaine 6
-- Ajuster les sons en fonction des retours .
-
+- Apporter des ajustements sonores suite aux retours de la présentation de la maquette 2.
 ---
 
 ### Semaine 6.5
-- Vérifier que chaque interaction importante possède un retour sonore clair et compréhensible.
-- Ajuster les sons de feedback pour améliorer la lisibilité des actions du joueur.
+- Raffiner les sons de feedback (intention, dynamique, lisibilité).
+- Harmoniser les sons entre eux pour assurer une identité sonore uniforme (si nécessaire).
 
 ---
 
 ### Semaine 7
 - Ajuster les sons en fonction des tests.
+- Préparer les versions audio finales.
 
 ---
 
 ### Semaine 8
 - Présenter le projet finale.
-- Documenter la conception sonore pour la documentation finale.
-- Faire le montage de la documentation finale.
+- Assurer le bon fonctionnement de l'installation en cas de problème.
 
 ## Journal de bord
 
