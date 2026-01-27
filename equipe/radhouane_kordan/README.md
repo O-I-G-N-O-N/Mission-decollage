@@ -19,13 +19,14 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 1
 - Corriger les schémas synoptiques et scénarimages existants en fonction des changements apportés au concept du projet.
-- Audit sonore : identifier ce qui existe déjà, ce qui manque et ce qui doit être amélioré.
+- Identifier ce qui existe déjà, ce qui manque et ce qui doit être amélioré.
 
 ---
 
 ### Semaine 2
 - Planifier l’intégration des sons manquants en fonction des événements du jeu.
 - Créer les sons manquants nécessaires au prototype de la porte ouverte.
+- Intégrer les sons et effectuer des tests pour la porte ouverte.
 
 ---
 
@@ -57,7 +58,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 6.5
 - Optimiser les fichiers audio pour la diffusion et la performance (format, taille, compression).
-- Corriger les problèmes de synchronisation audio.
+- Corriger les problèmes de synchronisation audio si besoin.
 
 ---
 
@@ -68,8 +69,8 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ---
 
 ### Semaine 8
-- Documenter la conception sonore.
-- Préparer les extraits audio pour la documentation vidéo finale.
+- Présenter le projet finale.
+- Documenter pour la documentation finale.
 - Faire le montage de la documentation finale.
 
 ## Journal de bord
@@ -91,7 +92,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 ### Semaine 2
 
 #### Lundi
-
+- Faire une liste d’inventaire des sons que nous possédons, de ceux à corriger et de ceux qui manquent.
+- Valider auprès des autres membres de l’équipe les sons manquants
 #### Mardi
 
 #### Mercredi
