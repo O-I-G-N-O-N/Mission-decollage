@@ -71,7 +71,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ### Semaine 8
 - Présenter le projet finale.
 - Assurer le bon fonctionnement de l'installation en cas de problème.
-
+  
 ## Journal de bord
 
 Cette section, complétée **quotidiennement** pendant l’exécution du projet, documente le travail individuel réellement réalisé chaque jour.
