@@ -38,13 +38,12 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ---
 
 ### Semaine 4
-- Faire le montage de la bande-annonce.
 - Nettoyer et affiner les sons (coupe, fondus, normalisation).
 
 ---
 
 ### Semaine 5
-- Remise de la bande-annonce
+- Faire le montage de la bande-annonce.
 - Assurer que tout les effets-sonores et ambiences sont prêt à être intégrer dans le jeu pour la présentation de la maquette 2.
 - Peinturer l’interface du tableau de bord.
 - S’assurer que les sons et ambiances sont bien organisés et clairement identifiés.
@@ -53,6 +52,8 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 6
 - Apporter des ajustements sonores suite aux retours de la présentation de la maquette 2.
+- Remise de la bande-annonce
+  
 ---
 
 ### Semaine 6.5
