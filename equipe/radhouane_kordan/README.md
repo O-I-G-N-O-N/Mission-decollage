@@ -64,7 +64,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 7
 - Tester la stabilité sonore dans des conditions d’utilisation prolongées.
-- Ajuster le mix final en fonction des tests.
+- Ajuster les sons en fonction des tests.
 
 ---
 
