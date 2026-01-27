@@ -30,6 +30,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 - Intégrer les sons interactifs dans la maquette 1.
 - Tester la réactivité sonore aux entrées utilisateur.
+- Créer ambiencce de jeu manquant.
 
 ### Semaine 4
 
