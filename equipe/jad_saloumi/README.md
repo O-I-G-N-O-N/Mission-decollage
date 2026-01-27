@@ -25,12 +25,12 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 - Emprunter le matériel pour enregistrer des sons.
 - Enregistrer des sons pour la création des effets sonores manquants.
+- Modéliser l'environnement sur terre.
 
 ### Semaine 3
 
-- Intégrer les sons interactifs dans la maquette 1.
+- Intégrer les effets sonores pour le prototype (porte-ouverte).
 - Tester la réactivité sonore aux entrées utilisateur.
-- Créer ambiencce de jeu manquant.
 
 ### Semaine 4
 
@@ -40,7 +40,6 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ### Semaine 5
 
 - Synchroniser sons interactifs et animations simples.
-- Ajuster le rythme sonore pour la lisibilité.
 
 ### Semaine 6
 
@@ -52,7 +51,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 - Optimiser fichiers audio + modèles 3D secondaires.
 
 ### Semaine 7
-
+- Tester la stabilité sonore dans des conditions d’utilisation prolongées.
 - Participer aux tests qualité (focus interactions sonores).
 
 ### Semaine 8
