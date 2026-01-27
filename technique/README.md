@@ -8,6 +8,15 @@
 - **Epson PowerLite 1980OWU Projector** – x1  
   Utilité : Projeter au mur le jeu
 
+- **Haut-parleur** - x2
+  Utilité : Diffusion du son
+
+- **Carte son Behringer UMC202HD** - x1
+  Utilié : Transmettre le son aux haut-parleurs
+
+- **Câble XLR** - 2x
+  Utilité : Connecter la carte son à l'haut-parleur
+
 - **Contrôleur Arduino M5Stack ATOM Lite ESP32** – x1  
   Utilité : Recevoir et transmettre la base du code aux autres logiciels (PureData, Unity)
 
