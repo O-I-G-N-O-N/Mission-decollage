@@ -43,7 +43,6 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 6
 
-- Finaliser sons interactifs pour maquette 2.
 - Tester cohérence audio-visuelle.
 
 ### Semaine 6.5
