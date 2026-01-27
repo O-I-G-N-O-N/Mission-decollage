@@ -24,24 +24,30 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 2
 
-- Commencer / compléter les séquences d'urgences (jeu).
-- Intégration partielle des audios
+- Commencer à coder la séquence d'urgence (réacteur endommagé)
+- Commencer à coder la séquence d'urgence (Communications avec la tour de contrôle)
+
+
 
 ### Semaine 3
 
 - Compléter les séquences d'urgences si elles ne l'est pas (jeu).
-- Commencer / compléter les évènements aléatoires (jeu).
-- Compléter la section du détâchement / atterissage de la navette sur mars (jeu).
+- compléter de coder la séquence d'urgence (réacteur endommagé)
+- compléter de coder la séquence d'urgence (Communications avec la tour de contrôle)
+- Commencer à coder la séquence d'urgence (réparations après colision)
+- Commencer à coder la séquence d'urgence (Radar endommagé)
+- Commencer à coder la séquence d'urgence (réajuster la trajectoire) 
 
 ### Semaine 4
 
-- Compléter la section du détâchement si elle ne l'est pas (jeu).
+- commencez à coder la section du détâchement / atterissage de la navette sur mars (jeu).
 - Compléter les événements aléatoires si ils ne le sont pas.
 - Commencer à préparer les matériaux nécessaires pour la construction du panneau de contrôle.
 - Commencer à construire le panneau de bord.
 
 ### Semaine 5
 
+- Compléter la section du détâchement si elle ne l'est pas (jeu).
 - Assembler les pièces du tableau de bord.
 - Perçage de trous dans le tableau de bord.
 - Ajout de la trappe dans le tableau de bord.
@@ -84,6 +90,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 ### Semaine 2
 
 #### Lundi
+
+- Début de la programmation test (première personne)
 
 #### Mardi
 
