@@ -110,7 +110,6 @@ Plans d'implantation 2D et 3D
 ## Budget
 
 #### AliExpress
-
 | Produit                                                                                                                                                     | Quantité | Extra | Prix réel          |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ----- | ------------------ |
 | [M5Stack Atom](https://shop.m5stack.com/products/atom-lite-esp32-development-kit)                                                                           | x2       | 0     | 0 (emprunt)        |
@@ -122,13 +121,14 @@ Plans d'implantation 2D et 3D
 | [Toggle Switch](https://www.aliexpress.com/item/1005004068738380.html)                                                                                      | x3       | +3    | 6.24 $ CAD ~       |
 | [Encodeur](https://www.aliexpress.com/item/1005009727108504.html)                                                                                           | x1       | +2    | 4.83 $ CAD ~       |
 | [Bois](https://www.homedepot.ca/product/alexandria-moulding-3-4-inch-x-2-ft-x-4-ft-spruce-handy-panel/1000148919)                                           | x10      | 0     | 310.27 $ CAD ~     |
-| [Adhesive](https://www.homedepot.ca/product/lepage-pl-premium-polyurethane-construction-adhesive-interior-exterior-waterproof-295-ml/1000403473)            | x1       | 0     | 9.18 $ CAD ~       |
+| [Corner Brace](https://www.homedepot.com/p/Everbilt-20-Pack-1-1-2-in-Zinc-Plated-Corner-Brace-Value-Pack-24477/327600917)                                    | x1       | 0     | 13.78 $ CAD ~      |
 | [Primer](https://www.homedepot.ca/product/zinsser-bulls-eye-1-2-3-interior-exterior-water-base-primer-for-all-surfaces-in-tintable-white-946-ml/1000123370) | x1       | 0     | 21.01 $ CAD ~      |
 | [Peinture](https://www.homedepot.ca/product/rust-oleum-universal-interior-exterior-metallic-paint-primer-spray-paint-in-flat-soft-iron-312g/1000655367)     | x1       | 0     | 29.87 $ CAD ~      |
 | [Vis](https://www.homedepot.ca/product/paulin--6-x-1-inch-flat-head-phillips-drive-fine-thread-drywall-screws-100pcs/1000140793)                            | x1       | 0     | 5.28 $ CAD ~       |
-| **TOTAL**                                                                                                                                                   |          |       | **426.37 $ CAD ~** |
+| [Charnière de porte](https://www.homedepot.ca/product/everbilt-3-inch-with-5-8-inch-radius-satin-nickel-door-hinge-1-pc-/1000769445)                       | x2       | 0     | 9.66 $ CAD ~       |
+| **TOTAL**                                                                                                                                                   |          |       | **440.63 $ CAD ~** |
 
-#### Abra Electronics
+#### ABRA Electronics
 
 | Produit                                                                                                                                                                  | Quantité | Prix réel          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------ |
@@ -141,8 +141,10 @@ Plans d'implantation 2D et 3D
 | [Toggle Switch](https://abra-electronics.com/electromechanical/switches/toggle-switches/com-11314-toggle-switch-and-cover-illuminated-white-clone.html)                  | x3       | 16.91 $ CAD ~      |
 | [Encodeur](https://abra-electronics.com/electromechanical/encoders/377-rotary-encoder-with-knob-377.html)                                                                | x1       | 9.38 $ CAD ~       |
 | [Bois](https://www.homedepot.ca/product/alexandria-moulding-3-4-inch-x-2-ft-x-4-ft-spruce-handy-panel/1000148919)                                                        | x10      | 310.27 $ CAD ~     |
-| [Adhesive](https://www.homedepot.ca/product/lepage-pl-premium-polyurethane-construction-adhesive-interior-exterior-waterproof-295-ml/1000403473)                         | x1       | 9.18 $ CAD ~       |
+| [Corner brace](https://www.homedepot.com/p/Everbilt-20-Pack-1-1-2-in-Zinc-Plated-Corner-Brace-Value-Pack-24477/327600917)                                                | x1       | 13.78 $ CAD ~      |
+| [Charnière de porte](https://www.homedepot.ca/product/everbilt-3-inch-with-5-8-inch-radius-satin-nickel-door-hinge-1-pc-/1000769445)                                   | x2       | 9.66 $ CAD ~       |
 | [Primer](https://www.homedepot.ca/product/zinsser-bulls-eye-1-2-3-interior-exterior-water-base-primer-for-all-surfaces-in-tintable-white-946-ml/1000123370)              | x1       | 21.01 $ CAD ~      |
 | [Peinture](https://www.homedepot.ca/product/rust-oleum-universal-interior-exterior-metallic-paint-primer-spray-paint-in-flat-soft-iron-312g/1000655367)                  | x1       | 29.87 $ CAD ~      |
 | [Vis](https://www.homedepot.ca/product/paulin--6-x-1-inch-flat-head-phillips-drive-fine-thread-drywall-screws-100pcs/1000140793)                                         | x1       | 5.28 $ CAD ~       |
-| **TOTAL**                                                                                                                                                                |          | **520.10 $ CAD ~** |
+| **TOTAL**                                                                                                                                                                |          | **534.36 $ CAD ~** |
+
