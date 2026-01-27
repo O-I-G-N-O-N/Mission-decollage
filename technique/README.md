@@ -99,6 +99,10 @@
 
 ![implantation du tableau de commandes](../medias/images/ImplantationTableauCommandes.drawio.png)
 
+![Liste des composants](../medias/images/composants.png)
+
+
+
 ---
 
 <!--
