@@ -47,7 +47,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 6.5
 
-- Optimiser fichiers audio + modèles 3D secondaires.
+- Optimiser fichiers audio.
 
 ### Semaine 7
 - Tester la stabilité sonore dans des conditions d’utilisation prolongées.
