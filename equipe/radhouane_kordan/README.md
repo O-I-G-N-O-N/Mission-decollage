@@ -47,8 +47,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ---
 
 ### Semaine 6
-- Vérifier la cohérence sonore lors de la présentation publique.
-- Ajuster les sons en fonction des retours (si nécessaire).
+- Ajuster les sons en fonction des retours .
 
 ---
 
