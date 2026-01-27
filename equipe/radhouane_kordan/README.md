@@ -57,8 +57,8 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ---
 
 ### Semaine 6.5
-- Optimiser les fichiers audio pour la diffusion et la performance (format, taille, compression).
-- Corriger les problèmes de synchronisation audio si besoin.
+- Vérifier que chaque interaction importante possède un retour sonore clair et compréhensible.
+- Ajuster les sons de feedback pour améliorer la lisibilité des actions du joueur.
 
 ---
 
