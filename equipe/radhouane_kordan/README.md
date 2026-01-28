@@ -102,6 +102,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Corriger ma planification en fonction des retours du professeur.
 #### Mercredi
 - Traitement des sons enregistrés pour la création des sons manquants.
+- Ajouter une liste d’événements déclenchables dans le jeu dans la page concept.
+- Mettre à jour le scénarimage à la suite des changements apportés au concept.
 #### Jeudi
 
 #### Vendredi
