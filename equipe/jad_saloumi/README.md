@@ -23,8 +23,21 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 2
 
-- Emprunter le matériel pour enregistrer des sons.
-- Enregistrer des sons pour la création des effets sonores manquants.
+- Emprunter le matériel nécessaire pour l’enregistrement des sons.
+
+- Enregistrer les sons suivants pour la création des effets sonores manquants :
+
+  - Bruit des oiseaux
+
+  - Bruit de réacteur (feu)
+
+  - Bruit de collision avec un oiseau
+
+  - Bruit de vent
+
+  - Bruits de narration (dialogues)
+
+  - Bruit de bris électrique de la fusée
 
 ### Semaine 3
 
