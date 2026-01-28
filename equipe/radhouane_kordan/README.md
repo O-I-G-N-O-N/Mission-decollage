@@ -98,7 +98,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Faire une liste d’inventaire des sons que nous possédons, de ceux à corriger et de ceux qui manquent.
 - Valider auprès des autres membres de l’équipe les sons manquants
 #### Mardi
-- Définir l'esthétique audio et de le faire valider.*
+- Définir l'esthétique audio.
+- Corriger ma planification en fonction des retours du professeur.
 #### Mercredi
 
 #### Jeudi
