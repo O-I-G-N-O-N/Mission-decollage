@@ -96,8 +96,8 @@ Le jeu commence dans un monde en trois dimensions de la planète terre, la vue e
 Représentations visuelles de l'ambiance recherchée, que ce soit à travers des photographies, des illustrations, ou des œuvres existantes.
 | Visuel 1 | Visuel 2 | Visuel 3 |
 |-----------|-----------|-----------|
-| ![](../medias/images/visuel_retro-futuristique_01.jpg) | ![](../medias/images/visuel_retro-futuristique_02.jpg) | ![](../medias/images/visuel_retro-futuristique_03.png) |
-| [Source: Reddit](https://www.reddit.com/r/scifi/comments/10xqbmg/space_trip_retrofuturistic_artwork_done_by_me/) | [Source: 99designs](https://99designs.fr/profiles/1193222) | [Source: moddb](https://www.moddb.com/games/space-shooter-90/images/w1#imagebox) |
+| ![](../medias/images/space_control.jpg) | ![](../medias/images/visuel_retro-futuristique_02.jpg) | ![](../medias/images/no-mans-sky-hub.jpg) |
+| [Source: Space Voyage Ventures](https://spacevoyageventures.com/space-exploration-a-catalyst-for-international-cooperation/) | [Source: 99designs](https://99designs.fr/profiles/1193222) | [Source: Rock Paper Shotgun](https://www.rockpapershotgun.com/games/no-mans-sky) |
 
 ### Palette de couleurs
 
@@ -109,15 +109,20 @@ Choix de couleurs qui influenceront l’éclairage, les médias projetés, ou l�
 
 Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la tonalité souhaitée pour l'installation.
 
-- Jeu : [Galaga Legions](https://www.youtube.com/watch?v=g1nYvdUFbdA&t=284s)  
-  ![Galaga Legions](../medias/images/galaga-legions.jpg)  
-  Jeu topdown en 3d qui nous inspire pour l'aesthetique visuelle du vaiseau.
+- Jeu : [Dungeons of Hinterberg](https://www.youtube.com/watch?v=Gpe3C_INDuY)  
+  ![Dungeons of Hinterberg](../medias/images/cel-shaded.jpg)  
+  Style du jeu en "cel-shaded" qui nous inspire pour l'aesthetique visuelle générale du jeu.
 
 ---
 
 - Jeu : [ΔV: Rings of Saturn](https://www.youtube.com/watch?v=qoykm2x2WDk)  
   ![Delta-V](../medias/images/delta-v.jpg)  
-  Jeu topdown en 3d qui nous inspire pour l'aesthetique visuelle de l'environnement .
+  Jeu topdown en 3D qui nous inspire pour l'aesthetique visuelle de l'environnement .
+
+---
+- Installation : [Mission Control Desk](https://makezine.com/article/home/furniture/making-fun-mission-control-desk/) 
+![Mission Control Desk](../medias/images/panneau_control_inspiration.jpg)  
+ Panneau de contrôle pour notre installation.
 
 ---
 
@@ -164,7 +169,7 @@ Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la 
 - Projecteur projetant au mur
 - Boutons
 
-| Chaise                                                           | Projecteur                                                                                                                                        | Bouton poussoir                                                                                                                                                                      |
+| Panneau de contrôle                                                           | Projecteur                                                                                                                                        | Bouton poussoir                                                                                                                                                                      |
 | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ![](../medias/images/panneau_controle.jpg)                      | ![](../medias/images/projecteur_epson.jpg)                                                                                                        | ![](../medias/images/bouton_poussoir_rouge.jpg)                                                                                                                                      |
 | [Source: Industructables](https://www.instructables.com/Nasa-Control-Panel-for-Kids/) | [Source: Epson](https://epson.ca/Pour-le-travail/Projecteurs/Projecteurs-pour-salle-de-classe-/Projecteur-PowerLite-990U-WUXGA-3LCD/p/V11H867020) | [Source: Made-in-China](https://gwiecelectric.en.made-in-china.com/product/JGWUFoljankf/China-Manufacture-22mm-Xb2-Series-Engine-Start-Stop-Latching-Push-Button-Rotary-Switch.html) |
