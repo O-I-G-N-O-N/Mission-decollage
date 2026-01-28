@@ -101,7 +101,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Définir l'esthétique audio.
 - Corriger ma planification en fonction des retours du professeur.
 #### Mercredi
-
+- Traitement des sons enregistrés pour la création des sons manquants.
 #### Jeudi
 
 #### Vendredi
