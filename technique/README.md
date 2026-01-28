@@ -135,16 +135,14 @@ Plans d'implantation 2D et 3D
 | [M5Stack Atom](https://shop.m5stack.com/products/atom-lite-esp32-development-kit)                                                                                        | x2       | 0 (emprunt)        |
 | [PBHub](https://docs.m5stack.com/en/unit/pbhub_1.1)                                                                                                                      | x2       | 0 (emprunt)        |
 | [Unit 3.96](https://docs.m5stack.com/en/unit/396port)                                                                                                                    | x11      | 0 (emprunt)        |
-| [Bouton](https://abra-electronics.com/electromechanical/switches/pushbutton-switches-led/latching/pbs-led-2206wh-l.html)                                                 | x6       | 60.65 $ CAD ~      |
-| [Fader](https://abra-electronics.com/passive-components/potentiometers/slide-potentiometer-pc-mount/com-11620-linear-taper-slide-potentiometer-10k-small-pcb-mount.html) | x3       | 9.28 $ CAD ~       |
-| [Rotary Switch](https://addison-electronique.com/fr/interrupteur-rotatif-illumine-1-position-45-n-o-nf-rouge.html)                                                       | x3       | 48.27 $ CAD ~      |
-| [Toggle Switch](https://abra-electronics.com/electromechanical/switches/toggle-switches/com-11314-toggle-switch-and-cover-illuminated-white-clone.html)                  | x3       | 16.91 $ CAD ~      |
-| [Encodeur](https://abra-electronics.com/electromechanical/encoders/377-rotary-encoder-with-knob-377.html)                                                                | x1       | 9.38 $ CAD ~       |
-| [Bois](https://www.homedepot.ca/product/alexandria-moulding-3-4-inch-x-2-ft-x-4-ft-spruce-handy-panel/1000148919)                                                        | x10      | 310.27 $ CAD ~     |
-| [Corner brace](https://www.homedepot.com/p/Everbilt-20-Pack-1-1-2-in-Zinc-Plated-Corner-Brace-Value-Pack-24477/327600917)                                                | x1       | 13.78 $ CAD ~      |
-| [Charnière de porte](https://www.homedepot.ca/product/everbilt-3-inch-with-5-8-inch-radius-satin-nickel-door-hinge-1-pc-/1000769445)                                   | x2       | 9.66 $ CAD ~       |
-| [Primer](https://www.homedepot.ca/product/zinsser-bulls-eye-1-2-3-interior-exterior-water-base-primer-for-all-surfaces-in-tintable-white-946-ml/1000123370)              | x1       | 21.01 $ CAD ~      |
-| [Peinture](https://www.homedepot.ca/product/rust-oleum-universal-interior-exterior-metallic-paint-primer-spray-paint-in-flat-soft-iron-312g/1000655367)                  | x1       | 29.87 $ CAD ~      |
-| [Vis](https://www.homedepot.ca/product/paulin--6-x-1-inch-flat-head-phillips-drive-fine-thread-drywall-screws-100pcs/1000140793)                                         | x1       | 5.28 $ CAD ~       |
-| **TOTAL**                                                                                                                                                                |          | **534.36 $ CAD ~** |
+| [Bouton LED rouge](https://abra-electronics.com/electromechanical/switches/pushbutton-switches-led/latching/pbs-led-2206rd-l.html)                                                 | x2       | 20.22 CAD ~      |
+| [Bouton LED bleu](https://abra-electronics.com/electromechanical/switches/pushbutton-switches-led/latching/pbs-led-2206bl-l.html)                                                 | x2       | 20.22 CAD ~      |
+| [Bouton LED verte](https://abra-electronics.com/electromechanical/switches/pushbutton-switches-led/latching/pbs-led-2206gn-l.html)                                                 | x2       | 20.22 CAD ~      |
+| [Rotary Switch LED rouge](https://abra-electronics.com/electromechanical/switches/rotary-switches/2-position-momentary/rss-2pm-2206rd.html)                                                       | x1       | 20.17 CAD ~      |
+| [Rotary Switch LED bleu](https://abra-electronics.com/electromechanical/switches/rotary-switches/2-position-momentary/rss-2pm-2206bl.html)                                                       | x1       | 20.17 CAD ~      |
+| [Rotary Switch LED verte](https://abra-electronics.com/electromechanical/switches/rotary-switches/2-position-momentary/rss-2pm-2206gn.html)                                                       | x1       | 20.17 CAD ~      |
+| [Toggle Switch](https://abra-electronics.com/electromechanical/switches/toggle-switches/com-11310-toggle-switch-and-cover-illuminated-red-com-11310.html)                  | x3       | 20.53 CAD ~      |
+|[Acrylique noir 30.5cm x 30.5cm](https://www.amazon.ca/-/fr/acrylique-plexiglas-d%C3%A9paisseur-protection-daffichage/dp/B07TVKHLP6/ref=sr_1_6?__mk_fr_CA=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-6)                  | x3       | 75.72 CAD ~      |
+|[Connecteur angle extrusion aluminium](https://www.amazon.ca/-/fr/acrylique-plexiglas-d%C3%A9paisseur-protection-daffichage/dp/B07TVKHLP6/ref=sr_1_6?__mk_fr_CA=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-6)                  | x3       | 53.48 CAD ~      |
+**TOTAL**                                                                                                                                                                |          | ** 2 CAD ~** |
 
