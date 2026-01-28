@@ -24,7 +24,11 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ---
 
 ### Semaine 2
-- Créer les effets sonores manquant.
+- Créer les effets sonores manquant. (Bruit de propulseur,
+bruit de collision avec oiseau,
+bruit de vent,
+bruit de narration,
+bruit de bris électrique de la fusée)
 - Créer l'ambience manquant. (ambience quand le vaisseau est encore sur terre.) 
 - Définir l'esthétique audio.
 
@@ -57,7 +61,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 ---
 
 ### Semaine 6.5
-- Raffiner les sons de feedback (intention, dynamique, lisibilité).
+- Raffiner les sons de feedback (son victoire, défaite, erreur, alerte)
 - Harmoniser les sons entre eux pour assurer une identité sonore uniforme (si nécessaire).
 
 ---
