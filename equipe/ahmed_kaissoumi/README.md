@@ -88,15 +88,30 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 
-- Planification en groupe sur les derniers ajustements concernant la direction dans laquelle on s'enlignera (design, gameplay, installation..)
+- Planification en groupe sur les derniers ajustements concernant la direction dans laquelle on s’alignera (design, gameplay, installation).
 
 #### Mardi
 
+- Création d’une maquette qui représente notre installation.
+- Confirmation du budget et des composants avec Guillaume.
+
 #### Mercredi
+
+- Journée passée à comprendre l’utilisation du bouton d’arcade, celui-ci étant défectueux, je n’ai pas fait grand-chose de plus.
 
 #### Jeudi
 
+- Création des fichiers C++ qui correspondent à notre nouvelle réalité afin d’y établir les fondations de notre nouveau code (ceux de la démo précédente étant obsolètes et hors contexte).
+- Ajout de code afin de pouvoir utiliser 6 keys et 3 faders sur 2 Arduino et 2 PbHub différents.
+- Modification légère du fichier Pure Data de la démo précédente.
+
 #### Vendredi
+
+- Débogage du problème suivant : Arduino contrôlant la souris d’ordinateur (problème partiellement réglé).
+- Ajout d’une animation de démarrage pour les Arduino.
+- Ajout de l’OSC pour la communication entre les Arduino, Pure Data et Unity.
+- Ajout de contrôles de base avec les faders sur Unity.
+
 
 ### Semaine 3
 
