@@ -95,11 +95,30 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Mardi
 
+- réglage de problèmes liés aux modèles 3D .Blend
+- Optimisation de la Minimap
+- Ajout d'un modèle 3D placeholder de Mars dans la scène 2 (espace)
+
 #### Mercredi
+
+- Remplacement des fichiers .Blend par des .FBX
+- Réglage de problèmes de physique dans la scène 1 (décollage)
+- Ajout d'un background spatial dans la scène 2 (espace)
+- Ajout des sliders et UI placeholders dans la scène 2
+- commencement du système de physique/déplacement dans la scène 2
 
 #### Jeudi
 
+- Ajout de météore dans la scène 2 (obstacle)
+- Ajout de la Minimap dans la scène 2
+- Commencement de la programmation du système d'événements aléatoires
+
 #### Vendredi
+
+- Changement du système d'événements aléatoires pour faciliter l'implémentation des boutons
+- Correction de problèmes de boucles infinies dans la scène 2 (espace)
+- Complétion du système de séquence d'urgence des réacteurs
+- Complétion de la séquence d'urgence réacteur principal & droit
 
 ### Semaine 3
 
