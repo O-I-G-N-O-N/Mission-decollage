@@ -90,7 +90,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 - Faire une demande de réservation pour l’enregistrement des sons prévue mercredi.
-- Sons prevues
+- Sons prévues :
    - Bruit des oiseaux
 
   - Bruit de réacteur (feu)
@@ -104,13 +104,27 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
   - Bruit de bris électrique de la fusée
   
 #### Mardi
-
+- Discuter de la planification prévue des tâches avec les professeurs.
+- Corriger et ajuster la planification en fonction des conseils des professeurs.
+  
 #### Mercredi
+- Enregistrer les sons manquants à l’aide de Sound Devices.
 
+- Nettoyer les sons enregistrés pour les préparer à l’utilisation.
+
+- Faire des recherches sur comment programmer et intégrer les sons dans Unity.
+
+- Prendre des notes sur les méthodes et techniques pour l’intégration des sons.
+  
 #### Jeudi
+- Faire la modélisation 3D d’une mouette dans Maya 3D.
+- Faire la modélisation 3D d’un avion commercial dans Maya 3D.
+- Faire des recherches pour améliorer la précision et les détails des modèles 3D.
 
 #### Vendredi
-
+- Ajouter les textures sur les modèles 3D (mouette et avion commercial) dans Maya 3D.
+- Exporter les modèles 3D texturés au format FBX pour utilisation dans Unity.
+  
 ### Semaine 3
 
 #### Lundi
