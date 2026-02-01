@@ -89,7 +89,20 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 ### Semaine 2
 
 #### Lundi
+- Faire une demande de réservation pour l’enregistrement des sons prévue mercredi.
+- Sons prevues
+   - Bruit des oiseaux
 
+  - Bruit de réacteur (feu)
+
+  - Bruit de collision avec un oiseau
+
+  - Bruit de vent
+
+  - Bruits de narration (dialogues)
+
+  - Bruit de bris électrique de la fusée
+  
 #### Mardi
 
 #### Mercredi
