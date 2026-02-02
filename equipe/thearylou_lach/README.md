@@ -82,12 +82,19 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Lundi
 
 #### Mardi
+- Approfondir le concept.
+- Recherche des boutons et des interrupteurs.
 
 #### Mercredi
+- Mettre en jour le site Web.
+- Recherche des matériaux et la constructions de notre installation.
 
 #### Jeudi
+- Modélisation du cockpit
+- Essayer d'implémenter un shader à partir d'un tutoriel, mais je vais le   laisser tomber à caise de sa complication.
 
 #### Vendredi
+- Modélisation des modèles :  Fusée, astéorite et Mars.
 
 ### Semaine 3
 
