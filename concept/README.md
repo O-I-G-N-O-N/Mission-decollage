@@ -215,7 +215,7 @@ L’esthétique sonore dégage une émotion enjouée et légèrement tendue. Le 
 
 ## Intention de la conception sonore
 - L’intention de la conception sonore est de renforcer l’immersion du joueur tout en conservant une dimension ludique et amusante.
-- Favoriser l’impression que les joueurs se trouvent à l’intérieur d’un vaisseau spatial.
+- Favoriser l’impression que les joueurs se trouvent à l’intérieur d’une fusée.
 
 ### Inspirations interactives
 
