@@ -210,6 +210,12 @@ Pourrait être utilisé lorsque la fusée esquive un obstacle en faisant un dash
 [interference.mp3](interference.mp3)  
 Se déclenche lorsque la fusée est endommagée et dure quelques secondes.
 
+## Qualités sonores
+L’esthétique sonore dégage une émotion enjouée et légèrement tendue. Le timbre est brillant et épuré, parfois plus chargé selon les situations. Les sons sont rythmés et rapides, avec de légères variations, dans une approche cartoonesque, ludique et fonctionnelle.
+
+## Intention de la conception sonore
+- L’intention de la conception sonore est de renforcer l’immersion du joueur tout en conservant une dimension ludique et amusante.
+- Favoriser l’impression que les joueurs se trouvent à l’intérieur d’un vaisseau spatial.
 
 ### Inspirations interactives
 
