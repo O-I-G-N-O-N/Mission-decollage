@@ -211,12 +211,12 @@ Pourrait être utilisé lorsque la fusée esquive un obstacle en faisant un dash
 Se déclenche lorsque la fusée est endommagée et dure quelques secondes.
 
 ## Qualités sonores
-L’esthétique sonore dégage une émotion enjouée et légèrement tendue. Le timbre est brillant et épuré, parfois plus chargé selon les situations. Les sons sont rythmés et rapides, avec de légères variations, dans une approche cartoonesque, ludique et fonctionnelle.
+L’esthétique sonore du jeu est crédible et s’inspire de la réalité aérospatiale, avec des sons technologiques et mécaniques évoquant les systèmes embarqués, les interfaces et la structure du vaisseau. L’ensemble est pensé comme une écoute intérieure, filtrée et contenue, perçue depuis la cabine, afin de renforcer l’immersion. L’ambiance est avant tout atmosphérique et minimaliste, laissant une large place au silence et au temps long du voyage spatial. Une tension constante traverse le paysage sonore, traduisant la fragilité du vaisseau et les dangers latents, le tout dans une approche semi-réaliste, fidèle dans sa logique mais légèrement stylisée dans son rendu.
 
 ## Intention de la conception sonore
-- L’intention de la conception sonore est de renforcer l’immersion du joueur tout en conservant une dimension ludique et amusante.
-- Favoriser l’impression que les joueurs se trouvent à l’intérieur d’une fusée.
+L’intention de la conception sonore est de plonger le joueur dans un voyage spatial crédible et immersif, à travers des sons technologiques et mécaniques inspirés de la réalité aérospatiale. Le sound design renforce le sentiment d’être à l’intérieur d’un vaisseau spatial, en faisant ressentir ses systèmes, sa structure et la tension d’une traversée atmosphérique et contemplative.
 
+---
 ### Inspirations interactives
 
 <!-- Inclure des liens et une ligne sur pourquoi -->
