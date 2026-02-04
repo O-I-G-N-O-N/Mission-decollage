@@ -117,9 +117,18 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 
+- Création d'ui
+- Débogage d'un problème de vitesse d'envoi via OSC
+
+
 #### Mardi
 
+- Soudure des boutons et switch
+- Ajustement et intégration du code arduino pour l'utilisation OSC sur la scène 2 (first person) & événements aléatoires
+
 #### Mercredi
+
+- Retour à la version antérieur suite à un bug majeur
 
 #### Jeudi
 
