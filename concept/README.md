@@ -211,10 +211,12 @@ Pourrait être utilisé lorsque la fusée esquive un obstacle en faisant un dash
 Se déclenche lorsque la fusée est endommagée et dure quelques secondes.
 
 ## Qualités sonores
-L’esthétique sonore du jeu est crédible et s’inspire de la réalité aérospatiale, avec des sons technologiques et mécaniques évoquant les systèmes embarqués, les interfaces et la structure du vaisseau. L’ensemble est pensé comme une écoute intérieure, filtrée et contenue, perçue depuis la cabine, afin de renforcer l’immersion. L’ambiance est avant tout atmosphérique et minimaliste, laissant une large place au silence et au temps long du voyage spatial. Une tension constante traverse le paysage sonore, traduisant la fragilité du vaisseau et les dangers latents, le tout dans une approche semi-réaliste, fidèle dans sa logique mais légèrement stylisée dans son rendu.
+L’ensemble adopte une approche crédible et semi-réaliste, en lien avec l’exploration spatiale. L’ambiance sonore est minimaliste, continue et répétitive, créant une atmosphère sérieuse et légèrement tendue. L’expérience sonore reste uniforme et simple, centrée sur la présence à bord du vaisseau tout au long du jeu.
 
 ## Intention de la conception sonore
-L’intention de la conception sonore est de plonger le joueur dans un voyage spatial crédible et immersif, à travers des sons technologiques et mécaniques inspirés de la réalité aérospatiale. Le sound design renforce le sentiment d’être à l’intérieur d’un vaisseau spatial, en faisant ressentir ses systèmes, sa structure et la tension d’une traversée atmosphérique et contemplative.
+- Plonger le joueur dans l’expérience d’un voyage spatial.
+- Renforcer le sentiment d’être à bord du vaisseau.
+- Transmettre la tension et la contemplation du voyage vers Mars.
 
 ---
 ### Inspirations interactives
