@@ -96,25 +96,33 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 - Faire une liste d’inventaire des sons que nous possédons, de ceux à corriger et de ceux qui manquent.
-- Valider auprès des autres membres de l’équipe les sons manquants
+- Valider auprès des autres membres de l’équipe les sons manquants.
+
 #### Mardi
-- Définir l'esthétique audio.
+- Définir l’esthétique audio.
 - Corriger ma planification en fonction des retours du professeur.
+
 #### Mercredi
 - Trier et organiser les sons enregistrés avec Sound Devices.
 - Traitement des sons enregistrés pour la création des sons manquants.
 - Ajouter une liste d’événements déclenchables dans le jeu dans la page concept.
 - Mettre à jour le scénarimage à la suite des changements apportés au concept.
+
 #### Jeudi
+- J’ai réalisé le son d’oiseau.
+- J’ai réalisé le son d’oiseau avec collision.
 
 #### Vendredi
+- J’ai créé le son de narration.
 
 ### Semaine 3
 
 #### Lundi
+- J’ai ajouté à la documentation l’esthétique sonore et l’intention de la conception sonore.
+- J’ai réalisé le son de bris électronique.
 
 #### Mardi
-
+- J’ai commencé à intégrer des sons pour la démo.
 #### Mercredi
 
 #### Jeudi
