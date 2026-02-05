@@ -3,10 +3,7 @@ guid: defca431c92989e42a6130bc9fd5ecd5
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - zone: {instanceID: 0}
-  - audioSource: {instanceID: 0}
-  - collisionSound: {fileID: 8300000, guid: 8c0ce1f936e31bb429a76b8bb7ed0bc4, type: 3}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
