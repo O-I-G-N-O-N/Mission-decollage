@@ -34,7 +34,9 @@ public class Gravity : MonoBehaviour
 
     private bool isLoadingScene = false;
 
-
+    [Header("Ambience")]
+   public AudioSource earthAmbience;
+   public AudioSource spaceAmbience;
 
     void OnTriggerEnter(Collider other)
 {
@@ -49,6 +51,11 @@ public class Gravity : MonoBehaviour
         gravityStrength = 0f;
         targetFOV = 5f;
         SpaceReached = true;
+
+        // Jouer son espace
+       if (!spaceAmbience.isPlaying) spaceAmbience.Play();
+       if (earthAmbience.isPlaying) earthAmbience.Stop();
+
         if (!isLoadingScene)
             StartCoroutine(FadeAndLoadScene());
     }
@@ -59,6 +66,10 @@ public class Gravity : MonoBehaviour
         DynamicGI.UpdateEnvironment();
         Debug.Log("Terre");
         gravityStrength = 9.81f;
+
+         // Jouer son Terre
+    if (!earthAmbience.isPlaying) earthAmbience.Play();
+    if (spaceAmbience.isPlaying) spaceAmbience.Stop();
     }
 
     if (gameObject.CompareTag("Mars"))

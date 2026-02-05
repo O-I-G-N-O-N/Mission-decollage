@@ -25,10 +25,19 @@ public class Zones : MonoBehaviour
 
     public bool PlayerIsDead = false;
 
+    [Header("Son Explosion")]
+public AudioSource explosionSound; // AudioSource pour le son d'explosion
+
+
      public void TriggerExplosion()
     {
         Fusee.gameObject.GetComponent<Renderer>().enabled = false;
         Explosion.Play();
+
+        // Jouer le son d'explosion
+        if (explosionSound != null)
+            explosionSound.Play();
+            
         PlayerIsDead = true;
 
         if (PlayerIsDead) {
