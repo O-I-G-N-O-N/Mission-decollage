@@ -35,11 +35,15 @@ public class RocketScript : MonoBehaviour
 
     public Gravity GravityScript;
 
-    // --- SEUILS ---
     [Header("Thresholds")]
     public float mainIgnitionThreshold = 0.05f;
     public float sideIgnitionThreshold = 0.03f;
     public float pivotDeadZone = 0.2f;
+
+    [Header("Audio")]
+    public AudioSource propulseurStart;  // ignition sound, play once
+    public AudioSource propulseurLoop;   // looping sound
+    private bool isPropulseurActive = false; // tracks if all reactors are on
 
     void Start()
     {
@@ -78,19 +82,19 @@ public class RocketScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        // --- INPUTS BRUTS ---
-        float mainInput = MainSlider.value;   // 0..1
+        // --- INPUTS ---
+        float mainInput = MainSlider.value;
         float leftInput = LeftSlider.value;
         float rightInput = RightSlider.value;
         float pivotInput = PivotSlider.value;
 
-        // --- VALEURS CONVERTIES ---
+        // --- CONVERTED VALUES ---
         float mainForce = Proportion(mainInput, 0f, 1f, 0f, 9f);
         float leftForce = Proportion(leftInput, 0f, 1f, 0f, 0.2f);
         float rightForce = Proportion(rightInput, 0f, 1f, 0f, 0.2f);
         float pivotForce = Proportion(pivotInput, 0f, 1f, -0.6f, 0.6f);
 
-        // --- CAMERA STABILISÉE ---
+        // --- CAMERA STABILIZED ---
         Quaternion invertedRotation = Quaternion.Inverse(rb.transform.localRotation);
         Camera.transform.localRotation = Quaternion.RotateTowards(
             Camera.transform.localRotation,
@@ -101,43 +105,37 @@ public class RocketScript : MonoBehaviour
         // =========================
         //      MAIN REACTOR
         // =========================
-        if (mainInput > mainIgnitionThreshold)
+        bool mainActive = mainInput > mainIgnitionThreshold;
+        if (mainActive)
         {
             rb.AddForce(transform.forward * mainForce, ForceMode.Acceleration);
             SetFire(MainFire, true);
         }
-        else
-        {
-            SetFire(MainFire, false);
-        }
+        else SetFire(MainFire, false);
 
         // =========================
         //      LEFT REACTOR
         // =========================
-        if (leftInput > sideIgnitionThreshold)
+        bool leftActive = leftInput > sideIgnitionThreshold;
+        if (leftActive)
         {
             rb.AddForce(transform.forward * leftForce * 20f, ForceMode.Acceleration);
             rb.AddTorque(Vector3.forward * -leftForce, ForceMode.Acceleration);
             SetFire(LeftFire, true);
         }
-        else
-        {
-            SetFire(LeftFire, false);
-        }
+        else SetFire(LeftFire, false);
 
         // =========================
         //      RIGHT REACTOR
         // =========================
-        if (rightInput > sideIgnitionThreshold)
+        bool rightActive = rightInput > sideIgnitionThreshold;
+        if (rightActive)
         {
             rb.AddForce(transform.forward * rightForce * 20f, ForceMode.Acceleration);
             rb.AddTorque(Vector3.forward * rightForce, ForceMode.Acceleration);
             SetFire(RightFire, true);
         }
-        else
-        {
-            SetFire(RightFire, false);
-        }
+        else SetFire(RightFire, false);
 
         // =========================
         //          PIVOT
@@ -158,6 +156,31 @@ public class RocketScript : MonoBehaviour
         {
             SetFire(LeftPivot, false);
             SetFire(RightPivot, false);
+        }
+
+        // =========================
+        //      PROPULSEUR SOUND
+        // =========================
+        bool allReactorsActive = mainActive && leftActive && rightActive;
+
+        if (allReactorsActive)
+        {
+            if (!isPropulseurActive)
+            {
+                // First frame all reactors are on → play start sound
+                if (propulseurStart != null) propulseurStart.Play();
+                if (propulseurLoop != null) propulseurLoop.Play(); // then start loop
+                isPropulseurActive = true;
+            }
+        }
+        else
+        {
+            if (isPropulseurActive)
+            {
+                // Reactors turned off → stop loop
+                if (propulseurLoop != null) propulseurLoop.Stop();
+                isPropulseurActive = false;
+            }
         }
 
         rb.angularVelocity *= torqueDamp;

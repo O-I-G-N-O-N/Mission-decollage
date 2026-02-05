@@ -57,6 +57,12 @@ public class FirstPersRocket : MonoBehaviour
     public RandomEvents RandomEvents;
 
     // ======================
+    //       AUDIO
+    // ======================
+    [Header("Audio")]
+    public AudioSource spaceAmbience; // Space ambience AudioSource
+
+    // ======================
     //        START
     // ======================
     void Start()
@@ -67,6 +73,13 @@ public class FirstPersRocket : MonoBehaviour
         oscReceiver.Bind("/faderGauche", OnFaderGauche);
         oscReceiver.Bind("/faderCentre", OnFaderCentre);
         oscReceiver.Bind("/faderDroit", OnFaderDroit);
+
+        // --- PLAY SPACE AMBIENCE ---
+        if (spaceAmbience != null && !spaceAmbience.isPlaying)
+        {
+            spaceAmbience.loop = true; // make sure it loops
+            spaceAmbience.Play();
+        }
     }
 
     // ======================
