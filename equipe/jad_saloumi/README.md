@@ -89,6 +89,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 ### Semaine 2
 
 #### Lundi
+
 - Faire une demande de réservation pour l’enregistrement des sons prévue mercredi.
 - Sons prévues :
    - Bruit des oiseaux
@@ -104,10 +105,12 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
   - Bruit de bris électrique de la fusée
   
 #### Mardi
+
 - Discuter de la planification prévue des tâches avec les professeurs.
 - Corriger et ajuster la planification en fonction des conseils des professeurs.
   
 #### Mercredi
+
 - Enregistrer les sons manquants à l’aide de Sound Devices.
 
 - Nettoyer les sons enregistrés pour les préparer à l’utilisation.
@@ -117,11 +120,13 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Prendre des notes sur les méthodes et techniques pour l’intégration des sons.
   
 #### Jeudi
+
 - Faire la modélisation 3D d’une mouette dans Maya 3D.
 - Faire la modélisation 3D d’un avion commercial dans Maya 3D.
 - Faire des recherches pour améliorer la précision et les détails des modèles 3D.
 
 #### Vendredi
+
 - Ajouter les textures sur les modèles 3D (mouette et avion commercial) dans Maya 3D.
 - Exporter les modèles 3D texturés au format FBX pour utilisation dans Unity.
   
@@ -129,14 +134,32 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 
+- Prises de notes et organisation des éléments du projet.
+- Préparation du matériel et planification des étapes pour l’intégration des effets sonores.
+
 #### Mardi
 
+- Intégration des effets sonores dans le prototype.
+- Tests initiaux pour vérifier la réactivité des sons aux différentes entrées utilisateur.
+  
 #### Mercredi
+
+- Poursuite de l’intégration des effets sonores dans le prototype.
+- Tests et ajustements pour améliorer la réactivité sonore.
+- Préparation d’un plan pour l’installation du projet prévue le lendemain.
 
 #### Jeudi
 
+- Réalisation de l’installation du projet.
+- Mise en place des haut-parleurs en les fixant au plafond et en effectuant les connexions nécessaires pour assurer le bon fonctionnement des sons.
+- Ajustement de la projection à l’aide du projecteur et mise en marche de celui-ci.
+- Préparation générale du dispositif en vue de la porte ouverte.
+
 #### Vendredi
 
+- Aucun travail technique réalisé.
+- Préparation et réflexion en lien avec la suite du projet.
+  
 ### Semaine 4
 
 #### Lundi
