@@ -99,15 +99,24 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 ### Semaine 3
 
 #### Lundi
+ - Modélisation de la platforme d'atterissage sur Mars
 
 #### Mardi
+- Chercher les pièces pour l'installation 
+- Modélisation du bras de lancement
+- Améliorer la modélisation de la fusée
 
 #### Mercredi
+- Recherche sur quelle style de shader qu'on pourra utiliser sur unity.
+- Faire plus de recherche sur les matériaux et les mesures de notre installation
 
 #### Jeudi
+- Recherche sur des programmes que je pourrais utiliser pour créer les textures comme par exemple texture ripper
+- Création de la texture pour l'astéroide
 
 #### Vendredi
-
+ - Création de la texture pour la planète Mars
+ 
 ### Semaine 4
 
 #### Lundi
