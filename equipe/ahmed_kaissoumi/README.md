@@ -132,15 +132,29 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Jeudi
 
+- Préparation présentation Démo
+- Construction de l'installation
+- Ajout de lumières aux keys
+
 #### Vendredi
+
+- Début de soudure
 
 ### Semaine 4
 
 #### Lundi
 
+- Création d'ui supplémentaire
+
 #### Mardi
 
+- Refonte de notre scénarisation
+- Résolution de problèmes liés à unity et platform.io
+- Soudure
+
 #### Mercredi
+
+- Implémentation des boutons sur l'arduino nano 328 old bootloader
 
 #### Jeudi
 
