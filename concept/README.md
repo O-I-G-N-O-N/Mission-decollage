@@ -269,23 +269,21 @@ L’ensemble adopte une approche crédible et semi-réaliste, en lien avec l’e
 
 ![scénarimage-7](../medias/images/scenarios-8.jpg)
 
-![scénarimage-8](../medias/images/scenarios-9.jpg)
+![scénarimage-8](../medias/images/scenarios-10.jpg)
 
-![scénarimage-9](../medias/images/scenarios-10.jpg)
+![scénarimage-9](../medias/images/scenarios-11.jpg)
 
-![scénarimage-10](../medias/images/scenarios-11.jpg)
+![scénarimage-10](../medias/images/scenarios-12.jpg)
 
-![scénarimage-11](../medias/images/scenarios-12.jpg)
+![scénarimage-11](../medias/images/scenarios-13.jpg)
 
-![scénarimage-12](../medias/images/scenarios-13.jpg)
+![scénarimage-12](../medias/images/scenarios-14.jpg)
 
-![scénarimage-13](../medias/images/scenarios-14.jpg)
+![scénarimage-13](../medias/images/scenarios-15.jpg)
 
-![scénarimage-14](../medias/images/scenarios-15.jpg)
+![scénarimage-14](../medias/images/scenarios-16.jpg)
 
-![scénarimage-15](../medias/images/scenarios-16.jpg)
-
-![scénarimage-16](../medias/images/scenarios-17.jpg)
+![scénarimage-15](../medias/images/scenarios-17.jpg)
 
 <!-- Pour chaque étape/scène : une image avec du texte descriptif et une explication de la transition.... -->
 
