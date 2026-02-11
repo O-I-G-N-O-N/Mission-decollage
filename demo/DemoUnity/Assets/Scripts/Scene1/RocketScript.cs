@@ -49,13 +49,13 @@ public class RocketScript : MonoBehaviour
     bool rightActive;
 
     // --- GAME STATE ---
-    bool controlsEnabled = false;
+    public bool controlsEnabled = true;
 
     int lastKeyState = 1;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = Rocket.GetComponent<Rigidbody>();
         Physics.gravity = new Vector3(0f, -9.81f, 0f);
 
         // --- OSC FADERS ---
@@ -73,6 +73,9 @@ public class RocketScript : MonoBehaviour
         oscReceiverKey.Bind("/key6", OnAnyKeyPressed);
 
         panelUI.SetActive(true);
+
+        if (rb == null)
+    Debug.LogError("Rigidbody not found!");
     }
 
     // =========================
@@ -117,32 +120,31 @@ public class RocketScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!controlsEnabled) return;
+
+        //rb.AddForce(Vector3.up * 20f, ForceMode.Acceleration);
+
+        
+
+        //if (!controlsEnabled) return;
 
         float mainInput = MainSlider.value;
         float leftInput = LeftSlider.value;
         float rightInput = RightSlider.value;
         float pivotInput = PivotSlider.value;
 
-        float mainForce = Mathf.Lerp(0f, 9f, mainInput);
+        float mainForce = Mathf.Lerp(0f, 20f, mainInput);
         float leftForce = Mathf.Lerp(0f, 0.2f, leftInput);
         float rightForce = Mathf.Lerp(0f, 0.2f, rightInput);
         float pivotForce = Mathf.Lerp(-0.6f, 0.6f, pivotInput);
 
-        // --- CAMERA STABILIZATION ---
-        Quaternion invertedRotation = Quaternion.Inverse(rb.transform.localRotation);
-        Camera.transform.localRotation = Quaternion.RotateTowards(
-            Camera.transform.localRotation,
-            invertedRotation,
-            rotationSpeed * Time.deltaTime
-        );
+
 
         // =========================
         //          MAIN
         // =========================
         if (mainInput > mainIgnitionThreshold)
         {
-            rb.AddForce(transform.forward * mainForce, ForceMode.Acceleration);
+            rb.AddForce(Rocket.transform.up * mainForce, ForceMode.Acceleration);
             SetFire(MainFire, true);
             mainActive = true;
         }
@@ -157,7 +159,7 @@ public class RocketScript : MonoBehaviour
         // =========================
         if (leftInput > sideIgnitionThreshold)
         {
-            rb.AddForce(transform.forward * leftForce * 20f, ForceMode.Acceleration);
+            rb.AddForce(Rocket.transform.up * leftForce * 20f, ForceMode.Acceleration);
             rb.AddTorque(Vector3.forward * -leftForce, ForceMode.Acceleration);
             SetFire(LeftFire, true);
             leftActive = true;
@@ -173,7 +175,7 @@ public class RocketScript : MonoBehaviour
         // =========================
         if (rightInput > sideIgnitionThreshold)
         {
-            rb.AddForce(transform.forward * rightForce * 20f, ForceMode.Acceleration);
+            rb.AddForce(Rocket.transform.up * rightForce * 20f, ForceMode.Acceleration);
             rb.AddTorque(Vector3.forward * rightForce, ForceMode.Acceleration);
             SetFire(RightFire, true);
             rightActive = true;
