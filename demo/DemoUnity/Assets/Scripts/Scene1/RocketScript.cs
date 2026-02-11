@@ -7,10 +7,11 @@ using extOSC;
 public class RocketScript : MonoBehaviour
 {
     public OSCReceiver oscReceiver;
-    public OSCTransmitter oscTransmiter;
+    public OSCReceiver oscReceiverKey;
 
     public GameObject Rocket;
     public GameObject Camera;
+    public GameObject panelUI;
 
     public ParticleSystem LeftFire;
     public ParticleSystem MainFire;
@@ -23,48 +24,82 @@ public class RocketScript : MonoBehaviour
     public Slider MainSlider;
     public Slider PivotSlider;
 
-    public float MainReactorForce = 4f;
-    public float BaseReactorForce = 10f;
-    public float SideReactorForce = 10f;
     public float rotationSpeed = 90f;
 
     private Rigidbody rb;
 
-    [SerializeField] float torqueForce = 0.2f;
     [SerializeField] float torqueDamp = 0.98f;
 
-    public Gravity GravityScript;
-
+    // --- THRESHOLDS ---
     [Header("Thresholds")]
     public float mainIgnitionThreshold = 0.05f;
     public float sideIgnitionThreshold = 0.03f;
     public float pivotDeadZone = 0.2f;
 
+    // --- AUDIO ---
     [Header("Audio")]
-    public AudioSource propulseurStart;  // ignition sound, play once
-    public AudioSource propulseurLoop;   // looping sound
-    private bool isPropulseurActive = false; // tracks if all reactors are on
+    public AudioSource propulseurStart; // ignition (one-shot)
+    public AudioSource propulseurLoop;  // looping sound
+
+    private bool isPropulseurActive = false;
+
+    // --- REACTOR STATES ---
+    bool mainActive;
+    bool leftActive;
+    bool rightActive;
+
+    // --- GAME STATE ---
+    bool controlsEnabled = false;
+
+    int lastKeyState = 1;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         Physics.gravity = new Vector3(0f, -9.81f, 0f);
 
-        // --- OSC BINDINGS ---
+        // --- OSC FADERS ---
         oscReceiver.Bind("/faderGauche", OnFaderGauche);
         oscReceiver.Bind("/faderCentre", OnFaderCentre);
         oscReceiver.Bind("/faderDroit", OnFaderDroit);
+
+        // --- OSC KEYS ---
+        oscReceiverKey.Bind("/key", OnAnyKeyPressed);
+        oscReceiverKey.Bind("/key1", OnAnyKeyPressed);
+        oscReceiverKey.Bind("/key2", OnAnyKeyPressed);
+        oscReceiverKey.Bind("/key3", OnAnyKeyPressed);
+        oscReceiverKey.Bind("/key4", OnAnyKeyPressed);
+        oscReceiverKey.Bind("/key5", OnAnyKeyPressed);
+        oscReceiverKey.Bind("/key6", OnAnyKeyPressed);
+
+        panelUI.SetActive(true);
     }
 
-    public static float Proportion(float value, float inputMin, float inputMax, float outputMin, float outputMax)
+    // =========================
+    //          KEYS
+    // =========================
+    void OnAnyKeyPressed(OSCMessage message)
     {
-        return Mathf.Clamp(
-            ((value - inputMin) / (inputMax - inputMin)) * (outputMax - outputMin) + outputMin,
-            outputMin,
-            outputMax
-        );
+        int currentState = 1;
+
+        if (message.Values[0].Type == OSCValueType.Int)
+            currentState = message.Values[0].IntValue;
+        else if (message.Values[0].Type == OSCValueType.Float)
+            currentState = (int)message.Values[0].FloatValue;
+
+        if (lastKeyState == 1 && currentState == 0 && !controlsEnabled)
+        {
+            controlsEnabled = true;
+            panelUI.SetActive(false);
+            Debug.Log("CONTROLS ENABLED");
+        }
+
+        lastKeyState = currentState;
     }
 
+    // =========================
+    //          FADERS
+    // =========================
     public void OnFaderGauche(OSCMessage message)
     {
         LeftSlider.value = Mathf.Clamp01(message.Values[0].IntValue / 4095f);
@@ -82,19 +117,19 @@ public class RocketScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        // --- INPUTS ---
+        if (!controlsEnabled) return;
+
         float mainInput = MainSlider.value;
         float leftInput = LeftSlider.value;
         float rightInput = RightSlider.value;
         float pivotInput = PivotSlider.value;
 
-        // --- CONVERTED VALUES ---
-        float mainForce = Proportion(mainInput, 0f, 1f, 0f, 9f);
-        float leftForce = Proportion(leftInput, 0f, 1f, 0f, 0.2f);
-        float rightForce = Proportion(rightInput, 0f, 1f, 0f, 0.2f);
-        float pivotForce = Proportion(pivotInput, 0f, 1f, -0.6f, 0.6f);
+        float mainForce = Mathf.Lerp(0f, 9f, mainInput);
+        float leftForce = Mathf.Lerp(0f, 0.2f, leftInput);
+        float rightForce = Mathf.Lerp(0f, 0.2f, rightInput);
+        float pivotForce = Mathf.Lerp(-0.6f, 0.6f, pivotInput);
 
-        // --- CAMERA STABILIZED ---
+        // --- CAMERA STABILIZATION ---
         Quaternion invertedRotation = Quaternion.Inverse(rb.transform.localRotation);
         Camera.transform.localRotation = Quaternion.RotateTowards(
             Camera.transform.localRotation,
@@ -103,39 +138,51 @@ public class RocketScript : MonoBehaviour
         );
 
         // =========================
-        //      MAIN REACTOR
+        //          MAIN
         // =========================
-        bool mainActive = mainInput > mainIgnitionThreshold;
-        if (mainActive)
+        if (mainInput > mainIgnitionThreshold)
         {
             rb.AddForce(transform.forward * mainForce, ForceMode.Acceleration);
             SetFire(MainFire, true);
+            mainActive = true;
         }
-        else SetFire(MainFire, false);
+        else
+        {
+            SetFire(MainFire, false);
+            mainActive = false;
+        }
 
         // =========================
-        //      LEFT REACTOR
+        //          LEFT
         // =========================
-        bool leftActive = leftInput > sideIgnitionThreshold;
-        if (leftActive)
+        if (leftInput > sideIgnitionThreshold)
         {
             rb.AddForce(transform.forward * leftForce * 20f, ForceMode.Acceleration);
             rb.AddTorque(Vector3.forward * -leftForce, ForceMode.Acceleration);
             SetFire(LeftFire, true);
+            leftActive = true;
         }
-        else SetFire(LeftFire, false);
+        else
+        {
+            SetFire(LeftFire, false);
+            leftActive = false;
+        }
 
         // =========================
-        //      RIGHT REACTOR
+        //          RIGHT
         // =========================
-        bool rightActive = rightInput > sideIgnitionThreshold;
-        if (rightActive)
+        if (rightInput > sideIgnitionThreshold)
         {
             rb.AddForce(transform.forward * rightForce * 20f, ForceMode.Acceleration);
             rb.AddTorque(Vector3.forward * rightForce, ForceMode.Acceleration);
             SetFire(RightFire, true);
+            rightActive = true;
         }
-        else SetFire(RightFire, false);
+        else
+        {
+            SetFire(RightFire, false);
+            rightActive = false;
+        }
 
         // =========================
         //          PIVOT
@@ -159,7 +206,7 @@ public class RocketScript : MonoBehaviour
         }
 
         // =========================
-        //      PROPULSEUR SOUND
+        //      PROPULSEUR AUDIO
         // =========================
         bool allReactorsActive = mainActive && leftActive && rightActive;
 
@@ -167,9 +214,12 @@ public class RocketScript : MonoBehaviour
         {
             if (!isPropulseurActive)
             {
-                // First frame all reactors are on → play start sound
-                if (propulseurStart != null) propulseurStart.Play();
-                if (propulseurLoop != null) propulseurLoop.Play(); // then start loop
+                if (propulseurStart != null)
+                    propulseurStart.Play();
+
+                if (propulseurLoop != null && !propulseurLoop.isPlaying)
+                    propulseurLoop.Play();
+
                 isPropulseurActive = true;
             }
         }
@@ -177,8 +227,9 @@ public class RocketScript : MonoBehaviour
         {
             if (isPropulseurActive)
             {
-                // Reactors turned off → stop loop
-                if (propulseurLoop != null) propulseurLoop.Stop();
+                if (propulseurLoop != null)
+                    propulseurLoop.Stop();
+
                 isPropulseurActive = false;
             }
         }
@@ -186,7 +237,6 @@ public class RocketScript : MonoBehaviour
         rb.angularVelocity *= torqueDamp;
     }
 
-    // --- SAFE PARTICLE CONTROL ---
     void SetFire(ParticleSystem ps, bool active)
     {
         if (active && !ps.isPlaying) ps.Play();

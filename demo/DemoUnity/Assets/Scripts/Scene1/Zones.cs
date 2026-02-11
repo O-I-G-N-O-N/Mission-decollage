@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
@@ -17,60 +17,81 @@ public class Zones : MonoBehaviour
     public ParticleSystem Feu2;
     public ParticleSystem Feu3;
 
-    public bool PlayerIsDead = false;
-
     [Header("Son Explosion")]
     public AudioSource explosionSound;
 
     [Header("Ambience Terre")]
-    public AudioSource ambienceTerre; // ambiance de la Terre
+    public AudioSource ambienceTerre;
 
-    public void TriggerExplosion()
+    public bool PlayerIsDead = false;
+
+    void Start()
     {
-        Fusee.GetComponent<Renderer>().enabled = false;
-        Explosion.Play();
+        if (Explosion != null)
+            Explosion.Stop();
 
-        if (explosionSound != null)
-            explosionSound.Play();
-
-        PlayerIsDead = true;
-
-        MainSlider.value = 0;
-        RightSlider.value = 0;
-        LeftSlider.value = 0;
+        if (ambienceTerre != null)
+            ambienceTerre.Stop();
     }
 
+    // =========================
+    //        TRIGGERS
+    // =========================
     void OnTriggerEnter(Collider other)
     {
-        // Entrer dans la zone Earth → jouer l’ambience Terre
-        if (other.CompareTag("Player") && gameObject.CompareTag("Earth"))
+        if (!other.CompareTag("Player")) return;
+
+        // ENTER EARTH → start ambience
+        if (CompareTag("Earth"))
         {
             if (ambienceTerre != null && !ambienceTerre.isPlaying)
                 ambienceTerre.Play();
+
+            Debug.Log("Ambience Terre ON");
         }
+
+
     }
 
     void OnTriggerExit(Collider other)
     {
-        // Sortir de la zone de jeu → explosion
-        if (other.CompareTag("Player") && gameObject.CompareTag("GameZone"))
-        {
-            TriggerExplosion();
-        }
+        if (!other.CompareTag("Player")) return;
 
-        // Sortir de la zone Earth → arrêter l’ambience Terre
-        if (other.CompareTag("Player") && gameObject.CompareTag("Earth"))
+        // EXIT EARTH → stop ambience
+        if (CompareTag("Earth"))
         {
             if (ambienceTerre != null && ambienceTerre.isPlaying)
                 ambienceTerre.Stop();
+
+            Debug.Log("Ambience Terre OFF");
+        }
+                // ENTER FORBIDDEN ZONE → explosion
+        if (CompareTag("GameZone"))
+        {
+            TriggerExplosion();
         }
     }
 
-    void Start()
+    // =========================
+    //      EXPLOSION
+    // =========================
+    public void TriggerExplosion()
     {
-        Explosion.Stop();
+        if (PlayerIsDead) return;
 
-        if (ambienceTerre != null)
-            ambienceTerre.Stop();
+        PlayerIsDead = true;
+
+        if (Fusee != null)
+            Fusee.GetComponent<Renderer>().enabled = false;
+
+        if (Explosion != null)
+            Explosion.Play();
+
+        if (explosionSound != null)
+            explosionSound.Play();
+
+        MainSlider.value = 0;
+        RightSlider.value = 0;
+        LeftSlider.value = 0;
     }
 }
