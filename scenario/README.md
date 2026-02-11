@@ -37,6 +37,7 @@ Cette section présente le scénario de l’interactivité du projet.
 | **Maintenir** | Les joueurs ne veulent plus continuer à jouer | Explosion et écran de fin de partie | Son d’explosion et de fin de partie | Maintenir les deux boutons d’éjection pour terminer la partie |
 | **Appuyer** | Les joueurs veulent afficher la carte | La carte s’affiche à l’écran et montre les obstacles sous forme de points | Son électronique | Appuyer sur le bouton pour afficher la carte |
 | **Maintenir** | Les joueurs veulent mieux voir devant eux | La vision est éclaircie | Son d’interrupteur | Appuyer sur le bouton pour allumer les lumières (maintenir quelques secondes pour les réactiver) |
+| **Maintenir** | Éviter dommages causés par les obstacles | La fusée est entourée d'une bulle | Son d'activation / électronique futuriste | Maintenir le bouton pour activer le bouclier |
 | **Marteler** | Une voix et un message demandent de confirmer le statut | Message vocal et texte à l’écran | Son de communication | Marteler le bouton de communication 10 fois pour confirmer le statut |
 | **Glisser** | Les joueurs veulent aller plus vite | La fusée accélère (vue 1ʳᵉ et 3ᵉ personne) | Son de propulseur intense | Glisser le curseur central pour activer le boost |
 
