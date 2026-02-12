@@ -288,6 +288,8 @@ L’ensemble adopte une approche crédible et semi-réaliste, en lien avec l’e
 
 ![scénarimage-10](../medias/images/RechargeEnergie.drawio.png)
 
+![scénarimage-propulseurs](../medias/images/propulseurs.png)
+
 ![scénarimage-11](../medias/images/scenarios-13.jpg)
 
 ![scénarimage-12](../medias/images/scenarios-14.jpg)
