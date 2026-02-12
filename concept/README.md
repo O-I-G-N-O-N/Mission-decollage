@@ -256,13 +256,17 @@ L’ensemble adopte une approche crédible et semi-réaliste, en lien avec l’e
 
 ### Scénarimage
 
-![scénarimage-1](../medias/images/scenarios-1.jpg)
+![scénarimage-1](../medias/images/scenarios-17.jpg)
 
-![scénarimage-2](../medias/images/scenarios-2.jpg)
+![scénarimage-2](../medias/images/scenarios-1.jpg)
 
-![scénarimage-3](../medias/images/scenarios-4.jpg)
+![scénarimage-3](../medias/images/Lancement.drawio.png)
 
-![scénarimage-4](../medias/images/scenarios-5.jpg)
+![scénarimage-4](../medias/images/scenarios-4.jpg)
+
+![scénarimage-transition1](../medias/images/Transition1.drawio.png)
+
+![scénarimage-transition2](../medias/images/Transition2.drawio.png)
 
 ![scénarimage-lumiere](../medias/images/scenarios_lumiere.png)
 
@@ -274,27 +278,23 @@ L’ensemble adopte une approche crédible et semi-réaliste, en lien avec l’e
 
 ![scénarimage-5](../medias/images/scenarios-6.jpg)
 
-![scénarimage-6](../medias/images/scenarios-7.jpg)
+![scénarimage-6](../medias/images/Boost.drawio.png)
 
-![scénarimage-7](../medias/images/scenarios-bouclier.jpg)
+![scénarimage-7](../medias/images/Boucliers.drawio.png)
 
-![scénarimage-8](../medias/images/scenarios-8.jpg)
+![scénarimage-8](../medias/images/Drift.drawio.png)
 
-![scénarimage-9](../medias/images/scenarios-10.jpg)
+![scénarimage-9](../medias/images/scenarios_lumiere.png)
 
-![scénarimage-10](../medias/images/scenarios-11.jpg)
+![scénarimage-10](../medias/images/RechargeEnergie.drawio.png)
 
-![scénarimage-11](../medias/images/scenarios-12.jpg)
+![scénarimage-11](../medias/images/scenarios-13.jpg)
 
-![scénarimage-12](../medias/images/scenarios-13.jpg)
+![scénarimage-12](../medias/images/scenarios-14.jpg)
 
-![scénarimage-13](../medias/images/scenarios-14.jpg)
+![scénarimage-13](../medias/images/scenarios-15.jpg)
 
-![scénarimage-14](../medias/images/scenarios-15.jpg)
-
-![scénarimage-15](../medias/images/scenarios-16.jpg)
-
-![scénarimage-16](../medias/images/scenarios-17.jpg)
+![scénarimage-14](../medias/images/scenarios-16.jpg)
 
 ![scénarimage-atterrissage](../medias/images/scenarios_atterrissage.png)
 
