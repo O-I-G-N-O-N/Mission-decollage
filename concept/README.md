@@ -237,22 +237,6 @@ L’ensemble adopte une approche crédible et semi-réaliste, en lien avec l’e
     <br>![](../medias/images/spaceteam.jpg)
     Le jeu oblige les joueurs à se coordonner afin de survivre et de passer au niveau suivant.
 
-### Événements déclenchables dans le jeu
-
-| Événements                                                                       |
-| -------------------------------------------------------------------------------- |
-| Le moteur principal est en panne, veuillez appuyer sur le bouton "..."           |
-| Les propulseurs ont besoin de calibration, veuillez presser le bouton "..."      |
-| Une fuite d’oxygène est détectée, appuyez sur le bouton "..."                    |
-| Un impact d’astéroïde a endommagé la coque, veuillez appuyer sur le bouton "..." |
-| Le système de navigation est désynchronisé, pressez le bouton "..."              |
-| Un dysfonctionnement informatique est détecté, appuyez sur le bouton "..."       |
-| La température à bord devient critique, pressez le bouton "..."                  |
-| Les communications avec la Terre sont interrompues, appuyez sur le bouton "..."  |
-| Une anomalie gravitationnelle est détectée, veuillez presser le bouton "..."     |
-| Le radar spatial est hors service, appuyez sur le bouton "..."                   |
-| Le pilote automatique s’est arrêté, veuillez appuyer sur le bouton "..."         |
-| Une alarme de sécurité est déclenchée, appuyez sur le bouton "..."               |
 
 ### Scénarimage
 
