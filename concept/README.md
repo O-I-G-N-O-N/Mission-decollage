@@ -298,7 +298,7 @@ L’ensemble adopte une approche crédible et semi-réaliste, en lien avec l’e
 
 ![scénarimage-14](../medias/images/scenarios-16.jpg)
 
-<!-- Pour chaque étape/scène : une image avec du texte descriptif et une explication de la transition.... -->
+<!-- Pour chaque étape/scène : une image avec du texte descriptif et une explication de la transition.. -->
 
 <!--
 Éléments du scénarimage
