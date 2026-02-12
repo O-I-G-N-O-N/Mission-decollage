@@ -27,8 +27,8 @@ Qu'est-ce que fait l'interacteur?
 un résumé du parcours de l'interacteur du début à la fin de son expérience - qu'est-ce qu'il fait, qu'est-ce qu'il manipule, etc
 -->
 
-Les interacteurs arrivent devant l’installation : Un large panneau de contrôle équipée de boutons, sliders, rotatifs différents. Ces derniers se placent devant l'installation et sont invités 
-à appuyer sur un bouton afin de démarrer la mission. 
+Les interacteurs arrivent devant l’installation : Un large panneau de contrôle équipée de boutons, sliders, rotatifs différents. Ces derniers se placent devant l'installation et sont invités
+à appuyer sur un bouton afin de démarrer la mission.
 
 ### L'espace
 
@@ -120,9 +120,10 @@ Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la 
   Jeu topdown en 3D qui nous inspire pour l'aesthetique visuelle de l'environnement .
 
 ---
-- Installation : [Mission Control Desk](https://makezine.com/article/home/furniture/making-fun-mission-control-desk/) 
-![Mission Control Desk](../medias/images/panneau_control_inspiration.jpg)  
- Panneau de contrôle pour notre installation.
+
+- Installation : [Mission Control Desk](https://makezine.com/article/home/furniture/making-fun-mission-control-desk/)
+  ![Mission Control Desk](../medias/images/panneau_control_inspiration.jpg)  
+   Panneau de contrôle pour notre installation.
 
 ---
 
@@ -169,17 +170,16 @@ Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la 
 - Projecteur projetant au mur
 - Boutons
 
-| Panneau de contrôle                                                           | Projecteur                                                                                                                                        | Bouton poussoir                                                                                                                                                                      |
-| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](../medias/images/panneau_controle.jpg)                      | ![](../medias/images/projecteur_epson.jpg)                                                                                                        | ![](../medias/images/bouton_poussoir_rouge.jpg)                                                                                                                                      |
+| Panneau de contrôle                                                                   | Projecteur                                                                                                                                        | Bouton poussoir                                                                                                                                                                      |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![](../medias/images/panneau_controle.jpg)                                            | ![](../medias/images/projecteur_epson.jpg)                                                                                                        | ![](../medias/images/bouton_poussoir_rouge.jpg)                                                                                                                                      |
 | [Source: Industructables](https://www.instructables.com/Nasa-Control-Panel-for-Kids/) | [Source: Epson](https://epson.ca/Pour-le-travail/Projecteurs/Projecteurs-pour-salle-de-classe-/Projecteur-PowerLite-990U-WUXGA-3LCD/p/V11H867020) | [Source: Made-in-China](https://gwiecelectric.en.made-in-china.com/product/JGWUFoljankf/China-Manufacture-22mm-Xb2-Series-Engine-Start-Stop-Latching-Push-Button-Rotary-Switch.html) |
 
-Voici une reformulation plus sobre et structurée, sans émoticônes, avec une mise en forme claire et un ton plus humain :  
+Voici une reformulation plus sobre et structurée, sans émoticônes, avec une mise en forme claire et un ton plus humain :
 
 ---
 
 ### Ambiance sonore
-
 
 **Boost initial**  
 [Son demonstrative.mp3](boost.mp3)  
@@ -201,8 +201,8 @@ Correspond à l’explosion de la fusée.
 [danger.mp3](danger.mp3)  
 Signal sonore indiquant que la fusée est sur le point d’exploser.
 
-<!--**Dash rapide**  
-[dash.mp3](dash.mp3)  
+<!--**Dash rapide**
+[dash.mp3](dash.mp3)
 Pourrait être utilisé lorsque la fusée esquive un obstacle en faisant un dash.
 -->
 
@@ -211,14 +211,17 @@ Pourrait être utilisé lorsque la fusée esquive un obstacle en faisant un dash
 Se déclenche lorsque la fusée est endommagée et dure quelques secondes.
 
 ## Qualités sonores
+
 L’ensemble adopte une approche crédible et semi-réaliste, en lien avec l’exploration spatiale. L’ambiance sonore est minimaliste, continue et répétitive, créant une atmosphère sérieuse et légèrement tendue. L’expérience sonore reste uniforme et simple, centrée sur la présence à bord du vaisseau tout au long du jeu.
 
 ## Intention de la conception sonore
+
 - Plonger le joueur dans l’expérience d’un voyage spatial.
 - Renforcer le sentiment d’être à bord du vaisseau.
 - Transmettre la tension et la contemplation du voyage vers Mars.
 
 ---
+
 ### Inspirations interactives
 
 <!-- Inclure des liens et une ligne sur pourquoi -->
@@ -230,28 +233,26 @@ L’ensemble adopte une approche crédible et semi-réaliste, en lien avec l’e
 - [Sea of Thieves](https://www.seaofthieves.com/)
   <br>![](../medias/images/seaofthieves.jpg)  
   Un jeu intéractif où les joueurs coopèrent afin de diriger un bateau pirate à travers les mers.
-
   - [Space Team](https://spaceteam.ca/)
     <br>![](../medias/images/spaceteam.jpg)
     Le jeu oblige les joueurs à se coordonner afin de survivre et de passer au niveau suivant.
 
 ### Événements déclenchables dans le jeu
 
-| Événements |
-|-----------|
-| Le moteur principal est en panne, veuillez appuyer sur le bouton "..." |
-| Les propulseurs ont besoin de calibration, veuillez presser le bouton "..." |
-| Une fuite d’oxygène est détectée, appuyez sur le bouton "..." |
+| Événements                                                                       |
+| -------------------------------------------------------------------------------- |
+| Le moteur principal est en panne, veuillez appuyer sur le bouton "..."           |
+| Les propulseurs ont besoin de calibration, veuillez presser le bouton "..."      |
+| Une fuite d’oxygène est détectée, appuyez sur le bouton "..."                    |
 | Un impact d’astéroïde a endommagé la coque, veuillez appuyer sur le bouton "..." |
-| Le système de navigation est désynchronisé, pressez le bouton "..." |
-| Un dysfonctionnement informatique est détecté, appuyez sur le bouton "..." |
-| La température à bord devient critique, pressez le bouton "..." |
-| Les communications avec la Terre sont interrompues, appuyez sur le bouton "..." |
-| Une anomalie gravitationnelle est détectée, veuillez presser le bouton "..." |
-| Le radar spatial est hors service, appuyez sur le bouton "..." |
-| Le pilote automatique s’est arrêté, veuillez appuyer sur le bouton "..." |
-| Une alarme de sécurité est déclenchée, appuyez sur le bouton "..." |
-
+| Le système de navigation est désynchronisé, pressez le bouton "..."              |
+| Un dysfonctionnement informatique est détecté, appuyez sur le bouton "..."       |
+| La température à bord devient critique, pressez le bouton "..."                  |
+| Les communications avec la Terre sont interrompues, appuyez sur le bouton "..."  |
+| Une anomalie gravitationnelle est détectée, veuillez presser le bouton "..."     |
+| Le radar spatial est hors service, appuyez sur le bouton "..."                   |
+| Le pilote automatique s’est arrêté, veuillez appuyer sur le bouton "..."         |
+| Une alarme de sécurité est déclenchée, appuyez sur le bouton "..."               |
 
 ### Scénarimage
 
@@ -262,6 +263,14 @@ L’ensemble adopte une approche crédible et semi-réaliste, en lien avec l’e
 ![scénarimage-3](../medias/images/scenarios-4.jpg)
 
 ![scénarimage-4](../medias/images/scenarios-5.jpg)
+
+![scénarimage-lumiere](../medias/images/scenarios_lumiere.png)
+
+![scénarimage-radar](../medias/images/scenarios_radar.png)
+
+![scénarimage-moteur](../medias/images/scenarios_switch_moteur.png)
+
+![scénarimage-ventillation](../medias/images/scenarios_ventilation.png)
 
 ![scénarimage-5](../medias/images/scenarios-6.jpg)
 
@@ -286,6 +295,8 @@ L’ensemble adopte une approche crédible et semi-réaliste, en lien avec l’e
 ![scénarimage-15](../medias/images/scenarios-16.jpg)
 
 ![scénarimage-16](../medias/images/scenarios-17.jpg)
+
+![scénarimage-atterrissage](../medias/images/scenarios_atterrissage.png)
 
 <!-- Pour chaque étape/scène : une image avec du texte descriptif et une explication de la transition.... -->
 

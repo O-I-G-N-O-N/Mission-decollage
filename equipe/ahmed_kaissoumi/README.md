@@ -154,9 +154,11 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Mercredi
 
-- Implémentation des boutons sur l'arduino nano 328 old bootloader
+- Implémentation partielle des boutons sur l'arduino nano 328 old bootloader
 
 #### Jeudi
+
+-Refonte de notre scénarimage et scénarisation
 
 #### Vendredi
 
