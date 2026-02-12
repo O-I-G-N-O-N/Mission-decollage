@@ -292,11 +292,9 @@ L’ensemble adopte une approche crédible et semi-réaliste, en lien avec l’e
 
 ![scénarimage-12](../medias/images/scenarios-14.jpg)
 
-![scénarimage-13](../medias/images/scenarios-15.jpg)
+![scénarimage-13](../medias/images/scenarios_atterrissage.png)
 
 ![scénarimage-14](../medias/images/scenarios-16.jpg)
-
-![scénarimage-atterrissage](../medias/images/scenarios_atterrissage.png)
 
 <!-- Pour chaque étape/scène : une image avec du texte descriptif et une explication de la transition.... -->
 
