@@ -38,6 +38,10 @@ public class FirstPersRocket : MonoBehaviour
 
     public float ReactorForce = 0;
     public float currentRotationSpeed = 0;
+    public float BaseRotationSpeed = 0;
+
+    public float TotalPower = 0;
+    public float RotationMultiplier = 20f;
 
     // ======================
     //        DAMAGE
@@ -55,6 +59,7 @@ public class FirstPersRocket : MonoBehaviour
     public TextMeshProUGUI DistanceUI;
 
     public RandomEvents RandomEvents;
+    public HeatEnergy HeatEnergy;
 
     // ======================
     //         AUDIO
@@ -75,13 +80,14 @@ public class FirstPersRocket : MonoBehaviour
     bool leftActive;
     bool rightActive;
 
-    bool isPropulseurActive = false;
+    //bool isPropulseurActive = false;
 
     // ======================
     //        START
     // ======================
     void Start()
     {
+        propulseurLoop.Play();
         StartCoroutine(FadeToTransparent());
 
         oscReceiver.Bind("/faderGauche", OnFaderGauche);
@@ -119,6 +125,27 @@ public class FirstPersRocket : MonoBehaviour
     // ======================
     void Update()
     {
+
+
+        // PERMET LES VIRAGES SERRÉS
+        if (HeatEnergy.Drifting)
+        {
+            RotationMultiplier += 20f;
+        } else
+        {
+            RotationMultiplier = 20f;
+        }
+
+        // GARDE LE MULTIPLICATEUR À L'INTÉRIEUR DES LIMITES
+        RotationMultiplier = Mathf.Clamp(RotationMultiplier, 0f, 80f);
+        
+        propulseurLoop.volume = TotalPower/300;
+
+        // --- TOTAL OUTPUT ---
+
+        TotalPower = (MainReactorValue + RightReactorValue + LeftReactorValue) * 100;
+
+
         float zValueRocket = RocketObject.transform.position.z;
         float zValueMars = MarsObject.transform.position.z;
         float distanceRocketMars = zValueRocket - zValueMars;
@@ -133,11 +160,13 @@ public class FirstPersRocket : MonoBehaviour
         LeftReactorValue = DamagedLeftReactor ? 0 : LeftSlider.value;
 
         // --- ROTATION ---
-        currentRotationSpeed = Mathf.Lerp(
+        BaseRotationSpeed = Mathf.Lerp(
             currentRotationSpeed,
-            LeftReactorValue * 20f - RightReactorValue * 20f,
+            LeftReactorValue * RotationMultiplier - RightReactorValue * RotationMultiplier,
             rotationEaseSpeed * Time.deltaTime
         );
+        
+        currentRotationSpeed = BaseRotationSpeed;
 
         // --- FORCE ---
         ReactorForce = (MainReactorValue + RightReactorValue + LeftReactorValue) * 40f;
@@ -157,30 +186,6 @@ public class FirstPersRocket : MonoBehaviour
         //   PROPULSEUR AUDIO
         // ======================
         bool allReactorsActive = mainActive && leftActive && rightActive;
-
-        if (allReactorsActive)
-        {
-            if (!isPropulseurActive)
-            {
-                if (propulseurStart != null)
-                    propulseurStart.Play();
-
-                if (propulseurLoop != null && !propulseurLoop.isPlaying)
-                    propulseurLoop.Play();
-
-                isPropulseurActive = true;
-            }
-        }
-        else
-        {
-            if (isPropulseurActive)
-            {
-                if (propulseurLoop != null)
-                    propulseurLoop.Stop();
-
-                isPropulseurActive = false;
-            }
-        }
     }
 
     // ======================
