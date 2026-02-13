@@ -134,7 +134,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Mardi
 
-- Soudure des boutons et switch
+- Soudure des boutons et switchs
 - Ajustement et intégration du code arduino pour l'utilisation OSC sur la scène 2 (first person) & événements aléatoires -> [lien](https://github.com/Babouin-Sibyllin/MissionDecollageDemo/commit/8e0f6d0d5be47ca52b9b2d240081f4b24e8ed712)
 
 #### Mercredi
@@ -155,7 +155,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Vendredi
 
-- Résolution de problèmes OSC
+- Création d'une autre maquette (maintenant obsolète et éronnée)
+![](./medias/img/schema_obsolete_2.png)
 
 ### Semaine 4
 
