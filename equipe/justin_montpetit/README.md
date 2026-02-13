@@ -124,25 +124,62 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 
+- système de séquences d'urgence (réacteur) complété (reste le réacteur gauche)
+- Révision du système d'urgence pour faciliter la tâche lors de l'implémentation des boutons physiques
+- Corrections de problèmes de boucles infinies
+
 #### Mardi
+
+- Ajout des premiers éléments d'UI
+- Ajout de la séquence d'urgence du réacteur gauche
+- Ajout d'un visuel de la vitesse de la fusée (scène 2)
+- Ajout d'UN visuel de la distance restante entre Mars et la fusée (scène 2)
+- Soudure des boutons
 
 #### Mercredi
 
+- ajustements des éléments d'UI
+- Ajout d'astéroïdes dans la scène 2 (obstacles)
+
 #### Jeudi
 
+- Ajout des éléments de UI nécessaire pour la démo
+- corrections finales du "Merge" entre ma branche et la branche d'Ahmed afin de faire fonctionner l'OSC
+
 #### Vendredi
+
+- Réflexion sur les commentaires
 
 ### Semaine 4
 
 #### Lundi
 
+- Attente de nouvelles directives & corrections de bugs
+
 #### Mardi
+
+- Soudure du Arduino
+- Réflexion sur de meilleurs éléments de gameplay plus concrets
 
 #### Mercredi
 
+- Début de nouvelles images pour le scénarimage (actions effectuées par les boutons)
+- Intégration des modèles 3D réel
+
 #### Jeudi
 
+- Refonte du scénarimage pour mieux convenir à l'expérience réelle qui sera produite.
+
 #### Vendredi
+
+- Ajout de la jauge de chaleur
+- Ajout de la jauge d'énergie
+- Ajout de la lumière ajustant la visibilité
+- Ajout de la fonction "drift"
+- Ajout de la fonction "Refroidissement du moteur"
+- Ajout de la fonction "rechargement d'énergie"
+- Correction de problématiques avec certains scripts
+- Retrait "potentiellement temporaire" du script d'événements aléatoires
 
 ### Semaine 5
 
