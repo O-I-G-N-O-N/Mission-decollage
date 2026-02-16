@@ -5,21 +5,9 @@ using UnityEngine.UI;
 
 public class HeatEnergy : MonoBehaviour
 {
-
-
     Coroutine HeatRoutine;
     Coroutine ColdRoutine;
-
-
-    [Header("Buttons")]
-
-    public bool Button1 = false;
-    public bool Button2 = false;
-    public bool Button3 = false;
-    public bool Button4 = false;
-    public bool Button5 = false;
-    public bool Button6 = false;
-    public bool TurningButton1 = false;
+    public static HeatEnergy Instance;
 
     [Header("UI")]
 
@@ -29,6 +17,7 @@ public class HeatEnergy : MonoBehaviour
 
     [Header("Scripts")]
     public FirstPersRocket FirstPersRocket;
+    public Controllers Controllers;
 
     [Header("Values")]
 
@@ -37,6 +26,13 @@ public class HeatEnergy : MonoBehaviour
     public float CurrentEnergy = 100;
     public bool LightsOn = true;
     public bool Drifting = false;
+    public bool ShieldActive = false;
+    public bool RadarActive = false;
+
+    [Header("Objects")]
+
+    public GameObject Shield;
+    public GameObject Radar;
 
     // Start is called before the first frame update
     void Start()
@@ -63,82 +59,7 @@ public class HeatEnergy : MonoBehaviour
         ColdRoutine = StartCoroutine(ColdUpdate());
     }
 
-        // ACTIVATION DES BOUTONS
-
-        // BOUTON 1
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-    {
-        Button1 = true;
-        Debug.Log(FirstPersRocket.TotalPower);
-    } else
-        {
-            Button1 = false;
-        }
-
-        // BOUTON 2 -- REFROIDISSEMENT MOTEUR
-        if (Input.GetKey(KeyCode.Alpha2))
-    {
-        Button2 = true;
-        Debug.Log(Button2);
-    } else
-        {
-            Button2 = false;
-        }
-
-
-        // BOUTON 3 -- RECHARGE ÉNERGIE
-        if (Input.GetKey(KeyCode.Alpha3))
-    {
-        Button3 = true;
-        Debug.Log(Button3);
-    } else
-        {
-            Button3 = false;
-        }
-
-
-        // BOUTON 4 -- LUMIÈRES
-        if (Input.GetKeyDown(KeyCode.Alpha4))
-    {
-        Button4 = true;
-        Debug.Log(Button4);
-    } else
-        {
-            Button4 = false;
-        }
-
-
-        // BOUTON 5
-        if (Input.GetKeyDown(KeyCode.Alpha5))
-    {
-        Button5 = true;
-        Debug.Log(Button5);
-    } else
-        {
-            Button5 = false;
-        }
-
-
-        // BOUTON 6
-        if (Input.GetKeyDown(KeyCode.Alpha6))
-    {
-        Button6 = true;
-        Debug.Log(Button6);
-    } else
-        {
-            Button6 = false;
-        }
-
-
-        // TURNING BUTTON 1
-        if (Input.GetKey(KeyCode.Alpha7))
-    {
-        TurningButton1 = true;
-        Debug.Log(TurningButton1);
-    } else
-        {
-            TurningButton1 = false;
-        }
+        
 
         //CHALEUR ENTRANTE
         IncomingEngineHeat = (FirstPersRocket.TotalPower*100)/300; // Valeur retournée sur 100
@@ -148,7 +69,7 @@ public class HeatEnergy : MonoBehaviour
 
 
         // BOUTON REFROIDISSEMENT 
-        if (Button2 == true)
+        if (Controllers.TurningButton3 == true)
         {
             if (CurrentEnergy > 0)
             {
@@ -159,7 +80,7 @@ public class HeatEnergy : MonoBehaviour
         }
 
         // BOUTON RECHARGEMENT D'ÉNERGIE 
-        if (Button3 == true)
+        if (Controllers.TurningButton2 == true)
         {
             CurrentEngineHeat += 5f * Time.deltaTime;
             CurrentEnergy += 25f * Time.deltaTime;
@@ -170,12 +91,30 @@ public class HeatEnergy : MonoBehaviour
 
 
         // ACTIVE / DÉSACTIVE LES LUMIÈRES AU CLIC DU BOUTON
-        if (Button4 == true && LightsOn == true)
+        if (Controllers.Button2 == true && LightsOn == true)
         {
             LightsOn = false;
-        } else if (Button4 == true && LightsOn == false)
+        } else if (Controllers.Button2 == true && LightsOn == false)
         {
             LightsOn = true;
+        }
+
+        // ACTIVE LE BOUCLIER LORSQUE LE BOUTON EST MAINTENU
+        if (Controllers.Button1 == true)
+        {
+            ShieldActive = true;
+        } else
+        {
+            ShieldActive = false;
+        }
+
+        // ACTIVE LE RADAR OU LE DÉSACTIVE LORS DU CLIC
+        if (Controllers.Button3 == true && !RadarActive)
+        {
+            RadarActive = true;
+        } else if (Controllers.Button3 == true && RadarActive)
+        {
+            RadarActive = false;
         }
 
 
@@ -193,18 +132,40 @@ public class HeatEnergy : MonoBehaviour
             LightOpacity.color = c;
         }
 
+        // SYSTÈME PERMETTANT L'ACTIVATION DU BOUCLIER
+
+        if (ShieldActive)
+        {
+            Shield.SetActive(true);
+            CurrentEnergy -= 15f * Time.deltaTime;
+            // Rajouter ici la méthode protégeant contre les impacts
+        } else
+        {
+            Shield.SetActive(false);
+        }
+
+        // SYTÈME QUI PERMET D'AFFICHER OU CACHER LE RADAR
+        if (RadarActive)
+        {
+            Radar.SetActive(true);
+        } else 
+        {
+            Radar.SetActive(false);
+        }
+
 
         // COUPURE DE COURANT
 
         if (CurrentEnergy < 0)
         {
             LightsOn = false;
+            ShieldActive = false;
         }
         
 
         // DRIFT
 
-        Drifting = TurningButton1;
+        Drifting = Controllers.TurningButton1;
 
         if (Drifting)
         {

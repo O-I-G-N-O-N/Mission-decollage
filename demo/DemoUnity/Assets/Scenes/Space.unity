@@ -206,6 +206,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -300,6 +305,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (194)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -516,6 +526,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -695,6 +710,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (196)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -872,6 +892,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -958,6 +983,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1048,6 +1078,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (146)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1134,6 +1169,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1378,6 +1418,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (169)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1536,6 +1581,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 813707f22d28c8540b499094706c4379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HeatSlider: {fileID: 1284498202}
+  EnergySlider: {fileID: 787434456}
+  LightOpacity: {fileID: 1585671243}
+  FirstPersRocket: {fileID: 83102545}
+  Controllers: {fileID: 83102548}
+  CurrentEngineHeat: 0
+  IncomingEngineHeat: 0
+  CurrentEnergy: 100
+  LightsOn: 1
+  Drifting: 0
+  ShieldActive: 0
+  RadarActive: 0
+  Shield: {fileID: 1642114077}
+  Radar: {fileID: 1268532852}
+--- !u!114 &83102548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83102544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6305a6678a5d85842a73cd81f2d43625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HeatEnergy: {fileID: 83102547}
+  FirstPersRocket: {fileID: 83102545}
   Button1: 0
   Button2: 0
   Button3: 0
@@ -1543,15 +1616,27 @@ MonoBehaviour:
   Button5: 0
   Button6: 0
   TurningButton1: 0
-  HeatSlider: {fileID: 1284498202}
-  EnergySlider: {fileID: 787434456}
-  LightOpacity: {fileID: 1585671243}
+  TurningButton2: 0
+  TurningButton3: 0
+--- !u!114 &83102549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83102544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93a9db035e9e3234aa3e27ae1397679e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DialogueOccuring: 0
+  EventOccuring: 0
+  sequenceLength: 5
   FirstPersRocket: {fileID: 83102545}
-  CurrentEngineHeat: 0
-  IncomingEngineHeat: 0
-  CurrentEnergy: 100
-  LightsOn: 1
-  Drifting: 0
+  Controllers: {fileID: 83102548}
+  DialogueUI: {fileID: 426278232}
+  DialogueBox: {fileID: 2057759752}
 --- !u!1001 &85007745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1629,6 +1714,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (141)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1716,6 +1806,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (154)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1889,6 +1984,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2067,6 +2167,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2243,6 +2348,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2451,6 +2561,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (212)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2544,6 +2659,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2636,6 +2756,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (199)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2856,6 +2981,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2944,6 +3074,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3116,6 +3251,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3204,6 +3344,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3628,6 +3773,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -3714,6 +3864,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (213)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3982,6 +4137,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -4069,6 +4229,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (148)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -4155,6 +4320,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (172)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4572,6 +4742,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -4658,6 +4833,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4752,6 +4932,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (204)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -4838,6 +5023,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5027,6 +5217,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5207,6 +5402,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5293,6 +5493,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (185)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5483,6 +5688,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5572,6 +5782,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (140)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5658,6 +5873,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (161)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5898,6 +6118,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (209)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5986,6 +6211,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6157,6 +6387,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (160)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6331,6 +6566,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6701,6 +6941,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -6787,6 +7032,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6875,6 +7125,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -6962,6 +7217,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -7048,6 +7308,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7147,6 +7412,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7254,13 +7524,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 740080959}
-  - {fileID: 690344096}
+  - {fileID: 1268532853}
   - {fileID: 1448056076}
   - {fileID: 1092299074}
   - {fileID: 2057759753}
   - {fileID: 365412162}
-  - {fileID: 1284498201}
-  - {fileID: 787434455}
+  - {fileID: 764697956}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -8180,6 +8449,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (215)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -8267,6 +8541,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -8353,6 +8632,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (176)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8773,6 +9057,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (175)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -8859,6 +9148,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9211,6 +9505,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -9297,6 +9596,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9475,6 +9779,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (166)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -9561,6 +9870,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9654,6 +9968,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9826,6 +10145,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -9912,6 +10236,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10005,6 +10334,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10177,6 +10511,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (168)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -10264,6 +10603,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (156)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -10350,6 +10694,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10522,6 +10871,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (206)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10611,6 +10965,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -10697,6 +11056,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (205)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10785,6 +11149,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -10871,6 +11240,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (188)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11089,6 +11463,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (132)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -11283,6 +11662,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11628,6 +12012,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (192)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12009,6 +12398,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12733,6 +13127,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -12819,6 +13218,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13161,6 +13565,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -13247,6 +13656,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (182)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13340,6 +13754,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13511,6 +13930,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13766,6 +14190,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (127)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14199,6 +14628,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -14291,6 +14725,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (137)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14561,6 +15000,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -14654,6 +15098,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14709,16 +15158,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 690344095}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.000061035153}
   m_LocalScale: {x: 0.21366087, y: 0.21366087, z: 0.21366087}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1955144375}
-  m_Father: {fileID: 355597954}
+  m_Children: []
+  m_Father: {fileID: 1268532853}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 80.2, y: -74.6}
+  m_AnchoredPosition: {x: 49.99997, y: -49.999985}
   m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &690344097
@@ -14933,6 +15381,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15028,6 +15481,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15116,6 +15574,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (150)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15540,6 +16003,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -15809,6 +16277,43 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &764697955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 764697956}
+  m_Layer: 5
+  m_Name: Gauges
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &764697956
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764697955}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1284498201}
+  - {fileID: 787434455}
+  m_Father: {fileID: 355597954}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -39.100006, y: -24.300001}
+  m_SizeDelta: {x: 34.986023, y: 160}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &765202830
 GameObject:
   m_ObjectHideFlags: 0
@@ -16007,18 +16512,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 787434454}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.7493, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1491457954}
   - {fileID: 144062718}
-  m_Father: {fileID: 355597954}
+  m_Father: {fileID: 764697956}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 338.2, y: -24.3}
+  m_AnchoredPosition: {x: -22.699951, y: 0}
   m_SizeDelta: {x: 20, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &787434456
@@ -16149,6 +16654,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (110)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16405,6 +16915,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (191)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16494,6 +17009,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -16580,6 +17100,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (173)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16681,6 +17206,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16786,10 +17316,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: cockpit2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2484811f3b6e70a4caefa9aa0a82dc5a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2484811f3b6e70a4caefa9aa0a82dc5a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1449703242}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2484811f3b6e70a4caefa9aa0a82dc5a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1449703243}
   m_SourcePrefab: {fileID: 100100000, guid: 2484811f3b6e70a4caefa9aa0a82dc5a, type: 3}
 --- !u!4 &829286231 stripped
 Transform:
@@ -16880,6 +17423,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (133)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16974,6 +17522,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -17060,6 +17613,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17148,6 +17706,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -17234,6 +17797,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17412,6 +17980,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (144)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -17505,6 +18078,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -17591,6 +18169,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17849,6 +18432,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (165)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -17942,6 +18530,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (177)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -18028,6 +18621,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (171)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18118,6 +18716,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -18204,6 +18807,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (126)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18292,6 +18900,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (211)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -18378,6 +18991,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (190)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18467,6 +19085,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (145)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18639,6 +19262,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (167)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -18725,6 +19353,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (114)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18897,6 +19530,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (174)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -18983,6 +19621,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19161,6 +19804,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (187)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -19248,6 +19896,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -19334,6 +19987,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (214)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19506,6 +20164,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (200)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -19592,6 +20255,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20196,6 +20864,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -20372,6 +21045,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (203)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20556,6 +21234,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (193)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -20642,6 +21325,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (163)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20730,6 +21418,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -20771,9 +21464,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 355597954}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -491, y: -90}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 123.20001, y: -49.3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1092299075
@@ -21125,6 +21818,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (170)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21213,6 +21911,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (142)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21385,6 +22088,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21480,6 +22188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -21566,6 +22279,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21825,6 +22543,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (181)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -21924,6 +22647,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (186)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -22016,6 +22744,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22206,6 +22939,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -22292,6 +23030,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (135)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22393,6 +23136,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22571,6 +23319,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 358864497}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7c41619b72ef8d34f9a7a148e90d9fcb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1642114078}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7c41619b72ef8d34f9a7a148e90d9fcb,
         type: 3}
@@ -22580,7 +23332,52 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 83102547}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7c41619b72ef8d34f9a7a148e90d9fcb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 83102548}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7c41619b72ef8d34f9a7a148e90d9fcb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 83102549}
   m_SourcePrefab: {fileID: 100100000, guid: 7c41619b72ef8d34f9a7a148e90d9fcb, type: 3}
+--- !u!1 &1268532852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1268532853}
+  m_Layer: 5
+  m_Name: RADAR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1268532853
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268532852}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000061035153}
+  m_LocalScale: {x: 3.5888252, y: 3.5888252, z: 3.5888252}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 690344096}
+  - {fileID: 1955144375}
+  m_Father: {fileID: 355597954}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1278721040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22658,6 +23455,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22748,6 +23550,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -22787,18 +23594,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1284498200}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.7493, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 211750984}
   - {fileID: 541267730}
-  m_Father: {fileID: 355597954}
+  m_Father: {fileID: 764697956}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 360.9, y: -24.3}
+  m_AnchoredPosition: {x: -0.000030517578, y: 0}
   m_SizeDelta: {x: 20, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1284498202
@@ -22936,6 +23743,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -23022,6 +23834,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23194,6 +24011,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -23280,6 +24102,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23453,6 +24280,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (157)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23711,6 +24543,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23985,6 +24822,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -24071,6 +24913,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24328,6 +25175,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24704,6 +25556,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -24965,6 +25822,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25053,6 +25915,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (116)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25315,6 +26182,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -25486,6 +26358,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -25572,6 +26449,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (207)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25745,6 +26627,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26091,6 +26978,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -26262,6 +27154,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (184)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -26303,9 +27200,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 355597954}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 598, y: -90.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -120, y: -34.6}
   m_SizeDelta: {x: 200, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1448056077
@@ -26483,6 +27380,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26494,6 +27396,60 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1448276748}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1449703239 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2484811f3b6e70a4caefa9aa0a82dc5a,
+    type: 3}
+  m_PrefabInstance: {fileID: 829286230}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1449703242
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449703239}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.052505024, y: 0.031429205, z: 0.03950909}
+  m_Center: {x: 0, y: 0.002969718, z: -0.012651583}
+--- !u!54 &1449703243
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449703239}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1463953075
 GameObject:
   m_ObjectHideFlags: 0
@@ -26836,6 +27792,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (197)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -27082,6 +28043,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (198)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -27168,6 +28134,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27256,6 +28227,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -27342,6 +28318,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27460,6 +28441,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (195)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -27546,6 +28532,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28002,6 +28993,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -28088,6 +29084,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (180)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28181,6 +29182,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28428,6 +29434,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (201)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -28604,6 +29615,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28812,6 +29828,111 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1642114077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1642114078}
+  - component: {fileID: 1642114081}
+  - component: {fileID: 1642114080}
+  - component: {fileID: 1642114079}
+  m_Layer: 0
+  m_Name: ShieldSphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1642114078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642114077}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.09}
+  m_LocalScale: {x: 3.7312, y: 3.7312, z: 3.7312}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83102546}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1642114079
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642114077}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1642114080
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642114077}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: fb54b1ab35bb03e4991f53fbf7e5e889, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1642114081
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642114077}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1642528692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28889,6 +30010,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29236,6 +30362,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (178)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29741,6 +30872,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (210)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -30029,6 +31165,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (179)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30471,6 +31612,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (151)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -30641,6 +31787,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (152)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31129,6 +32280,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -31215,6 +32371,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31398,6 +32559,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31752,6 +32918,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -32004,6 +33175,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32092,6 +33268,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32550,6 +33731,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -32933,6 +34119,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -33031,6 +34222,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33257,6 +34453,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -33343,6 +34544,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (134)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33438,6 +34644,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (121)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33694,6 +34905,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -33780,6 +34996,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33951,6 +35172,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (147)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34135,6 +35361,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -34221,6 +35452,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (159)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34333,6 +35569,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -34419,6 +35660,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (158)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34772,6 +36018,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (208)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34928,15 +36179,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955144372}
   m_LocalRotation: {x: -0, y: -0, z: -0.000000014901159, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.00028566367}
-  m_LocalScale: {x: 4.680314, y: 4.680314, z: 4.680314}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 690344096}
+  m_Father: {fileID: 1268532853}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 250.00006, y: -250.00012}
+  m_AnchoredPosition: {x: 49.999985, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1956166779
@@ -35197,6 +36448,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -35284,6 +36540,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (162)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -35298,6 +36559,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4a0bb650599d09949998e8a4ec4e8429,
     type: 3}
   m_PrefabInstance: {fileID: 549217913}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1970897211 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+    type: 3}
+  m_PrefabInstance: {fileID: 2066964866}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1971068737 stripped
 Transform:
@@ -35382,6 +36649,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (155)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35555,6 +36827,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35823,6 +37100,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35917,6 +37199,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36097,6 +37384,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -36183,6 +37475,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36271,6 +37568,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (202)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -36357,6 +37659,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (117)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36446,6 +37753,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36616,6 +37928,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (183)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -36702,6 +38019,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (153)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36881,6 +38203,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (149)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37082,7 +38409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2057759753
 RectTransform:
   m_ObjectHideFlags: 0
@@ -37092,7 +38419,7 @@ RectTransform:
   m_GameObject: {fileID: 2057759752}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6009735, y: 0.24750388, z: 0.1927}
+  m_LocalScale: {x: 0.36193028, y: 0.14905675, z: 0.11605165}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 426278231}
@@ -37309,6 +38636,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -37395,6 +38727,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (139)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37483,6 +38820,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -37570,6 +38912,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -37577,7 +38924,15 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2069876294}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2066964870}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2066964871}
   m_SourcePrefab: {fileID: 100100000, guid: 4a0bb650599d09949998e8a4ec4e8429, type: 3}
 --- !u!4 &2066964867 stripped
 Transform:
@@ -37585,6 +38940,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2066964866}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2066964870
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970897211}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.071931124, y: 0.056245428, z: 0.042603508}
+  m_Center: {x: -0.0009128808, y: 0.00079566543, z: -0.0002083945}
+--- !u!114 &2066964871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970897211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e42436303903d40bf89660b05ca5ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HeatEnergy: {fileID: 83102547}
 --- !u!1 &2069876293
 GameObject:
   m_ObjectHideFlags: 0
@@ -38083,6 +39472,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -38398,6 +39792,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -38485,6 +39884,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (164)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -38571,6 +39975,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (189)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38847,6 +40256,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -38934,6 +40348,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteorite_Final (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -39020,6 +40439,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Meteorite_Final (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a0bb650599d09949998e8a4ec4e8429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

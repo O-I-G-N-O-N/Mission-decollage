@@ -155,9 +155,9 @@ public class FirstPersRocket : MonoBehaviour
         DistanceUI.text = "distance restante: " + (distanceRocketMars + 2000);
 
         // --- DAMAGE LOGIC ---
-        MainReactorValue = DamagedMainReactor ? 0 : MainSlider.value;
-        RightReactorValue = DamagedRightReactor ? 0 : RightSlider.value;
-        LeftReactorValue = DamagedLeftReactor ? 0 : LeftSlider.value;
+        MainReactorValue = DamagedMainReactor ? 2f : MainSlider.value;
+        RightReactorValue = DamagedRightReactor ? 0.4f : RightSlider.value;
+        LeftReactorValue = DamagedLeftReactor ? 0.4f : LeftSlider.value;
 
         // --- ROTATION ---
         BaseRotationSpeed = Mathf.Lerp(
@@ -173,6 +173,7 @@ public class FirstPersRocket : MonoBehaviour
 
         // --- MOVE ---
         transform.Translate(Vector3.forward * ReactorForce * Time.deltaTime, Space.Self);
+        transform.Translate(Vector3.forward * 10 * Time.deltaTime, Space.Self);
         transform.Rotate(Vector3.up * currentRotationSpeed * Time.deltaTime, Space.Self);
 
         // ======================
