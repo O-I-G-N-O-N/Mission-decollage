@@ -92,12 +92,17 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Mardi
 
-- Création d’une maquette qui représente notre installation.
+- Création d’une maquette qui représente notre installation. (Maquette obsolète et éronnée)
 - Confirmation du budget et des composants avec Guillaume.
+
+![](./medias/img/schema_obsolete_1.png)
+
 
 #### Mercredi
 
-- Journée passée à comprendre l’utilisation du bouton d’arcade, celui-ci étant défectueux, je n’ai pas fait grand-chose de plus.
+- Journée passée à comprendre l’utilisation du bouton d’arcade, celui-ci étant incompatible en soit avec le pbhub, je n’ai pas fait grand-chose de plus.
+
+![](./medias/img/bouton_arcade.jpg)
 
 #### Jeudi
 
@@ -112,23 +117,31 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Ajout de l’OSC pour la communication entre les Arduino, Pure Data et Unity.
 - Ajout de contrôles de base avec les faders sur Unity.
 
+![](./medias/img/resolution_bug.jpg)
+
+
 
 ### Semaine 3
 
 #### Lundi
 
 - Création d'ui
-- Débogage d'un problème de vitesse d'envoi via OSC
+- Tentative de débogage d'un problème de vitesse d'envoi via OSC (non réglé)
+
+![](./medias/img/ui_1.png)
+![](./medias/img/ui_menu.png)
 
 
 #### Mardi
 
-- Soudure des boutons et switch
-- Ajustement et intégration du code arduino pour l'utilisation OSC sur la scène 2 (first person) & événements aléatoires
+- Soudure des boutons et switchs
+- Ajustement et intégration du code arduino pour l'utilisation OSC sur la scène 2 (first person) & événements aléatoires -> [lien](https://github.com/Babouin-Sibyllin/MissionDecollageDemo/commit/8e0f6d0d5be47ca52b9b2d240081f4b24e8ed712)
 
 #### Mercredi
 
-- Retour à la version antérieur suite à un bug majeur
+- Retour à la version antérieur suite à un bug majeur -> [lien](https://github.com/Babouin-Sibyllin/MissionDecollageDemo/commit/443264a740d750b8f16ee1ed3928d5aad38fe23d)
+- Ajout de L'OSC dans unity -> [lien](https://github.com/Babouin-Sibyllin/MissionDecollageDemo/commit/8ec1d961d6c96222c8306fbb6b011ebdd416b89e)
+- Ajout de certains élément d'ui dans unity [lien](https://github.com/Babouin-Sibyllin/MissionDecollageDemo/commit/fad0f44f99fc3e9c300bac110355f97c3a0f0fb3)
 
 #### Jeudi
 
@@ -136,21 +149,26 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Construction de l'installation
 - Ajout de lumières aux keys
 
+![](./medias/img/ajout_lumiere.jpg)
+![](./medias/img/demo.jpg)
+
+
 #### Vendredi
 
-- Début de soudure
+- Création d'une autre maquette (maintenant obsolète et éronnée)
+![](./medias/img/schema_obsolete_2.png)
 
 ### Semaine 4
 
 #### Lundi
 
-- Création d'ui supplémentaire
+- 
 
 #### Mardi
 
-- Refonte de notre scénarisation
-- Résolution de problèmes liés à unity et platform.io
-- Soudure
+- Refonte de notre scénarisation 
+- Résolution de problèmes liés à unity et platform.io (Merci à Guillaume et aux TTPS)
+- Soudure 
 
 #### Mercredi
 
@@ -158,9 +176,12 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Jeudi
 
--Refonte de notre scénarimage et scénarisation
+- Refonte de notre scénarimage et scénarisation, (la troisième fois étant finalement la bonne)
 
 #### Vendredi
+
+- Création d'ui spécifique aux jauges (énergie et chaleur) de notre jeu
+![](./medias/img/JaugesTout.png)
 
 ### Semaine 5
 

@@ -164,14 +164,33 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 
+- Organisation de la semaine et planification des tâches à venir pour préparer la refonte des modèles 3D et les tests des projecteurs.
+- Réflexion sur les retours de l’équipe et identification des priorités pour la suite du projet.
+- Préparation du matériel et des outils nécessaires pour les travaux prévus plus tard dans la semaine.
+
 #### Mardi
+
+- Refonte complète des modèles 3D dans Maya 3D suite aux retours de l’équipe.
+- Recréation complète du modèle 3D de la mouette en travaillant sur les proportions, les détails et la structure pour qu’il soit agréable visuellement.
+- Recréation complète du modèle 3D de l’avion commercial en améliorant la précision et les détails pour répondre aux attentes de l’équipe.
 
 #### Mercredi
 
+- Attente de nouvelles directives de l’équipe avant de continuer les travaux.
+
 #### Jeudi
+
+- Recherche de solutions pour faire fonctionner les projecteurs afin d’afficher sur tout le mur en forme de cercle dans le grand studio.
+- Étude des contraintes techniques liées à l’orientation, à la distance et à la couverture des projecteurs.
+- Communication avec les professeurs et les TTP pour valider les paramètres techniques et obtenir des conseils sur l’installation.
+- Mise en place de deux projecteurs sur les côtés pour tester la projection et observer le rendu sur le mur.
+- Ajustement de l’alignement et de la position des projecteurs pour optimiser la couverture.
+- Prise de notes sur les résultats des tests pour préparer la prochaine étape et décider du positionnement final des projecteurs.
 
 #### Vendredi
 
+- Aucune activité supplémentaire à signaler.
+  
 ### Semaine 5
 
 #### Lundi
