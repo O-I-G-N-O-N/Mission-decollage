@@ -91,20 +91,35 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Jeudi
 - Modélisation du cockpit
-- Essayer d'implémenter un shader à partir d'un tutoriel, mais je vais le   laisser tomber à caise de sa complication.
+- Essayer d'implémenter un shader à partir d'un tutoriel, mais je vais le   laisser tomber à caise de sa complication. [Vidéo du tutoriel](https://www.youtube.com/watch?v=gw31oF9qITw)
+
+
+![](./medias/img/cockpit_version_01.jpg)
+
 
 #### Vendredi
 - Modélisation des modèles :  Fusée, astéorite et Mars.
+
+![](./medias/img/fusee_version_01.jpg)
+![](./medias/img/asteroid_version_01.jpg)
+
 
 ### Semaine 3
 
 #### Lundi
  - Modélisation de la platforme d'atterissage sur Mars
 
+
+![](./medias/img/atterissage_version_01.jpg)
+
 #### Mardi
 - Chercher les pièces pour l'installation 
 - Modélisation du bras de lancement
 - Améliorer la modélisation de la fusée
+
+
+![](./medias/img/bras_lancement.jpg)
+![](./medias/img/fusee_version_02.jpg)
 
 #### Mercredi
 - Recherche sur quelle style de shader qu'on pourra utiliser sur unity.
@@ -112,22 +127,47 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Jeudi
 - Recherche sur des programmes que je pourrais utiliser pour créer les textures comme par exemple texture ripper
-- Création de la texture pour l'astéroide
+- Créer la texture pour l'astéroide
+
+
+![](./medias/img/asteroid_texture.jpg)
 
 #### Vendredi
- - Création de la texture pour la planète Mars
+ - Création de la texture pour la planète
+
  
+ ![](./medias/img/planete_texture.png)
 ### Semaine 4
 
 #### Lundi
+- Créer d'autres modèles pour les astéroides
+- Créer le modèle du terrain pour la planète
 
+
+ ![](./medias/img/terrain_planete.jpg)
 #### Mardi
+- Amélioration du modèle du cockpit
+- Créer une texture de métal, le béton et le terrain de mars
+- Appliquer des shaders de Maya sur les modèles restants
+
+
+![](./medias/img/metal_texture.png)
+![](./medias/img/beton_texture.png)
+![](./medias/img/terrain_plantete_texutrue.png)
 
 #### Mercredi
+- Créer l'image pour le skybox de l'espace
+- Appliquer les textures sur le modèles
+- Discussion de notre scénarimage
+
+ ![](./medias/img/skybox_espace.jpg)
 
 #### Jeudi
+- Exporter tous les modèles en FBX
+- Discussion de notre scénarimage
 
 #### Vendredi
+- 
 
 ### Semaine 5
 
