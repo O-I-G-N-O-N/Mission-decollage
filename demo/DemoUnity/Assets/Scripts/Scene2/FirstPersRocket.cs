@@ -19,10 +19,6 @@ public class FirstPersRocket : MonoBehaviour
     public Image fadeImage;
     public float fadeDuration = 0.5f;
 
-    public Slider RightSlider;
-    public Slider MainSlider;
-    public Slider LeftSlider;
-
     // ======================
     //        OBJECTS
     // ======================
@@ -58,7 +54,6 @@ public class FirstPersRocket : MonoBehaviour
     public TextMeshProUGUI vitesseUI;
     public TextMeshProUGUI DistanceUI;
 
-    public RandomEvents RandomEvents;
     public HeatEnergy HeatEnergy;
 
     // ======================
@@ -81,6 +76,8 @@ public class FirstPersRocket : MonoBehaviour
     bool rightActive;
 
     //bool isPropulseurActive = false;
+
+    public Controllers Controllers;
 
     // ======================
     //        START
@@ -107,17 +104,17 @@ public class FirstPersRocket : MonoBehaviour
     // ======================
     void OnFaderGauche(OSCMessage message)
     {
-        LeftSlider.value = Mathf.Clamp01(message.Values[0].IntValue / 4095f);
+        Controllers.LeftSlider.value = Mathf.Clamp01(message.Values[0].IntValue / 4095f);
     }
 
     void OnFaderCentre(OSCMessage message)
     {
-        MainSlider.value = Mathf.Clamp01(message.Values[0].IntValue / 4095f);
+        Controllers.MainSlider.value = Mathf.Clamp01(message.Values[0].IntValue / 4095f);
     }
 
     void OnFaderDroit(OSCMessage message)
     {
-        RightSlider.value = Mathf.Clamp01(message.Values[0].IntValue / 4095f);
+        Controllers.RightSlider.value = Mathf.Clamp01(message.Values[0].IntValue / 4095f);
     }
 
     // ======================
@@ -155,9 +152,9 @@ public class FirstPersRocket : MonoBehaviour
         DistanceUI.text = "distance restante: " + (distanceRocketMars + 2000);
 
         // --- DAMAGE LOGIC ---
-        MainReactorValue = DamagedMainReactor ? 2f : MainSlider.value;
-        RightReactorValue = DamagedRightReactor ? 0.4f : RightSlider.value;
-        LeftReactorValue = DamagedLeftReactor ? 0.4f : LeftSlider.value;
+        MainReactorValue = DamagedMainReactor ? 2f : Controllers.MainSlider.value;
+        RightReactorValue = DamagedRightReactor ? 0.4f : Controllers.RightSlider.value;
+        LeftReactorValue = DamagedLeftReactor ? 0.4f : Controllers.LeftSlider.value;
 
         // --- ROTATION ---
         BaseRotationSpeed = Mathf.Lerp(

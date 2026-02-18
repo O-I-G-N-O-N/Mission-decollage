@@ -7,6 +7,7 @@ public class Collisions : MonoBehaviour
 
 
     public HeatEnergy HeatEnergy;
+    public ParticleSystem ObstacleDestruction;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +27,7 @@ public class Collisions : MonoBehaviour
         {
             Debug.Log("collision!");
             Destroy(gameObject);
+            ObstacleDestruction.Play();
         } else if (other.CompareTag("Player") && gameObject.CompareTag("Obstacles") && HeatEnergy.ShieldActive)
         {
             Debug.Log("Protégé par le bouclier!");

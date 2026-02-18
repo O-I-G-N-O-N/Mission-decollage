@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Controllers : MonoBehaviour
 {
@@ -20,6 +21,13 @@ public class Controllers : MonoBehaviour
     public bool TurningButton1 = false;
     public bool TurningButton2 = false;
     public bool TurningButton3 = false;
+
+
+    [Header("Sliders // Propulseurs")]
+
+    public Slider RightSlider;
+    public Slider MainSlider;
+    public Slider LeftSlider;
 
     // Start is called before the first frame update
     void Start()

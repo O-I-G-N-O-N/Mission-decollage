@@ -51,7 +51,7 @@ public class Events : MonoBehaviour
 
     IEnumerator EventHappening()
     {
-        yield return new WaitForSeconds(50f);
+        yield return new WaitForSeconds(20f);
         Debug.Log("5 secondes passées, check event...");
 
         EventPicker = Random.Range(0, 5);
@@ -61,7 +61,7 @@ public class Events : MonoBehaviour
             DialogueOccuring = true;
             DialogueUI.text = "MALFONCTION DU PROPULSEUR PRINCIPAL. ACTION REQUISE";
             FirstPersRocket.DamagedMainReactor = true;
-            FirstPersRocket.MainSlider.value = 0;
+            Controllers.MainSlider.value = 0;
             StartCoroutine(RepairMain());
         }
         else if (EventPicker == 1)
@@ -69,7 +69,7 @@ public class Events : MonoBehaviour
             DialogueOccuring = true;
             DialogueUI.text = "MALFONCTION DU PROPULSEUR DROIT. ACTION REQUISE";
             FirstPersRocket.DamagedRightReactor = true;
-            FirstPersRocket.RightSlider.value = 0;
+            Controllers.RightSlider.value = 0;
             StartCoroutine(RepairRight());
         }
         else if (EventPicker == 2)
@@ -77,7 +77,7 @@ public class Events : MonoBehaviour
             DialogueOccuring = true;
             DialogueUI.text = "MALFONCTION DU PROPULSEUR GAUCHE. ACTION REQUISE";
             FirstPersRocket.DamagedLeftReactor = true;
-            FirstPersRocket.LeftSlider.value = 0;
+            Controllers.LeftSlider.value = 0;
             StartCoroutine(RepairLeft());
         }
         else
