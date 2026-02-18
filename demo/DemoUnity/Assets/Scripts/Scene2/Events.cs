@@ -12,14 +12,18 @@ public class Events : MonoBehaviour
 
     [Header("Event State")]
     public bool EventOccuring = false;
+    public int DamageAmount = 0;
+    public bool RepairInProgress = false;
 
     private int ButtonPicker = 0;
     private int EventPicker = 0;
     public int sequenceLength = 5;
+    private Queue<IEnumerator> repairQueue = new Queue<IEnumerator>();
 
     [Header("References")]
     public FirstPersRocket FirstPersRocket;
     public Controllers Controllers;
+    public CockpitTablet CockpitTablet;
     public TextMeshProUGUI DialogueUI;
     public GameObject DialogueBox;
     private Image dialogueBoxImage;
@@ -35,7 +39,7 @@ public class Events : MonoBehaviour
     void Update()
     {
         // Démarre un nouvel event si aucun en cours
-        if (!EventOccuring)
+        if (!EventOccuring && DamageAmount < 4)
         {
             StartCoroutine(EventHappening());
             EventOccuring = true;
@@ -51,42 +55,74 @@ public class Events : MonoBehaviour
 
     IEnumerator EventHappening()
     {
-        yield return new WaitForSeconds(20f);
+        yield return new WaitForSeconds(13f);
         Debug.Log("5 secondes passées, check event...");
 
         EventPicker = Random.Range(0, 5);
 
-        if (EventPicker == 0)
+            if (EventPicker == 0 && !FirstPersRocket.DamagedMainReactor)
         {
+            EventOccuring = false;
             DialogueOccuring = true;
-            DialogueUI.text = "MALFONCTION DU PROPULSEUR PRINCIPAL. ACTION REQUISE";
+            DamageAmount += 1;
+            CockpitTablet.RocketDamagedMain.SetActive(true);
             FirstPersRocket.DamagedMainReactor = true;
             Controllers.MainSlider.value = 0;
-            StartCoroutine(RepairMain());
+            repairQueue.Enqueue(RepairMain());
+            if (!RepairInProgress)
+            {
+                StartCoroutine(RepairSequence());
+            }
         }
-        else if (EventPicker == 1)
+        else if (EventPicker == 1 && !FirstPersRocket.DamagedRightReactor)
         {
+            EventOccuring = false;
             DialogueOccuring = true;
-            DialogueUI.text = "MALFONCTION DU PROPULSEUR DROIT. ACTION REQUISE";
+            DamageAmount += 1;
+            CockpitTablet.RocketDamagedRight.SetActive(true);
             FirstPersRocket.DamagedRightReactor = true;
             Controllers.RightSlider.value = 0;
-            StartCoroutine(RepairRight());
+            repairQueue.Enqueue(RepairRight());
+            if (!RepairInProgress)
+            {
+                StartCoroutine(RepairSequence());
+            }
         }
-        else if (EventPicker == 2)
+        else if (EventPicker == 2 && !FirstPersRocket.DamagedLeftReactor)
         {
+            EventOccuring = false;
             DialogueOccuring = true;
-            DialogueUI.text = "MALFONCTION DU PROPULSEUR GAUCHE. ACTION REQUISE";
+            DamageAmount += 1;
+            CockpitTablet.RocketDamagedLeft.SetActive(true);
             FirstPersRocket.DamagedLeftReactor = true;
             Controllers.LeftSlider.value = 0;
-            StartCoroutine(RepairLeft());
+            repairQueue.Enqueue(RepairLeft());
+                if (!RepairInProgress)
+            {
+                StartCoroutine(RepairSequence());
+            }
         }
         else
         {
             EventOccuring = false;
-            DialogueOccuring = false;
         }
-
         
+    }
+
+
+        IEnumerator RepairSequence()
+    {
+        if (RepairInProgress) yield break;
+
+    while (repairQueue.Count > 0)
+    {
+        RepairInProgress = true;
+
+        yield return StartCoroutine(repairQueue.Dequeue());
+
+        RepairInProgress = false;
+        DialogueOccuring = false;
+    }
     }
 
 
@@ -94,6 +130,9 @@ public class Events : MonoBehaviour
     IEnumerator RepairMain()
     {
     //DÉBUTE LA SÉQUENCE
+    DialogueOccuring = true;
+    Debug.Log("Dégâts: " + DamageAmount);
+    DialogueUI.text = "MALFONCTION DU PROPULSEUR PRINCIPAL. ACTION REQUISE";
     yield return new WaitForSeconds(1f);
     sequenceLength = Random.Range(3, 10);
 
@@ -149,21 +188,25 @@ public class Events : MonoBehaviour
 
         // COULEUR DE LA BOITE DE DIALOGUE
         dialogueBoxImage.color = new Color(0f, 1f, 0f);
+        Debug.Log("Dégâts: " + DamageAmount);
     }
 
     // Final message after the repair sequence
     dialogueBoxImage.color = new Color(1f, 1f, 1f);
-    DialogueUI.text = "Réparation du propulseur principal réussie !";
+    DialogueUI.text = "Restabilisation du propulseur principal réussie !";
     FirstPersRocket.DamagedMainReactor = false;
+    DamageAmount -= 1;
+    CockpitTablet.RocketDamagedMain.SetActive(false);
 
     yield return new WaitForSeconds(1f);
-    DialogueOccuring = false;
-    EventOccuring = false;
 }
 
     IEnumerator RepairRight()
     {
     //DÉBUTE LA SÉQUENCE
+    DialogueOccuring = true;
+    Debug.Log("Dégâts: " + DamageAmount);
+    DialogueUI.text = "MALFONCTION DU PROPULSEUR DROIT. ACTION REQUISE";
     yield return new WaitForSeconds(1f);
     sequenceLength = Random.Range(3, 10);
 
@@ -219,21 +262,25 @@ public class Events : MonoBehaviour
 
         // COULEUR DE LA BOITE DE DIALOGUE
         dialogueBoxImage.color = new Color(0f, 1f, 0f);
+        Debug.Log("Dégâts: " + DamageAmount);
     }
 
     // Final message after the repair sequence
     dialogueBoxImage.color = new Color(1f, 1f, 1f);
-    DialogueUI.text = "Réparation du propulseur droit réussie !";
+    DialogueUI.text = "Restabilisation du propulseur droit réussie !";
     FirstPersRocket.DamagedRightReactor = false;
+    DamageAmount -= 1;
+    CockpitTablet.RocketDamagedRight.SetActive(false);
 
     yield return new WaitForSeconds(1f);
-    DialogueOccuring = false;
-    EventOccuring = false;
 }
 
     IEnumerator RepairLeft()
 {
     //DÉBUTE LA SÉQUENCE
+    DialogueOccuring = true;
+    Debug.Log("Dégâts: " + DamageAmount);
+    DialogueUI.text = "MALFONCTION DU PROPULSEUR GAUCHE. ACTION REQUISE";
     yield return new WaitForSeconds(1f);
     sequenceLength = Random.Range(3, 10);
 
@@ -289,15 +336,16 @@ public class Events : MonoBehaviour
 
         // COULEUR DE LA BOITE DE DIALOGUE
         dialogueBoxImage.color = new Color(0f, 1f, 0f);
+        Debug.Log("Dégâts: " + DamageAmount);
     }
 
     // Final message after the repair sequence
     dialogueBoxImage.color = new Color(1f, 1f, 1f);
-    DialogueUI.text = "Réparation du propulseur gauche réussie !";
+    DialogueUI.text = "Restabilisation du propulseur gauche réussie !";
     FirstPersRocket.DamagedLeftReactor = false;
+    DamageAmount -= 1;
+    CockpitTablet.RocketDamagedLeft.SetActive(false);
 
     yield return new WaitForSeconds(1f);
-    DialogueOccuring = false;
-    EventOccuring = false;
 }
 }

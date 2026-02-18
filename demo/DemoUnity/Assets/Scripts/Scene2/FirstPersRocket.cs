@@ -153,8 +153,34 @@ public class FirstPersRocket : MonoBehaviour
 
         // --- DAMAGE LOGIC ---
         MainReactorValue = DamagedMainReactor ? 2f : Controllers.MainSlider.value;
-        RightReactorValue = DamagedRightReactor ? 0.4f : Controllers.RightSlider.value;
-        LeftReactorValue = DamagedLeftReactor ? 0.4f : Controllers.LeftSlider.value;
+
+
+        // Propulsion du réacteur droit
+            if (!Controllers.FlipSwitch3)
+        {
+            RightReactorValue = 0f;
+        }
+        else if (DamagedRightReactor)
+        {
+            RightReactorValue = 0.4f;
+        } else
+        {
+            RightReactorValue = Controllers.RightSlider.value;
+        }
+
+
+        // Propulsion du réacteur gauche
+            if (!Controllers.FlipSwitch1)
+        {
+            LeftReactorValue = 0f;
+        }
+        else if (DamagedLeftReactor) 
+        {
+            LeftReactorValue = 0.4f;
+        } else
+        {
+            LeftReactorValue = Controllers.LeftSlider.value;
+        }
 
         // --- ROTATION ---
         BaseRotationSpeed = Mathf.Lerp(

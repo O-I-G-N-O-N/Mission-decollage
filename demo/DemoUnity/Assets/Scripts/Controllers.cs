@@ -29,6 +29,12 @@ public class Controllers : MonoBehaviour
     public Slider MainSlider;
     public Slider LeftSlider;
 
+    [Header("Switch à capot")]
+
+    public bool FlipSwitch1 = false;
+    public bool FlipSwitch2 = false;
+    public bool FlipSwitch3 = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -135,5 +141,37 @@ public class Controllers : MonoBehaviour
         {
             TurningButton3 = false;
         }
+
+
+        if (Input.GetKeyDown(KeyCode.I) && !FlipSwitch1) 
+        {
+            FlipSwitch1 = true;
+            Debug.Log("active switch 1");
+        } else if (Input.GetKeyDown(KeyCode.I) && FlipSwitch1){
+            FlipSwitch1 = false;
+            Debug.Log("inactive switch 1");
+        }
+
+        if (Input.GetKeyDown(KeyCode.O) && !FlipSwitch2) 
+        {
+            FlipSwitch2 = true;
+            Debug.Log("active switch 2");
+        } else if (Input.GetKeyDown(KeyCode.O) && FlipSwitch2){
+            FlipSwitch2 = false;
+            Debug.Log("inactive switch 2");
+        }
+
+        if (Input.GetKeyDown(KeyCode.P) && !FlipSwitch3) 
+        {
+            FlipSwitch3 = true;
+            Debug.Log("active switch 3");
+        } else if (Input.GetKeyDown(KeyCode.P) && FlipSwitch3){
+            FlipSwitch3 = false;
+            Debug.Log("inactive switch 3");
+        }
+
+
     }
+
+    
 }
