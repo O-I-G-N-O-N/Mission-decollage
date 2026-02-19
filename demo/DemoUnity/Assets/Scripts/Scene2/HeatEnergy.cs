@@ -7,12 +7,14 @@ public class HeatEnergy : MonoBehaviour
 {
     Coroutine HeatRoutine;
     Coroutine ColdRoutine;
+    Coroutine GameOverRoutine;
     public static HeatEnergy Instance;
 
     [Header("UI")]
 
     public Slider HeatSlider;
     public Slider EnergySlider;
+    public Slider HealthSlider;
     public Image LightOpacity;
 
     [Header("Scripts")]
@@ -23,16 +25,29 @@ public class HeatEnergy : MonoBehaviour
 
     public float CurrentEngineHeat = 0;
     public float IncomingEngineHeat = 0;
+    public float Health = 100;
     public float CurrentEnergy = 100;
     public bool LightsOn = true;
     public bool Drifting = false;
     public bool ShieldActive = false;
     public bool RadarActive = false;
-
+    public bool GameIsOver = false;
     [Header("Objects")]
 
     public GameObject Shield;
     public GameObject Radar;
+    public GameObject HealthFill;
+    public GameObject RocketTop;
+    public GameObject RocketMovingTop;
+    public GameObject RocketBottom;
+    public ParticleSystem ExplosionParticles;
+    public ParticleSystem RightFire;
+    public ParticleSystem MainFire;
+    public ParticleSystem LeftFire;
+    public ParticleSystem MainGas;
+    public ParticleSystem RightGas;
+    public ParticleSystem LeftGas;
+    public GameObject ThirdCamera;
 
     // Start is called before the first frame update
     void Start()
@@ -43,9 +58,29 @@ public class HeatEnergy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         // EMPÊCHE LA JAUGE D'ÉNERGIE / CHALEUR DE DÉPASSER LES LIMITES
         CurrentEnergy = Mathf.Clamp(CurrentEnergy, 0f, 100f);
         CurrentEngineHeat = Mathf.Clamp(CurrentEngineHeat, 0f, 100f);
+        HealthSlider.value = Health/100;
+
+
+        if (Controllers.FlipSwitch2) 
+        {
+             StartCoroutine(EjectionSequence());
+        }
+
+        // VÉRIFIE QUE LE JOUEUR EST TOUJOURS VIVANT
+        if (Health <= 0) 
+        {
+            GameIsOver = true;
+        }
+
+        if (GameIsOver && GameOverRoutine == null)
+        {
+            GameOverRoutine = StartCoroutine(GameOver());
+        }
+
 
         // RÉACTIVE LE SYSTÈME DE CHAUFFAGE DU MOTEUR !! NE PAS RETIER !! 
         if (IncomingEngineHeat > 0 && HeatRoutine == null)
@@ -177,6 +212,21 @@ public class HeatEnergy : MonoBehaviour
 
     }
 
+        IEnumerator GameOver()
+         {
+            ThirdCamera.SetActive(true);
+            yield return new WaitForSeconds(2f);
+            RocketBottom.SetActive(false);
+            RocketTop.SetActive(false);
+            ExplosionParticles.Play();
+            MainFire.Stop();
+            LeftFire.Stop();
+            RightFire.Stop();
+            yield return null;
+         }
+
+
+
         IEnumerator HeatUpdate()
     {
         while (IncomingEngineHeat > 0)
@@ -215,5 +265,32 @@ public class HeatEnergy : MonoBehaviour
         ColdRoutine = null;
     }
 
+
+        IEnumerator EjectionSequence() 
+    {
+        ThirdCamera.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        MainGas.Play();
+        LeftGas.Play();
+        RightGas.Play();
+        float duration = 2f;
+        float timer = 0f;
+    
+        float startSpeed = 0.1f;   // fast at start
+        float endSpeed = 0f;      // slow at end
+    
+        Vector3 direction = Vector3.forward;
+    
+        while (timer < duration)
+        {
+            float t = timer / duration;              // 0 → 1
+            float currentSpeed = Mathf.Lerp(startSpeed, endSpeed, t);
+    
+            RocketMovingTop.transform.position += direction * currentSpeed * Time.deltaTime;
+    
+            timer += Time.deltaTime;
+            yield return null;
+        }
+    } 
 
 }

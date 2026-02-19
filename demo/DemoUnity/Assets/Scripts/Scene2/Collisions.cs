@@ -17,7 +17,10 @@ public class Collisions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // Permet de réellement enlever la barre de vie lorsqu'elle atteint 0
+        if (HeatEnergy.Health <= 0) {
+            HeatEnergy.HealthFill.SetActive(false);
+        }
     }
 
     void OnTriggerEnter(Collider other)
@@ -28,10 +31,12 @@ public class Collisions : MonoBehaviour
             Debug.Log("collision!");
             Destroy(gameObject);
             ObstacleDestruction.Play();
+            HeatEnergy.Health -= 34;
         } else if (other.CompareTag("Player") && gameObject.CompareTag("Obstacles") && HeatEnergy.ShieldActive)
         {
             Debug.Log("Protégé par le bouclier!");
             Destroy(gameObject);
+            HeatEnergy.Health -= 23;
         }
     }
 }

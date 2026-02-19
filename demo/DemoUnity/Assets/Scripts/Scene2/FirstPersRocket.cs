@@ -45,6 +45,7 @@ public class FirstPersRocket : MonoBehaviour
     public bool DamagedMainReactor = false;
     public bool DamagedRightReactor = false;
     public bool DamagedLeftReactor = false;
+    public bool DamagedEngine = false;
 
     public float rotationEaseSpeed = 20;
 
@@ -122,6 +123,13 @@ public class FirstPersRocket : MonoBehaviour
     // ======================
     void Update()
     {
+
+        if (DamagedEngine) 
+        {
+            DamagedLeftReactor = true;
+            DamagedRightReactor = true;
+            DamagedMainReactor = true;
+        }
 
 
         // PERMET LES VIRAGES SERRÉS

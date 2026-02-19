@@ -14,6 +14,7 @@ public class Events : MonoBehaviour
     public bool EventOccuring = false;
     public int DamageAmount = 0;
     public bool RepairInProgress = false;
+    public bool EngineRepairHalf = false;
 
     private int ButtonPicker = 0;
     private int EventPicker = 0;
@@ -55,7 +56,7 @@ public class Events : MonoBehaviour
 
     IEnumerator EventHappening()
     {
-        yield return new WaitForSeconds(13f);
+        yield return new WaitForSeconds(25f);
         Debug.Log("5 secondes passées, check event...");
 
         EventPicker = Random.Range(0, 5);
@@ -97,6 +98,21 @@ public class Events : MonoBehaviour
             FirstPersRocket.DamagedLeftReactor = true;
             Controllers.LeftSlider.value = 0;
             repairQueue.Enqueue(RepairLeft());
+                if (!RepairInProgress)
+            {
+                StartCoroutine(RepairSequence());
+            }
+        } else if (EventPicker == 3) 
+        {
+            EventOccuring = false;
+            DialogueOccuring = true;
+            DamageAmount += 1;
+            CockpitTablet.RocketDamagedEngine.SetActive(true);
+            FirstPersRocket.DamagedEngine = true;
+            Controllers.LeftSlider.value = 0;
+            Controllers.RightSlider.value = 0;
+            Controllers.MainSlider.value = 0;
+            repairQueue.Enqueue(RepairEngine());
                 if (!RepairInProgress)
             {
                 StartCoroutine(RepairSequence());
@@ -348,4 +364,36 @@ public class Events : MonoBehaviour
 
     yield return new WaitForSeconds(1f);
 }
+
+
+    IEnumerator RepairEngine()
+    {
+        DialogueOccuring = true;
+        Debug.Log("Ça part");
+        DialogueUI.text = "MALFONCTION DU MOTEUR. ACTION IMMÉDIATE REQUISE";
+        DialogueUI.text = "DÉSACTIVEZ LES PROPULSEURS ET REMETTEZ LES À ZÉRO";
+        while (FirstPersRocket.DamagedEngine) 
+        {
+            if (!Controllers.FlipSwitch1 && !Controllers.FlipSwitch3 && Controllers.MainSlider.value == 0 && Controllers.RightSlider.value == 0 && Controllers.LeftSlider.value == 0) 
+                {
+                    EngineRepairHalf = true;
+                    DialogueUI.text = "RÉACTIVEZ LES PROPULSEURS";
+                }
+
+            if (Controllers.FlipSwitch1 && Controllers.FlipSwitch3 && EngineRepairHalf)
+                {
+                    FirstPersRocket.DamagedEngine = false;
+                    FirstPersRocket.DamagedLeftReactor = false;
+                    FirstPersRocket.DamagedMainReactor = false;
+                    FirstPersRocket.DamagedRightReactor = false;
+                }
+        yield return null;
+        }
+
+        DialogueUI.text = "Restabilisation du propulseur gauche réussie !";
+        FirstPersRocket.DamagedLeftReactor = false;
+        DamageAmount -= 1;
+        CockpitTablet.RocketDamagedEngine.SetActive(false);
+        yield return new WaitForSeconds(1f);
+    }
 }
