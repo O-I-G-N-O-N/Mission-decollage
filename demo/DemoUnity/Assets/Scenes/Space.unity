@@ -588,6 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6305a6678a5d85842a73cd81f2d43625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  oscReceiver: {fileID: 597977789}
   HeatEnergy: {fileID: 83102547}
   FirstPersRocket: {fileID: 83102545}
   Button1: 0
@@ -599,12 +600,12 @@ MonoBehaviour:
   TurningButton1: 0
   TurningButton2: 0
   TurningButton3: 0
-  RightSlider: {fileID: 2016116627}
-  MainSlider: {fileID: 78111717}
-  LeftSlider: {fileID: 1747771447}
   FlipSwitch1: 0
   FlipSwitch2: 0
   FlipSwitch3: 0
+  RightSlider: {fileID: 2016116627}
+  MainSlider: {fileID: 78111717}
+  LeftSlider: {fileID: 1747771447}
 --- !u!114 &83102549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -620,6 +621,7 @@ MonoBehaviour:
   DialogueOccuring: 0
   EventOccuring: 0
   DamageAmount: 0
+  RepairInProgress: 0
   sequenceLength: 5
   FirstPersRocket: {fileID: 83102545}
   Controllers: {fileID: 83102548}
@@ -2663,7 +2665,7 @@ GameObject:
   - component: {fileID: 597977789}
   - component: {fileID: 597977788}
   m_Layer: 0
-  m_Name: OSC_FadersSwitch
+  m_Name: OSC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2691,7 +2693,7 @@ MonoBehaviour:
   _localHost: 192.168.1.154
   _localPort: 7000
   _remoteHost: 127.0.0.1
-  _remotePort: 6999
+  _remotePort: 7000
   _useBundle: 0
 --- !u!114 &597977789
 MonoBehaviour:
@@ -2711,7 +2713,7 @@ MonoBehaviour:
   _workInEditor: 0
   _localHostMode: 0
   _localHost: 192.168.1.154
-  _localPort: 7002
+  _localPort: 7001
 --- !u!4 &597977790
 Transform:
   m_ObjectHideFlags: 0
