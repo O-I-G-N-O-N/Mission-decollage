@@ -195,13 +195,51 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 
+- Réflexion sur la façon de placer les projecteurs dans le grand studio.
+
+- Analyse des différentes options pour optimiser la couverture du mur circulaire.
+
 #### Mardi
+
+- Poursuite du travail commencé en semaine 4 sur le positionnement des projecteurs dans le grand studio.
+
+- Ajustement des hauteurs et des angles afin de trouver la configuration qui couvre le mieux le mur circulaire dans le grand studio.
+
+- Après plusieurs essais, décision d’installer les projecteurs en configuration verticale, un au-dessus de l’autre.
+
+- Placement du projecteur principal en bas, du deuxième au-dessus et du troisième encore plus haut.
+
+- Ajout d’un espace entre chaque projecteur pour éviter tout risque de surchauffe ou de dommage.
+
+- Vérification que la projection couvre l’ensemble du mur circulaire sans séparation visible entre les zones projetées.
 
 #### Mercredi
 
+- Poursuite du positionnement des projecteurs pour confirmer la configuration finale.
+
+- Mise en place des câbles réseau et d’alimentation pour que les projecteurs puissent fonctionner.
+
+- Organisation et placement des fils de façon propre et sécurisée.
+
+- Vérification que tout le câblage permet l’ouverture et l’utilisation des projecteurs sans gêne.
+
 #### Jeudi
 
+- Vérification du fonctionnement du réseau des projecteurs pour pouvoir les ouvrir depuis l’ordinateur, sans avoir à utiliser l’échelle ni appuyer sur les boutons des projecteurs.
+
+- Installation des haut-parleurs à côté du mur circulaire.
+
+- Placement et organisation des câbles pour les haut-parleurs.
+
+- Connexion des haut-parleurs afin qu’ils soient opérationnels pour le projet.
+
+- Discussion avec les équipes sur ce qui manque pour la maquette 2 prévue mardi.
+
 #### Vendredi
+
+- Aucune activité technique réalisée.
+
+- Réflexion sur la suite du projet.
 
 ### Semaine 6
 
