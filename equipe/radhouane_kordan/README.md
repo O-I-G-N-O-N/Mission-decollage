@@ -96,7 +96,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 - Faire une liste d’inventaire des sons que nous possédons, de ceux à corriger et de ceux qui manquent.
-    ![](../medias/images/liste_de_sons.png)
+    ![](./medias/img/liste_de_sons.png)
 - Valider auprès des autres membres de l’équipe les sons manquants.
 
 #### Mardi
@@ -105,7 +105,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Mercredi
 - Traitement des sons enregistrés pour la création des sons manquants.
-    ![](../medias/images/edition_sonore_reaper.png)
+    ![](./medias/img/edition_sonore_reaper.png)
 - Ajouter une liste d’événements déclenchables dans le jeu dans la page concept.
 - Mettre à jour le scénarimage à la suite des changements apportés au concept.
 
@@ -114,7 +114,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - J’ai réalisé le son d’oiseau avec collision.
 
 #### Vendredi
-- J’ai créé le son de narration.
+- J’ai créé le son de dialogue.
 
 ### Semaine 3
 
@@ -125,13 +125,14 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Mardi
 - J’ai commencé à intégrer des sons pour la démo.
 #### Mercredi
-
+- J'ai créé le son d'ambience sur terre.
+- J'ai créé le son dans l'espace.
 #### Jeudi
 - Assuré le fonctionnement des projecteurs et des haut-parleurs, et vérifié que tout est bien connecté dans la salle Matrice.
 - Corrigé les problèmes de son avant la porte ouverte (certains sons n’étaient pas assez forts).
 - J’ai dû réintégrer les sons dans la démo à cause d’un problème de commit.
 #### Vendredi
-
+- Faire une réflexion sur ce qui pourrait être amélioré durant la porte ouverte en ce qui concerne l’audio.
 ### Semaine 4
 
 #### Lundi
@@ -149,15 +150,15 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Lundi
 
 #### Mardi
-- J'ai fait un plan avec les mesures nécessaire pour pouvoir acheter les planches de bois avec les mesures qu'on a besoin.
-    ![](../medias/images/plan_mesures_planches.png)
+- J’ai fait un plan avec les mesures nécessaires afin de pouvoir acheter les planches de bois aux dimensions dont on a besoin.
+    ![](./medias/img/plan_mesures_planches.png)
 #### Mercredi
 - J'ai acheter les planches de bois pour l'installation.
 #### Jeudi
-- 
+- Configurer les projecteurs pour réaliser le mapping.
 #### Vendredi
 - Faire le montage de la bande annonce
-  ![](../medias/images/montage_bande_annonce.png)
+  ![](./medias/img/montage_bande_annonce.png)
 ### Semaine 6
 
 #### Lundi
