@@ -114,7 +114,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - J’ai réalisé le son d’oiseau avec collision.
 
 #### Vendredi
-- J’ai créé le son de narration.
+- J’ai créé le son de dialogue.
 
 ### Semaine 3
 
@@ -125,13 +125,14 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Mardi
 - J’ai commencé à intégrer des sons pour la démo.
 #### Mercredi
-
+- J'ai créé le son d'ambience sur terre.
+- J'ai créé le son dans l'espace.
 #### Jeudi
 - Assuré le fonctionnement des projecteurs et des haut-parleurs, et vérifié que tout est bien connecté dans la salle Matrice.
 - Corrigé les problèmes de son avant la porte ouverte (certains sons n’étaient pas assez forts).
 - J’ai dû réintégrer les sons dans la démo à cause d’un problème de commit.
 #### Vendredi
-
+- Faire une réflexion sur ce qui pourrait être amélioré durant la porte ouverte en ce qui concerne l’audio.
 ### Semaine 4
 
 #### Lundi
@@ -149,7 +150,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Lundi
 
 #### Mardi
-- J'ai fait un plan avec les mesures nécessaire pour pouvoir acheter les planches de bois avec les mesures qu'on a besoin.
+- J’ai fait un plan avec les mesures nécessaires afin de pouvoir acheter les planches de bois aux dimensions dont on a besoin.
     ![](./medias/img/plan_mesures_planches.png)
 #### Mercredi
 - J'ai acheter les planches de bois pour l'installation.
