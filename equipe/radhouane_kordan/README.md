@@ -96,6 +96,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 - Faire une liste d’inventaire des sons que nous possédons, de ceux à corriger et de ceux qui manquent.
+    ![](../medias/images/liste_de_sons.png)
 - Valider auprès des autres membres de l’équipe les sons manquants.
 
 #### Mardi
@@ -103,8 +104,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Corriger ma planification en fonction des retours du professeur.
 
 #### Mercredi
-- Trier et organiser les sons enregistrés avec Sound Devices.
 - Traitement des sons enregistrés pour la création des sons manquants.
+    ![](../medias/images/edition_sonore_reaper.png)
 - Ajouter une liste d’événements déclenchables dans le jeu dans la page concept.
 - Mettre à jour le scénarimage à la suite des changements apportés au concept.
 
@@ -126,7 +127,9 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Mercredi
 
 #### Jeudi
-
+- Assuré le fonctionnement des projecteurs et des haut-parleurs, et vérifié que tout est bien connecté dans la salle Matrice.
+- Corrigé les problèmes de son avant la porte ouverte (certains sons n’étaient pas assez forts).
+- J’ai dû réintégrer les sons dans la démo à cause d’un problème de commit.
 #### Vendredi
 
 ### Semaine 4
@@ -146,13 +149,15 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Lundi
 
 #### Mardi
-
+- J'ai fait un plan avec les mesures nécessaire pour pouvoir acheter les planches de bois avec les mesures qu'on a besoin.
+    ![](../medias/images/plan_mesures_planches.png)
 #### Mercredi
-
+- J'ai acheter les planches de bois pour l'installation.
 #### Jeudi
-
+- 
 #### Vendredi
-
+- Faire le montage de la bande annonce
+  ![](../medias/images/montage_bande_annonce.png)
 ### Semaine 6
 
 #### Lundi
