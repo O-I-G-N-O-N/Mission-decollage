@@ -155,7 +155,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Mercredi
 - J'ai acheter les planches de bois pour l'installation.
 #### Jeudi
-- 
+- Configurer les projecteurs pour réaliser le mapping.
 #### Vendredi
 - Faire le montage de la bande annonce
   ![](./medias/img/montage_bande_annonce.png)
