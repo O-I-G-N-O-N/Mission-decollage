@@ -96,7 +96,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 - Faire une liste d’inventaire des sons que nous possédons, de ceux à corriger et de ceux qui manquent.
-    ![](../medias/img/liste_de_sons.png)
+    ![](./medias/img/liste_de_sons.png)
 - Valider auprès des autres membres de l’équipe les sons manquants.
 
 #### Mardi
@@ -105,7 +105,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Mercredi
 - Traitement des sons enregistrés pour la création des sons manquants.
-    ![](../medias/img/edition_sonore_reaper.png)
+    ![](./medias/img/edition_sonore_reaper.png)
 - Ajouter une liste d’événements déclenchables dans le jeu dans la page concept.
 - Mettre à jour le scénarimage à la suite des changements apportés au concept.
 
@@ -150,14 +150,14 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Mardi
 - J'ai fait un plan avec les mesures nécessaire pour pouvoir acheter les planches de bois avec les mesures qu'on a besoin.
-    ![](../medias/img/plan_mesures_planches.png)
+    ![](./medias/img/plan_mesures_planches.png)
 #### Mercredi
 - J'ai acheter les planches de bois pour l'installation.
 #### Jeudi
 - 
 #### Vendredi
 - Faire le montage de la bande annonce
-  ![](../medias/img/montage_bande_annonce.png)
+  ![](./medias/img/montage_bande_annonce.png)
 ### Semaine 6
 
 #### Lundi
