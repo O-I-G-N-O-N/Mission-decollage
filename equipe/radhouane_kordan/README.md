@@ -137,7 +137,6 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 - Faire un retour avec l’équipe pour définir les sons qui seront intégrés dans le MVP (Minimum Viable Product).
-- ![](./medias/img/liste_de_sons_mvp.png)
 #### Mardi
 
 #### Mercredi
