@@ -110,11 +110,11 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Mettre à jour le scénarimage à la suite des changements apportés au concept.
 
 #### Jeudi
-- J’ai réalisé le son d’oiseau.
-- J’ai réalisé le son d’oiseau avec collision.
+- J’ai réalisé l'effet sonore d’oiseau.
+- J’ai réalisé l'effet sonore d’oiseau avec collision.
 
 #### Vendredi
-- J’ai créé le son de dialogue.
+- J’ai créé l'effet sonore de dialogue.
 
 ### Semaine 3
 
@@ -139,7 +139,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Faire un retour avec l’équipe pour définir les sons qui seront intégrés dans le MVP (Minimum Viable Product).
 - ![](./medias/img/liste_de_sons_mvp.png)
 #### Mardi
-Créer le son du drift.
+Créer l’effet sonore du drift.
 Créer l’effet sonore du boost.
 #### Mercredi
 Créer l’effet sonore pour l’activation/désactivation du bouclier.
@@ -159,7 +159,8 @@ Valider les sons produits pour le MVP avec les membres de l’équipe.
 #### Mercredi
 - J'ai acheter les planches de bois pour l'installation.
 #### Jeudi
-- Configurer les projecteurs pour réaliser le mapping.
+- Corriger l’effet sonore du drift.
+- Corriger l’effet sonore de propulseur.
 #### Vendredi
 - Faire le montage de la bande annonce
   ![](./medias/img/montage_bande_annonce.png)
