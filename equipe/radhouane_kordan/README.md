@@ -167,6 +167,7 @@ Valider les sons produits pour le MVP avec les membres de l’équipe.
 ### Semaine 6
 
 #### Lundi
+- Ajuster les paramètres des projecteur et faire le mapping sur le cyclo.
 
 #### Mardi
 
