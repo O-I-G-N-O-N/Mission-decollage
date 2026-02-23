@@ -78,12 +78,42 @@ Leur objectif : atterrir sains et saufs et marquer l’histoire de l’explorati
 ## Articles sélectionnés
  -->
 
-## À propos de l'équipe de création
+### À propos de l'équipe de création
 
+1. **Justin Montpetit – Programmeur du jeu**  
+   Responsable de la programmation dans Unity, principalement en **C#**. Il a développé l’ensemble des mécaniques interactives et la logique du jeu.
 
+2. **Ahmed Kaïssoumi – Intégrateur technique et UI**  
+   Responsable de la connexion des composants matériels avec **Arduino**. Il a programmé les boutons et autres interfaces physiques pour interagir avec le jeu, et a également conçu l’**interface utilisateur (UI)** du jeu.
+
+3. **Thearylou Lach – Modélisation 3D et textures**  
+   Responsable de la création des **modèles 3D** et des **textures** utilisées dans le jeu, assurant l’aspect visuel et la cohérence esthétique des éléments numériques.
+
+4. **Radhouane Kordan – Conception sonore**  
+   Responsable de l’ensemble des **sons et ambiances sonores** du jeu, contribuant à l’immersion et à la dynamique de l’expérience.
+
+5. **Jad Saloumi – Intégration et installation du projet**  
+   Responsable de **l’intégration des sons dans le jeu**, ainsi que de l’**installation technique** du projet : projecteurs, haut-parleurs, lumières et connexions. Assure le bon fonctionnement de l’ensemble de l’installation.
+   
 ## Crédits
 
+Un grand merci aux **TTP** ainsi qu’à nos professeurs **Thomas Frederiks** et **Guillaume Arsenault** pour leur soutien et leurs conseils tout au long du projet.
 
 ## Contact
+
+- **Justin Montpetit – Programmeur du jeu**  
+  [LinkedIn](https://www.linkedin.com/in/justin-montpetit-924574397/) | [Portfolio](https://babouin-sibyllin.github.io/portfolio-Justin-Montpetit/)
+
+- **Ahmed Kaïssoumi – Intégrateur technique et UI**  
+  [LinkedIn](https://www.linkedin.com/in/ahmed-kaissoumi/)
+
+- **Thearylou Lach – Modélisation 3D et textures**  
+  [LinkedIn](https://linkedin.com/in/thearylou) | [Portfolio](https://portfolio-thearylou.com)
+
+- **Radhouane Kordan – Création sonore**  
+  [LinkedIn](https://www.linkedin.com/in/radhouane-kordan/) | [Portfolio](https://rad8433.github.io/portfolio-radhouane-kordan/)
+
+- **[Jad Saloumi] – Intégration et installation du projet**  
+  [LinkedIn](https://www.linkedin.com/in/saloumijad/) | [Portfolio](https://jad2087.github.io/portfolio-jad-saloumi/)
 
 
