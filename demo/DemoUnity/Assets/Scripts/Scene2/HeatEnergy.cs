@@ -91,6 +91,12 @@ public class HeatEnergy : MonoBehaviour
              EngineIsOverheating = false;
         }
 
+        // JOUE LE SON D'ALERTE
+
+        if (AlertIsFlashing) {
+            // JAD mettre ici le son loop d'alerte
+        }
+
         // VÉRIFIE QUE LE JOUEUR EST TOUJOURS VIVANT
         if (Health <= 0) 
         {
@@ -129,6 +135,7 @@ public class HeatEnergy : MonoBehaviour
         {
             if (CurrentEnergy > 0)
             {
+                // JAD mettre ici le bruit de refroidissement loop
                 PlayerIsCooling = true;
                 CurrentEngineHeat -= 11f * Time.deltaTime;
                 CurrentEnergy -= 11f * Time.deltaTime;
@@ -142,6 +149,7 @@ public class HeatEnergy : MonoBehaviour
         // BOUTON RECHARGEMENT D'ÉNERGIE 
         if (Controllers.TurningButton2 == true)
         {
+            // JAD mettre ici le bruit de rechargement d'énergie loop
             CurrentEngineHeat += 5f * Time.deltaTime;
             CurrentEnergy += 25f * Time.deltaTime;
             PlayerIsReloadingEnergy = true;
@@ -153,6 +161,7 @@ public class HeatEnergy : MonoBehaviour
         // EMPÊCHE LE JOUEUR DE MAINTENIR REFROIDISSEMENT ET RECHARGEMENT EN MÊME TEMPS
         if (PlayerIsReloadingEnergy && PlayerIsCooling)
         {
+            // JAD mettre ici bruit de court circuit
             Events.DialogueOccuring = true;
             Events.DialogueUI.text = "COURT CIRCUIT. NE PAS REFROIDIR LE MOTEUR LORSQUE LA BATTERIE RECHARGE";
             LightsOn = false;
@@ -189,6 +198,7 @@ public class HeatEnergy : MonoBehaviour
         // AFFICHE LA BONNE LUMINOSITÉ DÉPENDAMENT SI LES LUMIÈRES SONT ACTIVES OU PAS
         if (LightsOn)
         {
+            // JAD mettre ici le bruit d'allumage de lumières
             Color c = LightOpacity.color;
             c.a = Mathf.Clamp01(0f / 255f);
             LightOpacity.color = c;
@@ -213,6 +223,7 @@ public class HeatEnergy : MonoBehaviour
 
         if (ShieldActive)
         {
+            // JAD mettre ici bruit de bouclier actif
             Shield.SetActive(true);
             CurrentEnergy -= 15f * Time.deltaTime;
         } else
@@ -223,6 +234,7 @@ public class HeatEnergy : MonoBehaviour
         // SYTÈME QUI PERMET D'AFFICHER OU CACHER LE RADAR
         if (RadarActive)
         {
+            // JAD mettre ici bruit d'activation de radar
             Radar.SetActive(true);
         } else 
         {
@@ -234,6 +246,7 @@ public class HeatEnergy : MonoBehaviour
 
         if (CurrentEnergy <= 0)
         {
+            // JAD mettre ici bruit de coupure de courant
             LightsOn = false;
             ShieldActive = false;
             ShieldIsDisabled = true;
@@ -249,6 +262,7 @@ public class HeatEnergy : MonoBehaviour
 
         if (Drifting)
         {
+            // JAD mettre ici bruit de drift
             CurrentEngineHeat += 2f * Time.deltaTime;
         }
 
@@ -263,6 +277,7 @@ public class HeatEnergy : MonoBehaviour
             yield return new WaitForSeconds(2f);
             RocketBottom.SetActive(false);
             RocketTop.SetActive(false);
+            // JAD mettre ici le bruit d'explosion
             ExplosionParticles.Play();
             MainFire.Stop();
             LeftFire.Stop();
@@ -315,6 +330,7 @@ public class HeatEnergy : MonoBehaviour
     {
         ThirdCamera.SetActive(true);
         yield return new WaitForSeconds(1f);
+        // JAD mettre ici le bruit de gas + "pfff" d'éjection
         MainGas.Play();
         LeftGas.Play();
         RightGas.Play();

@@ -68,6 +68,7 @@ public class Events : MonoBehaviour
             DamageAmount += 1;
             CockpitTablet.RocketDamagedMain.SetActive(true);
             FirstPersRocket.DamagedMainReactor = true;
+            // JAD mettre ici le son de moteur qui brise
             Controllers.MainSlider.value = 0;
             repairQueue.Enqueue(RepairMain());
             if (!RepairInProgress)
@@ -82,6 +83,7 @@ public class Events : MonoBehaviour
             DamageAmount += 1;
             CockpitTablet.RocketDamagedRight.SetActive(true);
             FirstPersRocket.DamagedRightReactor = true;
+            // JAD mettre ici le son de moteur qui brise
             Controllers.RightSlider.value = 0;
             repairQueue.Enqueue(RepairRight());
             if (!RepairInProgress)
@@ -96,6 +98,7 @@ public class Events : MonoBehaviour
             DamageAmount += 1;
             CockpitTablet.RocketDamagedLeft.SetActive(true);
             FirstPersRocket.DamagedLeftReactor = true;
+            // JAD mettre ici le son de moteur qui brise
             Controllers.LeftSlider.value = 0;
             repairQueue.Enqueue(RepairLeft());
                 if (!RepairInProgress)
