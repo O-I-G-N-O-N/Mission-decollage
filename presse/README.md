@@ -101,19 +101,19 @@ Un grand merci aux **TTP** ainsi qu’à nos professeurs **Thomas Frederiks** et
 
 ## Contact
 
-- **Justin Montpetit – Programmeur du jeu**  
+- **Justin Montpetit**  
   [LinkedIn](https://www.linkedin.com/in/justin-montpetit-924574397/) | [Portfolio](https://babouin-sibyllin.github.io/portfolio-Justin-Montpetit/)
 
-- **Ahmed Kaïssoumi – Intégrateur technique et UI**  
+- **Ahmed Kaïssoumi**  
   [LinkedIn](https://www.linkedin.com/in/ahmed-kaissoumi/)
 
-- **Thearylou Lach – Modélisation 3D et textures**  
+- **Thearylou Lach**  
   [LinkedIn](https://linkedin.com/in/thearylou) | [Portfolio](https://portfolio-thearylou.com)
 
-- **Radhouane Kordan – Création sonore**  
+- **Radhouane Kordan**  
   [LinkedIn](https://www.linkedin.com/in/radhouane-kordan/) | [Portfolio](https://rad8433.github.io/portfolio-radhouane-kordan/)
 
-- **[Jad Saloumi] – Intégration et installation du projet**  
+- **Jad Saloumi**  
   [LinkedIn](https://www.linkedin.com/in/saloumijad/) | [Portfolio](https://jad2087.github.io/portfolio-jad-saloumi/)
 
 
