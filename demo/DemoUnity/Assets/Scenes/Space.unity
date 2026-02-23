@@ -518,7 +518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 181d27b7a1b2e1741a56573051cd0bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oscReceiver: {fileID: 597977789}
+  oscReceiver: {fileID: 2039008524}
   fadeImage: {fileID: 365412163}
   fadeDuration: 0.5
   RocketObject: {fileID: 83102544}
@@ -627,6 +627,8 @@ MonoBehaviour:
   FlipSwitch1: 0
   FlipSwitch2: 0
   FlipSwitch3: 0
+  oscReceiver: {fileID: 2039008524}
+  minimap: {fileID: 0}
 --- !u!114 &83102549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46675,7 +46677,7 @@ MonoBehaviour:
   _workInEditor: 0
   _localHostMode: 0
   _localHost: 192.168.1.154
-  _localPort: 8002
+  _localPort: 7001
 --- !u!4 &2039008525
 Transform:
   m_ObjectHideFlags: 0

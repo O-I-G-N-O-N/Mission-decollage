@@ -158,10 +158,10 @@ public class HeatEnergy : MonoBehaviour
             LightsOn = false;
             CurrentEngineHeat += 10f * Time.deltaTime;
             CurrentEnergy -= 35f * Time.deltaTime;
-        } else
-        {
-            Events.DialogueOccuring = false;
-        }
+        } //else
+        //{
+            //Events.DialogueOccuring = false;
+        //}
 
         // AFFICHE LA CHALEUR SUR LE UI 
             HeatSlider.value = CurrentEngineHeat;
