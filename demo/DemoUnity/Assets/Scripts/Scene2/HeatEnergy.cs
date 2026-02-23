@@ -19,6 +19,7 @@ public class HeatEnergy : MonoBehaviour
 
     [Header("Scripts")]
     public FirstPersRocket FirstPersRocket;
+    public Events Events;
     public Controllers Controllers;
 
     [Header("Values")]
@@ -30,8 +31,14 @@ public class HeatEnergy : MonoBehaviour
     public bool LightsOn = true;
     public bool Drifting = false;
     public bool ShieldActive = false;
+    public bool ShieldIsDisabled = false;
+    public bool EngineIsOverheating = false;
     public bool RadarActive = false;
     public bool GameIsOver = false;
+    private bool FadeStarted = false;
+    private bool AlertIsFlashing = false;
+    private bool PlayerIsCooling = false;
+    private bool PlayerIsReloadingEnergy = false;
     [Header("Objects")]
 
     public GameObject Shield;
@@ -48,6 +55,9 @@ public class HeatEnergy : MonoBehaviour
     public ParticleSystem RightGas;
     public ParticleSystem LeftGas;
     public GameObject ThirdCamera;
+    public Light CockpitLight;
+    public Color LightOriginalColor;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -68,6 +78,17 @@ public class HeatEnergy : MonoBehaviour
         if (Controllers.FlipSwitch2) 
         {
              StartCoroutine(EjectionSequence());
+        }
+
+        if (CurrentEngineHeat >= 100) 
+        {
+             StartCoroutine(EngineOverheat());
+             EngineIsOverheating = true;
+        }
+
+        if (CurrentEngineHeat < 100) 
+        {
+             EngineIsOverheating = false;
         }
 
         // VÉRIFIE QUE LE JOUEUR EST TOUJOURS VIVANT
@@ -108,10 +129,14 @@ public class HeatEnergy : MonoBehaviour
         {
             if (CurrentEnergy > 0)
             {
+                PlayerIsCooling = true;
                 CurrentEngineHeat -= 11f * Time.deltaTime;
                 CurrentEnergy -= 11f * Time.deltaTime;
             }
             
+        } else
+        {
+            PlayerIsCooling = false;
         }
 
         // BOUTON RECHARGEMENT D'ÉNERGIE 
@@ -119,6 +144,23 @@ public class HeatEnergy : MonoBehaviour
         {
             CurrentEngineHeat += 5f * Time.deltaTime;
             CurrentEnergy += 25f * Time.deltaTime;
+            PlayerIsReloadingEnergy = true;
+        } else
+        {
+            PlayerIsReloadingEnergy = false;
+        }
+
+        // EMPÊCHE LE JOUEUR DE MAINTENIR REFROIDISSEMENT ET RECHARGEMENT EN MÊME TEMPS
+        if (PlayerIsReloadingEnergy && PlayerIsCooling)
+        {
+            Events.DialogueOccuring = true;
+            Events.DialogueUI.text = "COURT CIRCUIT. NE PAS REFROIDIR LE MOTEUR LORSQUE LA BATTERIE RECHARGE";
+            LightsOn = false;
+            CurrentEngineHeat += 10f * Time.deltaTime;
+            CurrentEnergy -= 35f * Time.deltaTime;
+        } else
+        {
+            Events.DialogueOccuring = false;
         }
 
         // AFFICHE LA CHALEUR SUR LE UI 
@@ -132,15 +174,6 @@ public class HeatEnergy : MonoBehaviour
         } else if (Controllers.Button2 == true && LightsOn == false)
         {
             LightsOn = true;
-        }
-
-        // ACTIVE LE BOUCLIER LORSQUE LE BOUTON EST MAINTENU
-        if (Controllers.Button1 == true)
-        {
-            ShieldActive = true;
-        } else
-        {
-            ShieldActive = false;
         }
 
         // ACTIVE LE RADAR OU LE DÉSACTIVE LORS DU CLIC
@@ -167,13 +200,21 @@ public class HeatEnergy : MonoBehaviour
             LightOpacity.color = c;
         }
 
+        // ACTIVE LE BOUCLIER LORSQUE LE BOUTON EST MAINTENU
+        if (Controllers.Button1 == true && !ShieldIsDisabled)
+        {
+            ShieldActive = true;
+        } else
+        {
+            ShieldActive = false;
+        }
+
         // SYSTÈME PERMETTANT L'ACTIVATION DU BOUCLIER
 
         if (ShieldActive)
         {
             Shield.SetActive(true);
             CurrentEnergy -= 15f * Time.deltaTime;
-            // Rajouter ici la méthode protégeant contre les impacts
         } else
         {
             Shield.SetActive(false);
@@ -191,10 +232,14 @@ public class HeatEnergy : MonoBehaviour
 
         // COUPURE DE COURANT
 
-        if (CurrentEnergy < 0)
+        if (CurrentEnergy <= 0)
         {
             LightsOn = false;
             ShieldActive = false;
+            ShieldIsDisabled = true;
+        } else
+        {
+            ShieldIsDisabled = false;
         }
         
 
@@ -273,13 +318,13 @@ public class HeatEnergy : MonoBehaviour
         MainGas.Play();
         LeftGas.Play();
         RightGas.Play();
-        float duration = 2f;
+        float duration = 5f;
         float timer = 0f;
     
         float startSpeed = 0.1f;   // fast at start
         float endSpeed = 0f;      // slow at end
     
-        Vector3 direction = Vector3.forward;
+        Vector3 direction = RocketMovingTop.transform.forward;
     
         while (timer < duration)
         {
@@ -291,6 +336,92 @@ public class HeatEnergy : MonoBehaviour
             timer += Time.deltaTime;
             yield return null;
         }
+
+        Debug.Log("séquence finie");
+        if (!FadeStarted && FirstPersRocket.SafeForEjection)
+        {
+            StartCoroutine(FadeToBlack());
+            FadeStarted = true;
+        } else
+        {
+            GameIsOver = true;
+        }
+        
     } 
+
+            IEnumerator FadeToBlack()
+    {
+    FirstPersRocket.fadeImage.gameObject.SetActive(true);  // Make sure the fade image is active.
+    Color startColor = FirstPersRocket.fadeImage.color;  // Get the initial color of the fade image.
+    float t = 0f;
+
+    // Start with a fully transparent image (alpha = 0).
+    FirstPersRocket.fadeImage.color = new Color(startColor.r, startColor.g, startColor.b, 0f);
+
+    // Fade in (transparent to black) and fade volume to 0 at the same time.
+    float initialVolume = AudioListener.volume;  // Store the initial volume.
+    while (t < FirstPersRocket.fadeDuration)
+    {
+        t += Time.deltaTime;  // Increment time.
+        
+        // Lerp the fade image alpha from 0 (transparent) to 1 (opaque).
+        float alpha = Mathf.Lerp(0f, 1f, t / FirstPersRocket.fadeDuration);
+        FirstPersRocket.fadeImage.color = new Color(
+            startColor.r,
+            startColor.g,
+            startColor.b,
+            alpha
+        );
+
+        // Lerp the volume from initialVolume to 0 (silent).
+        AudioListener.volume = Mathf.Lerp(initialVolume, 0f, t / FirstPersRocket.fadeDuration);
+
+        yield return null;  // Wait for the next frame.
+    }
+
+    // Ensure the fade image is fully opaque at the end.
+    FirstPersRocket.fadeImage.color = new Color(startColor.r, startColor.g, startColor.b, 1f);
+    AudioListener.volume = 0f;  // Ensure the volume is fully muted.
+    }
+
+        IEnumerator EngineOverheat() 
+    {
+        if (EngineIsOverheating)
+        {
+            FlashStartAlert();
+        }
+
+            while (EngineIsOverheating)
+        {
+            Health -= 0.01f * Time.deltaTime;
+            yield return null;
+        }
+    } 
+
+        private void FlashStartAlert()
+    {
+        if (!AlertIsFlashing)
+    {
+        StartCoroutine(FlashAlert());
+        AlertIsFlashing = true;
+    }
+    }
+
+         private IEnumerator FlashAlert()
+    {
+
+        while (EngineIsOverheating)
+        {
+            // Interpolate between the current color and the target color
+            CockpitLight.color = Color.red;
+            yield return new WaitForSeconds(0.7f);
+            CockpitLight.color = LightOriginalColor;
+            yield return new WaitForSeconds(0.7f);
+        }
+
+        // Ensure the light ends with the original color
+        CockpitLight.color = LightOriginalColor;
+        AlertIsFlashing = false;
+    }
 
 }

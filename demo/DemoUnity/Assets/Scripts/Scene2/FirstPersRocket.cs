@@ -38,6 +38,7 @@ public class FirstPersRocket : MonoBehaviour
 
     public float TotalPower = 0;
     public float RotationMultiplier = 20f;
+    public bool SafeForEjection = false;
 
     // ======================
     //        DAMAGE
@@ -157,7 +158,15 @@ public class FirstPersRocket : MonoBehaviour
 
         // --- UI ---
         vitesseUI.text = "Vitesse actuelle: " + ReactorForce.ToString("F1");
-        DistanceUI.text = "distance restante: " + (distanceRocketMars + 2000);
+        DistanceUI.text = "distance restante: " + ((distanceRocketMars + 2000)*-1);
+
+        if (((distanceRocketMars + 2000)*-1) < 2000)
+        {
+            SafeForEjection = true;
+        } else if (((distanceRocketMars + 2000)*-1) > 2000)
+        {
+            SafeForEjection = false;
+        }
 
         // --- DAMAGE LOGIC ---
         MainReactorValue = DamagedMainReactor ? 2f : Controllers.MainSlider.value;

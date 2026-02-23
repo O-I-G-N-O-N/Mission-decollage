@@ -390,8 +390,8 @@ public class Events : MonoBehaviour
         yield return null;
         }
 
-        DialogueUI.text = "Restabilisation du propulseur gauche réussie !";
-        FirstPersRocket.DamagedLeftReactor = false;
+        DialogueUI.text = "RÉACTIVATION DU MOTEUR RÉUSSIE !";
+        EngineRepairHalf = false;
         DamageAmount -= 1;
         CockpitTablet.RocketDamagedEngine.SetActive(false);
         yield return new WaitForSeconds(1f);

@@ -132,7 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 25817434}
   - component: {fileID: 25817435}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HealthSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 42049042}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -531,6 +531,7 @@ MonoBehaviour:
   BaseRotationSpeed: 0
   TotalPower: 0
   RotationMultiplier: 20
+  SafeForEjection: 0
   DamagedMainReactor: 0
   DamagedRightReactor: 0
   DamagedLeftReactor: 0
@@ -568,6 +569,7 @@ MonoBehaviour:
   HealthSlider: {fileID: 25817435}
   LightOpacity: {fileID: 1585671243}
   FirstPersRocket: {fileID: 83102545}
+  Events: {fileID: 83102549}
   Controllers: {fileID: 83102548}
   CurrentEngineHeat: 0
   IncomingEngineHeat: 0
@@ -576,6 +578,8 @@ MonoBehaviour:
   LightsOn: 1
   Drifting: 0
   ShieldActive: 0
+  ShieldIsDisabled: 0
+  EngineIsOverheating: 0
   RadarActive: 0
   GameIsOver: 0
   Shield: {fileID: 1642114077}
@@ -592,6 +596,8 @@ MonoBehaviour:
   RightGas: {fileID: 1252575245}
   LeftGas: {fileID: 1682468020}
   ThirdCamera: {fileID: 1324411081}
+  CockpitLight: {fileID: 1007009735}
+  LightOriginalColor: {r: 0.99215686, g: 0.9411765, b: 0.62352943, a: 0}
 --- !u!114 &83102548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,7 +790,7 @@ GameObject:
   - component: {fileID: 164588704}
   - component: {fileID: 164588706}
   - component: {fileID: 164588705}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BrokenEngine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -882,7 +888,6 @@ Transform:
   - {fileID: 1707627328}
   - {fileID: 693692503}
   - {fileID: 1356733385}
-  - {fileID: 513680685}
   m_Father: {fileID: 83102546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &211370289
@@ -896,7 +901,7 @@ GameObject:
   - component: {fileID: 211370290}
   - component: {fileID: 211370292}
   - component: {fileID: 211370291}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BrokenRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1349,7 +1354,7 @@ GameObject:
   - component: {fileID: 330917898}
   - component: {fileID: 330917897}
   - component: {fileID: 330917896}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1544,8 +1549,8 @@ RectTransform:
   - {fileID: 1448056076}
   - {fileID: 1092299074}
   - {fileID: 2057759753}
-  - {fileID: 365412162}
   - {fileID: 764697956}
+  - {fileID: 365412162}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -7167,12 +7172,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 513680684}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -6.18}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -6.180176}
   m_LocalScale: {x: 1.2592, y: 1.2592, z: 1.2592}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 174728252}
+  m_Father: {fileID: 1413484632}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!199 &513680686
 ParticleSystemRenderer:
@@ -7256,7 +7261,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 513680684}
   serializedVersion: 8
-  lengthInSec: 5
+  lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -7331,7 +7336,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 8.18
+      scalar: 8
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -7819,7 +7824,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 314
+    maxNumParticles: 75
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -12501,7 +12506,7 @@ GameObject:
   - component: {fileID: 662226306}
   - component: {fileID: 662226308}
   - component: {fileID: 662226307}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PerfectCondition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12823,7 +12828,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -17652,7 +17657,7 @@ GameObject:
   - component: {fileID: 780123538}
   - component: {fileID: 780123540}
   - component: {fileID: 780123539}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ObstacleDestruction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22709,7 +22714,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8581f7c1c7aecd14ca7ac163d02670c5,
         type: 3}
       propertyPath: m_Name
-      value: fusee_top 2
+      value: RocketTop
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8581f7c1c7aecd14ca7ac163d02670c5,
         type: 3}
@@ -22756,6 +22761,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1252575243}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8581f7c1c7aecd14ca7ac163d02670c5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 829286231}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8581f7c1c7aecd14ca7ac163d02670c5, type: 3}
 --- !u!1001 &817428033
@@ -22869,42 +22878,42 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 83102546}
+    m_TransformParent: {fileID: 382273451}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: df3967850251dfd42bd04e9ec415ad0c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 53.790848
+      value: 0.49073893
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df3967850251dfd42bd04e9ec415ad0c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 53.790848
+      value: 0.49073887
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df3967850251dfd42bd04e9ec415ad0c,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 53.790848
+      value: 0.49073887
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df3967850251dfd42bd04e9ec415ad0c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.014
+      value: 0.00046527808
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df3967850251dfd42bd04e9ec415ad0c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.02699995
+      value: 0.061491806
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df3967850251dfd42bd04e9ec415ad0c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.08
+      value: 0.010938586
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df3967850251dfd42bd04e9ec415ad0c,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df3967850251dfd42bd04e9ec415ad0c,
         type: 3}
@@ -22914,12 +22923,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: df3967850251dfd42bd04e9ec415ad0c,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df3967850251dfd42bd04e9ec415ad0c,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df3967850251dfd42bd04e9ec415ad0c,
         type: 3}
@@ -23084,7 +23093,7 @@ GameObject:
   - component: {fileID: 1007009733}
   - component: {fileID: 1007009735}
   - component: {fileID: 1007009734}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CockpitLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23202,7 +23211,7 @@ GameObject:
   - component: {fileID: 1037938926}
   - component: {fileID: 1037938928}
   - component: {fileID: 1037938927}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28448,17 +28457,13 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7c41619b72ef8d34f9a7a148e90d9fcb,
         type: 3}
       propertyPath: m_Name
-      value: Rocket_Cockpit
+      value: RocketPlayer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8017988715777410250, guid: 7c41619b72ef8d34f9a7a148e90d9fcb, type: 3}
     - {fileID: 204155125928160958, guid: 7c41619b72ef8d34f9a7a148e90d9fcb, type: 3}
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7c41619b72ef8d34f9a7a148e90d9fcb,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 829286231}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7c41619b72ef8d34f9a7a148e90d9fcb,
         type: 3}
       insertIndex: -1
@@ -28697,7 +28702,7 @@ GameObject:
   - component: {fileID: 1303630935}
   - component: {fileID: 1303630937}
   - component: {fileID: 1303630936}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BrokenMain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28837,7 +28842,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 265b1b7c0de0d76448c11e2cb73e03b1,
         type: 3}
       propertyPath: m_Name
-      value: fusee_bottom 1
+      value: RocketBottom
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 265b1b7c0de0d76448c11e2cb73e03b1,
         type: 3}
@@ -29213,7 +29218,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -33987,6 +33992,7 @@ Transform:
   m_Children:
   - {fileID: 1324411082}
   - {fileID: 382273451}
+  - {fileID: 513680685}
   m_Father: {fileID: 174728252}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1448056075
@@ -34189,7 +34195,7 @@ GameObject:
   - component: {fileID: 1454693179}
   - component: {fileID: 1454693178}
   - component: {fileID: 1454693177}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TabletScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34676,7 +34682,7 @@ GameObject:
   - component: {fileID: 1568051342}
   - component: {fileID: 1568051344}
   - component: {fileID: 1568051343}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34752,7 +34758,7 @@ GameObject:
   - component: {fileID: 1585671242}
   - component: {fileID: 1585671244}
   - component: {fileID: 1585671243}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightsOpacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34828,7 +34834,7 @@ GameObject:
   - component: {fileID: 1642114081}
   - component: {fileID: 1642114080}
   - component: {fileID: 1642114079}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ShieldSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40232,7 +40238,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -45078,7 +45084,7 @@ GameObject:
   - component: {fileID: 1741164240}
   - component: {fileID: 1741164242}
   - component: {fileID: 1741164241}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BrokenLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45243,7 +45249,7 @@ GameObject:
   - component: {fileID: 1766251654}
   - component: {fileID: 1766251656}
   - component: {fileID: 1766251655}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
