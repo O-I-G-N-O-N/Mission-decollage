@@ -39,36 +39,29 @@ Leur objectif : atterrir sains et saufs et marquer l’histoire de l’explorati
 
 ## Fonctionnalités
 
-1. Mode coopératif (1 à 3 joueurs)
-Chaque joueur contrôle une partie spécifique de la fusée. La réussite dépend entièrement de la coordination et de la communication.
+1. **Mode coopératif (1 à 3 joueurs)**  
+   Chaque joueur contrôle une partie spécifique de la fusée. La réussite dépend entièrement de la coordination et de la communication.
 
-2. Interface physique interactive
-Tableau de bord composé de boutons, sliders et encodeurs rotatifs, chacun assigné à une fonction précise (réacteurs, propulsion, stabilisation).
+2. **Interface physique interactive**  
+   Tableau de bord composé de boutons, sliders et encodeurs rotatifs, chacun assigné à une fonction précise (réacteurs, propulsion, stabilisation).
 
-3. Progression en temps réel (5–7 minutes)
+3. **Progression en temps réel (5–7 minutes)**  
+   - Tutoriel rapide (30 secondes)  
+   - Décollage coordonné  
+   - Sortie d’orbite terrestre  
+   - Navigation spatiale avec obstacles  
+   - Atterrissage sur Mars
 
-Tutoriel rapide (30 secondes)
+4. **Univers visuel en 3D**  
+   - Vue top-down lors du décollage et de l’atterrissage  
+   - Vue à la première personne durant la phase spatiale
 
-Décollage coordonné
+5. **Immersion sonore**  
+   - Effets sonores et musique dynamique diffusés par haut-parleurs pour renforcer la tension et l’expérience.
 
-Sortie d’orbite terrestre
-
-Navigation spatiale avec obstacles
-
-Atterrissage sur Mars
-
-4. Univers visuel en 3D
-
-Vue top-down lors du décollage et de l’atterrissage
-
-Vue à la première personne durant la phase spatiale
-
-5. Immersion sonore
-Effets sonores et musique dynamique diffusés par haut-parleurs pour renforcer la tension et l’expérience.
-
-6. Dimension sociale forte
-Les joueurs sont debout, interagissent en direct et doivent se répartir les tâches efficacement pour réussir la mission.
-
+6. **Dimension sociale forte**  
+   - Les joueurs sont debout, interagissent en direct et doivent se répartir les tâches efficacement pour réussir la mission.
+   
 ## Bande-annonce
 
 <!-- Bannderole / Bande-annonce -->
