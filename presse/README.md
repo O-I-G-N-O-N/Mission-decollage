@@ -78,7 +78,7 @@ Leur objectif : atterrir sains et saufs et marquer l’histoire de l’explorati
 ## Articles sélectionnés
  -->
 
-### À propos de l'équipe de création
+## À propos de l'équipe de création
 
 1. **Justin Montpetit – Programmeur du jeu**  
    Responsable de la programmation dans Unity, principalement en **C#**. Il a développé l’ensemble des mécaniques interactives et la logique du jeu.
