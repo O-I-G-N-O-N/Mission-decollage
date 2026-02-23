@@ -100,7 +100,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Valider auprès des autres membres de l’équipe les sons manquants.
 
 #### Mardi
-- Définir l’esthétique audio.
+- Définir l’esthétique audio et de mettre à jour la partie audio du concept.
 - Corriger ma planification en fonction des retours du professeur.
 
 #### Mercredi
