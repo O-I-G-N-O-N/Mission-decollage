@@ -165,6 +165,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Vendredi
 - Faire le montage de la bande annonce
   ![](./medias/img/montage_bande_annonce.png)
+
+- Faire le dossier de presse.
 ### Semaine 6
 
 #### Lundi
@@ -172,6 +174,9 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Corriger le dossier de presse et ajouter les images.
 
 #### Mardi
+- Ajuster les sons et corriger le code du jeu pour pouvoir entendre le son correctement pour la présentation de la maquette 2.
+
+- Répondre aux questions des étudiants lors de la présentation de la maquette 2.
 
 #### Mercredi
 
