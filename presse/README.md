@@ -34,7 +34,7 @@ Leur objectif : arriver sains et saufs sur la planète et marquer l’histoire d
 ## Histoire
 L’idée de cette expérience interactive a été développée par Justin Monpetit lors de la session dernière, dans le cadre du cours de conception d’expérience multimédia. Inspiré par sa passion pour les jeux vidéo et les univers immersifs, il a imaginé un concept centré sur la collaboration et la prise de décision en temps réel.
 
-Comme nous partageons tous un intérêt pour le jeu et les expériences interactives, son idée a rapidement fait l’unanimité au sein de l’équipe. Nous avons donc décidé de la développer ensemble et d’enrichir le concept initial.
+Comme nous partageons tous un intérêt pour les jeux vidéos et les expériences interactives, son idée a rapidement fait l’unanimité au sein de l’équipe. Nous avons donc décidé de la développer ensemble et d’enrichir le concept initial.
 
 Au fil du processus, le projet a évolué grâce aux échanges d’idées et aux ajustements techniques. Nous avons travaillé à renforcer l’aspect immersif et coopératif afin de créer une expérience engageante où chaque action influence directement le déroulement de la mission.
 
@@ -64,49 +64,20 @@ Au fil du processus, le projet a évolué grâce aux échanges d’idées et aux
 ## Bande-annonce
 
 <!-- Bannderole / Bande-annonce -->
-[![Bande annonce](./medias/thumbnail_bandeannonce.png)](https://www.youtube.com/watch?v=-EcxDljPVAs ) 
+[![Bande annonce - Mission Décollage](./medias/thumbnail_bandeannonce.png)](https://www.youtube.com/watch?v=-EcxDljPVAs ) 
 
-*Bande annonce - Mission Décollage.*
 
 ## Images
 
-<table>
-  <tr>
-    <td>
-      <img src="./medias/DSC00042.jpg" 
-           alt="Maquette du panneau de contrôle" 
-           width="500">
-    </td>
-    <td>
-      <img src="./medias/screen_gameplay1.png" 
-           alt="Capture d’écran du gameplay du jeu" 
-           width="500">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="./medias/maquette1.png" 
-           alt="Personnes en train d’essayer le jeu" 
-           width="300">
-    </td>
-    <td>
-      <img src="./medias/screen_gameplay2.png" 
-           alt="Capture d’écran du gameplay du jeu" 
-           width="300">
-    </td>
-    <td>
-      <img src="./medias/projection.png" 
-           alt="Projection du gameplay du jeu" 
-           width="500">
-    </td>
-  </tr>
-</table>
+| ![Maquette du panneau de contrôle](./medias/DSC00042.jpg) | ![Capture d’écran du gameplay du jeu](./medias/screen_gameplay1.png) |
+|-----------------------------------------------------------|---------------------------------------------------------------------|
+
+| ![Personnes en train d’essayer le jeu](./medias/maquette1.png) | ![Capture d’écran du gameplay du jeu](./medias/screen_gameplay2.png) | ![Projection du gameplay du jeu](./medias/projection.png) |
+|------------------------------------------------------------------|-----------------------------------------------------------------------|-------------------------------------------------------------|
 
 ## Logo
-<img src="./medias/logo.png" 
-           alt="Logo du jeu / équipe" 
-           width="500">
 
+![Logo du jeu / équipe](./medias/logo.png)
 <!-- Autres sections d'un dossier de presse, moins pertinentes pour ce projet
 ## Logo & Icône
 ## Prix et reconnaissances
