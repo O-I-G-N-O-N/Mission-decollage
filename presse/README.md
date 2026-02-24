@@ -113,7 +113,7 @@ Un grand merci aux **TTP** ainsi qu’à nos professeurs **Thomas Frederiks** et
   [LinkedIn](https://www.linkedin.com/in/ahmed-kaissoumi/)
 
 - **Thearylou Lach**  
-  [LinkedIn](https://linkedin.com/in/thearylou) | [Portfolio](https://portfolio-thearylou.com)
+  [LinkedIn](https://linkedin.com/in/thearylou) | [Portfolio](https://thearyl.github.io/portfolio-thearylou-lach/)
 
 - **Radhouane Kordan**  
   [LinkedIn](https://www.linkedin.com/in/radhouane-kordan/) | [Portfolio](https://rad8433.github.io/portfolio-radhouane-kordan/)
