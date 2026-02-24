@@ -72,13 +72,33 @@ Au fil du processus, le projet a évolué grâce aux échanges d’idées et aux
 
 <table>
   <tr>
-    <td><img src="./medias/DSC00042.jpg" alt="Image1" width="500"></td>
-    <td><img src="./medias/screen_gameplay1.png" alt="Image2" width="500"></td>
+    <td>
+      <img src="./medias/DSC00042.jpg" 
+           alt="Maquette du panneau de contrôle" 
+           width="500">
+    </td>
+    <td>
+      <img src="./medias/screen_gameplay1.png" 
+           alt="Capture d’écran du gameplay du jeu" 
+           width="500">
+    </td>
   </tr>
   <tr>
-    <td><img src="./medias/maquette1.png" alt="Image3" width="300"></td>
-    <td><img src="./medias/screen_gameplay2.png" alt="Image4" width="300"></td>
-    <td><img src="./medias/projection.png" alt="Image5" width="500"></td>
+    <td>
+      <img src="./medias/maquette1.png" 
+           alt="Personnes en train d’essayer le jeu" 
+           width="300">
+    </td>
+    <td>
+      <img src="./medias/screen_gameplay2.png" 
+           alt="Capture d’écran du gameplay du jeu" 
+           width="300">
+    </td>
+    <td>
+      <img src="./medias/projection.png" 
+           alt="Projection du gameplay du jeu" 
+           width="500">
+    </td>
   </tr>
 </table>
 
