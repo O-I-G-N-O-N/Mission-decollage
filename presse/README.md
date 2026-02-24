@@ -102,6 +102,10 @@ Au fil du processus, le projet a évolué grâce aux échanges d’idées et aux
   </tr>
 </table>
 
+## Logo
+<img src="./medias/logo.png" 
+           alt="Logo du jeu / équipe" 
+           width="500">
 
 <!-- Autres sections d'un dossier de presse, moins pertinentes pour ce projet
 ## Logo & Icône
