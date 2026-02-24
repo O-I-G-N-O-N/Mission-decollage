@@ -388,7 +388,7 @@ public class Events : MonoBehaviour
         DialogueUI.text = "DÉSACTIVEZ LES PROPULSEURS ET REMETTEZ LES À ZÉRO";
         while (FirstPersRocket.DamagedEngine) 
         {
-            if (!Controllers.FlipSwitch1 && !Controllers.FlipSwitch3 && Controllers.MainSlider.value == 0 && Controllers.RightSlider.value == 0 && Controllers.LeftSlider.value == 0) 
+            if (!Controllers.FlipSwitch1 && !Controllers.FlipSwitch3 && Controllers.MainSlider.value <= 5 && Controllers.RightSlider.value <= 5 && Controllers.LeftSlider.value <= 5) 
                 {
                     EngineRepairHalf = true;
                     DialogueUI.text = "RÉACTIVEZ LES PROPULSEURS";

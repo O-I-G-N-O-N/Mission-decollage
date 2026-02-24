@@ -177,7 +177,7 @@ public class HeatEnergy : MonoBehaviour
 
             PlayerIsReloadingEnergy = true;
 
-            CurrentEngineHeat += 10f * Time.deltaTime;
+            CurrentEngineHeat += 7f * Time.deltaTime;
             CurrentEnergy += 25f * Time.deltaTime;
         }
         else
@@ -372,7 +372,7 @@ public class HeatEnergy : MonoBehaviour
 
         IEnumerator ColdUpdate()
     {
-        while (IncomingEngineHeat == 0)
+        while (IncomingEngineHeat <= 10)
         {
             // REFROIDISSEMENT DU MOTEUR
             yield return new WaitForSeconds(1.5f);
