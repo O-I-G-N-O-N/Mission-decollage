@@ -109,11 +109,6 @@ Choix de couleurs qui influenceront l’éclairage, les médias projetés, ou l�
 
 Vidéos, musiques ou sons, séquences animées qui capturent l’énergie ou la tonalité souhaitée pour l'installation.
 
-- Jeu : [Dungeons of Hinterberg](https://www.youtube.com/watch?v=Gpe3C_INDuY)  
-  ![Dungeons of Hinterberg](../medias/images/cel-shaded.jpg)  
-  Style du jeu en "cel-shaded" qui nous inspire pour l'aesthetique visuelle générale du jeu.
-
----
 
 - Jeu : [ΔV: Rings of Saturn](https://www.youtube.com/watch?v=qoykm2x2WDk)  
   ![Delta-V](../medias/images/delta-v.jpg)  
