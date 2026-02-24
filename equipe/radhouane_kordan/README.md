@@ -153,7 +153,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 ### Semaine 5
 
 #### Lundi
-Valider les sons produits pour le MVP avec les membres de l’équipe.
+- Valider les sons produits pour le MVP avec les membres de l’équipe.
 #### Mardi
 - J’ai fait un plan avec les mesures nécessaires afin de pouvoir acheter les planches de bois aux dimensions dont on a besoin.
     ![](./medias/img/plan_mesures_planches.png)
