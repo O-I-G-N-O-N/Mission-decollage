@@ -23,7 +23,6 @@ public class HeatEnergy : MonoBehaviour
     public Controllers Controllers;
 
     [Header("Values")]
-
     public float CurrentEngineHeat = 0;
     public float IncomingEngineHeat = 0;
     public float Health = 100;
@@ -39,8 +38,8 @@ public class HeatEnergy : MonoBehaviour
     private bool AlertIsFlashing = false;
     private bool PlayerIsCooling = false;
     private bool PlayerIsReloadingEnergy = false;
-    [Header("Objects")]
 
+    [Header("Objects")]
     public GameObject Shield;
     public GameObject Radar;
     public GameObject HealthFill;
@@ -57,7 +56,20 @@ public class HeatEnergy : MonoBehaviour
     public GameObject ThirdCamera;
     public Light CockpitLight;
     public Color LightOriginalColor;
-    
+
+    [Header("Audio")]
+    public AudioSource AlertAudioSource;
+    public AudioSource CoolingAudioSource;
+    public AudioSource ReloadEnergyAudioSource;
+    public AudioSource ShortCircuitAudioSource;
+    public AudioSource LightsSwitchAudioSource;
+    public AudioSource ShieldAudioSource;
+    public AudioSource RadarAudioSource;
+    public AudioSource PowerOffAudioSource;
+    public AudioSource DriftAudioSource;
+    public AudioSource ExplosionAudioSource;
+    public AudioSource EjectionGasAudioSource;
+    public AudioSource EjectionPfffAudioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -92,9 +104,15 @@ public class HeatEnergy : MonoBehaviour
         }
 
         // JOUE LE SON D'ALERTE
-
-        if (AlertIsFlashing) {
-            // JAD mettre ici le son loop d'alerte
+        if (AlertIsFlashing)
+        {
+            if (!AlertAudioSource.isPlaying)
+                AlertAudioSource.Play();
+        }
+        else
+        {
+            if (AlertAudioSource.isPlaying)
+                AlertAudioSource.Stop();
         }
 
         // VÉRIFIE QUE LE JOUEUR EST TOUJOURS VIVANT
@@ -120,9 +138,6 @@ public class HeatEnergy : MonoBehaviour
     {
         ColdRoutine = StartCoroutine(ColdUpdate());
     }
-
-        
-
         //CHALEUR ENTRANTE
         IncomingEngineHeat = (FirstPersRocket.TotalPower*100)/300; // Valeur retournée sur 100
 
@@ -131,37 +146,57 @@ public class HeatEnergy : MonoBehaviour
 
 
         // BOUTON REFROIDISSEMENT 
-        if (Controllers.TurningButton3 == true)
+        if (Controllers.TurningButton3 == true && CurrentEnergy > 0)
         {
-            if (CurrentEnergy > 0)
-            {
-                // JAD mettre ici le bruit de refroidissement loop
-                PlayerIsCooling = true;
-                CurrentEngineHeat -= 11f * Time.deltaTime;
-                CurrentEnergy -= 11f * Time.deltaTime;
-            }
-            
-        } else
+            PlayerIsCooling = true;
+
+            CurrentEngineHeat -= 11f * Time.deltaTime;
+            CurrentEnergy -= 11f * Time.deltaTime;
+
+            if (!CoolingAudioSource.isPlaying)
+                CoolingAudioSource.Play();
+        }
+        else
         {
             PlayerIsCooling = false;
+
+            if (CoolingAudioSource.isPlaying)
+                CoolingAudioSource.Stop();
         }
 
         // BOUTON RECHARGEMENT D'ÉNERGIE 
         if (Controllers.TurningButton2 == true)
         {
             // JAD mettre ici le bruit de rechargement d'énergie loop
+            if (ReloadEnergyAudioSource != null && !ReloadEnergyAudioSource.isPlaying)
+            {
+                ReloadEnergyAudioSource.Play();
+            }
+
+            PlayerIsReloadingEnergy = true;
+
             CurrentEngineHeat += 5f * Time.deltaTime;
             CurrentEnergy += 25f * Time.deltaTime;
-            PlayerIsReloadingEnergy = true;
-        } else
+        }
+        else
         {
             PlayerIsReloadingEnergy = false;
+
+            // Stoppe le son quand le bouton n'est plus pressé
+            if (ReloadEnergyAudioSource != null && ReloadEnergyAudioSource.isPlaying)
+            {
+                ReloadEnergyAudioSource.Stop();
+            }
         }
 
         // EMPÊCHE LE JOUEUR DE MAINTENIR REFROIDISSEMENT ET RECHARGEMENT EN MÊME TEMPS
         if (PlayerIsReloadingEnergy && PlayerIsCooling)
         {
             // JAD mettre ici bruit de court circuit
+            if (ShortCircuitAudioSource != null && !ShortCircuitAudioSource.isPlaying)
+            {
+                ShortCircuitAudioSource.Play();
+            }
             Events.DialogueOccuring = true;
             Events.DialogueUI.text = "COURT CIRCUIT. NE PAS REFROIDIR LE MOTEUR LORSQUE LA BATTERIE RECHARGE";
             LightsOn = false;
@@ -199,6 +234,10 @@ public class HeatEnergy : MonoBehaviour
         if (LightsOn)
         {
             // JAD mettre ici le bruit d'allumage de lumières
+            if (LightsSwitchAudioSource != null && !LightsSwitchAudioSource.isPlaying)
+            {
+                LightsSwitchAudioSource.Play();
+            }
             Color c = LightOpacity.color;
             c.a = Mathf.Clamp01(0f / 255f);
             LightOpacity.color = c;
@@ -209,6 +248,7 @@ public class HeatEnergy : MonoBehaviour
             c.a = Mathf.Clamp01(254f / 255f);
             LightOpacity.color = c;
         }
+
 
         // ACTIVE LE BOUCLIER LORSQUE LE BOUTON EST MAINTENU
         if (Controllers.Button1 == true && !ShieldIsDisabled)
@@ -224,6 +264,10 @@ public class HeatEnergy : MonoBehaviour
         if (ShieldActive)
         {
             // JAD mettre ici bruit de bouclier actif
+            if (ShieldAudioSource != null && !ShieldAudioSource.isPlaying)
+            {
+                ShieldAudioSource.Play();
+            }
             Shield.SetActive(true);
             CurrentEnergy -= 15f * Time.deltaTime;
         } else
@@ -235,40 +279,54 @@ public class HeatEnergy : MonoBehaviour
         if (RadarActive)
         {
             // JAD mettre ici bruit d'activation de radar
+            if (RadarAudioSource != null && !RadarAudioSource.isPlaying)
+            {
+                RadarAudioSource.Play();
+            }
             Radar.SetActive(true);
         } else 
         {
             Radar.SetActive(false);
         }
 
-
         // COUPURE DE COURANT
-
         if (CurrentEnergy <= 0)
         {
             // JAD mettre ici bruit de coupure de courant
+            if (PowerOffAudioSource != null && !PowerOffAudioSource.isPlaying)
+            {
+                PowerOffAudioSource.Play();
+            }
+
             LightsOn = false;
             ShieldActive = false;
             ShieldIsDisabled = true;
-        } else
+        }
+        else
         {
             ShieldIsDisabled = false;
         }
-        
+
 
         // DRIFT
-
-        Drifting = Controllers.TurningButton1;
-
         if (Drifting)
         {
             // JAD mettre ici bruit de drift
+            if (DriftAudioSource != null && !DriftAudioSource.isPlaying)
+            {
+                DriftAudioSource.Play(); // Loop doit être coché dans Unity
+            }
+
             CurrentEngineHeat += 2f * Time.deltaTime;
         }
-
-
-
-
+        else
+        {
+            // Stoppe le son quand on arrête de drifter
+            if (DriftAudioSource != null && DriftAudioSource.isPlaying)
+            {
+                DriftAudioSource.Stop();
+            }
+        }
     }
 
         IEnumerator GameOver()
@@ -277,8 +335,12 @@ public class HeatEnergy : MonoBehaviour
             yield return new WaitForSeconds(2f);
             RocketBottom.SetActive(false);
             RocketTop.SetActive(false);
-            // JAD mettre ici le bruit d'explosion
-            ExplosionParticles.Play();
+        // JAD mettre ici le bruit d'explosion
+        if (ExplosionAudioSource != null)
+        {
+            ExplosionAudioSource.Play();
+        }
+        ExplosionParticles.Play();
             MainFire.Stop();
             LeftFire.Stop();
             RightFire.Stop();
@@ -334,6 +396,11 @@ public class HeatEnergy : MonoBehaviour
         MainGas.Play();
         LeftGas.Play();
         RightGas.Play();
+        // Sons d’éjection
+        if (EjectionGasAudioSource != null)
+            EjectionGasAudioSource.Play();
+        if (EjectionPfffAudioSource != null)
+            EjectionPfffAudioSource.Play();
         float duration = 5f;
         float timer = 0f;
     

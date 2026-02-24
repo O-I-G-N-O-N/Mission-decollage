@@ -29,6 +29,11 @@ public class Events : MonoBehaviour
     public GameObject DialogueBox;
     private Image dialogueBoxImage;
 
+    [Header("Audio")]
+    public AudioSource EngineBreakAudioSource;
+    public AudioSource EngineRightBreakAudioSource;
+    public AudioSource EngineLeftBreakAudioSource; 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -69,6 +74,8 @@ public class Events : MonoBehaviour
             CockpitTablet.RocketDamagedMain.SetActive(true);
             FirstPersRocket.DamagedMainReactor = true;
             // JAD mettre ici le son de moteur qui brise
+            if (EngineBreakAudioSource != null)
+                EngineBreakAudioSource.Play();
             Controllers.MainSlider.value = 0;
             repairQueue.Enqueue(RepairMain());
             if (!RepairInProgress)
@@ -84,6 +91,8 @@ public class Events : MonoBehaviour
             CockpitTablet.RocketDamagedRight.SetActive(true);
             FirstPersRocket.DamagedRightReactor = true;
             // JAD mettre ici le son de moteur qui brise
+            if (EngineRightBreakAudioSource != null)
+                EngineRightBreakAudioSource.Play();
             Controllers.RightSlider.value = 0;
             repairQueue.Enqueue(RepairRight());
             if (!RepairInProgress)
@@ -99,6 +108,8 @@ public class Events : MonoBehaviour
             CockpitTablet.RocketDamagedLeft.SetActive(true);
             FirstPersRocket.DamagedLeftReactor = true;
             // JAD mettre ici le son de moteur qui brise
+            if (EngineLeftBreakAudioSource != null)
+                EngineLeftBreakAudioSource.Play();
             Controllers.LeftSlider.value = 0;
             repairQueue.Enqueue(RepairLeft());
                 if (!RepairInProgress)
