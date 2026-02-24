@@ -64,9 +64,8 @@ Au fil du processus, le projet a évolué grâce aux échanges d’idées et aux
 ## Bande-annonce
 
 <!-- Bannderole / Bande-annonce -->
-[![Bande annonce](./medias/thumbnail_bandeannonce.png)](https://www.youtube.com/watch?v=-EcxDljPVAs ) 
+[![Bande annonce - Mission Décollage](./medias/thumbnail_bandeannonce.png)](https://www.youtube.com/watch?v=-EcxDljPVAs ) 
 
-*Bande annonce - Mission Décollage.*
 
 ## Images
 
