@@ -8,6 +8,7 @@ public class Collisions : MonoBehaviour
 
     public HeatEnergy HeatEnergy;
     public ParticleSystem ObstacleDestruction;
+    public AudioSource CollisionAudioSource; 
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,7 @@ public class Collisions : MonoBehaviour
             Debug.Log("collision!");
             Destroy(gameObject);
             ObstacleDestruction.Play();
+            CollisionAudioSource.Play();
             HeatEnergy.Health -= 34;
         } else if (other.CompareTag("Player") && gameObject.CompareTag("Obstacles") && HeatEnergy.ShieldActive)
         {

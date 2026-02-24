@@ -178,15 +178,15 @@ public class Events : MonoBehaviour
         switch (ButtonPicker)
         {
             case 0: 
-                DialogueUI.text = "Appuyez sur le bouton 4!";
+                DialogueUI.text = "Appuyez sur le bouton vert!";
                 correctButton = 4;
                 break;
             case 1: 
-                DialogueUI.text = "Appuyez sur le bouton 5!";
+                DialogueUI.text = "Appuyez sur le bouton rouge!";
                 correctButton = 5;
                 break;
             case 2: 
-                DialogueUI.text = "Appuyez sur le bouton 6!";
+                DialogueUI.text = "Appuyez sur le bouton bleu!";
                 correctButton = 6;
                 break;
         }
@@ -252,15 +252,15 @@ public class Events : MonoBehaviour
         switch (ButtonPicker)
         {
             case 0: 
-                DialogueUI.text = "Appuyez sur le bouton 4!";
+                DialogueUI.text = "Appuyez sur le bouton vert!";
                 correctButton = 4;
                 break;
             case 1: 
-                DialogueUI.text = "Appuyez sur le bouton 5!";
+                DialogueUI.text = "Appuyez sur le bouton rouge!";
                 correctButton = 5;
                 break;
             case 2: 
-                DialogueUI.text = "Appuyez sur le bouton 6!";
+                DialogueUI.text = "Appuyez sur le bouton bleu!";
                 correctButton = 6;
                 break;
         }
@@ -326,15 +326,15 @@ public class Events : MonoBehaviour
         switch (ButtonPicker)
         {
             case 0: 
-                DialogueUI.text = "Appuyez sur le bouton 4!";
+                DialogueUI.text = "Appuyez sur le bouton vert!";
                 correctButton = 4;
                 break;
             case 1: 
-                DialogueUI.text = "Appuyez sur le bouton 5!";
+                DialogueUI.text = "Appuyez sur le bouton rouge!";
                 correctButton = 5;
                 break;
             case 2: 
-                DialogueUI.text = "Appuyez sur le bouton 6!";
+                DialogueUI.text = "Appuyez sur le bouton bleu!";
                 correctButton = 6;
                 break;
         }

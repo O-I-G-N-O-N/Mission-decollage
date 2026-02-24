@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -38,7 +39,6 @@ public class HeatEnergy : MonoBehaviour
     private bool AlertIsFlashing = false;
     private bool PlayerIsCooling = false;
     private bool PlayerIsReloadingEnergy = false;
-    private bool lightSwitchSoundPlayed = false;
 
 
     [Header("Objects")]
@@ -215,10 +215,12 @@ public class HeatEnergy : MonoBehaviour
         // ACTIVE / DÉSACTIVE LES LUMIÈRES AU CLIC DU BOUTON
         if (Controllers.Button2 == true && LightsOn == true)
         {
+            LightsSwitchAudioSource.Play();
             LightsOn = false;
         }
         else if (Controllers.Button2 == true && LightsOn == false)
         {
+            LightsSwitchAudioSource.Play();
             RadarActive = false;
             LightsOn = true;
         }
@@ -229,18 +231,11 @@ public class HeatEnergy : MonoBehaviour
             c.a = Mathf.Clamp01(0f / 255f);
             LightOpacity.color = c;
             CurrentEnergy -= 1f * Time.deltaTime;
-
             // Reset le boolé si on éteint les lumières
-            lightSwitchSoundPlayed = false;
         }
         else
         {
-            // Joue le son **une seule fois**
-            if (!lightSwitchSoundPlayed && LightsSwitchAudioSource != null)
-            {
-                LightsSwitchAudioSource.Play();
-                lightSwitchSoundPlayed = true; // marque comme joué
-            }
+
 
             Color c = LightOpacity.color;
             c.a = Mathf.Clamp01(254f / 255f);
@@ -351,6 +346,8 @@ public class HeatEnergy : MonoBehaviour
             MainFire.Stop();
             LeftFire.Stop();
             RightFire.Stop();
+            yield return new WaitForSeconds(2f);
+            SceneManager.LoadScene("Space");
             yield return null;
          }
 

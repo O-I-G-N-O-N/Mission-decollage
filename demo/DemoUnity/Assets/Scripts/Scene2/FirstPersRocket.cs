@@ -122,7 +122,7 @@ public class FirstPersRocket : MonoBehaviour
     // ======================
     //        UPDATE
     // ======================
-    void Update()
+    void FixedUpdate()
     {
 
         if (DamagedEngine) 
