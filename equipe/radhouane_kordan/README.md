@@ -168,6 +168,7 @@ Valider les sons produits pour le MVP avec les membres de l’équipe.
 
 #### Lundi
 - Ajuster les paramètres des projecteur et faire le mapping sur le cyclo.
+- Corriger le dossier de presse et ajouter les images.
 
 #### Mardi
 
