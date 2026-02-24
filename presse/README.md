@@ -56,7 +56,7 @@ Au fil du processus, le projet a évolué grâce aux échanges d’idées et aux
    - Vue à la première personne durant la phase spatiale
 
 5. **Immersion sonore**  
-   - Effets sonores et musique dynamique diffusés par haut-parleurs pour renforcer la tension et l’expérience.
+   - Effets sonores et ambience diffusés par haut-parleurs pour renforcer la tension et l’expérience.
 
 6. **Dimension sociale forte**  
    - Les joueurs sont debout, interagissent en direct et doivent se répartir les tâches efficacement pour réussir la mission.
