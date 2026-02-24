@@ -130,13 +130,13 @@ public class HeatEnergy : MonoBehaviour
 
 
         // RÉACTIVE LE SYSTÈME DE CHAUFFAGE DU MOTEUR !! NE PAS RETIER !! 
-        if (IncomingEngineHeat > 0 && HeatRoutine == null)
+        if (IncomingEngineHeat > 10 && HeatRoutine == null)
     {
         HeatRoutine = StartCoroutine(HeatUpdate());
     }
 
         // ACTIVE LE SYSTÈME DE REFROIDISSEMENT DU MOTEUR !! NE PAS RETIRER !!
-    if (IncomingEngineHeat == 0 && ColdRoutine == null)
+    if (IncomingEngineHeat <= 10 && ColdRoutine == null)
     {
         ColdRoutine = StartCoroutine(ColdUpdate());
     }
@@ -153,7 +153,7 @@ public class HeatEnergy : MonoBehaviour
             PlayerIsCooling = true;
 
             CurrentEngineHeat -= 11f * Time.deltaTime;
-            CurrentEnergy -= 13f * Time.deltaTime;
+            CurrentEnergy -= 7f * Time.deltaTime;
 
             if (!CoolingAudioSource.isPlaying)
                 CoolingAudioSource.Play();
@@ -352,7 +352,7 @@ public class HeatEnergy : MonoBehaviour
 
         IEnumerator HeatUpdate()
     {
-        while (IncomingEngineHeat > 0)
+        while (IncomingEngineHeat > 10)
         {
             // CHALEUR DU MOTEUR
             yield return new WaitForSeconds(1f);
@@ -377,7 +377,7 @@ public class HeatEnergy : MonoBehaviour
             // REFROIDISSEMENT DU MOTEUR
             yield return new WaitForSeconds(1.5f);
 
-            CurrentEngineHeat = CurrentEngineHeat - 8;
+            CurrentEngineHeat = CurrentEngineHeat - 8f;
 
             CurrentEngineHeat = Mathf.Clamp(CurrentEngineHeat, 0f, 100f);
 

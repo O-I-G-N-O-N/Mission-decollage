@@ -82,11 +82,10 @@ public class Controllers : MonoBehaviour
         oscReceiver.Bind("/device1/input3", TraiterOscRecharge);
         oscReceiver.Bind("/device2/input3", TraiterOscDrift);
         oscReceiver.Bind("/device3/input3", TraiterOscRefroidissement);
-        oscReceiver.Bind("/device1/input4", TraiterOscFlipSwitch1);
+        oscReceiver.Bind("/device1/input4", TraiterOscFlipSwitch3);
         oscReceiver.Bind("/device2/input4", TraiterOscFlipSwitch2);
-        oscReceiver.Bind("/device3/input4", TraiterOscFlipSwitch3);
+        oscReceiver.Bind("/device3/input4", TraiterOscFlipSwitch1);
         oscReceiver.Bind("/device2/input2", TraiterOscLumiere);
-        
     }
  
     void TraiterOscRadar(OSCMessage message)
@@ -289,19 +288,12 @@ public class Controllers : MonoBehaviour
  
         int nouveauEtat = value; // REMPLACER ici les ... par le code qui récupère la nouvelle donnée du flux
  
-        if (etatEnMemoire3 != nouveauEtat)
-
-        {
-
-            etatEnMemoire3 = nouveauEtat;
- 
             if (nouveauEtat == 1)
 
             {
 
                 // METTRE ici le code exécuté lorsque le bouton est appuyé
                 FlipSwitch1 = true;
-
             }
 
             else
@@ -314,7 +306,7 @@ public class Controllers : MonoBehaviour
 
             }
 
-        }
+        
     }
 
     void TraiterOscFlipSwitch2(OSCMessage message)
@@ -349,12 +341,6 @@ public class Controllers : MonoBehaviour
  
         int nouveauEtat = value; // REMPLACER ici les ... par le code qui récupère la nouvelle donnée du flux
  
-        if (etatEnMemoire4 != nouveauEtat)
-
-        {
-
-            etatEnMemoire4 = nouveauEtat;
- 
             if (nouveauEtat == 1)
 
             {
@@ -374,7 +360,7 @@ public class Controllers : MonoBehaviour
 
             }
 
-        }
+        
     }
 
     void TraiterOscFlipSwitch3(OSCMessage message)
@@ -408,13 +394,7 @@ public class Controllers : MonoBehaviour
         int value = message.Values[0].IntValue;
  
         int nouveauEtat = value; // REMPLACER ici les ... par le code qui récupère la nouvelle donnée du flux
- 
-        if (etatEnMemoire4 != nouveauEtat)
 
-        {
-
-            etatEnMemoire4 = nouveauEtat;
- 
             if (nouveauEtat == 1)
 
             {
@@ -434,7 +414,6 @@ public class Controllers : MonoBehaviour
 
             }
 
-        }
     }
 
     void TraiterOscRecharge(OSCMessage message)
@@ -895,53 +874,53 @@ public class Controllers : MonoBehaviour
     //    }
 
 
-        if (Input.GetKeyDown(KeyCode.I) && !FlipSwitch1)
-
-        {
-
-            FlipSwitch1 = true;
-
-            Debug.Log("active switch 1");
-
-        } else if (Input.GetKeyDown(KeyCode.I) && FlipSwitch1){
-
-            FlipSwitch1 = false;
-
-            Debug.Log("inactive switch 1");
-
-        }
-
-        if (Input.GetKeyDown(KeyCode.O) && !FlipSwitch2)
-
-        {
-
-            FlipSwitch2 = true;
-
-            Debug.Log("active switch 2");
-
-        } else if (Input.GetKeyDown(KeyCode.O) && FlipSwitch2){
-
-            FlipSwitch2 = false;
-
-            Debug.Log("inactive switch 2");
-
-        }
-
-        if (Input.GetKeyDown(KeyCode.P) && !FlipSwitch3)
-
-        {
-
-            FlipSwitch3 = true;
-
-            Debug.Log("active switch 3");
-
-        } else if (Input.GetKeyDown(KeyCode.P) && FlipSwitch3){
-
-            FlipSwitch3 = false;
-
-            Debug.Log("inactive switch 3");
-
-        }
+        //if (Input.GetKeyDown(KeyCode.I) && !FlipSwitch1)
+//
+        //{
+//
+        //    FlipSwitch1 = true;
+//
+        //    Debug.Log("active switch 1");
+//
+        //} else if (Input.GetKeyDown(KeyCode.I) && FlipSwitch1){
+//
+        //    FlipSwitch1 = false;
+//
+        //    Debug.Log("inactive switch 1");
+//
+        //}
+//
+        //if (Input.GetKeyDown(KeyCode.O) && !FlipSwitch2)
+//
+        //{
+//
+        //    FlipSwitch2 = true;
+//
+        //    Debug.Log("active switch 2");
+//
+        //} else if (Input.GetKeyDown(KeyCode.O) && FlipSwitch2){
+//
+        //    FlipSwitch2 = false;
+//
+        //    Debug.Log("inactive switch 2");
+//
+        //}
+//
+        //if (Input.GetKeyDown(KeyCode.P) && !FlipSwitch3)
+//
+        //{
+//
+        //    FlipSwitch3 = true;
+//
+        //    Debug.Log("active switch 3");
+//
+        //} else if (Input.GetKeyDown(KeyCode.P) && FlipSwitch3){
+//
+        //    FlipSwitch3 = false;
+//
+        //    Debug.Log("inactive switch 3");
+//
+        //}
 
 
     }
