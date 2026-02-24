@@ -12,7 +12,7 @@ Du 16 au 20 mars 2026.
 Installation interactive
 
 **Site Web du projet :**  
-[tim-montmorency.com/momo_modele-site-projet-etudiant_25-26](https://tim-montmorency.com/momo_modele-site-projet-etudiant_25-26/#/)
+[Mission Décollage](https://o-i-g-n-o-n.github.io/Mission-decollage/#/) 
 
 **Site Web de l'exposition collective :**  
 [6tim-montmorency.com/2026](https://tim-montmorency.com/2026/#/)
@@ -23,19 +23,20 @@ Gratuit
 
 ## Description
 
-Mission Décollage est une expérience coopérative pour 1 à 3 joueurs, chacun installé à un poste de commande différent. Chaque poste contrôle une partie de la fusée : réacteurs gauche et droit, stabilisation, propulsion, etc. Elle nécessite une coordination précise pour réussir le lancement depuis la Terre.
+Mission Décollage est une expérience coopérative pour 1 à 3 joueurs. Tous se tiennent devant un panneau de contrôle rempli de divers boutons et interrupteurs. Chaque joueur contribue à gérer les systèmes vitaux de la fusée : propulseurs, bouclier, propulsion, système de boost et autres mécanismes essentiels. Rien ne peut fonctionner sans une coordination parfaite. L’expérience débute lorsqu’un joueur appuie sur un bouton.
 
-Une fois en vol, le ou les joueurs doivent atteindre l’orbite, esquiver les météorites et gérer la trajectoire vers la Lune, Mars, etc. Devant un grand tableau de bord, plusieurs éléments sont présents : boutons, curseurs et autres contrôles dynamiques pour simuler une cabine de pilotage immersive.
+Les joueurs incarnent un équipage d’astronautes chargé d’accomplir la première mission habitée vers une planète nouvellement découverte et potentiellement habitable, avec pour objectif d’y établir une présence humaine.
+
+La mission se déroule entièrement dans l’espace. Ils doivent esquiver les météorites, ajuster la trajectoire et maintenir la fusée opérationnelle afin d’atteindre la planète et d’y atterrir. Chaque décision compte. Pour survivre et réussir, ils devront communiquer efficacement, réagir rapidement et se faire confiance.
+
+Leur objectif : arriver sains et saufs sur la planète et marquer l’histoire de l’exploration spatiale. 🚀
 
 ## Histoire
+L’idée de cette expérience interactive a été développée par Justin Monpetit lors de la session dernière, dans le cadre du cours de conception d’expérience multimédia. Inspiré par sa passion pour les jeux vidéo et les univers immersifs, il a imaginé un concept centré sur la collaboration et la prise de décision en temps réel.
 
-Ils se tiennent devant le tableau de bord. Le compte à rebours commence. La fusée est prête.
+Comme nous partageons tous un intérêt pour le jeu et les expériences interactives, son idée a rapidement fait l’unanimité au sein de l’équipe. Nous avons donc décidé de la développer ensemble et d’enrichir le concept initial.
 
-Les joueurs incarnent un équipage d’astronautes chargé d’accomplir la première mission habitée vers Mars. Chacun contrôle une partie essentielle de la fusée : propulsion, stabilisation, réacteurs. Rien ne peut fonctionner sans coordination.
-
-Le décollage est intense, l’orbite instable, l’espace imprévisible. Pour survivre et atteindre Mars, ils devront communiquer, réagir rapidement et se faire confiance.
-
-Leur objectif : atterrir sains et saufs et marquer l’histoire de l’exploration spatiale.
+Au fil du processus, le projet a évolué grâce aux échanges d’idées et aux ajustements techniques. Nous avons travaillé à renforcer l’aspect immersif et coopératif afin de créer une expérience engageante où chaque action influence directement le déroulement de la mission.
 
 ## Fonctionnalités
 
@@ -46,14 +47,12 @@ Leur objectif : atterrir sains et saufs et marquer l’histoire de l’explorati
    Tableau de bord composé de boutons, sliders et encodeurs rotatifs, chacun assigné à une fonction précise (réacteurs, propulsion, stabilisation).
 
 3. **Progression en temps réel (5–7 minutes)**  
-   - Tutoriel rapide (30 secondes)  
    - Décollage coordonné  
    - Sortie d’orbite terrestre  
    - Navigation spatiale avec obstacles  
    - Atterrissage sur Mars
 
-4. **Univers visuel en 3D**  
-   - Vue top-down lors du décollage et de l’atterrissage  
+4. **Univers visuel en 3D**   
    - Vue à la première personne durant la phase spatiale
 
 5. **Immersion sonore**  
@@ -65,7 +64,7 @@ Leur objectif : atterrir sains et saufs et marquer l’histoire de l’explorati
 ## Bande-annonce
 
 <!-- Bannderole / Bande-annonce -->
-[![Bande annonce](https://img.youtube.com/vi/-EcxDljPVAs/0.jpg)](https://www.youtube.com/watch?v=-EcxDljPVAs ) 
+[![Bande annonce](./medias/thumbnail_bandeannonce.png)](https://www.youtube.com/watch?v=-EcxDljPVAs ) 
 
 *Bande annonce - Mission Décollage.*
 
