@@ -38,6 +38,8 @@ public class HeatEnergy : MonoBehaviour
     private bool AlertIsFlashing = false;
     private bool PlayerIsCooling = false;
     private bool PlayerIsReloadingEnergy = false;
+    private bool lightSwitchSoundPlayed = false;
+
 
     [Header("Objects")]
     public GameObject Shield;
@@ -210,45 +212,40 @@ public class HeatEnergy : MonoBehaviour
         // AFFICHE LA CHALEUR SUR LE UI 
             HeatSlider.value = CurrentEngineHeat;
 
-
         // ACTIVE / DÉSACTIVE LES LUMIÈRES AU CLIC DU BOUTON
         if (Controllers.Button2 == true && LightsOn == true)
         {
             LightsOn = false;
-        } else if (Controllers.Button2 == true && LightsOn == false)
+        }
+        else if (Controllers.Button2 == true && LightsOn == false)
         {
+            RadarActive = false;
             LightsOn = true;
         }
 
-        // ACTIVE LE RADAR OU LE DÉSACTIVE LORS DU CLIC
-        if (Controllers.Button3 == true && !RadarActive)
-        {
-            RadarActive = true;
-        } else if (Controllers.Button3 == true && RadarActive)
-        {
-            RadarActive = false;
-        }
-
-
-        // AFFICHE LA BONNE LUMINOSITÉ DÉPENDAMENT SI LES LUMIÈRES SONT ACTIVES OU PAS
         if (LightsOn)
         {
-            // JAD mettre ici le bruit d'allumage de lumières
-            if (LightsSwitchAudioSource != null && !LightsSwitchAudioSource.isPlaying)
-            {
-                LightsSwitchAudioSource.Play();
-            }
             Color c = LightOpacity.color;
             c.a = Mathf.Clamp01(0f / 255f);
             LightOpacity.color = c;
             CurrentEnergy -= 1f * Time.deltaTime;
-        } else
+
+            // Reset le boolé si on éteint les lumières
+            lightSwitchSoundPlayed = false;
+        }
+        else
         {
+            // Joue le son **une seule fois**
+            if (!lightSwitchSoundPlayed && LightsSwitchAudioSource != null)
+            {
+                LightsSwitchAudioSource.Play();
+                lightSwitchSoundPlayed = true; // marque comme joué
+            }
+
             Color c = LightOpacity.color;
             c.a = Mathf.Clamp01(254f / 255f);
             LightOpacity.color = c;
         }
-
 
         // ACTIVE LE BOUCLIER LORSQUE LE BOUTON EST MAINTENU
         if (Controllers.Button1 == true && !ShieldIsDisabled)
@@ -273,6 +270,16 @@ public class HeatEnergy : MonoBehaviour
         } else
         {
             Shield.SetActive(false);
+        }
+
+        // ACTIVE LE RADAR OU LE DÉSACTIVE LORS DU CLIC
+        if (Controllers.Button3 == true && !RadarActive)
+        {
+            RadarActive = true;
+        }
+        else if (Controllers.Button3 == true && RadarActive)
+        {
+            RadarActive = false;
         }
 
         // SYTÈME QUI PERMET D'AFFICHER OU CACHER LE RADAR
