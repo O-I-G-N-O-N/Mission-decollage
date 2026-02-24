@@ -139,16 +139,17 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Faire un retour avec l’équipe pour définir les sons qui seront intégrés dans le MVP (Minimum Viable Product).
 - ![](./medias/img/liste_de_sons_mvp.png)
 #### Mardi
-Créer l’effet sonore du drift.
-Créer l’effet sonore du boost.
+- Créer l’effet sonore du drift.
+- Créer l’effet sonore du boost.
 #### Mercredi
-Créer l’effet sonore pour l’activation/désactivation du bouclier.
+- Créer l’effet sonore pour l’activation du bouclier.
+- Créer l'effet sonore pour activation lumière.
 #### Jeudi
-Créer l’effet sonore du moteur qui refroidit.
-Créer l’effet sonore de recharge d’énergie.
+- Créer l’effet sonore du moteur qui refroidit.
+- Créer l’effet sonore de recharge d’énergie.
 #### Vendredi
-Créer l’effet de bris du propulseur.
-Créer l’effet sonore du détachement de la capsule d’atterrissage de la fusée.
+- Créer l’effet de bris du propulseur.
+- Créer l’effet sonore du détachement de la capsule d’atterrissage de la fusée.
 ### Semaine 5
 
 #### Lundi
