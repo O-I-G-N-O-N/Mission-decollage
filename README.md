@@ -3,7 +3,7 @@
 <!-- Bannderole / Bande-annonce -->
 [![Bande annonce](./medias/images/thumbnail_bandeannonce.png)](https://www.youtube.com/watch?v=-EcxDljPVAs ) 
 
-*Bande annonce - Mission Décollage.*
+<p align="center"><em>Bande annonce - Mission Décollage.</em></p>
 
 ## Description
 
