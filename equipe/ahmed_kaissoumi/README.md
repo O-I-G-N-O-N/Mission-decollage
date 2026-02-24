@@ -162,7 +162,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 
-- 
+- Rien n'a été fait ce jour là
 
 #### Mardi
 
@@ -187,17 +187,36 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 
+- Rien n'a été fait ce jour là
+
 #### Mardi
+
+- Résolution du problème suivant : À chaque pression sur le bouton, l'arduino s'éteignait complètement car ce dernier était branché du mauvais côté et causait des courts-circuits
+
+- Résolution du problème suivant : Un bouton n'était pas détecté car le ground (5) de l'arduino nano était défectueux
 
 #### Mercredi
 
+- Implémentation complète des boutons sur les 3 arduinos + faders sur 1 arduino (Platform.io & PureData)
+![](./medias/img/ajustementboutons.jpg.png)
+
 #### Jeudi
 
+- Implémentation partielle des boutons à nos nouvelles fonctionnalités en jeu (merci Mathieu & Justin) [lien](https://github.com/O-I-G-N-O-N/Mission-decollage/commit/c58ac9678d7a731cd4cf130b93ea95a4825e9846) 
+
 #### Vendredi
+
+- Rien n'a été fait ce jour là
 
 ### Semaine 6
 
 #### Lundi
+
+- Préparation à la présentation de mardi
+- Assemblage en équipe de l'installation
+
+![](./medias/img/installation.jpg)
+
 
 #### Mardi
 
