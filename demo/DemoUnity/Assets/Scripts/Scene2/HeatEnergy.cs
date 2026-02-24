@@ -153,7 +153,7 @@ public class HeatEnergy : MonoBehaviour
             PlayerIsCooling = true;
 
             CurrentEngineHeat -= 11f * Time.deltaTime;
-            CurrentEnergy -= 11f * Time.deltaTime;
+            CurrentEnergy -= 13f * Time.deltaTime;
 
             if (!CoolingAudioSource.isPlaying)
                 CoolingAudioSource.Play();
@@ -177,7 +177,7 @@ public class HeatEnergy : MonoBehaviour
 
             PlayerIsReloadingEnergy = true;
 
-            CurrentEngineHeat += 5f * Time.deltaTime;
+            CurrentEngineHeat += 10f * Time.deltaTime;
             CurrentEnergy += 25f * Time.deltaTime;
         }
         else
@@ -246,20 +246,18 @@ public class HeatEnergy : MonoBehaviour
         if (Controllers.Button1 == true && !ShieldIsDisabled)
         {
             ShieldActive = true;
+            ShieldAudioSource.Play();
+            ShieldAudioSource.loop = true;
         } else
         {
             ShieldActive = false;
+            ShieldAudioSource.Stop();
         }
 
         // SYSTÈME PERMETTANT L'ACTIVATION DU BOUCLIER
 
         if (ShieldActive)
         {
-            // JAD mettre ici bruit de bouclier actif
-            if (ShieldAudioSource != null && !ShieldAudioSource.isPlaying)
-            {
-                ShieldAudioSource.Play();
-            }
             Shield.SetActive(true);
             CurrentEnergy -= 15f * Time.deltaTime;
         } else
@@ -313,7 +311,6 @@ public class HeatEnergy : MonoBehaviour
         // DRIFT
         if (Drifting)
         {
-            // JAD mettre ici bruit de drift
             if (DriftAudioSource != null && !DriftAudioSource.isPlaying)
             {
                 DriftAudioSource.Play(); // Loop doit être coché dans Unity
