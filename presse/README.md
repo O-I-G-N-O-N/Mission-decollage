@@ -68,12 +68,11 @@ Au fil du processus, le projet a évolué grâce aux échanges d’idées et aux
 
 
 ## Images
+| ![](./medias/DSC00042.jpg) | ![](./medias/screen_gameplay1.png) |
+|----------------------------|------------------------------------|
 
-| ![Maquette du panneau de contrôle](./medias/DSC00042.jpg) | ![Capture d’écran du gameplay du jeu](./medias/screen_gameplay1.png) |
-|-----------------------------------------------------------|---------------------------------------------------------------------|
-
-| ![Personnes en train d’essayer le jeu](./medias/maquette1.png) | ![Capture d’écran du gameplay du jeu](./medias/screen_gameplay2.png) | ![Projection du gameplay du jeu](./medias/projection.png) |
-|------------------------------------------------------------------|-----------------------------------------------------------------------|-------------------------------------------------------------|
+| ![](./medias/maquette1.png) | ![](./medias/screen_gameplay2.png) | ![](./medias/projection.png) |
+|-----------------------------|------------------------------------|------------------------------|
 
 ## Logo
 
