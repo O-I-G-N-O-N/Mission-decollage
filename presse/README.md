@@ -34,7 +34,7 @@ Leur objectif : arriver sains et saufs sur la planète et marquer l’histoire d
 ## Histoire
 L’idée de cette expérience interactive a été développée par Justin Monpetit lors de la session dernière, dans le cadre du cours de conception d’expérience multimédia. Inspiré par sa passion pour les jeux vidéo et les univers immersifs, il a imaginé un concept centré sur la collaboration et la prise de décision en temps réel.
 
-Comme nous partageons tous un intérêt pour le jeu et les expériences interactives, son idée a rapidement fait l’unanimité au sein de l’équipe. Nous avons donc décidé de la développer ensemble et d’enrichir le concept initial.
+Comme nous partageons tous un intérêt pour les jeux vidéos et les expériences interactives, son idée a rapidement fait l’unanimité au sein de l’équipe. Nous avons donc décidé de la développer ensemble et d’enrichir le concept initial.
 
 Au fil du processus, le projet a évolué grâce aux échanges d’idées et aux ajustements techniques. Nous avons travaillé à renforcer l’aspect immersif et coopératif afin de créer une expérience engageante où chaque action influence directement le déroulement de la mission.
 
