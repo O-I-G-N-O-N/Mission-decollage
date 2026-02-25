@@ -65,8 +65,6 @@ public class Controllers : MonoBehaviour
 
     private int etatEnMemoire = 0; // L'état initial est défini comme "bouton relâché"
     private int etatEnMemoire2 = 0;
-    private int etatEnMemoire3 = 0;
-    private int etatEnMemoire4 = 0;
  
  
     // Start is called before the first frame update
@@ -819,21 +817,19 @@ public class Controllers : MonoBehaviour
 
 
         // TURNING BUTTON 1 -- DRIFT
-    //    if (Input.GetKey(KeyCode.Alpha7))
-//
-    //{
-//
-    //    TurningButton1 = true;
-//
-    //    Debug.Log(TurningButton1);
-//
-    //} else
-//
-    //    {
-//
-    //        TurningButton1 = false;
-//
-    //    }
+        if (Input.GetKey(KeyCode.Alpha7))
+
+    {
+
+        TurningButton1 = true;
+
+    } else
+
+        {
+
+            TurningButton1 = false;
+
+        }
 
 
         // TURNING BUTTON 2 -- RECHARGEMENT D'ÉNERGIE

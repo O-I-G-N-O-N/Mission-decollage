@@ -29,7 +29,8 @@ public class HeatEnergy : MonoBehaviour
     public float Health = 100;
     public float CurrentEnergy = 100;
     public bool LightsOn = true;
-    public bool Drifting = false;
+    public bool Boosting = false;
+    public bool IsBoosting = false;
     public bool ShieldActive = false;
     public bool ShieldIsDisabled = false;
     public bool EngineIsOverheating = false;
@@ -238,7 +239,7 @@ public class HeatEnergy : MonoBehaviour
 
 
             Color c = LightOpacity.color;
-            c.a = Mathf.Clamp01(254f / 255f);
+            c.a = Mathf.Clamp01(252f / 255f);
             LightOpacity.color = c;
         }
 
@@ -307,9 +308,17 @@ public class HeatEnergy : MonoBehaviour
             ShieldIsDisabled = false;
         }
 
+        if (Controllers.TurningButton1) 
+        {
+            Boosting = true;
+        } else {
+            Boosting = false;
+            IsBoosting = false;
+        }
+
 
         // DRIFT
-        if (Drifting)
+        if (Boosting)
         {
             if (DriftAudioSource != null && !DriftAudioSource.isPlaying)
             {

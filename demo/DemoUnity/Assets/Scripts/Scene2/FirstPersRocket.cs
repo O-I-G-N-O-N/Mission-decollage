@@ -33,6 +33,7 @@ public class FirstPersRocket : MonoBehaviour
     public float RightReactorValue = 0;
 
     public float ReactorForce = 0;
+    public float BoostForce = 0;
     public float currentRotationSpeed = 0;
     public float BaseRotationSpeed = 0;
 
@@ -134,12 +135,10 @@ public class FirstPersRocket : MonoBehaviour
 
 
         // PERMET LES VIRAGES SERRÉS
-        if (HeatEnergy.Drifting)
+        if (HeatEnergy.Boosting && !HeatEnergy.IsBoosting)
         {
-            RotationMultiplier += 20f;
-        } else
-        {
-            RotationMultiplier = 20f;
+            StartCoroutine(SpeedBoost());
+            HeatEnergy.IsBoosting = true;
         }
 
         // GARDE LE MULTIPLICATEUR À L'INTÉRIEUR DES LIMITES
@@ -209,7 +208,7 @@ public class FirstPersRocket : MonoBehaviour
         currentRotationSpeed = BaseRotationSpeed;
 
         // --- FORCE ---
-        ReactorForce = (MainReactorValue + RightReactorValue + LeftReactorValue) * 40f;
+        ReactorForce = (MainReactorValue + RightReactorValue + LeftReactorValue + BoostForce) * 40f;
 
         // --- MOVE ---
         transform.Translate(Vector3.forward * ReactorForce * Time.deltaTime, Space.Self);
@@ -262,5 +261,16 @@ public class FirstPersRocket : MonoBehaviour
         );
 
         fadeImage.gameObject.SetActive(false);
+    }
+
+    // À COMPLÉTER
+    IEnumerator SpeedBoost() {
+        Debug.Log("working");
+        while (HeatEnergy.IsBoosting && HeatEnergy.Boosting) 
+        {
+            BoostForce = 200f;
+            yield return null;
+        }
+        BoostForce = 0;
     }
 }
