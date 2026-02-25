@@ -179,6 +179,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Répondre aux questions des étudiants lors de la présentation de la maquette 2.
 
 #### Mercredi
+- Trouver une solution pour améliorer le mapping.
 
 #### Jeudi
 
