@@ -88,6 +88,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 ### Semaine 2
 
+![](./medias/img/bouton_arcade.jpg)
+
 #### Lundi
 
 - Faire une demande de réservation pour l’enregistrement des sons prévue mercredi.
