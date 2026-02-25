@@ -163,27 +163,46 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
  ![](./medias/img/skybox_espace.jpg)
 
 #### Jeudi
-- Exporter tous les modèles en FBX
+- Finaliser les modèles 3D
 - Discussion de notre scénarimage
 
 #### Vendredi
-- 
+- Exporter tous les modèles en FBX
 
 ### Semaine 5
 
 #### Lundi
+- Recherche des matériaux spécifiques pour notre boite
+
 
 #### Mardi
+- Validation des mesures avec Radhouane de notre boite
+
 
 #### Mercredi
+- Prendre les mesures des composantes pour faire les trous sur notre tableau de bord
+- Réaliser un schéma afin de faciliter le repérage des trous sur le tableau de bord
+
+
+ ![](./medias/img/schema_mesure.jpg)
+
 
 #### Jeudi
+- Tracer les points de perçage sur le tableau de bord.
+![](./medias/img/planche_de_bois.jpg)
+
+- Il sera nécessaire de changer la planche du tableau de bord, son épaisseur étant incompatible avec le fader
 
 #### Vendredi
+- Construire la boite
+
 
 ### Semaine 6
 
 #### Lundi
+- Apporter la boite à l'école et travailler sur la maquette 2
+
+![](./medias/img/boite_maquette2.jpg)
 
 #### Mardi
 
