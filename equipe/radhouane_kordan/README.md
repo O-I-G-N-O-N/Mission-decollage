@@ -182,7 +182,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Trouver une solution pour améliorer le mapping.
 
 #### Jeudi
-
+- Corriger le mapping des projecteurs.
 #### Vendredi
 
 ### Semaine 6.5
