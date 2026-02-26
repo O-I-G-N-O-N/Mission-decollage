@@ -22,6 +22,7 @@ public class HeatEnergy : MonoBehaviour
     public FirstPersRocket FirstPersRocket;
     public Events Events;
     public Controllers Controllers;
+    public AsteroidSpin AsteroidSpin;
 
     [Header("Values")]
     public float CurrentEngineHeat = 0;
@@ -40,6 +41,9 @@ public class HeatEnergy : MonoBehaviour
     private bool AlertIsFlashing = false;
     private bool PlayerIsCooling = false;
     private bool PlayerIsReloadingEnergy = false;
+    private bool HeatBoardLightOn = false;
+    private bool BatteryBoardLightOn = false;
+    private bool AlertBoardLightOn = false;
 
 
     [Header("Objects")]
@@ -49,6 +53,8 @@ public class HeatEnergy : MonoBehaviour
     public GameObject RocketTop;
     public GameObject RocketMovingTop;
     public GameObject RocketBottom;
+    public GameObject Astronaut;
+    public GameObject AstronautNewParent;
     public ParticleSystem ExplosionParticles;
     public ParticleSystem RightFire;
     public ParticleSystem MainFire;
@@ -57,8 +63,13 @@ public class HeatEnergy : MonoBehaviour
     public ParticleSystem RightGas;
     public ParticleSystem LeftGas;
     public GameObject ThirdCamera;
+    public Image DashHeatIcon;
+    public Image DashEnergyIcon;
+    public Image DashRepairIcon;
+    public Image DashAlertIcon;
     public Light CockpitLight;
     public Color LightOriginalColor;
+    
 
     [Header("Audio")]
     public AudioSource AlertAudioSource;
@@ -335,14 +346,67 @@ public class HeatEnergy : MonoBehaviour
                 DriftAudioSource.Stop();
             }
         }
+
+
+        // SECTION DES VOYANTS LUMINEUX SUR LE TABLEAU DE BORD
+
+        // VOYANT LUMINEUX CHALEUR
+        if (CurrentEngineHeat >= 75f)
+        {
+             HeatBoardLightOn = true;
+        } else {
+            HeatBoardLightOn = false;
+        }
+
+        if (HeatBoardLightOn) {
+            DashHeatIcon.color = new Color(255, 255, 255);
+        } else {
+            DashHeatIcon.color = new Color(0, 0, 0);
+        }
+
+
+        // VOYANT LUMINEUX ÉNERGIE
+        if (CurrentEnergy <= 25f)
+        {
+            BatteryBoardLightOn = true;
+        } else {
+            BatteryBoardLightOn = false;
+        }
+
+        if (BatteryBoardLightOn) {
+            DashEnergyIcon.color = new Color(255, 255, 255);
+        } else {
+            DashEnergyIcon.color = new Color(0, 0, 0);
+        }
+
+
+        // VOYANT LUMINEUX REPARATION
+        if (Events.RepairInProgress) 
+        {
+            DashRepairIcon.color = new Color(255, 255, 255);
+        } else {
+            DashRepairIcon.color = new Color(0, 0, 0);
+        }
+
+        // VOYANT LUMINEUX ALERTE
+        if (AlertBoardLightOn) 
+        {
+            DashAlertIcon.color = new Color(255, 255, 255);
+        } else {
+            DashAlertIcon.color = new Color(0, 0, 0);
+        }
+
     }
 
         IEnumerator GameOver()
          {
+
             ThirdCamera.SetActive(true);
             yield return new WaitForSeconds(2f);
             RocketBottom.SetActive(false);
             RocketTop.SetActive(false);
+            Astronaut.transform.SetParent(AstronautNewParent.transform);
+            Astronaut.SetActive(true);
         // JAD mettre ici le bruit d'explosion
         if (ExplosionAudioSource != null)
         {
@@ -352,6 +416,18 @@ public class HeatEnergy : MonoBehaviour
             MainFire.Stop();
             LeftFire.Stop();
             RightFire.Stop();
+            float moveDuration = 2f;
+            float elapsed = 0f;
+            float speed = 5f; // units per second
+            Vector3 randomDirection = Random.onUnitSphere;
+            while (elapsed < moveDuration)
+                {
+                    Vector3 direction = new Vector3(1f, 0.2f, 0.6f).normalized;
+                    Astronaut.transform.position += direction * speed * Time.deltaTime;
+                    Astronaut.transform.Rotate(randomDirection * 2f * Time.deltaTime);
+                    elapsed += Time.deltaTime;
+                    yield return null; // wait for next frame
+                }
             yield return new WaitForSeconds(2f);
             SceneManager.LoadScene("Space");
             yield return null;
@@ -506,6 +582,7 @@ public class HeatEnergy : MonoBehaviour
         while (EngineIsOverheating)
         {
             // Interpolate between the current color and the target color
+            AlertBoardLightOn = true;
             CockpitLight.color = Color.red;
             yield return new WaitForSeconds(0.7f);
             CockpitLight.color = LightOriginalColor;
@@ -514,6 +591,7 @@ public class HeatEnergy : MonoBehaviour
 
         // Ensure the light ends with the original color
         CockpitLight.color = LightOriginalColor;
+        AlertBoardLightOn = false;
         AlertIsFlashing = false;
     }
 

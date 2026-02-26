@@ -156,8 +156,8 @@ public class FirstPersRocket : MonoBehaviour
         float distanceRocketMars = zValueRocket - zValueMars;
 
         // --- UI ---
-        vitesseUI.text = "Vitesse actuelle: " + ReactorForce.ToString("F1");
-        DistanceUI.text = "distance restante: " + ((distanceRocketMars + 2000)*-1);
+        vitesseUI.text = ReactorForce.ToString("F1");
+        DistanceUI.text =  ((distanceRocketMars + 2000)*-1).ToString();
 
         if (((distanceRocketMars + 2000)*-1) < 2000)
         {

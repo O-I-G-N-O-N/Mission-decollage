@@ -61,8 +61,6 @@ public class Controllers : MonoBehaviour
  
     public OSCReceiver oscReceiver;
 
-    public GameObject minimap;
-
     private int etatEnMemoire = 0; // L'état initial est défini comme "bouton relâché"
     private int etatEnMemoire2 = 0;
  
