@@ -238,7 +238,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Vérification que tout le câblage permet l’ouverture et l’utilisation des projecteurs sans gêne.
 
-   ![](./medias/cable-projecteurs.png)
+![](./medias/cable-projecteurs.png)
 
 #### Jeudi
 
@@ -252,7 +252,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Discussion avec les équipes sur ce qui manque pour la maquette 2 prévue mardi.
 
-   ![](./medias/installation-hautparleur.png)
+![](./medias/installation-hautparleur.png)
 
 #### Vendredi
 
@@ -274,7 +274,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Ajustements pour éviter les déclenchements involontaires ou les répétitions.
 
-- ![](./medias/importation_sons_jeu.png)
+![](./medias/sons-jeu.png)
 
 #### Mardi
 
