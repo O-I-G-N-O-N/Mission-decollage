@@ -88,8 +88,6 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 ### Semaine 2
 
-![](./medias/img/bouton_arcade.jpg)
-
 #### Lundi
 
 - Faire une demande de réservation pour l’enregistrement des sons prévue mercredi.
@@ -105,6 +103,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
   - Bruits de narration (dialogues)
 
   - Bruit de bris électrique de la fusée
+
+  ![](./medias/sons-enregistrer.png)
   
 #### Mardi
 
@@ -120,17 +120,26 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Faire des recherches sur comment programmer et intégrer les sons dans Unity.
 
 - Prendre des notes sur les méthodes et techniques pour l’intégration des sons.
+
+  ![](./medias/recherche-sons.png)
   
 #### Jeudi
 
 - Faire la modélisation 3D d’une mouette dans Maya 3D.
+   ![](./medias/3d-bird.png)
+
 - Faire la modélisation 3D d’un avion commercial dans Maya 3D.
+   ![](./medias/3d-avion.png)
+
 - Faire des recherches pour améliorer la précision et les détails des modèles 3D.
 
 #### Vendredi
 
-- Ajouter les textures sur les modèles 3D (mouette et avion commercial) dans Maya 3D.
-- Exporter les modèles 3D texturés au format FBX pour utilisation dans Unity.
+- Préparation des modèles 3D (mouette et avion commercial) en vue de leur intégration dans Unity.
+
+- Vérification de l’échelle et de l’orientation des modèles pour éviter des problèmes à l’importation.
+
+- Exportation des modèles au format FBX.
   
 ### Semaine 3
 
@@ -189,6 +198,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Ajustement de l’alignement et de la position des projecteurs pour optimiser la couverture.
 - Prise de notes sur les résultats des tests pour préparer la prochaine étape et décider du positionnement final des projecteurs.
 
+![](./medias/solutions-projecteurs.png)
+
 #### Vendredi
 
 - Aucune activité supplémentaire à signaler.
@@ -215,6 +226,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Vérification que la projection couvre l’ensemble du mur circulaire sans séparation visible entre les zones projetées.
 
+![](./medias/ajustement-projecteurs.png)
+
 #### Mercredi
 
 - Poursuite du positionnement des projecteurs pour confirmer la configuration finale.
@@ -224,6 +237,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Organisation et placement des fils de façon propre et sécurisée.
 
 - Vérification que tout le câblage permet l’ouverture et l’utilisation des projecteurs sans gêne.
+
+   ![](./medias/cable-projecteurs.png)
 
 #### Jeudi
 
@@ -237,6 +252,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Discussion avec les équipes sur ce qui manque pour la maquette 2 prévue mardi.
 
+   ![](./medias/installation-hautparleur.png)
+
 #### Vendredi
 
 - Aucune activité technique réalisée.
@@ -246,6 +263,18 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 ### Semaine 6
 
 #### Lundi
+
+- Intégration des sons dans Unity à l’aide de composants AudioSource.
+
+- Configuration du déclenchement sonore lors de l’appui sur un bouton.
+
+- Activation d’effets sonores lors des collisions entre objets.
+
+- Tests des interactions pour vérifier que les sons se jouent au bon moment.
+
+- Ajustements pour éviter les déclenchements involontaires ou les répétitions.
+
+- ![](./medias/importation_sons_jeu.png)
 
 #### Mardi
 
