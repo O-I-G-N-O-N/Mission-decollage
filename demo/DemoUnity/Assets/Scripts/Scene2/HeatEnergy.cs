@@ -55,6 +55,7 @@ public class HeatEnergy : MonoBehaviour
     public GameObject RocketBottom;
     public GameObject Astronaut;
     public GameObject AstronautNewParent;
+    public GameObject ScreenCanva;
     public ParticleSystem ExplosionParticles;
     public ParticleSystem RightFire;
     public ParticleSystem MainFire;
@@ -324,7 +325,6 @@ public class HeatEnergy : MonoBehaviour
             Boosting = true;
         } else {
             Boosting = false;
-            IsBoosting = false;
         }
 
 
@@ -336,7 +336,8 @@ public class HeatEnergy : MonoBehaviour
                 DriftAudioSource.Play(); // Loop doit être coché dans Unity
             }
 
-            CurrentEngineHeat += 2f * Time.deltaTime;
+            CurrentEngineHeat += 10f * Time.deltaTime;
+            CurrentEnergy -= 2f * Time.deltaTime;
         }
         else
         {
@@ -402,6 +403,7 @@ public class HeatEnergy : MonoBehaviour
          {
 
             ThirdCamera.SetActive(true);
+            ScreenCanva.SetActive(false);
             yield return new WaitForSeconds(2f);
             RocketBottom.SetActive(false);
             RocketTop.SetActive(false);

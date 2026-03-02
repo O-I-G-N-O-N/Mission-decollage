@@ -33,12 +33,12 @@ public class Collisions : MonoBehaviour
             Destroy(gameObject);
             ObstacleDestruction.Play();
             CollisionAudioSource.Play();
-            HeatEnergy.Health -= 34;
+            HeatEnergy.Health -= 26;
         } else if (other.CompareTag("Player") && gameObject.CompareTag("Obstacles") && HeatEnergy.ShieldActive)
         {
             Debug.Log("Protégé par le bouclier!");
             Destroy(gameObject);
-            HeatEnergy.Health -= 23;
+            HeatEnergy.Health -= 10;
         }
     }
 }

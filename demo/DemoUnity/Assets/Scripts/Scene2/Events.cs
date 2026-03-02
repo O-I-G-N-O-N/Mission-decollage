@@ -61,7 +61,7 @@ public class Events : MonoBehaviour
 
     IEnumerator EventHappening()
     {
-        yield return new WaitForSeconds(25f);
+        yield return new WaitForSeconds(35f);
         Debug.Log("5 secondes passées, check event...");
 
         EventPicker = Random.Range(0, 5);
@@ -385,10 +385,10 @@ public class Events : MonoBehaviour
         DialogueOccuring = true;
         Debug.Log("Ça part");
         DialogueUI.text = "MALFONCTION DU MOTEUR. ACTION IMMÉDIATE REQUISE";
-        DialogueUI.text = "DÉSACTIVEZ LES PROPULSEURS ET REMETTEZ LES À ZÉRO";
+        DialogueUI.text = "DÉSACTIVEZ LES PROPULSEURS PUIS RÉACTIVEZ LES";
         while (FirstPersRocket.DamagedEngine) 
         {
-            if (!Controllers.FlipSwitch1 && !Controllers.FlipSwitch3 && Controllers.MainSlider.value <= 5 && Controllers.RightSlider.value <= 5 && Controllers.LeftSlider.value <= 5) 
+            if (!Controllers.FlipSwitch1 && !Controllers.FlipSwitch3) 
                 {
                     EngineRepairHalf = true;
                     DialogueUI.text = "RÉACTIVEZ LES PROPULSEURS";

@@ -31,6 +31,7 @@ public class FirstPersRocket : MonoBehaviour
     public float LeftReactorValue = 0;
     public float MainReactorValue = 0;
     public float RightReactorValue = 0;
+    public float Velocity = 10;
 
     public float ReactorForce = 0;
     public float BoostForce = 0;
@@ -38,6 +39,7 @@ public class FirstPersRocket : MonoBehaviour
     public float BaseRotationSpeed = 0;
 
     public float TotalPower = 0;
+    public float CurrentRocketSpeed = 0;
     public float RotationMultiplier = 20f;
     public bool SafeForEjection = false;
 
@@ -156,7 +158,8 @@ public class FirstPersRocket : MonoBehaviour
         float distanceRocketMars = zValueRocket - zValueMars;
 
         // --- UI ---
-        vitesseUI.text = ReactorForce.ToString("F1");
+        CurrentRocketSpeed = (Velocity+ReactorForce+BoostForce);
+        vitesseUI.text = CurrentRocketSpeed.ToString("F1");
         DistanceUI.text =  ((distanceRocketMars + 2000)*-1).ToString();
 
         if (((distanceRocketMars + 2000)*-1) < 2000)
@@ -178,7 +181,7 @@ public class FirstPersRocket : MonoBehaviour
         }
         else if (DamagedRightReactor)
         {
-            RightReactorValue = 0.4f;
+            RightReactorValue = 0f;
         } else
         {
             RightReactorValue = Controllers.RightSlider.value;
@@ -192,11 +195,16 @@ public class FirstPersRocket : MonoBehaviour
         }
         else if (DamagedLeftReactor) 
         {
-            LeftReactorValue = 0.4f;
+            LeftReactorValue = 0f;
         } else
         {
             LeftReactorValue = Controllers.LeftSlider.value;
         }
+
+        // VÉLOCITÉ
+        Velocity += (LeftReactorValue + MainReactorValue + RightReactorValue + BoostForce)*2 * Time.deltaTime;
+        Debug.Log(Velocity);
+
 
         // --- ROTATION ---
         BaseRotationSpeed = Mathf.Lerp(
@@ -212,7 +220,7 @@ public class FirstPersRocket : MonoBehaviour
 
         // --- MOVE ---
         transform.Translate(Vector3.forward * ReactorForce * Time.deltaTime, Space.Self);
-        transform.Translate(Vector3.forward * 10 * Time.deltaTime, Space.Self);
+        transform.Translate(Vector3.forward * Velocity * Time.deltaTime, Space.Self);
         transform.Rotate(Vector3.up * currentRotationSpeed * Time.deltaTime, Space.Self);
 
         // ======================
@@ -266,11 +274,13 @@ public class FirstPersRocket : MonoBehaviour
     // À COMPLÉTER
     IEnumerator SpeedBoost() {
         Debug.Log("working");
-        while (HeatEnergy.IsBoosting && HeatEnergy.Boosting) 
+        while (HeatEnergy.Boosting) 
         {
-            BoostForce = 200f;
+            BoostForce = 2f;
             yield return null;
+            Debug.Log(BoostForce);
         }
         BoostForce = 0;
+        HeatEnergy.IsBoosting = false;
     }
 }
