@@ -278,21 +278,37 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Mardi
 
-- Nettoyage de notre espace dans le grand studio pour la présentation de la maquette 2 prévue le midi. J’ai pris le temps de remettre l’installation en ordre pour que tout soit propre et présentable.
+- Nettoyage complet de notre espace dans le grand studio pour la présentation de la maquette 2 prévue le midi.
 
-- Vérification des projecteurs et des haut-parleurs pour m’assurer que tout fonctionne bien avant la présentation et éviter les mauvaises surprises.
+- Organisation et remise en ordre de l’installation pour que tout soit propre et présentable.
+
+- Vérification du bon fonctionnement des projecteurs et des haut-parleurs avant la présentation.
 
 - Présentation de la maquette 2 durant le dîner.
 
-- À la fin de la journée, notre professeur nous a donné son avis sur le projet ainsi que des commentaires pour nous aider à améliorer certains aspects pour la suite.
+- Réception des commentaires du professeur sur notre projet, pour identifier les points à améliorer.
 
 ![](./medias/maquette-2.jpg)
 
 #### Mercredi
 
+- Discussion avec l’équipe sur les tâches restantes et la partie Ethernet à préparer.
+
+- Recherche sur le mapping des projecteurs pour comprendre comment adapter la projection au mur circulaire et anticiper les étapes techniques.
+
+- Observation et prise de notes sur les contraintes techniques et le workflow pour les prochaines interventions.
+
 #### Jeudi
 
+- Tentative de mapping des projecteurs afin d’adapter l’affichage au mur circulaire du studio. J’ai fait plusieurs essais pour comprendre la logique de projection et l’alignement, mais c’est finalement mon collègue qui a réalisé le mapping final.
+
+- Observation de la configuration des composantes M5Stack Atom via câble Ethernet. Le professeur souhaitait initialement connecter une seule composante, mais des problèmes liés au code sont apparus. Il a donc procédé lui-même à la configuration complète des trois connexions Ethernet pour assurer le bon fonctionnement du système.
+
+- Même si je n’ai pas effectué les connexions moi-même, j’ai pu observer le processus et mieux comprendre la logique du branchement et de la communication réseau.
+
 #### Vendredi
+
+- Aucune intervention technique, mais prise de recul sur le projet et réflexion sur les prochaines étapes : optimisation de l’installation, vérification du son et préparation pour la suite.
 
 ### Semaine 6.5
 
