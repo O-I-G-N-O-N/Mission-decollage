@@ -286,6 +286,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - À la fin de la journée, notre professeur nous a donné son avis sur le projet ainsi que des commentaires pour nous aider à améliorer certains aspects pour la suite.
 
+![](./medias/maquette-2.jpg)
+
 #### Mercredi
 
 #### Jeudi
