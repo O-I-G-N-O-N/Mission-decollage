@@ -184,11 +184,11 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Jeudi
 - Corriger le mapping des projecteurs.
 #### Vendredi
-
+- Créer un son pour l'activation de la map/radar.
 ### Semaine 6.5
 
 #### Lundi
-
+- Faire le prototype du plan d’emplacement des installations pour le comité de déambulation.
 #### Mardi
 
 #### Mercredi
