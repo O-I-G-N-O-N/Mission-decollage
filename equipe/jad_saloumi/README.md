@@ -278,6 +278,14 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Mardi
 
+- Nettoyage de notre espace dans le grand studio pour la présentation de la maquette 2 prévue le midi. J’ai pris le temps de remettre l’installation en ordre pour que tout soit propre et présentable.
+
+- Vérification des projecteurs et des haut-parleurs pour m’assurer que tout fonctionne bien avant la présentation et éviter les mauvaises surprises.
+
+- Présentation de la maquette 2 durant le dîner.
+
+- À la fin de la journée, notre professeur nous a donné son avis sur le projet ainsi que des commentaires pour nous aider à améliorer certains aspects pour la suite.
+
 #### Mercredi
 
 #### Jeudi
