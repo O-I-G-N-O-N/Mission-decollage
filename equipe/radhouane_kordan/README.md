@@ -188,9 +188,9 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 ### Semaine 6.5
 
 #### Lundi
-- Faire le prototype du plan d’emplacement des installations pour le comité de déambulation.
+- Faire une version du plan d’emplacement des installations pour le comité de déambulation.
 #### Mardi
-
+- Faire une version/variation du cartel pour mon équipe. (comité déambulation)
 #### Mercredi
 
 #### Jeudi
