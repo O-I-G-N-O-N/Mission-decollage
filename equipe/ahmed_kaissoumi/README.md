@@ -220,19 +220,35 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Mardi
 
+- Présentation devant les élèves
+
 #### Mercredi
+
+- Créations d'ui
 
 #### Jeudi
 
+- Tentative de soudure (merci thomas pour nous avoir aidé)
+- Upload de nos ui
+- Upload de nos codes arduinos (ils étaient conservés localement depuis le début)
+
 #### Vendredi
+
+- Rien n'a été fait ce jour là
 
 ### Semaine 6.5
 
 #### Lundi
 
+- Rien n'a été fait ce jour là
+
 #### Mardi
 
+- 
+
 #### Mercredi
+
+- Création d'ui
 
 #### Jeudi
 
