@@ -185,33 +185,103 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 
+- Ajout de tout les boutons + sont fonctionnels
+- Ré-ajout du système de "réparation" des propulseurs (boutons 4-5-6)
+- Ajout du bouclier
+- Ajout de la nouvelle "minimap" désormais appelée "Radar"
+- Création d'un script entièrement dédié aux boutons et sliders pour faciliter l'implémentation future du Arduino.
+- Ajout des collisions (non complété)
+- Corrections et ajustement des UI qui n'étaient pas centrés
+- Ajustement de la force des propulseurs lorsqu'ils sont défectueux (force de 0.4f au lieu de 0)
+
 #### Mardi
+
+- Ajout des bons modèles 3D d'astéroïdes
+- Ajout des bonnes textures
+- Ajout des collisions avec tout les obstacles possibles
+- Ajout d'un effet de destruction (particules) lors d'une collision avec un astéroïde
+- Ajout du nouveau modèle 3D de cockpit + écran UI situé à l'intérieur
+- Ajout des UI respectifs pour chacune des jauges (Chaleur & Énergie)
+- Ajout des modèles 3D du corps et la tête de la fusée
+- Changement du modèle 3D de la planète étrangère
+- Soudure des trois boutons poussoirs
+- Changement des ports OSC (export vers un seul port plutôt qu'un par Arduino)
+- Ajout de certains UI à l'intérieur du cockpit sur la tablette
 
 #### Mercredi
 
+- Ajout de possibilité de plusieurs parties de la fusée brisée en même temps
+- Ajout du UI de barre de vie
+- Ajout du UI du réel tableau de bord
+- Ajout du UI de fusée + partie de fusée opérationnelle ou non
+- Ajout d'une animation de rotation aléatoire sur les astéroïdes
+- Corrections de problèmes d'affichage reliés aux événements aléatoires
+
 #### Jeudi
 
+- Ajout de l'explosion lorsque la vie atteint 0
+- Ajout d'une barre de vie qui répond aux dégâts
+- Ajout de l'éjection lors du flip switch rouge
+- Correction de problème de disposition lorsque la fusée était trop loin
+- Ajout des switch qui désactivent les réacteurs
+- Ajout de l'événement "moteur brisé" dans les événements aléatoires
+
 #### Vendredi
+
+- Ajout d'un fonctionnement empêchant le joueur de maintenir "refroidissement" et "rechargement" en même temps
+- Complétion du système d'éjection
+
 
 ### Semaine 6
 
 #### Lundi
 
+- Complétion du système GameOver/Explosion
+- Corrections de problèmes de caméra et fonctionnements (culling mask + DamagedEngine)
+- Correction d'un problème avec le bouclier (ne se désactivait pas lorsque l'énergie atteignait 0)
+
 #### Mardi
+
+- Ajout de multiples obstacles pour ajouter de la difficultée
+- Ajout de lignes de commentaires pour indiquer à mes coéquipiers où mettre les sons
+- Correction de l'UI barre de dialogue
 
 #### Mercredi
 
+- Mise à jour du modèle 3D cockpit pour un modèle ayant un plus grand dashboard.
+- Commencement d'une fonctionnalité de boost pour remplacer la fonctionnalité de drift.
+- Implémentation de nouveaux îcones UI pour mieux indiquer les problèmes présent dans la fusée.
+
 #### Jeudi
 
+- UI du tableau de bord (témoins lumineux) fonctionnels
+- Lors du game Over, Astronaute catapulté
+
+
 #### Vendredi
+
+- Modifications de plusieurs variables permettant de rendre le jeu plus accessible à tous (facilité)
+- Changement des variables pour les événements aléatoires afin de les rendre plus simple.
+- Complétion du changement drift -> boost
 
 ### Semaine 6.5
 
 #### Lundi
 
+- Ajout de la vélocité (vitesse qui s'accumule sans arrêt)
+- Fix du problème d'affichage de vitesse (0 lorsque la fusée bougeait)
+- Complétion de l'animation de l'astronaute éjecté lorsque la partie est perdue (rotation aléatoire)
+
 #### Mardi
 
+- Ajout de l'éjection dans scène 1
+- Ajout des textures dans scène 1
+- Retrait des obstacles temporaires scène 1
+
 #### Mercredi
+
+- Ajout des nouveaux UI dans scène 2
+- Correction des UI problématiques dans scène 2
 
 #### Jeudi
 
