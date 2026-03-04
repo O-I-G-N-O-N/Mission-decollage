@@ -6,6 +6,7 @@ using UnityEngine;
 public class Zones : MonoBehaviour
 {
     public GameObject Fusee;
+    public RocketScript RocketScript;
 
     public ParticleSystem Explosion;
 
@@ -76,22 +77,33 @@ public class Zones : MonoBehaviour
     //      EXPLOSION
     // =========================
     public void TriggerExplosion()
+{
+    if (PlayerIsDead) return;
+
+    PlayerIsDead = true;
+
+    if (Fusee != null) 
     {
-        if (PlayerIsDead) return;
+        // Detach camera from Fusee
+        if (RocketScript.Camera != null)
+        {
+            RocketScript.Camera.transform.SetParent(null); // unparent
+        }
 
-        PlayerIsDead = true;
+        Explosion.transform.SetParent(null);
+        Explosion.transform.localScale = Vector3.one;
 
-        if (Fusee != null)
-            Fusee.GetComponent<Renderer>().enabled = false;
-
-        if (Explosion != null)
-            Explosion.Play();
-
-        if (explosionSound != null)
-            explosionSound.Play();
-
-        MainSlider.value = 0;
-        RightSlider.value = 0;
-        LeftSlider.value = 0;
+        Fusee.SetActive(false);
     }
+
+    if (Explosion != null)
+        Explosion.Play();
+
+    if (explosionSound != null)
+        explosionSound.Play();
+
+    MainSlider.value = 0;
+    RightSlider.value = 0;
+    LeftSlider.value = 0;
+}
 }

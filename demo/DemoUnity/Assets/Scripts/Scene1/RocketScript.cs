@@ -8,10 +8,13 @@ public class RocketScript : MonoBehaviour
 {
     public OSCReceiver oscReceiver;
     public OSCReceiver oscReceiverKey;
+    public Controllers Controllers;
+    public Zones Zones;
 
     public GameObject Rocket;
     public GameObject Camera;
     public GameObject panelUI;
+    public GameObject RocketMovingTop1;
 
     public ParticleSystem LeftFire;
     public ParticleSystem MainFire;
@@ -50,6 +53,7 @@ public class RocketScript : MonoBehaviour
 
     // --- GAME STATE ---
     public bool controlsEnabled = true;
+    public bool IsEjected = false;
 
     int lastKeyState = 1;
 
@@ -237,6 +241,13 @@ public class RocketScript : MonoBehaviour
         }
 
         rb.angularVelocity *= torqueDamp;
+
+
+        if (Controllers.FlipSwitch2 && !IsEjected) 
+        {
+            IsEjected = true;
+            StartCoroutine(EjectionSequence());
+        }
     }
 
     void SetFire(ParticleSystem ps, bool active)
@@ -244,4 +255,40 @@ public class RocketScript : MonoBehaviour
         if (active && !ps.isPlaying) ps.Play();
         if (!active && ps.isPlaying) ps.Stop();
     }
+
+    IEnumerator EjectionSequence() 
+    {
+        yield return new WaitForSeconds(1f);
+        // JAD mettre ici le bruit de gas + "pfff" d'éjection
+        //MainGas.Play();
+        //LeftGas.Play();
+        //RightGas.Play();
+        // Sons d’éjection
+        //if (EjectionGasAudioSource != null)
+        //    EjectionGasAudioSource.Play();
+        //if (EjectionPfffAudioSource != null)
+        //    EjectionPfffAudioSource.Play();
+        float duration = 5f;
+        float timer = 0f;
+    
+        float startSpeed = 25f;   // fast at start
+        float endSpeed = 0f;      // slow at end
+    
+        Vector3 direction = RocketMovingTop1.transform.up;
+    
+        while (timer < duration)
+        {
+            float t = timer / duration;              // 0 → 1
+            float currentSpeed = Mathf.Lerp(startSpeed, endSpeed, t);
+    
+            RocketMovingTop1.transform.position += direction * currentSpeed * Time.deltaTime;
+    
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        Debug.Log("séquence finie");
+        Zones.TriggerExplosion();
+        
+    } 
 }
