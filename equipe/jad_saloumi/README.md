@@ -306,6 +306,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Même si je n’ai pas effectué les connexions moi-même, j’ai pu observer le processus et mieux comprendre la logique du branchement et de la communication réseau.
 
+![](./medias/ethernet.jpg)
+
 #### Vendredi
 
 - Aucune intervention technique, mais prise de recul sur le projet et réflexion sur les prochaines étapes : optimisation de l’installation, vérification du son et préparation pour la suite.
