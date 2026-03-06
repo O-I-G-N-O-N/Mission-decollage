@@ -205,12 +205,17 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 ![](./medias/img/boite_maquette2.jpg)
 
 #### Mardi
+- Assurer que la boite est bien placée sur la table
+- Assurer que les boutons et les switches fonctionne bien
 
 #### Mercredi
+- 
 
 #### Jeudi
+- Observer et tenter de comprendre le code réalisé et les explications par le professeur pour la connexion Ethernet entre l’Atom et les Arduinos.
 
 #### Vendredi
+- Rechercher en ligne des matériaux pour la finition de la boîte.
 
 ### Semaine 6.5
 
