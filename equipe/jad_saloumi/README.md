@@ -318,6 +318,14 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
  
 #### Mardi
 
+- Collecte des sons restants nécessaires pour le projet.
+
+- Organisation des fichiers audio pour préparer leur utilisation dans le jeu.
+
+- Vérification du niveau sonore des sons pour s’assurer qu’ils sont assez forts et clairs.
+
+- Préparation des sons afin de pouvoir intégrer ceux qui manquent dans la version finale du jeu avant la présentation finale.
+
 #### Mercredi
 
 - Installation des fils électriques pour les composantes du projet.
