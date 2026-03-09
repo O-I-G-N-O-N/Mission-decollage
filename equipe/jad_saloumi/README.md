@@ -336,6 +336,16 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
  
 #### Jeudi
 
+- Tentative de connexion Ethernet des faders Arduino en utilisant la méthode montrée par le professeur.
+
+- Vérification du branchement : la connexion Ethernet semblait fonctionner puisque le voyant était vert.
+
+- Essais pour manipuler les faders dans Pure Data afin de vérifier si les données étaient bien reçues.
+
+- Plusieurs tests ont été faits pour comprendre pourquoi les faders ne répondaient pas dans Pure Data.
+
+- Recherche de solutions et essais de différentes approches, mais le contrôle des faders dans Pure Data ne fonctionnait toujours pas.
+
 #### Vendredi
 
 ### Semaine 7
