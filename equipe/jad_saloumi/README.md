@@ -316,6 +316,20 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 
+- Installation des fils électriques pour les composantes du projet.
+
+- Branchement des fils d’alimentation dans chacun des périphériques de l’installation.
+
+- Vérification des couleurs des fils afin de les connecter correctement aux bonnes bornes dans chaque périphérique.
+
+- Chaque périphérique contient 4 composantes de boutons, qui ont été reliées à l’alimentation.
+
+- Mise en place de trois périphériques pour alimenter les différentes composantes du dispositif.
+
+- Organisation des fils pour garder l’installation propre et sécurisée.
+
+ ![](./medias/comp-ethernet.jpg)
+ 
 #### Mardi
 
 #### Mercredi
