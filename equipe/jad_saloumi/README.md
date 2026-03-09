@@ -315,7 +315,11 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 ### Semaine 6.5
 
 #### Lundi
- 
+
+- Aucune activité technique réalisée.
+
+- Réflexion sur la suite du projet et préparation pour la finalisation.
+  
 #### Mardi
 
 - Collecte des sons restants nécessaires pour le projet.
@@ -355,6 +359,10 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Recherche de solutions et essais de différentes approches, mais le contrôle des faders dans Pure Data ne fonctionnait toujours pas.
 
 #### Vendredi
+
+- Aucune activité technique réalisée.
+
+-Prise de recul et préparation mentale pour les tâches de la semaine.
 
 ### Semaine 7
 
