@@ -315,6 +315,10 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 ### Semaine 6.5
 
 #### Lundi
+ 
+#### Mardi
+
+#### Mercredi
 
 - Installation des fils électriques pour les composantes du projet.
 
@@ -330,10 +334,6 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
  ![](./medias/comp-ethernet.jpg)
  
-#### Mardi
-
-#### Mercredi
-
 #### Jeudi
 
 #### Vendredi
