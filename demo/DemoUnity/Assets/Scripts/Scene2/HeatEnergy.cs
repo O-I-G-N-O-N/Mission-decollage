@@ -95,7 +95,6 @@ public class HeatEnergy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         // EMPÊCHE LA JAUGE D'ÉNERGIE / CHALEUR DE DÉPASSER LES LIMITES
         CurrentEnergy = Mathf.Clamp(CurrentEnergy, 0f, 100f);
         CurrentEngineHeat = Mathf.Clamp(CurrentEngineHeat, 0f, 100f);

@@ -19,6 +19,7 @@ public class Events : MonoBehaviour
     private int ButtonPicker = 0;
     private int EventPicker = 0;
     public int sequenceLength = 5;
+    private float timer = 0f;
     private Queue<IEnumerator> repairQueue = new Queue<IEnumerator>();
 
     [Header("References")]
@@ -28,17 +29,21 @@ public class Events : MonoBehaviour
     public TextMeshProUGUI DialogueUI;
     public GameObject DialogueBox;
     private Image dialogueBoxImage;
+    public GameObject RepairBlue;
+    public GameObject RepairRed;
+    public GameObject RepairGreen;
+    public GameObject RepairNeutral;
+    public GameObject RepairUI;
+    public bool FlashingBlue = false;
+    public bool FlashingRed = false;
+    public bool FlashingGreen = false;
 
-    [Header("Audio")]
-    public AudioSource EngineBreakAudioSource;
-    public AudioSource EngineRightBreakAudioSource;
-    public AudioSource EngineLeftBreakAudioSource; 
 
     // Start is called before the first frame update
     void Start()
     {
         EventPicker = Random.Range(0, 5);
-        dialogueBoxImage = DialogueBox.GetComponent<Image>();
+        dialogueBoxImage = DialogueBox.GetComponent<Image>();   
     }
 
     // Update is called once per frame
@@ -55,6 +60,40 @@ public class Events : MonoBehaviour
             DialogueBox.gameObject.SetActive(true);
         } else {
             DialogueBox.gameObject.SetActive(false);
+        }
+
+        GameObject flashingObject = null;
+
+        if (FlashingBlue)
+            flashingObject = RepairBlue;
+        else if (FlashingRed)
+            flashingObject = RepairRed;
+        else if (FlashingGreen)
+            flashingObject = RepairGreen;
+
+        if (flashingObject != null)
+        {
+            timer += Time.deltaTime;
+
+            if (timer >= 0.5f)
+            {
+                bool isActive = flashingObject.activeSelf;
+
+                flashingObject.SetActive(!isActive);
+                RepairNeutral.SetActive(isActive); // Neutral opposite of flashing
+
+                timer = 0f;
+            }
+        }
+        else
+        {
+            // No flashing state
+            RepairBlue.SetActive(false);
+            RepairRed.SetActive(false);
+            RepairGreen.SetActive(false);
+            RepairNeutral.SetActive(true);
+
+            timer = 0f;
         }
     }
 
@@ -73,9 +112,7 @@ public class Events : MonoBehaviour
             DamageAmount += 1;
             CockpitTablet.RocketDamagedMain.SetActive(true);
             FirstPersRocket.DamagedMainReactor = true;
-            // JAD mettre ici le son de moteur qui brise
-            if (EngineBreakAudioSource != null)
-                EngineBreakAudioSource.Play();
+            // JAD mettre ici le son de propulseur qui brise
             Controllers.MainSlider.value = 0;
             repairQueue.Enqueue(RepairMain());
             if (!RepairInProgress)
@@ -90,9 +127,7 @@ public class Events : MonoBehaviour
             DamageAmount += 1;
             CockpitTablet.RocketDamagedRight.SetActive(true);
             FirstPersRocket.DamagedRightReactor = true;
-            // JAD mettre ici le son de moteur qui brise
-            if (EngineRightBreakAudioSource != null)
-                EngineRightBreakAudioSource.Play();
+            // JAD mettre ici le son de propulseur qui brise
             Controllers.RightSlider.value = 0;
             repairQueue.Enqueue(RepairRight());
             if (!RepairInProgress)
@@ -107,9 +142,7 @@ public class Events : MonoBehaviour
             DamageAmount += 1;
             CockpitTablet.RocketDamagedLeft.SetActive(true);
             FirstPersRocket.DamagedLeftReactor = true;
-            // JAD mettre ici le son de moteur qui brise
-            if (EngineLeftBreakAudioSource != null)
-                EngineLeftBreakAudioSource.Play();
+            // JAD mettre ici le son de propulseur qui brise
             Controllers.LeftSlider.value = 0;
             repairQueue.Enqueue(RepairLeft());
                 if (!RepairInProgress)
@@ -122,6 +155,7 @@ public class Events : MonoBehaviour
             DialogueOccuring = true;
             DamageAmount += 1;
             CockpitTablet.RocketDamagedEngine.SetActive(true);
+            // JAD mettre ici le son de moteur qui brise
             FirstPersRocket.DamagedEngine = true;
             Controllers.LeftSlider.value = 0;
             Controllers.RightSlider.value = 0;
@@ -147,11 +181,13 @@ public class Events : MonoBehaviour
     while (repairQueue.Count > 0)
     {
         RepairInProgress = true;
+        RepairUI.SetActive(true);
 
         yield return StartCoroutine(repairQueue.Dequeue());
 
         RepairInProgress = false;
         DialogueOccuring = false;
+        RepairUI.SetActive(false);
     }
     }
 
@@ -162,7 +198,7 @@ public class Events : MonoBehaviour
     //DÉBUTE LA SÉQUENCE
     DialogueOccuring = true;
     Debug.Log("Dégâts: " + DamageAmount);
-    DialogueUI.text = "MALFONCTION DU PROPULSEUR PRINCIPAL. ACTION REQUISE";
+    DialogueUI.text = "MALFONCTION";
     yield return new WaitForSeconds(1f);
     sequenceLength = Random.Range(3, 10);
 
@@ -178,16 +214,19 @@ public class Events : MonoBehaviour
         switch (ButtonPicker)
         {
             case 0: 
-                DialogueUI.text = "Appuyez sur le bouton vert!";
+                DialogueUI.text = "Appuyez sur le bouton rouge!";
                 correctButton = 4;
+                FlashingRed = true;
                 break;
             case 1: 
-                DialogueUI.text = "Appuyez sur le bouton rouge!";
+                DialogueUI.text = "Appuyez sur le bouton bleu!";
                 correctButton = 5;
+                FlashingBlue = true;
                 break;
             case 2: 
-                DialogueUI.text = "Appuyez sur le bouton bleu!";
+                DialogueUI.text = "Appuyez sur le bouton vert!";
                 correctButton = 6;
+                FlashingGreen = true;
                 break;
         }
 
@@ -236,7 +275,7 @@ public class Events : MonoBehaviour
     //DÉBUTE LA SÉQUENCE
     DialogueOccuring = true;
     Debug.Log("Dégâts: " + DamageAmount);
-    DialogueUI.text = "MALFONCTION DU PROPULSEUR DROIT. ACTION REQUISE";
+    DialogueUI.text = "MALFONCTION";
     yield return new WaitForSeconds(1f);
     sequenceLength = Random.Range(3, 10);
 
@@ -252,16 +291,19 @@ public class Events : MonoBehaviour
         switch (ButtonPicker)
         {
             case 0: 
-                DialogueUI.text = "Appuyez sur le bouton vert!";
+                DialogueUI.text = "Appuyez sur le bouton rouge!";
                 correctButton = 4;
+                FlashingRed = true;
                 break;
             case 1: 
-                DialogueUI.text = "Appuyez sur le bouton rouge!";
+                DialogueUI.text = "Appuyez sur le bouton bleu!";
                 correctButton = 5;
+                FlashingBlue = true;
                 break;
             case 2: 
-                DialogueUI.text = "Appuyez sur le bouton bleu!";
+                DialogueUI.text = "Appuyez sur le bouton vert!";
                 correctButton = 6;
+                FlashingGreen = true;
                 break;
         }
 
@@ -310,7 +352,7 @@ public class Events : MonoBehaviour
     //DÉBUTE LA SÉQUENCE
     DialogueOccuring = true;
     Debug.Log("Dégâts: " + DamageAmount);
-    DialogueUI.text = "MALFONCTION DU PROPULSEUR GAUCHE. ACTION REQUISE";
+    DialogueUI.text = "MALFONCTION";
     yield return new WaitForSeconds(1f);
     sequenceLength = Random.Range(3, 10);
 
@@ -326,16 +368,19 @@ public class Events : MonoBehaviour
         switch (ButtonPicker)
         {
             case 0: 
-                DialogueUI.text = "Appuyez sur le bouton vert!";
+                DialogueUI.text = "Appuyez sur le bouton rouge!";
                 correctButton = 4;
+                FlashingRed = true;
                 break;
             case 1: 
-                DialogueUI.text = "Appuyez sur le bouton rouge!";
+                DialogueUI.text = "Appuyez sur le bouton bleu!";
                 correctButton = 5;
+                FlashingBlue = true;
                 break;
             case 2: 
-                DialogueUI.text = "Appuyez sur le bouton bleu!";
+                DialogueUI.text = "Appuyez sur le bouton vert!";
                 correctButton = 6;
+                FlashingGreen = true;
                 break;
         }
 
@@ -385,10 +430,10 @@ public class Events : MonoBehaviour
         DialogueOccuring = true;
         Debug.Log("Ça part");
         DialogueUI.text = "MALFONCTION DU MOTEUR. ACTION IMMÉDIATE REQUISE";
-        DialogueUI.text = "DÉSACTIVEZ LES PROPULSEURS PUIS RÉACTIVEZ LES";
+        DialogueUI.text = "DÉSACTIVEZ LES PROPULSEURS ET REMETTEZ LES À ZÉRO";
         while (FirstPersRocket.DamagedEngine) 
         {
-            if (!Controllers.FlipSwitch1 && !Controllers.FlipSwitch3) 
+            if (!Controllers.FlipSwitch1 && !Controllers.FlipSwitch3 && Controllers.MainSlider.value == 0 && Controllers.RightSlider.value == 0 && Controllers.LeftSlider.value == 0) 
                 {
                     EngineRepairHalf = true;
                     DialogueUI.text = "RÉACTIVEZ LES PROPULSEURS";
