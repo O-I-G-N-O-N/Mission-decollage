@@ -51,6 +51,12 @@ public class Zones : MonoBehaviour
             Debug.Log("Ambience Terre ON");
         }
 
+        if (CompareTag("WindZone"))
+        {
+
+            Debug.Log("WINDZONE");
+        }
+
 
     }
 

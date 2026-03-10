@@ -9,6 +9,7 @@ TagManager:
   - GameZone
   - Mars
   - Obstacles
+  - WindZone
   layers:
   - Default
   - TransparentFX

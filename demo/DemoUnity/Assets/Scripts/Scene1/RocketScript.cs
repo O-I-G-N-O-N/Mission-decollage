@@ -2,12 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
-using extOSC;
 
 public class RocketScript : MonoBehaviour
 {
-    public OSCReceiver oscReceiver;
-    public OSCReceiver oscReceiverKey;
     public Controllers Controllers;
     public Zones Zones;
 
@@ -55,26 +52,11 @@ public class RocketScript : MonoBehaviour
     public bool controlsEnabled = true;
     public bool IsEjected = false;
 
-    int lastKeyState = 1;
 
     void Start()
     {
         rb = Rocket.GetComponent<Rigidbody>();
         Physics.gravity = new Vector3(0f, -9.81f, 0f);
-
-        // --- OSC FADERS ---
-        oscReceiver.Bind("/faderGauche", OnFaderGauche);
-        oscReceiver.Bind("/faderCentre", OnFaderCentre);
-        oscReceiver.Bind("/faderDroit", OnFaderDroit);
-
-        // --- OSC KEYS ---
-        oscReceiverKey.Bind("/key", OnAnyKeyPressed);
-        oscReceiverKey.Bind("/key1", OnAnyKeyPressed);
-        oscReceiverKey.Bind("/key2", OnAnyKeyPressed);
-        oscReceiverKey.Bind("/key3", OnAnyKeyPressed);
-        oscReceiverKey.Bind("/key4", OnAnyKeyPressed);
-        oscReceiverKey.Bind("/key5", OnAnyKeyPressed);
-        oscReceiverKey.Bind("/key6", OnAnyKeyPressed);
 
         panelUI.SetActive(true);
 
@@ -85,42 +67,24 @@ public class RocketScript : MonoBehaviour
     // =========================
     //          KEYS
     // =========================
-    void OnAnyKeyPressed(OSCMessage message)
-    {
-        int currentState = 1;
-
-        if (message.Values[0].Type == OSCValueType.Int)
-            currentState = message.Values[0].IntValue;
-        else if (message.Values[0].Type == OSCValueType.Float)
-            currentState = (int)message.Values[0].FloatValue;
-
-        if (lastKeyState == 1 && currentState == 0 && !controlsEnabled)
-        {
-            controlsEnabled = true;
-            panelUI.SetActive(false);
-            Debug.Log("CONTROLS ENABLED");
-        }
-
-        lastKeyState = currentState;
-    }
-
-    // =========================
-    //          FADERS
-    // =========================
-    public void OnFaderGauche(OSCMessage message)
-    {
-        LeftSlider.value = Mathf.Clamp01(message.Values[0].IntValue / 4095f);
-    }
-
-    public void OnFaderCentre(OSCMessage message)
-    {
-        MainSlider.value = Mathf.Clamp01(message.Values[0].IntValue / 4095f);
-    }
-
-    public void OnFaderDroit(OSCMessage message)
-    {
-        RightSlider.value = Mathf.Clamp01(message.Values[0].IntValue / 4095f);
-    }
+    //void OnAnyKeyPressed(OSCMessage message)
+    //{
+    //    int currentState = 1;
+//
+    //    if (message.Values[0].Type == OSCValueType.Int)
+    //        currentState = message.Values[0].IntValue;
+    //    else if (message.Values[0].Type == OSCValueType.Float)
+    //        currentState = (int)message.Values[0].FloatValue;
+//
+    //    if (lastKeyState == 1 && currentState == 0 && !controlsEnabled)
+    //    {
+    //        controlsEnabled = true;
+    //        panelUI.SetActive(false);
+    //        Debug.Log("CONTROLS ENABLED");
+    //    }
+//
+    //    lastKeyState = currentState;
+    //}
 
     void FixedUpdate()
     {
