@@ -306,6 +306,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Même si je n’ai pas effectué les connexions moi-même, j’ai pu observer le processus et mieux comprendre la logique du branchement et de la communication réseau.
 
+![](./medias/ethernet.jpg)
+
 #### Vendredi
 
 - Aucune intervention technique, mais prise de recul sur le projet et réflexion sur les prochaines étapes : optimisation de l’installation, vérification du son et préparation pour la suite.
@@ -314,13 +316,53 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 
+- Aucune activité technique réalisée.
+
+- Réflexion sur la suite du projet et préparation pour la finalisation.
+  
 #### Mardi
+
+- Collecte des sons restants nécessaires pour le projet.
+
+- Organisation des fichiers audio pour préparer leur utilisation dans le jeu.
+
+- Vérification du niveau sonore des sons pour s’assurer qu’ils sont assez forts et clairs.
+
+- Préparation des sons afin de pouvoir intégrer ceux qui manquent dans la version finale du jeu avant la présentation finale.
 
 #### Mercredi
 
+- Installation des fils électriques pour les composantes du projet.
+
+- Branchement des fils d’alimentation dans chacun des périphériques de l’installation.
+
+- Vérification des couleurs des fils afin de les connecter correctement aux bonnes bornes dans chaque périphérique.
+
+- Chaque périphérique contient 4 composantes de boutons, qui ont été reliées à l’alimentation.
+
+- Mise en place de trois périphériques pour alimenter les différentes composantes du dispositif.
+
+- Organisation des fils pour garder l’installation propre et sécurisée.
+
+ ![](./medias/comp-ethernet.jpg)
+ 
 #### Jeudi
 
+- Tentative de connexion Ethernet des faders Arduino en utilisant la méthode montrée par le professeur.
+
+- Vérification du branchement : la connexion Ethernet semblait fonctionner puisque le voyant était vert.
+
+- Essais pour manipuler les faders dans Pure Data afin de vérifier si les données étaient bien reçues.
+
+- Plusieurs tests ont été faits pour comprendre pourquoi les faders ne répondaient pas dans Pure Data.
+
+- Recherche de solutions et essais de différentes approches, mais le contrôle des faders dans Pure Data ne fonctionnait toujours pas.
+
 #### Vendredi
+
+- Aucune activité technique réalisée.
+
+-Prise de recul et préparation mentale pour les tâches de la semaine.
 
 ### Semaine 7
 
