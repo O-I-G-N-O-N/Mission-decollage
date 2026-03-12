@@ -415,9 +415,9 @@ public class HeatEnergy : MonoBehaviour
             MainFire.Stop();
             LeftFire.Stop();
             RightFire.Stop();
-            float moveDuration = 2f;
+            float moveDuration = 6f;
             float elapsed = 0f;
-            float speed = 5f; // units per second
+            float speed = 4f; // units per second
             Vector3 randomDirection = Random.onUnitSphere;
             while (elapsed < moveDuration)
                 {
@@ -427,7 +427,7 @@ public class HeatEnergy : MonoBehaviour
                     elapsed += Time.deltaTime;
                     yield return null; // wait for next frame
                 }
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(0.5f);
             SceneManager.LoadScene("Space");
             yield return null;
          }
