@@ -106,7 +106,9 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Lundi
 
 - Faire une liste d’inventaire des sons que nous possédons, de ceux à corriger et de ceux qui manquent.
+
   ![](./medias/img/liste_de_sons.png)
+
 - Valider auprès des autres membres de l’équipe les sons manquants.
 
 #### Mardi
@@ -117,7 +119,9 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Mercredi
 
 - Traitement des sons enregistrés pour la création des sons manquants.
+
   ![](./medias/img/edition_sonore_reaper.png)
+
 - Ajouter une liste d’événements déclenchables dans le jeu dans la page concept.
 - Mettre à jour le scénarimage à la suite des changements apportés au concept.
 
@@ -161,7 +165,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Lundi
 
 - Faire un retour avec l’équipe pour définir les sons qui seront intégrés dans le MVP (Minimum Viable Product).
-- ![](./medias/img/liste_de_sons_mvp.png)
+
+  ![](./medias/img/liste_de_sons_mvp.png)
 
 #### Mardi
 
@@ -171,7 +176,9 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Mercredi
 
 - Créer l’effet sonore pour l’activation du bouclier.
+
   ![](./medias/img/wavetable.png)
+
 - Créer l'effet sonore pour activation lumière.
 
 #### Jeudi
@@ -193,12 +200,16 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Mardi
 
 - J’ai fait un plan avec les mesures nécessaires afin de pouvoir acheter les planches de bois aux dimensions dont on a besoin.
+
   ![](./medias/img/plan_mesures_planches.png)
 
 #### Mercredi
 
 - Acheter les planches de bois pour l'installation.
-  | ![](./medias/img/achat_matériel_1.jpg) | ![](./medias/img/achat_matériel_2.jpg) |
+
+  |                                        |                                        |
+  | -------------------------------------- | -------------------------------------- |
+  | ![](./medias/img/achat_materiel_1.jpg) | ![](./medias/img/achat_materiel_2.jpg) |
 
 #### Jeudi
 
@@ -208,6 +219,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Vendredi
 
 - Faire le montage de la bande annonce
+
   ![](./medias/img/montage_bande_annonce.png)
 
 - Faire le dossier de presse.
@@ -232,11 +244,14 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Jeudi
 
 - Corriger le mapping des projecteurs.
+  | | |
+  |---|---|
   | ![](./medias/img/mapping_obs.jpg) | ![](./medias/img/filtres_mapping.png) |
 
 #### Vendredi
 
 - Créer un son pour l'activation de la map/radar.
+
   ![](./medias/img/wavetable2.png)
 
 ### Semaine 6.5
@@ -244,18 +259,23 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Lundi
 
 - Faire une version du plan d’emplacement des installations pour le comité de déambulation avec Figma.
+
   ![](./medias/img/ma_version_du_plan_d'emplacement.png)
 
 #### Mardi
 
-- Faire une version du cartel pour mon équipe (comité de déambulation).
+- Faire des versions du cartel pour mon équipe (comité de déambulation).
+
   ![](./medias/img/ma_version_du_cartel.png)
+
 - Valider avec l’équipe les tâches restantes pour finaliser le projet (finir le mapping, créer des images ou une animation de fond pour la projection, connecter l’Arduino au PC par Ethernet, décorer la boîte du panneau de contrôle, finaliser l’UI et la programmation du jeu).
 
 #### Mercredi
 
 - Acheter les batteries pour les cartels du comité de déambulation.
+
   ![](./medias/img/achat_batterie.jpg)
+
 - Valider avec l’équipe quelle version du design du plan et du cartel sera utilisée (comité de déambulation).
 
 #### Jeudi
@@ -265,7 +285,9 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Vendredi
 
 - Faire l’animation pour produire le GIF (pour la projection d’ambiance / arrière-plan).
+
   ![](./medias/img/animation_aftereffects.png)
+
 - Faire le rendu de l’animation.
 
 ### Semaine 7
