@@ -208,7 +208,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Rencontre avec le professeur et le comité de déambulation concernant les changements à apporter aux cartels.
 - Corriger les cartels pour le comité de déambulation par rapport au commentaires du professeur.
 #### Mercredi
-- Apporter des corrections à la bande-annonce selon les commentaires.
+- Apporter des corrections à la bande-annonce selon les commentaires des étudiants du cours 570 V11 MO.
 #### Jeudi
 
 #### Vendredi
