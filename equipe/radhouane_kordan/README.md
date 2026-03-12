@@ -190,21 +190,25 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Lundi
 - Faire une version du plan d’emplacement des installations pour le comité de déambulation.
 #### Mardi
-- Faire une version/variation du cartel pour mon équipe. (comité déambulation)
+- Faire une version du cartel pour mon équipe (comité de déambulation).
+- Valider avec l’équipe les tâches restantes pour finaliser le projet (finir le mapping, créer des images ou une animation de fond pour la projection, connecter l’Arduino au PC par Ethernet, décorer la boîte du panneau de contrôle, finaliser l’UI et la programmation du jeu).
 #### Mercredi
-
+- Acheter les batteries pour les cartels du comité de déambulation.
+- Valider avec l’équipe quelle version du design du plan et du cartel sera utilisée (comité de déambulation).
 #### Jeudi
-
+- Faire un montage Photoshop sur des images pour l’animation du gif sur After Effects.
 #### Vendredi
-
+- Faire l’animation pour produire le GIF (pour la projection d’ambiance / arrière-plan).
+- Faire le rendu de l’animation.
 ### Semaine 7
 
 #### Lundi
-
+- Corriger et refaire le rendu du GIF pour le rendre plus fluide.
 #### Mardi
-
+- Rencontre avec le professeur et le comité de déambulation concernant les changements à apporter aux cartels.
+- Corriger les cartels pour le comité de déambulation par rapport au commentaires du professeur.
 #### Mercredi
-
+- Apporter des corrections à la bande-annonce selon les commentaires.
 #### Jeudi
 
 #### Vendredi
