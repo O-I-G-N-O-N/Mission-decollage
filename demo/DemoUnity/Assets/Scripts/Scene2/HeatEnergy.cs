@@ -281,20 +281,18 @@ public class HeatEnergy : MonoBehaviour
         if (Controllers.Button3 == true && !RadarActive)
         {
             RadarActive = true;
+            RadarAudioSource.Play();
         }
         else if (Controllers.Button3 == true && RadarActive)
         {
             RadarActive = false;
+            RadarAudioSource.Stop();
         }
 
         // SYTÈME QUI PERMET D'AFFICHER OU CACHER LE RADAR
         if (RadarActive)
         {
-            // JAD mettre ici bruit d'activation de radar
-            if (RadarAudioSource != null && !RadarAudioSource.isPlaying)
-            {
-                RadarAudioSource.Play();
-            }
+
             Radar.SetActive(true);
         } else 
         {
