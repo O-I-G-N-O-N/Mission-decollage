@@ -244,7 +244,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Mardi
 
-- 
+- Envoi de mails 
+- Création d'ui
 
 #### Mercredi
 
@@ -252,17 +253,33 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Jeudi
 
+- Création d'ui
+
 #### Vendredi
 
 ### Semaine 7
 
 #### Lundi
 
+- Création partielle de labels
+
 #### Mardi
+
+- Création partielle de la légende (terminée le jeudi)
+- Création partielle de labels
+
+![](./medias/img/)
+
 
 #### Mercredi
 
+- Suite à une tempète de verglas, rien n'a été produit
+
 #### Jeudi
+
+- Création de la légende associé à notre installation
+- Fiche d'icônes basé sur la dite légende
+- Tentative de déssoudure
 
 #### Vendredi
 
