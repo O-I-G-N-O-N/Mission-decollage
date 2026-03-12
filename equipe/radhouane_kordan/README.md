@@ -18,23 +18,26 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 -->
 
 ### Semaine 1
+
 - Corriger les schémas synoptiques et scénarimages existants en fonction des changements apportés au concept du projet.
 - Identifier ce qui existe déjà, ce qui manque et ce qui doit être amélioré.
 
 ---
 
 ### Semaine 2
+
 - Créer les effets sonores manquant. (Bruit de propulseur,
-bruit de collision avec oiseau,
-bruit de vent,
-bruit de narration,
-bruit de bris électrique de la fusée)
-- Créer l'ambience manquant. (ambience quand le vaisseau est encore sur terre.) 
+  bruit de collision avec oiseau,
+  bruit de vent,
+  bruit de narration,
+  bruit de bris électrique de la fusée)
+- Créer l'ambience manquant. (ambience quand le vaisseau est encore sur terre.)
 - Définir l'esthétique audio.
 
 ---
 
 ### Semaine 3
+
 - Corriger l’ambiance sonore existante.
 - Corriger les effets sonores existants.
 - Créer des variations de sons pour éviter la répition de l'usage du même son.
@@ -42,11 +45,13 @@ bruit de bris électrique de la fusée)
 ---
 
 ### Semaine 4
+
 - Nettoyer et affiner les sons (coupe, fondus, normalisation).
 
 ---
 
 ### Semaine 5
+
 - Faire le montage de la bande-annonce.
 - Assurer que tout les effets-sonores et ambiences sont prêt à être intégrer dans le jeu pour la présentation de la maquette 2.
 - Peinturer l’interface du tableau de bord.
@@ -55,27 +60,31 @@ bruit de bris électrique de la fusée)
 ---
 
 ### Semaine 6
+
 - Apporter des ajustements sonores suite aux retours de la présentation de la maquette 2.
 - Remise de la bande-annonce
-  
+
 ---
 
 ### Semaine 6.5
+
 - Raffiner les sons de feedback (son victoire, défaite, erreur, alerte)
 - Harmoniser les sons entre eux pour assurer une identité sonore uniforme (si nécessaire).
 
 ---
 
 ### Semaine 7
+
 - Ajuster les sons en fonction des tests.
 - Préparer les versions audio finales.
 
 ---
 
 ### Semaine 8
+
 - Présenter le projet finale.
 - Assurer le bon fonctionnement de l'installation en cas de problème.
-  
+
 ## Journal de bord
 
 Cette section, complétée **quotidiennement** pendant l’exécution du projet, documente le travail individuel réellement réalisé chaque jour.
@@ -95,120 +104,185 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 ### Semaine 2
 
 #### Lundi
+
 - Faire une liste d’inventaire des sons que nous possédons, de ceux à corriger et de ceux qui manquent.
-    ![](./medias/img/liste_de_sons.png)
+  ![](./medias/img/liste_de_sons.png)
 - Valider auprès des autres membres de l’équipe les sons manquants.
 
 #### Mardi
+
 - Définir l’esthétique audio et de mettre à jour la partie audio du concept.
 - Corriger ma planification en fonction des retours du professeur.
 
 #### Mercredi
+
 - Traitement des sons enregistrés pour la création des sons manquants.
-    ![](./medias/img/edition_sonore_reaper.png)
+  ![](./medias/img/edition_sonore_reaper.png)
 - Ajouter une liste d’événements déclenchables dans le jeu dans la page concept.
 - Mettre à jour le scénarimage à la suite des changements apportés au concept.
 
 #### Jeudi
+
 - J’ai réalisé l'effet sonore d’oiseau.
 - J’ai réalisé l'effet sonore d’oiseau avec collision.
 
 #### Vendredi
+
 - J’ai créé l'effet sonore de dialogue.
 
 ### Semaine 3
 
 #### Lundi
+
 - J’ai ajouté à la documentation l’esthétique sonore et l’intention de la conception sonore.
 - J’ai réalisé le son de bris électronique.
 
 #### Mardi
+
 - J’ai commencé à intégrer des sons pour la démo.
+
 #### Mercredi
+
 - J'ai créé le son d'ambience sur terre.
 - J'ai créé le son dans l'espace.
+
 #### Jeudi
+
 - Assuré le fonctionnement des projecteurs et des haut-parleurs, et vérifié que tout est bien connecté dans la salle Matrice.
 - Corrigé les problèmes de son avant la porte ouverte (certains sons n’étaient pas assez forts).
 - J’ai dû réintégrer les sons dans la démo à cause d’un problème de commit.
+
 #### Vendredi
+
 - Faire une réflexion sur ce qui pourrait être amélioré durant la porte ouverte en ce qui concerne l’audio.
+
 ### Semaine 4
 
 #### Lundi
+
 - Faire un retour avec l’équipe pour définir les sons qui seront intégrés dans le MVP (Minimum Viable Product).
 - ![](./medias/img/liste_de_sons_mvp.png)
+
 #### Mardi
+
 - Créer l’effet sonore du drift.
 - Créer l’effet sonore du boost.
+
 #### Mercredi
+
 - Créer l’effet sonore pour l’activation du bouclier.
+  ![](./medias/img/wavetable.png)
 - Créer l'effet sonore pour activation lumière.
+
 #### Jeudi
+
 - Créer l’effet sonore du moteur qui refroidit.
 - Créer l’effet sonore de recharge d’énergie.
+
 #### Vendredi
+
 - Créer l’effet de bris du propulseur.
 - Créer l’effet sonore du détachement de la capsule d’atterrissage de la fusée.
+
 ### Semaine 5
 
 #### Lundi
+
 - Valider les sons produits pour le MVP avec les membres de l’équipe.
+
 #### Mardi
+
 - J’ai fait un plan avec les mesures nécessaires afin de pouvoir acheter les planches de bois aux dimensions dont on a besoin.
-    ![](./medias/img/plan_mesures_planches.png)
+  ![](./medias/img/plan_mesures_planches.png)
+
 #### Mercredi
-- J'ai acheter les planches de bois pour l'installation.
+
+- Acheter les planches de bois pour l'installation.
+  | ![](./medias/img/achat_matériel_1.jpg) | ![](./medias/img/achat_matériel_2.jpg) |
+
 #### Jeudi
+
 - Corriger l’effet sonore du drift.
 - Corriger l’effet sonore de propulseur.
+
 #### Vendredi
+
 - Faire le montage de la bande annonce
   ![](./medias/img/montage_bande_annonce.png)
 
 - Faire le dossier de presse.
+
 ### Semaine 6
 
 #### Lundi
+
 - Ajuster les paramètres des projecteur et faire le mapping sur le cyclo.
 - Corriger le dossier de presse et ajouter les images.
 
 #### Mardi
+
 - Ajuster les sons et corriger le code du jeu pour pouvoir entendre le son correctement pour la présentation de la maquette 2.
 
 - Répondre aux questions des étudiants lors de la présentation de la maquette 2.
 
 #### Mercredi
+
 - Trouver une solution pour améliorer le mapping.
 
 #### Jeudi
+
 - Corriger le mapping des projecteurs.
+  | ![](./medias/img/mapping_obs.jpg) | ![](./medias/img/filtres_mapping.png) |
+
 #### Vendredi
+
 - Créer un son pour l'activation de la map/radar.
+  ![](./medias/img/wavetable2.png)
+
 ### Semaine 6.5
 
 #### Lundi
-- Faire une version du plan d’emplacement des installations pour le comité de déambulation.
+
+- Faire une version du plan d’emplacement des installations pour le comité de déambulation avec Figma.
+  ![](./medias/img/ma_version_du_plan_d'emplacement.png)
+
 #### Mardi
+
 - Faire une version du cartel pour mon équipe (comité de déambulation).
+  ![](./medias/img/ma_version_du_cartel.png)
 - Valider avec l’équipe les tâches restantes pour finaliser le projet (finir le mapping, créer des images ou une animation de fond pour la projection, connecter l’Arduino au PC par Ethernet, décorer la boîte du panneau de contrôle, finaliser l’UI et la programmation du jeu).
+
 #### Mercredi
+
 - Acheter les batteries pour les cartels du comité de déambulation.
+  ![](./medias/img/achat_batterie.jpg)
 - Valider avec l’équipe quelle version du design du plan et du cartel sera utilisée (comité de déambulation).
+
 #### Jeudi
+
 - Faire un montage Photoshop sur des images pour l’animation du gif sur After Effects.
+
 #### Vendredi
+
 - Faire l’animation pour produire le GIF (pour la projection d’ambiance / arrière-plan).
+  ![](./medias/img/animation_aftereffects.png)
 - Faire le rendu de l’animation.
+
 ### Semaine 7
 
 #### Lundi
+
 - Corriger et refaire le rendu du GIF pour le rendre plus fluide.
+
 #### Mardi
+
 - Rencontre avec le professeur et le comité de déambulation concernant les changements à apporter aux cartels.
 - Corriger les cartels pour le comité de déambulation par rapport au commentaires du professeur.
+
 #### Mercredi
+
 - Apporter des corrections à la bande-annonce selon les commentaires des étudiants du cours 570 V11 MO.
+
 #### Jeudi
 
 #### Vendredi
