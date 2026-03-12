@@ -305,6 +305,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Apporter des corrections à la bande-annonce selon les commentaires des étudiants du cours 570 V11 MO.
 
+  ![](./medias/img/correction_bande_annonce.png)
+
 #### Jeudi
 
 #### Vendredi
