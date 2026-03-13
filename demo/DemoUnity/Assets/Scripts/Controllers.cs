@@ -70,19 +70,18 @@ public class Controllers : MonoBehaviour
     void Start()
 
     {
-        oscReceiver.Bind("/device1/input1", TraiterOscRepair2);
-        oscReceiver.Bind("/device1/input2", TraiterOscRepair1);
-        oscReceiver.Bind("/device3/input1", TraiterOscBouclier);
-        oscReceiver.Bind("/device3/input2", TraiterOscRadar);
-        oscReceiver.Bind("/device2/input1", TraiterOscRepair3);
-        oscReceiver.Bind("/device1/input3", TraiterOscRecharge);
-        oscReceiver.Bind("/device2/input3", TraiterOscDrift);
-        oscReceiver.Bind("/device3/input3", TraiterOscRefroidissement);
-        oscReceiver.Bind("/device1/input4", TraiterOscFlipSwitch3);
-        oscReceiver.Bind("/device2/input4", TraiterOscFlipSwitch2);
-        oscReceiver.Bind("/device3/input4", TraiterOscFlipSwitch1);
-        oscReceiver.Bind("/device2/input2", TraiterOscLumiere);
-    }
+        oscReceiver.Bind("/x44BoutonRouge", TraiterOscRepair2);
+        oscReceiver.Bind("/x44BoutonVert", TraiterOscRepair1);
+        oscReceiver.Bind("/x43BoutonVert", TraiterOscBouclier);
+        oscReceiver.Bind("/x42BoutonBleu", TraiterOscRadar);
+        oscReceiver.Bind("/x42BoutonBleuReparation", TraiterOscRepair3);
+        oscReceiver.Bind("/x44Switch", TraiterOscRecharge);
+        oscReceiver.Bind("x42Switch", TraiterOscDrift);
+        oscReceiver.Bind("/x43Switch", TraiterOscRefroidissement);
+        oscReceiver.Bind("/x44SwitchBleu", TraiterOscFlipSwitch3);
+        oscReceiver.Bind("/x42SwitchRouge", TraiterOscFlipSwitch2);
+        oscReceiver.Bind("/x43SwitchBlanc", TraiterOscFlipSwitch1);
+        oscReceiver.Bind("/x43BoutonRouge", TraiterOscLumiere);
  
     void TraiterOscRadar(OSCMessage message)
 
