@@ -82,7 +82,7 @@ public class Controllers : MonoBehaviour
         oscReceiver.Bind("/x42SwitchRouge", TraiterOscFlipSwitch2);
         oscReceiver.Bind("/x43SwitchBlanc", TraiterOscFlipSwitch1);
         oscReceiver.Bind("/x43BoutonRouge", TraiterOscLumiere);
- 
+      }
     void TraiterOscRadar(OSCMessage message)
 
     {
