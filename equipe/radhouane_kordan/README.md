@@ -280,7 +280,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Jeudi
 
-- Faire un montage Photoshop sur des images pour l’animation du gif sur After Effects.
+- Faire la retouche d’images dans Photoshop pour l’animation du GIF sur After Effects.
 
 #### Vendredi
 
