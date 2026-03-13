@@ -70,11 +70,11 @@ public class Controllers : MonoBehaviour
     void Start()
 
     {
-        oscReceiver.Bind("/x44BoutonRouge", TraiterOscRepair2);
-        oscReceiver.Bind("/x44BoutonVert", TraiterOscRepair1);
+        oscReceiver.Bind("/x42BoutonBleuReparation", TraiterOscRepair2);
+        oscReceiver.Bind("/x44BoutonRouge", TraiterOscRepair1);
         oscReceiver.Bind("/x43BoutonVert", TraiterOscBouclier);
         oscReceiver.Bind("/x42BoutonBleu", TraiterOscRadar);
-        oscReceiver.Bind("/x42BoutonBleuReparation", TraiterOscRepair3);
+        oscReceiver.Bind("/x44BoutonVert", TraiterOscRepair3);
         oscReceiver.Bind("/x44Switch", TraiterOscRecharge);
         oscReceiver.Bind("x42Switch", TraiterOscDrift);
         oscReceiver.Bind("/x43Switch", TraiterOscRefroidissement);
