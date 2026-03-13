@@ -309,6 +309,11 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Jeudi
 
+- Discuter avec la vie étudiante pour obtenir l’autorisation d’afficher sur les babillards.
+- Préparer les supports pour les cartels, remplacer les piles des lampes qui les éclairent et vérifier leur bon fonctionnement.
+- Documenter l’assemblage de l’installation pour une vidéo explicative sur le projet.
+- Transmettre les fichiers PDF des cartels à la personne responsable de leur impression.
+
 #### Vendredi
 
 ### Semaine 8
