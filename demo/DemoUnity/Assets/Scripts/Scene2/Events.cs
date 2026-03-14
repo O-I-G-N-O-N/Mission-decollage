@@ -49,6 +49,15 @@ public class Events : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (!RepairGreen.activeSelf && !RepairRed.activeSelf && !RepairBlue.activeSelf)
+        {
+            RepairNeutral.SetActive(true);
+        }
+        else
+        {
+            RepairNeutral.SetActive(false);
+        }
         // Démarre un nouvel event si aucun en cours
         if (!EventOccuring && DamageAmount < 4)
         {
@@ -65,15 +74,34 @@ public class Events : MonoBehaviour
         GameObject flashingObject = null;
 
         if (FlashingBlue)
+        {
             flashingObject = RepairBlue;
+            RepairRed.SetActive(false);
+            RepairGreen.SetActive(false);
+        }
         else if (FlashingRed)
+        {
             flashingObject = RepairRed;
+            RepairBlue.SetActive(false);
+            RepairGreen.SetActive(false);
+        }
         else if (FlashingGreen)
+        {
             flashingObject = RepairGreen;
+            RepairRed.SetActive(false);
+            RepairBlue.SetActive(false);
+        }
+
+         if (!FlashingGreen && !FlashingBlue && !FlashingRed)
+         {
+            RepairNeutral.SetActive(true);
+         }
+            
 
         if (flashingObject != null)
         {
             timer += Time.deltaTime;
+
 
             if (timer >= 0.5f)
             {
@@ -88,10 +116,11 @@ public class Events : MonoBehaviour
         else
         {
             // No flashing state
+
+            RepairNeutral.SetActive(true);
             RepairBlue.SetActive(false);
             RepairRed.SetActive(false);
             RepairGreen.SetActive(false);
-            RepairNeutral.SetActive(true);
 
             timer = 0f;
         }
@@ -100,7 +129,7 @@ public class Events : MonoBehaviour
 
     IEnumerator EventHappening()
     {
-        yield return new WaitForSeconds(35f);
+        yield return new WaitForSeconds(15f);
         Debug.Log("5 secondes passées, check event...");
 
         EventPicker = Random.Range(0, 5);
@@ -216,16 +245,22 @@ public class Events : MonoBehaviour
             case 0: 
                 DialogueUI.text = "Appuyez sur le bouton rouge!";
                 correctButton = 4;
+                FlashingBlue = false;
+                FlashingGreen = false;
                 FlashingRed = true;
                 break;
             case 1: 
                 DialogueUI.text = "Appuyez sur le bouton bleu!";
                 correctButton = 5;
+                FlashingGreen = false;
+                FlashingRed = false;
                 FlashingBlue = true;
                 break;
             case 2: 
                 DialogueUI.text = "Appuyez sur le bouton vert!";
                 correctButton = 6;
+                FlashingBlue = false;
+                FlashingRed = false;
                 FlashingGreen = true;
                 break;
         }
@@ -266,6 +301,10 @@ public class Events : MonoBehaviour
     FirstPersRocket.DamagedMainReactor = false;
     DamageAmount -= 1;
     CockpitTablet.RocketDamagedMain.SetActive(false);
+    FlashingBlue = false;
+    FlashingGreen = false;
+    FlashingRed = false;
+    
 
     yield return new WaitForSeconds(1f);
 }
@@ -293,16 +332,22 @@ public class Events : MonoBehaviour
             case 0: 
                 DialogueUI.text = "Appuyez sur le bouton rouge!";
                 correctButton = 4;
+                FlashingBlue = false;
+                FlashingGreen = false;
                 FlashingRed = true;
                 break;
             case 1: 
                 DialogueUI.text = "Appuyez sur le bouton bleu!";
                 correctButton = 5;
+                FlashingGreen = false;
+                FlashingRed = false;
                 FlashingBlue = true;
                 break;
             case 2: 
                 DialogueUI.text = "Appuyez sur le bouton vert!";
                 correctButton = 6;
+                FlashingBlue = false;
+                FlashingRed = false;
                 FlashingGreen = true;
                 break;
         }
@@ -343,6 +388,10 @@ public class Events : MonoBehaviour
     FirstPersRocket.DamagedRightReactor = false;
     DamageAmount -= 1;
     CockpitTablet.RocketDamagedRight.SetActive(false);
+    FlashingBlue = false;
+    FlashingGreen = false;
+    FlashingRed = false;
+
 
     yield return new WaitForSeconds(1f);
 }
@@ -370,16 +419,22 @@ public class Events : MonoBehaviour
             case 0: 
                 DialogueUI.text = "Appuyez sur le bouton rouge!";
                 correctButton = 4;
+                FlashingBlue = false;
+                FlashingGreen = false;
                 FlashingRed = true;
                 break;
             case 1: 
                 DialogueUI.text = "Appuyez sur le bouton bleu!";
                 correctButton = 5;
+                FlashingGreen = false;
+                FlashingRed = false;
                 FlashingBlue = true;
                 break;
             case 2: 
                 DialogueUI.text = "Appuyez sur le bouton vert!";
                 correctButton = 6;
+                FlashingBlue = false;
+                FlashingRed = false;
                 FlashingGreen = true;
                 break;
         }
@@ -420,6 +475,10 @@ public class Events : MonoBehaviour
     FirstPersRocket.DamagedLeftReactor = false;
     DamageAmount -= 1;
     CockpitTablet.RocketDamagedLeft.SetActive(false);
+    FlashingBlue = false;
+    FlashingGreen = false;
+    FlashingRed = false;
+
 
     yield return new WaitForSeconds(1f);
 }
@@ -430,10 +489,10 @@ public class Events : MonoBehaviour
         DialogueOccuring = true;
         Debug.Log("Ça part");
         DialogueUI.text = "MALFONCTION DU MOTEUR. ACTION IMMÉDIATE REQUISE";
-        DialogueUI.text = "DÉSACTIVEZ LES PROPULSEURS ET REMETTEZ LES À ZÉRO";
+        DialogueUI.text = "DÉSACTIVEZ LES PROPULSEURS";
         while (FirstPersRocket.DamagedEngine) 
         {
-            if (!Controllers.FlipSwitch1 && !Controllers.FlipSwitch3 && Controllers.MainSlider.value == 0 && Controllers.RightSlider.value == 0 && Controllers.LeftSlider.value == 0) 
+            if (!Controllers.FlipSwitch1 && !Controllers.FlipSwitch3) 
                 {
                     EngineRepairHalf = true;
                     DialogueUI.text = "RÉACTIVEZ LES PROPULSEURS";

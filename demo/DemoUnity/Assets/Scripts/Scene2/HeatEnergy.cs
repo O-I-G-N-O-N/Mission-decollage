@@ -511,7 +511,7 @@ public class HeatEnergy : MonoBehaviour
             timer += Time.deltaTime;
             yield return null;
         }
-        GameManager.Instance.Score = (CurrentEnergy + Health - CurrentEngineHeat);
+        GameManager.Instance.Score = ((CurrentEnergy + Health) +100 - CurrentEngineHeat)/3;
         Debug.Log("séquence finie");
         if (!FadeStarted && FirstPersRocket.SafeForEjection)
         {

@@ -76,7 +76,7 @@ public class Controllers : MonoBehaviour
         oscReceiver.Bind("/x42BoutonBleu", TraiterOscRadar);
         oscReceiver.Bind("/x44BoutonVert", TraiterOscRepair3);
         oscReceiver.Bind("/x44Switch", TraiterOscRecharge);
-        oscReceiver.Bind("x42Switch", TraiterOscDrift);
+        oscReceiver.Bind("/x42Switch", TraiterOscDrift);
         oscReceiver.Bind("/x43Switch", TraiterOscRefroidissement);
         oscReceiver.Bind("/x44SwitchBleu", TraiterOscFlipSwitch3);
         oscReceiver.Bind("/x42SwitchRouge", TraiterOscFlipSwitch2);
@@ -814,19 +814,19 @@ public class Controllers : MonoBehaviour
 
 
         // TURNING BUTTON 1 -- DRIFT
-        if (Input.GetKey(KeyCode.Alpha7))
-
-    {
-
-        TurningButton1 = true;
-
-    } else
-
-        {
-
-            TurningButton1 = false;
-
-        }
+    //    if (Input.GetKey(KeyCode.Alpha7))
+//
+    //{
+//
+    //    TurningButton1 = true;
+//
+    //} else
+//
+    //    {
+//
+    //        TurningButton1 = false;
+//
+    //    }
 
 
         // TURNING BUTTON 2 -- RECHARGEMENT D'ÉNERGIE
