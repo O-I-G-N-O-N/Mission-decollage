@@ -10,6 +10,7 @@ public class HeatEnergy : MonoBehaviour
     Coroutine ColdRoutine;
     Coroutine GameOverRoutine;
     public static HeatEnergy Instance;
+    
 
     [Header("UI")]
 
@@ -44,6 +45,7 @@ public class HeatEnergy : MonoBehaviour
     private bool HeatBoardLightOn = false;
     private bool BatteryBoardLightOn = false;
     private bool AlertBoardLightOn = false;
+    public bool FadeOutPlayed = false;
 
 
     [Header("Objects")]
@@ -70,6 +72,7 @@ public class HeatEnergy : MonoBehaviour
     public Image DashAlertIcon;
     public Light CockpitLight;
     public Color LightOriginalColor;
+    public Animator FadeOut;
     
 
     [Header("Audio")]
@@ -99,7 +102,6 @@ public class HeatEnergy : MonoBehaviour
         CurrentEnergy = Mathf.Clamp(CurrentEnergy, 0f, 100f);
         CurrentEngineHeat = Mathf.Clamp(CurrentEngineHeat, 0f, 100f);
         HealthSlider.value = Health/100;
-
 
         if (Controllers.FlipSwitch2) 
         {
@@ -398,9 +400,9 @@ public class HeatEnergy : MonoBehaviour
 
         IEnumerator GameOver()
          {
-
+            RadarActive = false;
             ThirdCamera.SetActive(true);
-            ScreenCanva.SetActive(false);
+            //ScreenCanva.SetActive(false);
             yield return new WaitForSeconds(2f);
             RocketBottom.SetActive(false);
             RocketTop.SetActive(false);
@@ -427,8 +429,13 @@ public class HeatEnergy : MonoBehaviour
                     elapsed += Time.deltaTime;
                     yield return null; // wait for next frame
                 }
-            yield return new WaitForSeconds(0.5f);
-            SceneManager.LoadScene("Space");
+                if (GameIsOver && !FadeOutPlayed)
+                {
+                    FadeOut.SetBool("Allow", true);
+                    FadeOutPlayed = true;
+                }
+            yield return new WaitForSeconds(3f);
+            SceneManager.LoadScene("ReLaunchCinematic");
             yield return null;
          }
 
@@ -504,12 +511,13 @@ public class HeatEnergy : MonoBehaviour
             timer += Time.deltaTime;
             yield return null;
         }
-
+        GameManager.Instance.Score = (CurrentEnergy + Health - CurrentEngineHeat);
         Debug.Log("séquence finie");
         if (!FadeStarted && FirstPersRocket.SafeForEjection)
         {
             StartCoroutine(FadeToBlack());
             FadeStarted = true;
+            SceneManager.LoadScene("LandingCinematic");
         } else
         {
             GameIsOver = true;

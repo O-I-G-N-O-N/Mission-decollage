@@ -1,24 +1,52 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LaunchCinematic : MonoBehaviour
 {
     public GameObject MainCamera;
+    public Controllers Controllers;
     public GameObject Rocket;
     public ParticleSystem LeftFire;
     public ParticleSystem MainFire;
     public ParticleSystem RightFire;
+    private float targetFadeAlpha = 0f;
+    public float fadeSpeed = 0.5f;
+    public Image fadeImage;
+    public GameObject StartMenuUI;
+    public bool GameStarted = false;
+    public bool AnyKeyGotPressed = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(Launch());
+        //StartCoroutine(Launch());
+        AudioListener.volume = 1f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if ((Controllers.Button1 || Controllers.Button2 || Controllers.Button3 || Controllers.Button4 || Controllers.Button5 || Controllers.Button6) && Controllers.FlipSwitch1 && Controllers.FlipSwitch3)
+        {
+            AnyKeyGotPressed = true;
+        }
+
+        if (!GameStarted && AnyKeyGotPressed)
+        {
+            StartMenuUI.SetActive(false);
+            GameStarted = true;
+            StartCoroutine(Launch());
+        }
+
+        if (fadeImage != null)
+    {
+        Color c = fadeImage.color;
+        c.a = Mathf.MoveTowards(c.a, targetFadeAlpha, fadeSpeed * Time.deltaTime);
+        fadeImage.color = c;
+    }
     }
 
     IEnumerator Launch()
@@ -64,9 +92,10 @@ public class LaunchCinematic : MonoBehaviour
     RightFire.Play();
 
     // Continue rocket movement after side fires
-    float continueDuration = 10f; // how long it continues
+    float continueDuration = 9f; // how long it continues
     float continueTime = 0f;
     float continueSpeed = 5f; // constant speed or can also ease
+    bool FadeStarted = false;
 
     while (continueTime < continueDuration)
     {
@@ -76,15 +105,70 @@ public class LaunchCinematic : MonoBehaviour
 
         float AccelerationSpeed = 0f;
         AccelerationSpeed += 1f;
+        bool CamAnimationStarted = false;
 
         Rocket.transform.position += new Vector3(0f, continueSpeed, 0f) * Time.deltaTime;
 
         continueTime += Time.deltaTime;
         continueSpeed += 2f * Time.deltaTime;
+        if (continueTime >= 3 && !CamAnimationStarted)
+            {
+                CamAnimationStarted = true;
+                StartCoroutine(CamMoveDown());
+            }
+
+        if (continueTime >= 6f && !FadeStarted)
+            {
+                FadeStarted = true;
+                StartCoroutine(FadeAndLoadScene());
+            }
+            
         yield return null;
     }
-    
-
-
     }
+
+    IEnumerator CamMoveDown()
+    {
+        float camMoveDuration = 3f;
+    float camTime = 0f;
+
+    Vector3 camStartPos = MainCamera.transform.position;
+    Vector3 camTargetPos = camStartPos + new Vector3(0f, -4f, 0f);
+
+    Quaternion camStartRot = MainCamera.transform.rotation;
+    Quaternion camTargetRot = Quaternion.Euler(
+        camStartRot.eulerAngles.x - 30f,
+        camStartRot.eulerAngles.y,
+        camStartRot.eulerAngles.z
+    );
+
+    while (camTime < camMoveDuration)
+    {
+        float t = camTime / camMoveDuration;
+
+        MainCamera.transform.position = Vector3.Lerp(camStartPos, camTargetPos, t);
+
+        // Rotate camera upward
+        MainCamera.transform.rotation = Quaternion.Slerp(camStartRot, camTargetRot, t);
+
+        camTime += Time.deltaTime;
+        yield return null;
+    }
+    }
+
+    IEnumerator FadeAndLoadScene()
+{
+
+    fadeImage.gameObject.SetActive(true);
+    targetFadeAlpha = 1f;
+
+    // Wait until fully black
+    while (fadeImage.color.a < 1f)
+    {
+        yield return null;
+    }
+    yield return new WaitForSeconds(0.1f);
+
+    SceneManager.LoadScene("Space");
+}
 }
