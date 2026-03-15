@@ -17,6 +17,10 @@ public class LandingScript : MonoBehaviour
     public Transform fadeImage;
     public HeatEnergy HeatEnergy;
     // Start is called before the first frame update
+
+       [Header("Propulseur Audio")]
+    public AudioSource propulseurLoop;
+
     void Start()
     {
             if (GameManager.Instance != null)
@@ -43,6 +47,7 @@ public class LandingScript : MonoBehaviour
     public void FireStart()
     {
         MainFire.Play();
+        propulseurLoop.Play();
     }
     
     public void EndGame()
@@ -53,6 +58,7 @@ public class LandingScript : MonoBehaviour
     public void FireStop()
     {
         MainFire.Stop();
+        propulseurLoop.Stop();
     }
 
     public void AstronautAppear()
