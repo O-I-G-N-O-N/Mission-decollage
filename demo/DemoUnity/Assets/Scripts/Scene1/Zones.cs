@@ -45,7 +45,6 @@ public class Zones : MonoBehaviour
         // ENTER EARTH → start ambience
         if (CompareTag("Earth"))
         {
-            if (ambienceTerre != null && !ambienceTerre.isPlaying)
                 ambienceTerre.Play();
 
             Debug.Log("Ambience Terre ON");
@@ -56,8 +55,6 @@ public class Zones : MonoBehaviour
 
             Debug.Log("WINDZONE");
         }
-
-
     }
 
     void OnTriggerExit(Collider other)
@@ -67,7 +64,6 @@ public class Zones : MonoBehaviour
         // EXIT EARTH → stop ambience
         if (CompareTag("Earth"))
         {
-            if (ambienceTerre != null && ambienceTerre.isPlaying)
                 ambienceTerre.Stop();
 
             Debug.Log("Ambience Terre OFF");

@@ -19,11 +19,17 @@ public class LaunchCinematic : MonoBehaviour
     public bool GameStarted = false;
     public bool AnyKeyGotPressed = false;
 
+    [Header("Audios")]
+    public AudioSource ambienceTerre;
+    public AudioSource propulseurLoop; 
+    public AudioSource propulseurLoop2; 
+
     // Start is called before the first frame update
     void Start()
     {
         //StartCoroutine(Launch());
         AudioListener.volume = 1f;
+        ambienceTerre.Play();
     }
 
     // Update is called once per frame
@@ -74,6 +80,7 @@ public class LaunchCinematic : MonoBehaviour
 
     // Start main fire
     MainFire.Play();
+    propulseurLoop.Play();
 
     // Initial launch with easing
     while (startLaunchTime < duration2)
@@ -90,6 +97,7 @@ public class LaunchCinematic : MonoBehaviour
     // Activate side fires
     LeftFire.Play();
     RightFire.Play();
+    propulseurLoop2.Play();
 
     // Continue rocket movement after side fires
     float continueDuration = 9f; // how long it continues
