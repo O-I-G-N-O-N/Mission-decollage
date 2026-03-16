@@ -24,6 +24,7 @@ public class FirstPersRocket : MonoBehaviour
     // ======================
     public GameObject RocketObject;
     public GameObject MarsObject;
+    public GameObject EjectionDialogueBox;
 
     // ======================
     //        VALUES
@@ -136,7 +137,7 @@ public class FirstPersRocket : MonoBehaviour
         }
 
 
-        // PERMET LES VIRAGES SERRÉS
+        // PERMET D'ACCÉLÉRER
         if (HeatEnergy.Boosting && !HeatEnergy.IsBoosting)
         {
             StartCoroutine(SpeedBoost());
@@ -165,9 +166,11 @@ public class FirstPersRocket : MonoBehaviour
         if (((distanceRocketMars + 2000)*-1) < 2000)
         {
             SafeForEjection = true;
+            EjectionDialogueBox.SetActive(true);
         } else if (((distanceRocketMars + 2000)*-1) > 2000)
         {
             SafeForEjection = false;
+            EjectionDialogueBox.SetActive(false);
         }
 
         // --- DAMAGE LOGIC ---
@@ -203,7 +206,7 @@ public class FirstPersRocket : MonoBehaviour
 
         // VÉLOCITÉ
         Velocity += (LeftReactorValue + MainReactorValue + RightReactorValue + BoostForce)*2 * Time.deltaTime;
-        Debug.Log(Velocity);
+        //Debug.Log(Velocity);
 
 
         // --- ROTATION ---
