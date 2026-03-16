@@ -45,6 +45,8 @@ public class HeatEnergy : MonoBehaviour
     private bool HeatBoardLightOn = false;
     private bool BatteryBoardLightOn = false;
     private bool AlertBoardLightOn = false;
+    private bool ShieldAudioStarted = false;
+    private bool EjectionStarted = false;
     public bool FadeOutPlayed = false;
 
 
@@ -103,8 +105,9 @@ public class HeatEnergy : MonoBehaviour
         CurrentEngineHeat = Mathf.Clamp(CurrentEngineHeat, 0f, 100f);
         HealthSlider.value = Health/100;
 
-        if (Controllers.FlipSwitch2) 
+        if (Controllers.FlipSwitch2 && !EjectionStarted) 
         {
+            EjectionStarted = true;
              StartCoroutine(EjectionSequence());
         }
 
@@ -260,12 +263,22 @@ public class HeatEnergy : MonoBehaviour
         if (Controllers.Button1 == true && !ShieldIsDisabled)
         {
             ShieldActive = true;
-            ShieldAudioSource.Play();
             ShieldAudioSource.loop = true;
         } else
         {
             ShieldActive = false;
+        }
+
+        if (!ShieldAudioStarted && ShieldActive) 
+        {
+            ShieldAudioSource.Play();
+            ShieldAudioStarted = true;
+        }
+
+        if (!ShieldActive && ShieldAudioStarted)
+        {
             ShieldAudioSource.Stop();
+            ShieldAudioStarted = false;
         }
 
         // SYSTÈME PERMETTANT L'ACTIVATION DU BOUCLIER
@@ -417,7 +430,7 @@ public class HeatEnergy : MonoBehaviour
             MainFire.Stop();
             LeftFire.Stop();
             RightFire.Stop();
-            float moveDuration = 6f;
+            float moveDuration = 4f;
             float elapsed = 0f;
             float speed = 4f; // units per second
             Vector3 randomDirection = Random.onUnitSphere;
@@ -429,10 +442,9 @@ public class HeatEnergy : MonoBehaviour
                     elapsed += Time.deltaTime;
                     yield return null; // wait for next frame
                 }
-                if (GameIsOver && !FadeOutPlayed)
+                if (GameIsOver && !FadeStarted)
                 {
-                    FadeOut.SetBool("Allow", true);
-                    FadeOutPlayed = true;
+                    StartCoroutine(FadeToBlack());
                 }
             yield return new WaitForSeconds(3f);
             SceneManager.LoadScene("ReLaunchCinematic");
@@ -483,6 +495,7 @@ public class HeatEnergy : MonoBehaviour
         IEnumerator EjectionSequence() 
     {
         ThirdCamera.SetActive(true);
+        ScreenCanva.SetActive(false);
         yield return new WaitForSeconds(1f);
         // JAD mettre ici le bruit de gas + "pfff" d'éjection
         MainGas.Play();
@@ -496,7 +509,7 @@ public class HeatEnergy : MonoBehaviour
         float duration = 5f;
         float timer = 0f;
     
-        float startSpeed = 0.1f;   // fast at start
+        float startSpeed = 25f;   // fast at start
         float endSpeed = 0f;      // slow at end
     
         Vector3 direction = RocketMovingTop.transform.forward;
@@ -517,6 +530,7 @@ public class HeatEnergy : MonoBehaviour
         {
             StartCoroutine(FadeToBlack());
             FadeStarted = true;
+            yield return new WaitForSeconds(3f);
             SceneManager.LoadScene("LandingCinematic");
         } else
         {
@@ -530,6 +544,7 @@ public class HeatEnergy : MonoBehaviour
     FirstPersRocket.fadeImage.gameObject.SetActive(true);  // Make sure the fade image is active.
     Color startColor = FirstPersRocket.fadeImage.color;  // Get the initial color of the fade image.
     float t = 0f;
+    Debug.Log("bomboclat");
 
     // Start with a fully transparent image (alpha = 0).
     FirstPersRocket.fadeImage.color = new Color(startColor.r, startColor.g, startColor.b, 0f);

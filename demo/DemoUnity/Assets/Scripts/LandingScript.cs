@@ -23,6 +23,7 @@ public class LandingScript : MonoBehaviour
 
     void Start()
     {
+        AudioListener.volume = 1f;
             if (GameManager.Instance != null)
         {
 

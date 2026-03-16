@@ -5358,7 +5358,7 @@ MonoBehaviour:
   _workInEditor: 0
   _localHostMode: 0
   _localHost: 192.168.2.234
-  _localPort: 8888
+  _localPort: 8776
 --- !u!114 &586585814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5381,7 +5381,7 @@ MonoBehaviour:
   _localHost: 192.168.2.234
   _localPort: 7000
   _remoteHost: 127.0.0.1
-  _remotePort: 8776
+  _remotePort: 8888
   _useBundle: 0
 --- !u!4 &586585815
 Transform:
