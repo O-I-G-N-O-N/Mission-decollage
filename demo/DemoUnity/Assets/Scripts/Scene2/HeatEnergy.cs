@@ -47,7 +47,7 @@ public class HeatEnergy : MonoBehaviour
     private bool BatteryBoardLightOn = false;
     private bool AlertBoardLightOn = false;
     private bool ShieldAudioStarted = false;
-    private bool EjectionStarted = false;
+    public bool EjectionStarted = false;
     public bool FadeOutPlayed = false;
 
 

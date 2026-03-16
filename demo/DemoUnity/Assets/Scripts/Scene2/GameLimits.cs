@@ -32,7 +32,11 @@ public class GameLimits : MonoBehaviour
                 
         if (CompareTag("DeathZone"))
         {
-            HeatEnergy.GameIsOver = true;
+            if (!HeatEnergy.EjectionStarted)
+            {
+                HeatEnergy.GameIsOver = true;
+            }
+            
         }
     }
 
