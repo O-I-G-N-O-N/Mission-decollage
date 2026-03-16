@@ -362,7 +362,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Aucune activité technique réalisée.
 
--Prise de recul et préparation mentale pour les tâches de la semaine.
+- Prise de recul et préparation mentale pour les tâches de la semaine.
 
 ### Semaine 7
 
