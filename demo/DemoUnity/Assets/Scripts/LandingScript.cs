@@ -16,6 +16,7 @@ public class LandingScript : MonoBehaviour
     public float fadeSpeed = 0.5f;
     public Transform fadeImage;
     public Animator FadeIn;
+    public AudioSource sonVictoire;
     // Start is called before the first frame update
 
        [Header("Propulseur Audio")]
@@ -70,6 +71,7 @@ public class LandingScript : MonoBehaviour
 
     public void FinalScore()
     {
+        sonVictoire.Play();
         SpeechBubble.SetActive(true);
     }
 
