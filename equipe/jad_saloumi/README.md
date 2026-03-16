@@ -368,13 +368,47 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 
+- Aucune activité technique réalisée sur le projet cette journée.
+  
 #### Mardi
+
+- Tentative de mise en place de la connexion Ethernet pour les faders Arduino afin de permettre leur communication avec le système.
+
+- Intégration de nouveaux sons dans le jeu avec Unity.
+
+- Ajout du son d’ambiance de la Terre pour l’introduction, afin qu’il se joue au début du jeu lors du launch et du relaunch.
+
+- Intégration du son de propulseur de la fusée dans l’animation : lorsque le feu de la fusée apparaît au début du décollage et aussi à la fin lors de l’atterrissage.
+
+- Déplacement et ajustement des haut-parleurs pour s’assurer qu’il n’y ait pas d’ombre des haut-parleurs sur le mur rond du grand studio lors de la projection.
 
 #### Mercredi
 
+- Levée de cours en raison du verglas.
+
+- Déplacement vers l’école impossible en raison des conditions météorologiques.
+
+- Aucune activité technique réalisée sur le projet cette journée.
+
 #### Jeudi
 
+- Installation des composantes dans la boîte qui sert de tableau de bord du projet.
+
+- Les composantes ont été placées dans les trous déjà présents sur la boîte pour pouvoir les fixer correctement.
+
+- Branchement des fils des composantes aux trois périphériques du système.
+
+- Vérification des branchements pour s’assurer que tout est bien connecté et sécuritaire, afin que la connexion Ethernet puisse fonctionner correctement.
+
 #### Vendredi
+
+- Déplacement de l’ordinateur principal qui sera utilisé pour la présentation finale vers la salle de matrice.
+
+- Mise en place du projet afin de pouvoir le faire fonctionner à partir de la salle de matrice.
+
+- Vérification de l’installation du projet pour s’assurer que rien ne traîne et que tout est propre et sécuritaire.
+
+-Tests des projecteurs et des haut-parleurs pour confirmer qu’ils fonctionnent bien en vue de la présentation finale.
 
 ### Semaine 8
 
