@@ -411,7 +411,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Vérification de l’installation du projet pour s’assurer que rien ne traîne et que tout est propre et sécuritaire.
 
--Tests des projecteurs et des haut-parleurs pour confirmer qu’ils fonctionnent bien en vue de la présentation finale.
+- Tests des projecteurs et des haut-parleurs pour confirmer qu’ils fonctionnent bien en vue de la présentation finale.
 
 ### Semaine 8
 
