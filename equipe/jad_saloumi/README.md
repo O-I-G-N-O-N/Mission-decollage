@@ -382,6 +382,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Déplacement et ajustement des haut-parleurs pour s’assurer qu’il n’y ait pas d’ombre des haut-parleurs sur le mur rond du grand studio lors de la projection.
 
+![](./medias/ombre-speakers.jpg)
+
 #### Mercredi
 
 - Levée de cours en raison du verglas.
