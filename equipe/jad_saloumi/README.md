@@ -400,6 +400,10 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Vérification des branchements pour s’assurer que tout est bien connecté et sécuritaire, afin que la connexion Ethernet puisse fonctionner correctement.
 
+
+ ![](./medias/fils-peripherique.jpg) 
+ ![](./medias/composante-boite.jpg)
+
 #### Vendredi
 
 - Déplacement de l’ordinateur principal qui sera utilisé pour la présentation finale vers la salle de matrice.
