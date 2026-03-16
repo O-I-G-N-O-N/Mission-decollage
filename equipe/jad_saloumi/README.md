@@ -399,10 +399,9 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Branchement des fils des composantes aux trois périphériques du système.
 
 - Vérification des branchements pour s’assurer que tout est bien connecté et sécuritaire, afin que la connexion Ethernet puisse fonctionner correctement.
-
-
- ![](./medias/fils-peripherique.jpg) 
- ![](./medias/composante-boite.jpg)
+  
+![](./medias/composante-boite.jpg)
+![](./medias/fils-peripherique.jpg) 
 
 #### Vendredi
 
