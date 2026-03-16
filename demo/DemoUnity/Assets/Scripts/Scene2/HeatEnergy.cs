@@ -30,6 +30,7 @@ public class HeatEnergy : MonoBehaviour
     public float IncomingEngineHeat = 0;
     public float Health = 100;
     public float CurrentEnergy = 100;
+    public float TimeSpentInSpace = 200f;
     public bool LightsOn = true;
     public bool Boosting = false;
     public bool IsBoosting = false;
@@ -100,7 +101,10 @@ public class HeatEnergy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        TimeSpentInSpace += 1*Time.deltaTime;
+        
         // EMPÊCHE LA JAUGE D'ÉNERGIE / CHALEUR DE DÉPASSER LES LIMITES
+        TimeSpentInSpace = Mathf.Clamp(TimeSpentInSpace, 0f, 10f);
         CurrentEnergy = Mathf.Clamp(CurrentEnergy, 0f, 100f);
         CurrentEngineHeat = Mathf.Clamp(CurrentEngineHeat, 0f, 100f);
         HealthSlider.value = Health/100;
@@ -414,6 +418,7 @@ public class HeatEnergy : MonoBehaviour
         IEnumerator GameOver()
          {
             RadarActive = false;
+            ScreenCanva.SetActive(false);
             ThirdCamera.SetActive(true);
             //ScreenCanva.SetActive(false);
             yield return new WaitForSeconds(2f);
@@ -444,9 +449,10 @@ public class HeatEnergy : MonoBehaviour
                 }
                 if (GameIsOver && !FadeStarted)
                 {
-                    StartCoroutine(FadeToBlack());
+                    FadeStarted = true;
+                    TriggerFadeOut();
                 }
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(1f);
             SceneManager.LoadScene("ReLaunchCinematic");
             yield return null;
          }
@@ -478,9 +484,9 @@ public class HeatEnergy : MonoBehaviour
         while (IncomingEngineHeat <= 10)
         {
             // REFROIDISSEMENT DU MOTEUR
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(2f);
 
-            CurrentEngineHeat = CurrentEngineHeat - 8f;
+            CurrentEngineHeat = CurrentEngineHeat - 3f;
 
             CurrentEngineHeat = Mathf.Clamp(CurrentEngineHeat, 0f, 100f);
 
@@ -524,14 +530,16 @@ public class HeatEnergy : MonoBehaviour
             timer += Time.deltaTime;
             yield return null;
         }
-        GameManager.Instance.Score = ((CurrentEnergy + Health) +100 - CurrentEngineHeat)/3;
+        GameManager.Instance.Score = ((CurrentEnergy + Health - TimeSpentInSpace) +300 - CurrentEngineHeat)/4;
         Debug.Log("séquence finie");
         if (!FadeStarted && FirstPersRocket.SafeForEjection)
         {
-            StartCoroutine(FadeToBlack());
-            FadeStarted = true;
-            yield return new WaitForSeconds(3f);
-            SceneManager.LoadScene("LandingCinematic");
+            if (!GameIsOver) //AJOUT RÉCENT
+            {
+                TriggerFadeOut();
+                yield return new WaitForSeconds(1f);
+                SceneManager.LoadScene("LandingCinematic");
+            }
         } else
         {
             GameIsOver = true;
@@ -596,6 +604,12 @@ public class HeatEnergy : MonoBehaviour
         StartCoroutine(FlashAlert());
         AlertIsFlashing = true;
     }
+    }
+
+    public void TriggerFadeOut()
+    {
+        FadeOut.SetTrigger("LaunchFade");
+        Debug.Log("YOOOO");
     }
 
          private IEnumerator FlashAlert()
