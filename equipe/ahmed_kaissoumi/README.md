@@ -268,8 +268,6 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Création partielle de la légende (terminée le jeudi)
 - Création partielle de labels
 
-![](./medias/img/)
-
 
 #### Mercredi
 
@@ -281,13 +279,26 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Fiche d'icônes basé sur la dite légende
 - Tentative de déssoudure
 
+![](./medias/img/legendee.png)
+
+
 #### Vendredi
+
+- Enregistrement de vidéos et d'audios
+- Débogage du projet
 
 ### Semaine 8
 
 #### Lundi
 
+- Mise en place de l'installation (début de journée)
+- Présentation
+
 #### Mardi
+
+- Présentation
+- Documentation de la page concept
+
 
 #### Mercredi
 
