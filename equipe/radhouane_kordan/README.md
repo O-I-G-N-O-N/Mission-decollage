@@ -114,6 +114,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Mardi
 
 - Définir l’esthétique audio et de mettre à jour la partie audio du concept.
+
 - Corriger ma planification en fonction des retours du professeur.
 
 #### Mercredi
@@ -123,11 +124,13 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
   ![](./medias/img/edition_sonore_reaper.png)
 
 - Ajouter une liste d’événements déclenchables dans le jeu dans la page concept.
+
 - Mettre à jour le scénarimage à la suite des changements apportés au concept.
 
 #### Jeudi
 
 - J’ai réalisé l'effet sonore d’oiseau.
+
 - J’ai réalisé l'effet sonore d’oiseau avec collision.
 
 #### Vendredi
@@ -139,6 +142,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Lundi
 
 - J’ai ajouté à la documentation l’esthétique sonore et l’intention de la conception sonore.
+
 - J’ai réalisé le son de bris électronique.
 
 #### Mardi
@@ -148,12 +152,15 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Mercredi
 
 - J'ai créé le son d'ambience sur terre.
+
 - J'ai créé le son dans l'espace.
 
 #### Jeudi
 
 - Assuré le fonctionnement des projecteurs et des haut-parleurs, et vérifié que tout est bien connecté dans la salle Matrice.
+
 - Corrigé les problèmes de son avant la porte ouverte (certains sons n’étaient pas assez forts).
+
 - J’ai dû réintégrer les sons dans la démo à cause d’un problème de commit.
 
 #### Vendredi
@@ -171,6 +178,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Mardi
 
 - Créer l’effet sonore du drift.
+
 - Créer l’effet sonore du boost.
 
 #### Mercredi
@@ -184,11 +192,13 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Jeudi
 
 - Créer l’effet sonore du moteur qui refroidit.
+
 - Créer l’effet sonore de recharge d’énergie.
 
 #### Vendredi
 
 - Créer l’effet de bris du propulseur.
+
 - Créer l’effet sonore du détachement de la capsule d’atterrissage de la fusée.
 
 ### Semaine 5
@@ -214,6 +224,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Jeudi
 
 - Corriger l’effet sonore du drift.
+
 - Corriger l’effet sonore de propulseur.
 
 #### Vendredi
@@ -229,6 +240,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Lundi
 
 - Ajuster les paramètres des projecteur et faire le mapping sur le cyclo.
+
 - Corriger le dossier de presse et ajouter les images.
 
 #### Mardi
@@ -299,6 +311,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Mardi
 
 - Rencontre avec le professeur et le comité de déambulation concernant les changements à apporter aux cartels.
+
 - Corriger les cartels pour le comité de déambulation par rapport au commentaires du professeur.
 
 #### Mercredi
@@ -310,17 +323,40 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Jeudi
 
 - Se renseigner auprès de la vie étudiante pour obtenir l'autorisation d'afficher sur les babillards.
+
 - Préparer les supports pour les cartels, remplacer les piles des lampes qui les éclairent et vérifier leur bon fonctionnement.
-- Documenter l’assemblage de l’installation pour une vidéo explicative sur le projet.
+
+- Documenter l’assemblage de l’installation pour la documentation vidéo.
+
 - Transmettre les fichiers PDF des cartels à la personne responsable de leur impression.
 
 #### Vendredi
+
+- Rebrancher les câbles dans la salle matrice après avoir déplacé l’ordinateur vers la salle matrice.
+
+- Filmer l’équipe pour la documentation vidéo (description des rôles et des tâches dans le projet).
+
+- Montage de la documentation vidéo.
+
+  ![](./medias/img/montage_documentation.png)
+
+- Vérifier le bon fonctionnement des sons pour la présentation finale (lecture du son et volume adéquat).
 
 ### Semaine 8
 
 #### Lundi
 
+- Création du son de victoire.
+
+  ![](./medias/img/son_victoire.png)
+
+- Intégration du son de victoire.
+
+- Non disponible / absent.
+
 #### Mardi
+
+- Disponible / Présent à l'école.
 
 #### Mercredi
 
