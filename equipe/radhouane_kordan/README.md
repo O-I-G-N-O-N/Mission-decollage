@@ -358,8 +358,16 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Disponible / Présent à l'école.
 
+- Corrigez et réimprimez la légende pour la rendre plus claire.
+
 #### Mercredi
+
+- Disponible / présent à l'école.
 
 #### Jeudi
 
+- Non présent à l'école.
+
 #### Vendredi
+
+- Démonter l'installation.
