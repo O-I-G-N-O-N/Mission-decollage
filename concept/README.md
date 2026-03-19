@@ -235,6 +235,7 @@ L’ensemble adopte une approche crédible et semi-réaliste, en lien avec l’e
 
 ### Scénarimage
 
+
 ![scénarimage-1](../medias/images/scenarios-17.jpg)
 
 ![scénarimage-2](../medias/images/scenarios-1.jpg)
@@ -276,6 +277,10 @@ L’ensemble adopte une approche crédible et semi-réaliste, en lien avec l’e
 ![scénarimage-13](../medias/images/scenarios_atterrissage.png)
 
 ![scénarimage-14](../medias/images/scenarios-16.jpg)
+
+
+### Schéma final du tableau de bord 
+![schéma tableau de bord](../medias/images/schema_tableau_bord.jpg)
 
 <!-- Pour chaque étape/scène : une image avec du texte descriptif et une explication de la transition.. -->
 

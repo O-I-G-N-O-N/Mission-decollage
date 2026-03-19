@@ -32,34 +32,36 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 - Adapter modèles pour maquette 1
 - Produire modèles environnement de l'espace : météorite et capsule d'atterissage de fusée
-- Créer une animation simple pour la météorite.
+- Produire des textures pour quelques modèles.
 
 ### Semaine 4
 - Produire des textures pour toutes les modèles.
-- Produire des effets spéciaux pour la fusé et le cockpit.
+- Finaliser les modèles 3D
 
 ### Semaine 5
 
-- Appliquer matériaux/ textures optimisées.
-- Ajouter effets visuels atmosphériques de l'espace.
+- Recherche des matériaux pour le tableau de bord
+- Commencement de la construction du tableau de bord
 
 ### Semaine 6
 
 - Optimiser modèles et animations pour maquette 2.
+- Ajuster les modèles 3D après maquettes 2
+- Faire le lien Ethernet des composantes et Unity
 
 ### Semaine 6.5
 
-- Ajuster détails secondaires.
-- Harmoniser avec interface et retours sonores.
+- Avancer sur le fonctionnement du lien Ethernet
 
 ### Semaine 7
 
-- Tests de stabilité visuelle.
+- Finaliser la construction du tableau de bord
+- Finaliser le fonctionnement Ethernet des composantes et du jeu
 
 ### Semaine 8
 
-- Documenter modélisation + animation.
-- Fournir rendus/captures.
+- Présentation du projet
+- Finaliser la documentation
 
 ## Journal de bord
 
@@ -209,7 +211,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Assurer que les boutons et les switches fonctionne bien
 
 #### Mercredi
-- 
+- Aggrandir l'écran du cockpit et ajouter un deuxième écran pour faire de la place pour le UI
 
 #### Jeudi
 - Observer et tenter de comprendre le code réalisé et les explications par le professeur pour la connexion Ethernet entre l’Atom et les Arduinos.
@@ -221,35 +223,81 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 
+- Rien n'a été fait ce jour là
+
 #### Mardi
+
+- Transférer les codes de connexion Ethernet sur les trois Arduino Mini et les deux Atoms.
+- Essayez de faire fonctionner la connexion Pure Data des faders, mais j’ai du mal à comprendre. Peut-être un problème de port.
 
 #### Mercredi
 
+- Essayer de faire fonctionner la connexion OSC sur Unity. Peut-être un problème de port.
+
 #### Jeudi
+
+ - Rien n'a été fait ce jour là
 
 #### Vendredi
 
+ - Rien n'a été fait ce jour là
+ 
 ### Semaine 7
 
 #### Lundi
 
+- Rien n'a été fait ce jour là
+
 #### Mardi
+
+- Avancer sur le fonctionnement de l'OSC
+- Ajouter quelques lignes de code pour faire fonctionner les faders par Ethernet
+- À l'aide du professeur, le Pure Data reçoit et envoit des données. Il fallait utiliser "oscformat -f i"
+- Dans Unity, le "recever" doit avoir un port différent.
+
+
+![](./medias/img/puredata_01.JPG)
+
 
 #### Mercredi
 
+- Finir la  boîte
+
 #### Jeudi
 
+- Installation de la boîte et installation de ses composantes.
+- Compléter le Pure Data pour que toutes les composantes envoient des données à Unity
+
+![](../../medias/images/description_pure_data.png)
+
+
 #### Vendredi
+
+- Enregistrement de vidéos et d'audios
+- Assurer que le projet fonctionne
 
 ### Semaine 8
 
 #### Lundi
+- Absent
 
 #### Mardi
+- Présentation aux élèves du TIM
+
+![](./medias/img/reseau_vivant.jpg)
+
 
 #### Mercredi
 
+ - Présent à l'école
+
+ ![](./medias/img/presentation_projet.jpg)
+
 #### Jeudi
 
+- absent
+
 #### Vendredi
+
+- Démontage
 

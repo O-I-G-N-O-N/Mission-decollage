@@ -3,10 +3,13 @@
 ## Équipements
 
 - **Ordinateur** – x1  
-  Utilité : Lancer le jeu, uploader le code sur les arduinos, lancer PureData
+  Utilité : Lancer le jeu, uploader le code sur les arduinos, lancer PureData, lancer OBS
 
-- **Epson PowerLite 1980OWU Projector** – x1  
-  Utilité : Projeter au mur le jeu
+- **Epson PowerLite 990U Projector** – x1  
+  Utilité : Projeter au cyclorama le jeu
+
+- **Epson PowerLite 535W Projector** – x2  
+  Utilité : Projeter l'ambiance sur le cyclorama
 
 - **Haut-parleur** - x2
   Utilité : Diffusion du son
@@ -14,24 +17,34 @@
 - **Carte son Behringer UMC202HD** - x1
   Utilié : Transmettre le son aux haut-parleurs
 
-- **Câble XLR** - 2x
+- **Câble XLR** - 4x
   Utilité : Connecter la carte son à l'haut-parleur
 
-- **Contrôleur Arduino M5Stack ATOM Lite ESP32** – x1  
+- **Contrôleur Arduino M5Stack ATOM Lite ESP32** – x2  
   Utilité : Recevoir et transmettre la base du code aux autres logiciels (PureData, Unity)
 
-- **[PBHUB] I/O Hub 1 to 6 Expansion Unit (MEGA328)** – x4  
+   **Contrôleur Arduino mini** – x3  
+  Utilité :  Recevoir et transmettre du code pour les composantes du tableau de bord
+
+- **[PBHUB] I/O Hub 1 to 6 Expansion Unit (MEGA328)** – x1  
   Utilité : Étendre le nombre de composants à utiliser
   Justification du nombre : Un par station pour avoir une proximité avec les autres composants et nous laisser une marge pour les composants futurs
 
-- **Encodeur** – x1  
+   **[GROVEHUB] I/O Hub 1 to 3 Expansion Unit** – x1  
+  Utilité : Étendre le nombre de composants à utiliser
+  Justification du nombre : Un par station pour avoir une proximité avec les autres composants et nous laisser une marge pour les composants futurs
+
+- **Encodeur** – x3  
   Utilité : Reçoit les rotations du joueur et les transmet au contrôleur. Contrôle les fumées de côtés de la fusée.
 
 - **BOUTON POUSSOIR (MOMENTARY)** – x6  
   Utilité : Reçoit les pressions du joueur et les transmet au contrôleur. Permet de remplir des objectifs / régler des problèmes
 
-- **CÂBLE ETHERNET** – x3  
+- **CÂBLE ETHERNET** – x12  
    Utilité : Deux câbles Ethernet sont utilisés pour connecter le projecteur et l’ordinateur à la salle Matrice, et un autre câble Ethernet relie le transmitter au receiver afin d’afficher le contenu du PC sur le projecteur.
+
+  **SWITCH ETHERNET** – x1  
+  Utilité : Avoir plusieurs port Ethernet disponible pour connecter au tableau de bord
 
 - **TOGGLE SWITCH (SAFETY)** - x3
   Utilité: Améliorer l'expérience en ajoutant différentes composantes, autre que des boutons. Servent à activer/désactiver les réacteurs
@@ -54,8 +67,7 @@
   Gestion des scènes  
   Réception et traitement de l’OSC avec l’extension _extOSC_ disponible sur l’Asset Store
 
-- **Pure Data**  
-  Utilisation de _pdchoco_ & _comport_  
+- **Pure Data**    
   Gestion de l’OSC et traitement et transfert des données reçus du contrôleur arduino sur Unity
 
 - **Visual Studio Code & PlatformIO**  
@@ -63,6 +75,9 @@
 
 - **Maya / Blender**  
   Création des assets 3D et de leurs animations nécessaires au jeu
+
+- **OBS**  
+  Utilisation pour la projection du jeu et de l'ambiance
 
 - **Photoshop & Illustrator**  
   Création des assets 2D  
@@ -95,7 +110,7 @@
 
 ![implantation](../medias/images/concept_vue_02.jpg)
 
-![implantation du tableau de commandes](../medias/images/ImplantationTableauCommandes.drawio.png)
+![implantation du tableau de commandes](../medias/images/schema_tableau_bord_sansnom.jpg)
 
 ![Liste des composants](../medias/images/composants.png)
 
@@ -109,32 +124,10 @@ Plans d'implantation 2D et 3D
 
 ## Budget
 
-#### AliExpress
-| Produit                                                                                                                                                     | Quantité | Extra | Prix réel          |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ----- | ------------------ |
-| [M5Stack Atom](https://shop.m5stack.com/products/atom-lite-esp32-development-kit)                                                                           | x2       | 0     | 0 (emprunt)        |
-| [PBHub](https://docs.m5stack.com/en/unit/pbhub_1.1)                                                                                                         | x2       | 0     | 0 (emprunt)        |
-| [Unit 3.96](https://docs.m5stack.com/en/unit/396port)                                                                                                       | x11      | 0     | 0 (emprunt)        |
-| [Bouton](https://www.aliexpress.com/item/1005005628118782.html)                                                                                             | x6       | +3    | 14.49 $ CAD ~      |
-| [Fader](https://www.aliexpress.com/item/1005007393023800.html)                                                                                              | x3       | +3    | 9.66 $ CAD ~       |
-| [Rotary Switch](https://www.aliexpress.com/item/1005008518194722.html)                                                                                      | x3       | +3    | 15.54 $ CAD ~      |
-| [Toggle Switch](https://www.aliexpress.com/item/1005004068738380.html)                                                                                      | x3       | +3    | 6.24 $ CAD ~       |
-| [Encodeur](https://www.aliexpress.com/item/1005009727108504.html)                                                                                           | x1       | +2    | 4.83 $ CAD ~       |
-| [Bois](https://www.homedepot.ca/product/alexandria-moulding-3-4-inch-x-2-ft-x-4-ft-spruce-handy-panel/1000148919)                                           | x10      | 0     | 310.27 $ CAD ~     |
-| [Corner Brace](https://www.homedepot.com/p/Everbilt-20-Pack-1-1-2-in-Zinc-Plated-Corner-Brace-Value-Pack-24477/327600917)                                    | x1       | 0     | 13.78 $ CAD ~      |
-| [Primer](https://www.homedepot.ca/product/zinsser-bulls-eye-1-2-3-interior-exterior-water-base-primer-for-all-surfaces-in-tintable-white-946-ml/1000123370) | x1       | 0     | 21.01 $ CAD ~      |
-| [Peinture](https://www.homedepot.ca/product/rust-oleum-universal-interior-exterior-metallic-paint-primer-spray-paint-in-flat-soft-iron-312g/1000655367)     | x1       | 0     | 29.87 $ CAD ~      |
-| [Vis](https://www.homedepot.ca/product/paulin--6-x-1-inch-flat-head-phillips-drive-fine-thread-drywall-screws-100pcs/1000140793)                            | x1       | 0     | 5.28 $ CAD ~       |
-| [Charnière de porte](https://www.homedepot.ca/product/everbilt-3-inch-with-5-8-inch-radius-satin-nickel-door-hinge-1-pc-/1000769445)                       | x2       | 0     | 9.66 $ CAD ~       |
-| **TOTAL**                                                                                                                                                   |          |       | **440.63 $ CAD ~** |
 
-#### ABRA Electronics
 
 | Produit                                                                                                                                                                  | Quantité | Prix réel          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------ |
-| [M5Stack Atom](https://shop.m5stack.com/products/atom-lite-esp32-development-kit)                                                                                        | x2       | 0 (emprunt)        |
-| [PBHub](https://docs.m5stack.com/en/unit/pbhub_1.1)                                                                                                                      | x2       | 0 (emprunt)        |
-| [Unit 3.96](https://docs.m5stack.com/en/unit/396port)                                                                                                                    | x11      | 0 (emprunt)        |
 | [Bouton LED rouge](https://abra-electronics.com/electromechanical/switches/pushbutton-switches-led/latching/pbs-led-2206rd-l.html)                                                 | x2       | 20.22 CAD ~      |
 | [Bouton LED bleu](https://abra-electronics.com/electromechanical/switches/pushbutton-switches-led/latching/pbs-led-2206bl-l.html)                                                 | x2       | 20.22 CAD ~      |
 | [Bouton LED verte](https://abra-electronics.com/electromechanical/switches/pushbutton-switches-led/latching/pbs-led-2206gn-l.html)                                                 | x2       | 20.22 CAD ~      |
@@ -142,7 +135,9 @@ Plans d'implantation 2D et 3D
 | [Rotary Switch LED bleu](https://abra-electronics.com/electromechanical/switches/rotary-switches/2-position-momentary/rss-2pm-2206bl.html)                                                       | x1       | 20.17 CAD ~      |
 | [Rotary Switch LED verte](https://abra-electronics.com/electromechanical/switches/rotary-switches/2-position-momentary/rss-2pm-2206gn.html)                                                       | x1       | 20.17 CAD ~      |
 | [Toggle Switch](https://abra-electronics.com/electromechanical/switches/toggle-switches/com-11310-toggle-switch-and-cover-illuminated-red-com-11310.html)                  | x3       | 20.53 CAD ~      |
-|[Acrylique noir 30.5cm x 30.5cm](https://www.amazon.ca/-/fr/acrylique-plexiglas-d%C3%A9paisseur-protection-daffichage/dp/B07TVKHLP6/ref=sr_1_6?__mk_fr_CA=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-6)                  | x3       | 75.72 CAD ~      |
-|[Connecteur angle extrusion aluminium](https://www.amazon.ca/-/fr/acrylique-plexiglas-d%C3%A9paisseur-protection-daffichage/dp/B07TVKHLP6/ref=sr_1_6?__mk_fr_CA=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-6)                  | x3       | 53.48 CAD ~      |
-**TOTAL**                                                                                                                                                                |          | ** 2 CAD ~** |
+|[ Satin Pearl White Vinyl ](https://www.amazon.ca/dp/B08W6SZSQM?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)                  | x5       | 97.65 CAD ~      |
+|[3M Ruban adhésif](https://www.amazon.ca/dp/B00JR4D70K?ref=ppx_yo2ov_dt_b_fed_asin_title)                  | x1       | 12.64 CAD ~      |
+|[5/8-in x 4-ft x 8-ft Plywood Fir Standard](https://www.rona.ca/en/product/5-8-in-x-4-ft-x-8-ft-plywood-fir-standard-06010304-7476001)                  | x1       | 50.20 CAD ~      |
+|[Hardboard Handy Panel 1/8" x 2' x 4' ](https://www.rona.ca/en/product/hardboard-handy-panel-1-8-x-2-x-4-white-8914019)                  | x1       | 9.42 CAD ~      |
+**TOTAL**                                                                                                                                                                |          | **311.61 CAD ~** |
 
