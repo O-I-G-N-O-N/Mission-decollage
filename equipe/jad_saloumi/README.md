@@ -424,6 +424,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Lundi
 
  - Présent pour la présentation publique
+
+![](./medias/presentation.jpg)
    
 #### Mardi
 
@@ -431,8 +433,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Présent pour la présentation publique
 
--Vernissage
-  
+- Vernissage
+
 #### Mercredi
 
 - Present pour la presentation publique
