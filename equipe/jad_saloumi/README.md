@@ -419,11 +419,26 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Lundi
 
+ - Présent pour la présentation publique
+   
 #### Mardi
 
+- Faire de l’espace dans le petit studio pour placer les pizzas, les boissons et les chips commandées pour les étudiants qui présentent
+
+- Présent pour la présentation publique
+
+-Vernissage
+  
 #### Mercredi
 
+- Present pour la presentation publique
+  
 #### Jeudi
 
+- Absent
+
+- Commencer le démontage une fois que la présentation publique est terminée à 20 h
+  
 #### Vendredi
 
+- Faire le démontage
