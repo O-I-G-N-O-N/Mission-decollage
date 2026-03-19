@@ -126,9 +126,11 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Jeudi
 
 - Faire la modélisation 3D d’une mouette dans Maya 3D.
+  
    ![](./medias/3d-bird.png)
 
 - Faire la modélisation 3D d’un avion commercial dans Maya 3D.
+  
    ![](./medias/3d-avion.png)
 
 - Faire des recherches pour améliorer la précision et les détails des modèles 3D.
