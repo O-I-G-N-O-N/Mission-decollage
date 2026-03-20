@@ -114,7 +114,6 @@
 
 ![mesures du tableau de commande](../equipe/thearylou_lach/medias/img/schema_mesure.jpg)
 
-![Liste des composants](../medias/images/composants.png)
 
 
 
