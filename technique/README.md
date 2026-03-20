@@ -110,7 +110,9 @@
 
 ![implantation](../medias/images/concept_vue_02.jpg)
 
-![implantation du tableau de commandes](../medias/images/schema_tableau_bord_sansnom.jpg)
+![implantation du tableau de commande](../medias/images/schema_tableau_bord_sansnom.jpg)
+
+![mesures du tableau de commande](../equipe/thearylou_lach/medias/img/schema_mesure.jpg)
 
 ![Liste des composants](../medias/images/composants.png)
 
