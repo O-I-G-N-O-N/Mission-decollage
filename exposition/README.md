@@ -57,4 +57,4 @@ Chaque composante de l’installation est détaillée ci-dessous avec :
 <!-- Intégration d’une vidéo : méthode 1 (vidéo hébergée sur YouTube, pouvant être non répertoriée publiquement)
 -->
 
-[![Mission décollage - Vidéo de documentation](https://img.youtube.com/vi/sYBcBSSiaPE/0.jpg)](https://youtu.be/sYBcBSSiaPE)
+[![Mission décollage - Vidéo de documentation](https://img.youtube.com/vi/EJ8Oj2BjOMM/0.jpg)](https://youtu.be/EJ8Oj2BjOMM)
