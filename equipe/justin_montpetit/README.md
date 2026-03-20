@@ -98,6 +98,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - réglage de problèmes liés aux modèles 3D .Blend
 - Optimisation de la Minimap
 - Ajout d'un modèle 3D placeholder de Mars dans la scène 2 (espace)
+![](./medias/RocketPlaceholder.png)
 
 #### Mercredi
 
@@ -112,6 +113,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Ajout de météore dans la scène 2 (obstacle)
 - Ajout de la Minimap dans la scène 2
 - Commencement de la programmation du système d'événements aléatoires
+![](./medias/ScriptEvents.png)
 
 #### Vendredi
 
@@ -135,6 +137,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Ajout d'un visuel de la vitesse de la fusée (scène 2)
 - Ajout d'UN visuel de la distance restante entre Mars et la fusée (scène 2)
 - Soudure des boutons
+![](./medias/Soudure1.jpg)
+![](./medias/Soudure2.jpg)
 
 #### Mercredi
 
@@ -285,29 +289,72 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Jeudi
 
+- Travail sur la scène 1 (n'a pas abouti)
+
 #### Vendredi
+
+- Commencement des zones de vents dans la scène 1
+- Corrections de bugs dans la scène 1
 
 ### Semaine 7
 
 #### Lundi
 
+- Aucun travail effectué
+
 #### Mardi
+
+- 1/2 des zones de vent fonctionelles.
+- Modification du script Zones et ajout d'un nouveau script WindZones
 
 #### Mercredi
 
+- Ajout de l'écran 100% fonctionnels des réparations
+- Ajout des zones de limites dans la scène 2 (espace)
+
+
 #### Jeudi
 
+- Corrections des dialogues (redimensions & nouveaux textes)
+
 #### Vendredi
+
+- Ajout des zones fonctionnelles empêchant le joueur de sortir des limites
+- Commencement de l'animation de décollage de la fusée.
 
 ### Semaine 8
 
 #### Lundi
 
+- Ajout d'une animation d'introduction (décollage)
+- Ajout d'une animation d'outro (atterissage)
+- Ajout d'un score final personnalisé
+- Ajout de transitions entre chaque scènes
+- Correction d'un problème de liaison avec le bouton tournant du boost
+- Correction des UI affichés à l'écran
+- Correction d'un problème d'affichage avec les boutons de réparation sur le UI
+- Arrondissement du score final pour avoir un chiffre toujours positif
+- Correction du problème OSC empêchant le build de fonctionner
+- Correction des problèmes de fade qui ne couvrent pas toute l'espace
+- Cache le UI lors de l'éjection
+- Correction du problème de son lors de l'activation du bouclier (il rejouait sans cesse ne laissant pas écouter le vrai son)
+- Ajout de plus d'obstacles et décorations
+- Corrections de nombreuses valeurs influençant la difficulté
+- Ajout des fades manquants
+- Ajout d'une durée passée dans l'espace, ajoutée au score final pour un score + personnalisé
+
 #### Mardi
+
+- Aucun travail effectué
 
 #### Mercredi
 
+- Aucun travail effectué
+
 #### Jeudi
+
+- Présent à l'école pour répondre aux question / présenter le jeu
 
 #### Vendredi
 
+- Démontage de l'installation
