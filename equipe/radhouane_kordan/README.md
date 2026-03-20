@@ -356,13 +356,13 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Mardi
 
-- Disponible / Présent à l'école.
+- Présent à l’école pour répondre aux questions.
 
 - Corriger et réimprimer la légende afin de la rendre plus claire.
 
 #### Mercredi
 
-- Présent à l'école.
+- Présent à l’école pour répondre aux questions.
 
   ![](./medias/img/mercredi_expo.jpg)
 
