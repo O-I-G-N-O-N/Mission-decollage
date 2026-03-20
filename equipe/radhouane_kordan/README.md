@@ -358,15 +358,19 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Disponible / Présent à l'école.
 
-- Corrigez et réimprimez la légende pour la rendre plus claire.
+- Corriger et réimprimer la légende afin de la rendre plus claire.
 
 #### Mercredi
 
-- Disponible / présent à l'école.
+- Présent à l'école.
+
+  ![](./medias/img/mercredi_expo.jpg)
 
 #### Jeudi
 
-- Non présent à l'école.
+- Non disponible / absent.
+
+- Refaire le montage et le rendu à la suite des consignes spécifiques du professeur.
 
 #### Vendredi
 
