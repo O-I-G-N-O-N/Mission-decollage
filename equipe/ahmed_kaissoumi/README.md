@@ -257,6 +257,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Vendredi
 
+- Rien n'a été fait ce jour là
+
 ### Semaine 7
 
 #### Lundi
@@ -287,6 +289,10 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Enregistrement de vidéos et d'audios
 - Débogage du projet
 
+#### Dimanche
+
+- Débogage du projet
+
 ### Semaine 8
 
 #### Lundi
@@ -302,9 +308,13 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Mercredi
 
+- Assistance en ligne
+
 #### Jeudi
+
+- Présentation
 
 #### Vendredi
 
-
+- Démontage
 
