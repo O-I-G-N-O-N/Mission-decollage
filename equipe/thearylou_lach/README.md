@@ -40,8 +40,8 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 5
 
-- Recherche des matériaux pour le tableau de bord
-- Commencement de la construction du tableau de bord
+- Recherche des matériaux pour le tableau de commande
+- Commencement de la construction du tableau de commande
 
 ### Semaine 6
 
@@ -55,7 +55,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 7
 
-- Finaliser la construction du tableau de bord
+- Finaliser la construction du tableau de commande
 - Finaliser le fonctionnement Ethernet des composantes et du jeu
 
 ### Semaine 8
@@ -182,18 +182,18 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 
 #### Mercredi
-- Prendre les mesures des composantes pour faire les trous sur notre tableau de bord
-- Réaliser un schéma afin de faciliter le repérage des trous sur le tableau de bord
+- Prendre les mesures des composantes pour faire les trous sur notre tableau de commande
+- Réaliser un schéma afin de faciliter le repérage des trous sur le tableau de commande
 
 
  ![](./medias/img/schema_mesure.jpg)
 
 
 #### Jeudi
-- Tracer les points de perçage sur le tableau de bord.
+- Tracer les points de perçage sur le tableau de commande.
 ![](./medias/img/planche_de_bois.jpg)
 
-- Il sera nécessaire de changer la planche du tableau de bord, son épaisseur étant incompatible avec le fader
+- Il sera nécessaire de changer la planche du tableau de commande, son épaisseur étant incompatible avec le fader
 
 #### Vendredi
 - Construire la boite
