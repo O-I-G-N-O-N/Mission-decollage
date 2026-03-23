@@ -40,7 +40,7 @@ Cette section, complétée lors de la première semaine, présente les tâches i
 
 ### Semaine 4
 
-- commencez à coder la section du détâchement / atterissage de la navette sur mars (jeu).
+- commencez à coder la section du détâchement / atterissage de la navette sur Allium Cepa (jeu).
 - Compléter les événements aléatoires si ils ne le sont pas.
 - Commencer à préparer les matériaux nécessaires pour la construction du panneau de contrôle.
 - Commencer à construire le panneau de bord.
@@ -97,7 +97,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - réglage de problèmes liés aux modèles 3D .Blend
 - Optimisation de la Minimap
-- Ajout d'un modèle 3D placeholder de Mars dans la scène 2 (espace)
+- Ajout d'un modèle 3D placeholder de Allium Cepa dans la scène 2 (espace)
 ![](./medias/RocketPlaceholder.png)
 
 #### Mercredi
@@ -107,6 +107,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Ajout d'un background spatial dans la scène 2 (espace)
 - Ajout des sliders et UI placeholders dans la scène 2
 - commencement du système de physique/déplacement dans la scène 2
+![](./medias/SpaceBackgroundSS.png)
+![](./medias/SlidersSS.png)
 
 #### Jeudi
 
@@ -121,6 +123,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Correction de problèmes de boucles infinies dans la scène 2 (espace)
 - Complétion du système de séquence d'urgence des réacteurs
 - Complétion de la séquence d'urgence réacteur principal & droit
+![](./medias/ScriptEventRepairSS.png)
 
 ### Semaine 3
 
@@ -135,15 +138,16 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Ajout des premiers éléments d'UI
 - Ajout de la séquence d'urgence du réacteur gauche
 - Ajout d'un visuel de la vitesse de la fusée (scène 2)
-- Ajout d'UN visuel de la distance restante entre Mars et la fusée (scène 2)
+- Ajout d'UN visuel de la distance restante entre Allium Cepa et la fusée (scène 2)
 - Soudure des boutons
 ![](./medias/Soudure1.jpg)
-![](./medias/Soudure2.jpg)
+
 
 #### Mercredi
 
 - ajustements des éléments d'UI
 - Ajout d'astéroïdes dans la scène 2 (obstacles)
+![](./medias/NewUISS.png)
 
 #### Jeudi
 
@@ -165,6 +169,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Soudure du Arduino
 - Réflexion sur de meilleurs éléments de gameplay plus concrets
 
+![](./medias/Soudure2.jpg)
+
 #### Mercredi
 
 - Début de nouvelles images pour le scénarimage (actions effectuées par les boutons)
@@ -173,6 +179,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 #### Jeudi
 
 - Refonte du scénarimage pour mieux convenir à l'expérience réelle qui sera produite.
+![](./medias/RechargeEnergie.drawio.png)
 
 #### Vendredi
 
@@ -183,7 +190,8 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Ajout de la fonction "Refroidissement du moteur"
 - Ajout de la fonction "rechargement d'énergie"
 - Correction de problématiques avec certains scripts
-- Retrait "potentiellement temporaire" du script d'événements aléatoires
+- Retrait temporaire du script d'événements aléatoires
+![](./medias/HeatEnergyGaugeSS.png)
 
 ### Semaine 5
 
@@ -211,6 +219,11 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Soudure des trois boutons poussoirs
 - Changement des ports OSC (export vers un seul port plutôt qu'un par Arduino)
 - Ajout de certains UI à l'intérieur du cockpit sur la tablette
+![](./medias/Soudure3.jpg)
+![](./medias/Soudure4.jpg)
+![](./medias/AsteroidSS.png)
+![](./medias/CockpitNewModelSS.png)
+
 
 #### Mercredi
 
@@ -220,6 +233,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Ajout du UI de fusée + partie de fusée opérationnelle ou non
 - Ajout d'une animation de rotation aléatoire sur les astéroïdes
 - Corrections de problèmes d'affichage reliés aux événements aléatoires
+![](./medias/RepairSequenceSS.png)
 
 #### Jeudi
 
@@ -229,11 +243,13 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Correction de problème de disposition lorsque la fusée était trop loin
 - Ajout des switch qui désactivent les réacteurs
 - Ajout de l'événement "moteur brisé" dans les événements aléatoires
+![](./medias/ExplosionSS.png)
 
 #### Vendredi
 
 - Ajout d'un fonctionnement empêchant le joueur de maintenir "refroidissement" et "rechargement" en même temps
 - Complétion du système d'éjection
+![](./medias/EjectionSS.png)
 
 
 ### Semaine 6
@@ -249,17 +265,21 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Ajout de multiples obstacles pour ajouter de la difficultée
 - Ajout de lignes de commentaires pour indiquer à mes coéquipiers où mettre les sons
 - Correction de l'UI barre de dialogue
+![](./medias/ObstaclesSS.png)
 
 #### Mercredi
 
 - Mise à jour du modèle 3D cockpit pour un modèle ayant un plus grand dashboard.
 - Commencement d'une fonctionnalité de boost pour remplacer la fonctionnalité de drift.
 - Implémentation de nouveaux îcones UI pour mieux indiquer les problèmes présent dans la fusée.
+![](./medias/LongDashBoardSS.png)
+
 
 #### Jeudi
 
 - UI du tableau de bord (témoins lumineux) fonctionnels
 - Lors du game Over, Astronaute catapulté
+![](./medias/DashIconsSS.png)
 
 
 #### Vendredi
@@ -275,6 +295,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Ajout de la vélocité (vitesse qui s'accumule sans arrêt)
 - Fix du problème d'affichage de vitesse (0 lorsque la fusée bougeait)
 - Complétion de l'animation de l'astronaute éjecté lorsque la partie est perdue (rotation aléatoire)
+![](./medias/VelocitySS.png)
 
 #### Mardi
 
@@ -295,6 +316,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Commencement des zones de vents dans la scène 1
 - Corrections de bugs dans la scène 1
+![](./medias/WindZoneSS.png)
 
 ### Semaine 7
 
@@ -311,11 +333,13 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Ajout de l'écran 100% fonctionnels des réparations
 - Ajout des zones de limites dans la scène 2 (espace)
+![](./medias/GameLimitsSS.png)
 
 
 #### Jeudi
 
 - Corrections des dialogues (redimensions & nouveaux textes)
+![](./medias/NewDialoguesSS.png)
 
 #### Vendredi
 
@@ -342,6 +366,11 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Corrections de nombreuses valeurs influençant la difficulté
 - Ajout des fades manquants
 - Ajout d'une durée passée dans l'espace, ajoutée au score final pour un score + personnalisé
+![](./medias/LaunchCinematicSS.png)
+![](./medias/FinalScoreSS.png)
+![](./medias/ScoreManagerSS.png)
+![](./medias/TravailStudio.jpg)
+![](./medias/GameManagerScript.png)
 
 #### Mardi
 
