@@ -310,7 +310,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Même si je n’ai pas effectué les connexions moi-même, j’ai pu observer le processus et mieux comprendre la logique du branchement et de la communication réseau.
 
-![](./medias/ethernet.jpg)
+![](./medias/ethernet.png)
 
 #### Vendredi
 
@@ -348,7 +348,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 - Organisation des fils pour garder l’installation propre et sécurisée.
 
- ![](./medias/comp-ethernet.jpg)
+ ![](./medias/comp-ethernet.png)
  
 #### Jeudi
 
