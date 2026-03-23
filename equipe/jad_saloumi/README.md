@@ -168,7 +168,7 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 - Ajustement de la projection à l’aide du projecteur et mise en marche de celui-ci.
 - Préparation générale du dispositif en vue de la porte ouverte.
 
-  ![](./medias/haut-parleur.jpg)
+  ![](./medias/haut-parleur.png)
 
 #### Vendredi
 
