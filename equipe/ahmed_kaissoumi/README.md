@@ -316,5 +316,5 @@ Cette section, complétée **quotidiennement** pendant l’exécution du projet,
 
 #### Vendredi
 
-- Démontage
-
+- Démontage du projet
+- Montage vidéo (raccourcir la vidéo de 5 à 3min)
